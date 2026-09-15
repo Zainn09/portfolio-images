@@ -8,8 +8,8 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** HER SHOP® asset set generated and published  
-**Last updated:** 2026-09-16 00:12 PKT
+**Latest pipeline stage:** The Scaff Shop asset set generated and published  
+**Last updated:** 2026-09-16 00:14 PKT
 
 | # | Project | Website | Status | Images | Videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -18,13 +18,13 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 03 | K-CAPS | <https://kcaps.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 04 | Dr. Stengler | <https://drstengler.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 05 | HER SHOP® | <https://hershop.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 06 | The Scaff Shop | <https://thescaffshop.com> | ⚪ Pending | — | — | Waiting to start |
+| 06 | The Scaff Shop | <https://thescaffshop.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 07 | Maison Khloe | <https://maisonkhloe.ca> | ⚪ Pending | — | — | Waiting to start |
 | 08 | Summit Sheets | <https://summitsheetsbedding.com> | ⚪ Pending | — | — | Waiting to start |
 | 09 | Peak Scents | <https://peakscents.com> | ⚪ Pending | — | — | Waiting to start |
 | 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | ⚪ Pending | — | — | Waiting to start |
 
-**Current checkpoint inventory:** 65 static images and 5 videos; completion remains subject to final QA.  
+**Current checkpoint inventory:** 78 static images and 6 videos; completion remains subject to final QA.  
 **Required minimum:** 100 static images and 10 videos.
 
 <!-- SPRINT_PROGRESS_END -->
