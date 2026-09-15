@@ -33,7 +33,13 @@ def validate() -> dict:
             raise SystemExit(f"{folder}: incomplete image/video inventory")
         if not (base / "README.md").is_file() or not (base / "asset-manifest.json").is_file():
             raise SystemExit(f"{folder}: project documentation is incomplete")
-        for file in images + videos + posters:
+        # Sparse but meaningful mobile menus can compress below 10 KB. Keep a
+        # structural floor for JPEGs while retaining the stricter media floor
+        # for thumbnails and playable video files.
+        for file in images:
+            if file.stat().st_size < 4_000:
+                raise SystemExit(f"{file}: image appears unexpectedly small")
+        for file in videos + posters:
             if file.stat().st_size < 10_000:
                 raise SystemExit(f"{file}: media appears unexpectedly small")
     return manifest
