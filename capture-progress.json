@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-15",
-  "stage": "Dr. Stengler asset set generated and published",
+  "stage": "HER SHOP® asset set generated and published",
   "projects": [
     {
       "id": "01",
@@ -25,6 +25,13 @@
     },
     {
       "id": "04",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "05",
       "status": "captured",
       "images": 13,
       "videos": 1,
