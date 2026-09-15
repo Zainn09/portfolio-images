@@ -33,7 +33,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
+      - name: Prepare website checkpoint commits
+        run: |
+          git config user.name "arena-ai-coding-agent[bot]"
+          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
+
       - name: Capture authentic website assets
+        env:
+          CHECKPOINT_COMMITS: "1"
+          CHECKPOINT_BRANCH: ${{ github.head_ref }}
         run: |
           set -o pipefail
           npm run capture 2>&1 | tee capture.log
@@ -54,10 +62,17 @@ jobs:
           gh pr comment "$PR_URL" --body-file /tmp/capture-comment.md
 
       - name: Build and verify Sprint ZIP
-        run: npm run package
+        run: |
+          set -o pipefail
+          npm run package 2>&1 | tee package.log
 
       - name: Run final inventory QA
-        run: python3 scripts/verify_assets.py
+        run: |
+          set -o pipefail
+          python3 scripts/verify_assets.py 2>&1 | tee verify.log
+
+      - name: Mark verified projects complete in README
+        run: python3 scripts/update_readme_progress.py --final
 
       - name: Verify asset browser and download endpoints
         run: |
@@ -71,13 +86,11 @@ jobs:
           curl --fail --silent --show-error http://127.0.0.1:4173/download/project/01-fandiem -o /tmp/01-fandiem.zip
           unzip -t /tmp/01-fandiem.zip
 
-      - name: Commit completed library to the session branch
+      - name: Commit verified Sprint package to the session branch
         if: success() && github.event_name == 'pull_request'
         run: |
-          git config user.name "arena-ai-coding-agent[bot]"
-          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
-          git add QA-PORTFOLIO-ASSETS QA-Portfolio-Sprint-01-Assets.zip asset-browser/manifest.json capture-report.json package-lock.json
-          git commit -m "Add generated Sprint 1 visual asset library [skip ci]"
+          git add README.md capture-progress.json QA-PORTFOLIO-ASSETS QA-Portfolio-Sprint-01-Assets.zip asset-browser/manifest.json capture-report.json package-lock.json
+          git commit -m "Publish verified Sprint 1 package [skip ci]"
           git push origin HEAD:${{ github.head_ref }}
 
       - name: Upload completed library
@@ -92,6 +105,26 @@ jobs:
             capture-report.json
           compression-level: 0
           retention-days: 14
+
+      - name: Publish final QA failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 1 final QA requires attention'
+            for log in package.log verify.log; do
+              if [ -s "$log" ]; then
+                echo
+                echo "#### $log"
+                echo '```text'
+                tail -n 180 "$log"
+                echo '```'
+              fi
+            done
+          } > /tmp/final-qa-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/final-qa-comment.md
 
       - name: Upload partial diagnostics on failure
         if: failure()
