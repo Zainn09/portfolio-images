@@ -298,11 +298,6 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/images/34_lalys_candles_interaction_detail_state_001.jpg"
         },
         {
-          "file": "34_lalys_candles_project_highlight_hand_poured_candle_story_001.jpg",
-          "label": "Project highlight: hand-poured candle story",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/images/34_lalys_candles_project_highlight_hand_poured_candle_story_001.jpg"
-        },
-        {
           "file": "34_lalys_candles_desktop_secondary_experience_001.jpg",
           "label": "Secondary project-specific experience",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/images/34_lalys_candles_desktop_secondary_experience_001.jpg"
@@ -313,9 +308,9 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/images/34_lalys_candles_mobile_home_hero_001.jpg"
         },
         {
-          "file": "34_lalys_candles_interaction_mobile_header_001.jpg",
-          "label": "Mobile header state",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/images/34_lalys_candles_interaction_mobile_header_001.jpg"
+          "file": "34_lalys_candles_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/images/34_lalys_candles_interaction_mobile_navigation_001.jpg"
         },
         {
           "file": "34_lalys_candles_mobile_product_detail_001.jpg",
@@ -343,14 +338,15 @@
           "file": "34_lalys_candles_video_candle_discovery_journey_001.mp4",
           "thumbnail": "34_lalys_candles_video_candle_discovery_journey_001.jpg",
           "purpose": "Hand-poured candle discovery from scent collection to product detail",
-          "duration": 26,
+          "duration": 27.92,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/video/34_lalys_candles_video_candle_discovery_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/video/34_lalys_candles_video_candle_discovery_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 26.00 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 27.92 seconds, complete decode passed.",
+        "Rejected duplicate 34_lalys_candles_project_highlight_hand_poured_candle_story_001.jpg; it matched 34_lalys_candles_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
     {
@@ -743,6 +739,11 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_mobile_home_hero_001.jpg"
         },
         {
+          "file": "39_koala_picks_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_interaction_mobile_navigation_001.jpg"
+        },
+        {
           "file": "39_koala_picks_mobile_product_detail_001.jpg",
           "label": "Mobile detail page",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_mobile_product_detail_001.jpg"
@@ -768,16 +769,15 @@
           "file": "39_koala_picks_video_healthy_snack_journey_001.mp4",
           "thumbnail": "39_koala_picks_video_healthy_snack_journey_001.jpg",
           "purpose": "Healthy snack discovery from family promise to product detail",
-          "duration": 34.24,
+          "duration": 40.48,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/video/39_koala_picks_video_healthy_snack_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/video/39_koala_picks_video_healthy_snack_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 34.24 seconds, complete decode passed.",
-        "Rejected duplicate 39_koala_picks_interaction_detail_state_001.jpg; it matched 39_koala_picks_desktop_product_detail_001.jpg in perceptual image QA.",
-        "Rejected duplicate 39_koala_picks_interaction_mobile_header_001.jpg; it matched 39_koala_picks_mobile_home_hero_001.jpg byte-for-byte."
+        "Playable MP4 verified: H.264, 1280×720, 40.48 seconds, complete decode passed.",
+        "Rejected duplicate 39_koala_picks_interaction_detail_state_001.jpg; it matched 39_koala_picks_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     },
     {
@@ -850,14 +850,14 @@
           "file": "40_glisser_beauty_video_skincare_discovery_journey_001.mp4",
           "thumbnail": "40_glisser_beauty_video_skincare_discovery_journey_001.jpg",
           "purpose": "Skincare discovery from natural-ingredient positioning to product detail",
-          "duration": 29.56,
+          "duration": 26.52,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/40-glisser-beauty/video/40_glisser_beauty_video_skincare_discovery_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/40-glisser-beauty/video/40_glisser_beauty_video_skincare_discovery_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 29.56 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 26.52 seconds, complete decode passed.",
         "Rejected duplicate 40_glisser_beauty_interaction_detail_state_001.jpg; it matched 40_glisser_beauty_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 40_glisser_beauty_interaction_mobile_header_001.jpg; it matched 40_glisser_beauty_mobile_home_hero_001.jpg in perceptual image QA."
       ]

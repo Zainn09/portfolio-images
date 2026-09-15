@@ -14,12 +14,12 @@ This package is a visual asset archive for an existing QA portfolio. It is not a
 | 31 | Nine AM Roast | https://nineamroast.com | 11 | 1 |
 | 32 | Lilly & Jace Kids | https://lillyjacekids.com | 12 | 1 |
 | 33 | RAD Children’s Furniture | https://radchildrensfurniture.com | 12 | 1 |
-| 34 | Laly’s Candles | https://lalyscandles.com | 13 | 1 |
+| 34 | Laly’s Candles | https://lalyscandles.com | 12 | 1 |
 | 35 | Adonis Jewellery | https://adonisjewellery.gr | 11 | 1 |
 | 36 | smoveyUSA | https://www.smoveyusa.com | 12 | 1 |
 | 37 | Tinnie Tots | https://www.tinnietots.com | 12 | 1 |
 | 38 | La Petite Wardrobe | https://lapetitewardrobe.co.uk | 13 | 1 |
-| 39 | Koala Picks | https://www.koalapicks.com | 11 | 1 |
+| 39 | Koala Picks | https://www.koalapicks.com | 12 | 1 |
 | 40 | Glisser Beauty | https://www.glisserbeauty.com | 11 | 1 |
 
 ## Capture standards
