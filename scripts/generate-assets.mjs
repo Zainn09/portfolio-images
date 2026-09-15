@@ -616,7 +616,7 @@ async function main() {
   await fs.rm(TMP, { recursive: true, force: true });
   await fs.mkdir(ROOT, { recursive: true });
   await fs.mkdir(TMP, { recursive: true });
-  const browser = await chromium.launch({ headless: true, args: ['--disable-dev-shm-usage', '--no-sandbox'] });
+  let browser = null;
   const results = [];
   try {
     for (const project of projects) {
@@ -628,6 +628,7 @@ async function main() {
       }
       await updateRootProgress(results, `${project.name} live-site capture in progress`, project);
       try {
+        browser ||= await chromium.launch({ headless: true, args: ['--disable-dev-shm-usage', '--no-sandbox'] });
         const result = await captureProject(browser, project);
         results.push(result);
         await updateRootProgress(results, `${project.name} asset set generated and published`);
@@ -639,7 +640,7 @@ async function main() {
       }
     }
   } finally {
-    await browser.close();
+    if (browser) await browser.close();
   }
 
   const totalImages = results.reduce((sum, p) => sum + p.images.length, 0);
