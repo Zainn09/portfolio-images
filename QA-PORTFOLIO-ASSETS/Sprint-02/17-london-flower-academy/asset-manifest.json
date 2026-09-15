@@ -1,0 +1,78 @@
+{
+  "id": "17",
+  "slug": "london-flower-academy",
+  "folder": "17-london-flower-academy",
+  "name": "London Flower Academy",
+  "url": "https://londonfloweracademy.com",
+  "kind": "Floral design workshops",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "17_london_flower_academy_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_project_highlight_academy_enquiry_flow_001.jpg",
+      "label": "Project highlight: academy enquiry flow",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_project_highlight_academy_enquiry_flow_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "17_london_flower_academy_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/images/17_london_flower_academy_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "17_london_flower_academy_video_workshop_journey_001.mp4",
+      "thumbnail": "17_london_flower_academy_video_workshop_journey_001.jpg",
+      "purpose": "Floral workshop discovery and booking-information journey",
+      "duration": 18.64,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/video/17_london_flower_academy_video_workshop_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/17-london-flower-academy/video/17_london_flower_academy_video_workshop_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 18.64 seconds, complete decode passed.",
+    "Rejected duplicate 17_london_flower_academy_desktop_signature_section_001.jpg; it matched 17_london_flower_academy_desktop_home_hero_001.jpg byte-for-byte.",
+    "Rejected duplicate 17_london_flower_academy_interaction_detail_state_001.jpg; it matched 17_london_flower_academy_desktop_product_detail_001.jpg byte-for-byte.",
+    "Rejected duplicate 17_london_flower_academy_interaction_mobile_header_001.jpg; it matched 17_london_flower_academy_mobile_home_hero_001.jpg byte-for-byte."
+  ]
+}

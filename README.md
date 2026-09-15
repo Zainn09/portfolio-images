@@ -37,8 +37,8 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Something Pretty Floral asset set generated and published  
-**Last updated:** 2026-09-16 01:15 PKT
+**Latest pipeline stage:** London Flower Academy asset set generated and published  
+**Last updated:** 2026-09-16 01:16 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -48,12 +48,12 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 14 | Gorgeous Alpacas | <https://gorgeousalpacas.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 15 | The Bread Essentials | <https://thebreadessentials.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 16 | Something Pretty Floral | <https://somethingprettyfloral.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 17 | London Flower Academy | <https://londonfloweracademy.com> | ⚪ Pending | — | — | Floral design workshops |
+| 17 | London Flower Academy | <https://londonfloweracademy.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
 | 18 | Monsoon Flowers | <https://monsoonflowers.com> | ⚪ Pending | — | — | Same-day flowers and gifts |
 | 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | ⚪ Pending | — | — | Electric bikes and conversion kits |
 | 20 | Moor Body Care | <https://moorbodycare.co.uk> | ⚪ Pending | — | — | Moor therapy skincare |
 
-**Current checkpoint inventory:** 72 static images and 6 playable MP4 videos.  
+**Current checkpoint inventory:** 82 static images and 7 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_02_PROGRESS_END -->
