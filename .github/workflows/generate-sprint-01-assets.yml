@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
 
 jobs:
   capture-and-package:
@@ -15,6 +16,8 @@ jobs:
     steps:
       - name: Check out capture pipeline
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -28,7 +31,24 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Capture authentic website assets
-        run: npm run capture
+        run: |
+          set -o pipefail
+          npm run capture 2>&1 | tee capture.log
+
+      - name: Publish capture failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 1 capture failed'
+            echo
+            echo '```text'
+            tail -n 180 capture.log 2>/dev/null || echo 'No capture log was produced.'
+            echo '```'
+          } > /tmp/capture-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/capture-comment.md
 
       - name: Build and verify Sprint ZIP
         run: npm run package
@@ -47,6 +67,15 @@ jobs:
           curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-01-Assets.zip > /dev/null
           curl --fail --silent --show-error http://127.0.0.1:4173/download/project/01-fandiem -o /tmp/01-fandiem.zip
           unzip -t /tmp/01-fandiem.zip
+
+      - name: Commit completed library to the session branch
+        if: success() && github.event_name == 'pull_request'
+        run: |
+          git config user.name "arena-ai-coding-agent[bot]"
+          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
+          git add QA-PORTFOLIO-ASSETS QA-Portfolio-Sprint-01-Assets.zip asset-browser/manifest.json capture-report.json package-lock.json
+          git commit -m "Add generated Sprint 1 visual asset library [skip ci]"
+          git push origin HEAD:${{ github.head_ref }}
 
       - name: Upload completed library
         if: success()
