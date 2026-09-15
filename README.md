@@ -64,25 +64,25 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 <!-- SPRINT_03_PROGRESS_START -->
 
-**Sprint status:** In progress  
-**Completed projects:** 0 / 10  
-**Latest pipeline stage:** Cowbells.com asset set generated and published  
-**Last updated:** 2026-09-16 03:51 PKT
+**Sprint status:** Complete  
+**Completed projects:** 10 / 10  
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed  
+**Last updated:** 2026-09-16 03:53 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 21 | Moore Beauty | <https://moore-beauty.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 22 | KUURTH | <https://kuurth.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 23 | Biofield Resonator | <https://biofieldresonator.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 24 | Xtinctio | <https://xtinctio.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 25 | Wendy McCallum Art | <https://wendymccallumart.co.uk> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 26 | E & E Essentials | <https://eandeessentials.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 27 | Anthom Design House | <https://anthomdesignhouse.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 28 | Gabrielle Jewelry | <https://gabriellejewelry.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | 🟡 Captured · QA pending | 14 | 1 | Project assets published; awaiting Sprint-level QA |
-| 30 | Cowbells.com | <https://cowbells.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 21 | Moore Beauty | <https://moore-beauty.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 22 | KUURTH | <https://kuurth.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 23 | Biofield Resonator | <https://biofieldresonator.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 24 | Xtinctio | <https://xtinctio.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 25 | Wendy McCallum Art | <https://wendymccallumart.co.uk> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 26 | E & E Essentials | <https://eandeessentials.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 27 | Anthom Design House | <https://anthomdesignhouse.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
+| 28 | Gabrielle Jewelry | <https://gabriellejewelry.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | 🟢 Complete | 14 | 1 | Website and playable video QA passed |
+| 30 | Cowbells.com | <https://cowbells.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 120 static images and 10 playable MP4 videos.  
+**Current verified inventory:** 120 static images and 10 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_03_PROGRESS_END -->

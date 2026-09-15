@@ -1,0 +1,874 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 3",
+  "generated": "2026-09-16",
+  "totalImages": 120,
+  "totalVideos": 10,
+  "projects": [
+    {
+      "id": "21",
+      "slug": "moore-beauty",
+      "folder": "21-moore-beauty",
+      "name": "Moore Beauty",
+      "url": "https://www.moore-beauty.co.uk",
+      "kind": "Home-based beauty treatments and holistic therapies",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "21_moore_beauty_project_brand_mark_001.jpg",
+          "label": "Authentic Moore Beauty brand mark from the live site",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_project_brand_mark_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_treatment_room_source_001.jpg",
+          "label": "Authentic desktop treatment-room source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_treatment_room_source_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_mobile_treatment_room_source_001.jpg",
+          "label": "Authentic mobile treatment-room source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_mobile_treatment_room_source_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_project_owner_portrait_001.jpg",
+          "label": "Authentic Moore Beauty owner portrait from the live site",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_project_owner_portrait_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_home_hero_001.jpg",
+          "label": "Desktop hero reference using authentic live-site imagery and copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_mobile_home_hero_001.jpg",
+          "label": "Mobile hero reference using authentic live-site imagery and copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_treatment_specialties_001.jpg",
+          "label": "Desktop treatment-specialties reference using live-site copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_treatment_specialties_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_mobile_treatment_specialties_001.jpg",
+          "label": "Mobile treatment-specialties reference using live-site copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_mobile_treatment_specialties_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_treatment_menu_reference_001.jpg",
+          "label": "Desktop facials and treatment-menu reference using live public information",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_treatment_menu_reference_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_contact_information_001.jpg",
+          "label": "Desktop public contact-information reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_contact_information_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA treatment-discovery reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "21_moore_beauty_video_treatment_discovery_journey_001.mp4",
+          "thumbnail": "21_moore_beauty_video_treatment_discovery_journey_001.jpg",
+          "purpose": "Beauty treatment discovery from the personal studio story to treatment information",
+          "duration": 10.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/video/21_moore_beauty_video_treatment_discovery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/video/21_moore_beauty_video_treatment_discovery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Direct browser and remote-renderer requests were rejected because the live host returned HTTP 403 security verification.",
+        "No security-verification page is included. Authentic public site images and verbatim public treatment/contact information were used for the reference compositions.",
+        "Playable video uses only the authentic Moore Beauty hero, treatment-specialty, and menu references.",
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "22",
+      "slug": "kuurth",
+      "folder": "22-kuurth",
+      "name": "KUURTH",
+      "url": "https://kuurth.com",
+      "kind": "Wearable-art jewelry and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "22_kuurth_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_signature_section_001.jpg",
+          "label": "Desktop RINGS section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "22_kuurth_project_highlight_naruto_collaboration_collection_001.jpg",
+          "label": "Project highlight: Naruto collaboration collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_project_highlight_naruto_collaboration_collection_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "22_kuurth_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "22_kuurth_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "22_kuurth_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "22_kuurth_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "22_kuurth_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "22_kuurth_video_wearable_art_journey_001.mp4",
+          "thumbnail": "22_kuurth_video_wearable_art_journey_001.jpg",
+          "purpose": "Wearable-art discovery from category campaign to ring details",
+          "duration": 35.36,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/video/22_kuurth_video_wearable_art_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/video/22_kuurth_video_wearable_art_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 35.36 seconds, complete decode passed.",
+        "Rejected duplicate 22_kuurth_interaction_detail_state_001.jpg; it matched 22_kuurth_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 22_kuurth_interaction_mobile_header_001.jpg; it matched 22_kuurth_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "23",
+      "slug": "biofield-resonator",
+      "folder": "23-biofield-resonator",
+      "name": "Biofield Resonator",
+      "url": "https://biofieldresonator.com",
+      "kind": "Energy-field wearable and educational content",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "23_biofield_resonator_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_desktop_signature_section_001.jpg",
+          "label": "Desktop Science-Backed. Spirit-Aligned section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_project_highlight_benefits_and_educational_overview_001.jpg",
+          "label": "Project highlight: benefits and educational overview",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_project_highlight_benefits_and_educational_overview_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "23_biofield_resonator_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/images/23_biofield_resonator_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "23_biofield_resonator_video_resonator_information_journey_001.mp4",
+          "thumbnail": "23_biofield_resonator_video_resonator_information_journey_001.jpg",
+          "purpose": "Biofield Resonator overview, benefit information, and product-detail journey",
+          "duration": 24.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/video/23_biofield_resonator_video_resonator_information_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/23-biofield-resonator/video/23_biofield_resonator_video_resonator_information_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 24.84 seconds, complete decode passed.",
+        "Rejected duplicate 23_biofield_resonator_desktop_secondary_experience_001.jpg; it matched 23_biofield_resonator_interaction_detail_state_001.jpg byte-for-byte.",
+        "Rejected duplicate 23_biofield_resonator_interaction_mobile_header_001.jpg; it matched 23_biofield_resonator_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "24",
+      "slug": "xtinctio",
+      "folder": "24-xtinctio",
+      "name": "Xtinctio",
+      "url": "https://xtinctio.com",
+      "kind": "Conservation jewelry and wildlife art",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "24_xtinctio_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Handcrafted Animal Jewelry section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_project_highlight_conservation_partners_and_mission_001.jpg",
+          "label": "Project highlight: conservation partners and mission",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_project_highlight_conservation_partners_and_mission_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "24_xtinctio_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/images/24_xtinctio_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "24_xtinctio_video_conservation_jewelry_journey_001.mp4",
+          "thumbnail": "24_xtinctio_video_conservation_jewelry_journey_001.jpg",
+          "purpose": "Conservation-focused jewelry discovery and Hope Bracelet detail journey",
+          "duration": 27.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/video/24_xtinctio_video_conservation_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/24-xtinctio/video/24_xtinctio_video_conservation_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 27.32 seconds, complete decode passed.",
+        "Rejected duplicate 24_xtinctio_interaction_mobile_header_001.jpg; it matched 24_xtinctio_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "25",
+      "slug": "wendy-mccallum-art",
+      "folder": "25-wendy-mccallum-art",
+      "name": "Wendy McCallum Art",
+      "url": "https://wendymccallumart.co.uk",
+      "kind": "Frequency art, resin artwork, and prints",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "25_wendy_mccallum_art_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_signature_section_001.jpg",
+          "label": "Desktop FREQUENCY ART section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_project_highlight_mini_resin_and_crystal_artwork_001.jpg",
+          "label": "Project highlight: mini resin and crystal artwork",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_project_highlight_mini_resin_and_crystal_artwork_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "25_wendy_mccallum_art_video_frequency_art_journey_001.mp4",
+          "thumbnail": "25_wendy_mccallum_art_video_frequency_art_journey_001.jpg",
+          "purpose": "Frequency-art discovery from gallery collection to original artwork detail",
+          "duration": 25,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/video/25_wendy_mccallum_art_video_frequency_art_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/video/25_wendy_mccallum_art_video_frequency_art_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 25.00 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "26",
+      "slug": "e-and-e-essentials",
+      "folder": "26-e-and-e-essentials",
+      "name": "E & E Essentials",
+      "url": "https://eandeessentials.com",
+      "kind": "Handcrafted natural soap and skincare",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "26_e_and_e_essentials_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_signature_section_001.jpg",
+          "label": "Desktop Clean Skincare You Can Trust section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg",
+          "label": "Project highlight: unscented skincare collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "26_e_and_e_essentials_video_natural_skincare_journey_001.mp4",
+          "thumbnail": "26_e_and_e_essentials_video_natural_skincare_journey_001.jpg",
+          "purpose": "Natural soap and skincare discovery through product detail",
+          "duration": 30.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/video/26_e_and_e_essentials_video_natural_skincare_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/video/26_e_and_e_essentials_video_natural_skincare_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 30.84 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "27",
+      "slug": "anthom-design-house",
+      "folder": "27-anthom-design-house",
+      "name": "Anthom Design House",
+      "url": "https://anthomdesignhouse.com",
+      "kind": "Furniture collections and project inspiration",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "27_anthom_design_house_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_project_highlight_solo_house_project_spotlight_001.jpg",
+          "label": "Project highlight: Solo House project spotlight",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_project_highlight_solo_house_project_spotlight_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "27_anthom_design_house_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "27_anthom_design_house_video_furniture_design_journey_001.mp4",
+          "thumbnail": "27_anthom_design_house_video_furniture_design_journey_001.jpg",
+          "purpose": "Furniture-design discovery from modular collection to product specifications",
+          "duration": 24.16,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/video/27_anthom_design_house_video_furniture_design_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/video/27_anthom_design_house_video_furniture_design_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 24.16 seconds, complete decode passed.",
+        "Rejected duplicate 27_anthom_design_house_desktop_signature_section_001.jpg; it matched 27_anthom_design_house_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 27_anthom_design_house_interaction_detail_state_001.jpg; it matched 27_anthom_design_house_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 27_anthom_design_house_interaction_mobile_header_001.jpg; it matched 27_anthom_design_house_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "28",
+      "slug": "gabrielle-jewelry",
+      "folder": "28-gabrielle-jewelry",
+      "name": "Gabrielle Jewelry",
+      "url": "https://gabriellejewelry.com",
+      "kind": "Handmade fine, estate, and contemporary jewelry",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "28_gabrielle_jewelry_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_desktop_signature_section_001.jpg",
+          "label": "Desktop Best Sellers section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_project_highlight_bespoke_jewelry_service_001.jpg",
+          "label": "Project highlight: bespoke jewelry service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_project_highlight_bespoke_jewelry_service_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "28_gabrielle_jewelry_video_handmade_jewelry_journey_001.mp4",
+          "thumbnail": "28_gabrielle_jewelry_video_handmade_jewelry_journey_001.jpg",
+          "purpose": "Handmade jewelry discovery from brand story to product detail",
+          "duration": 29.12,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/video/28_gabrielle_jewelry_video_handmade_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/video/28_gabrielle_jewelry_video_handmade_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 29.12 seconds, complete decode passed.",
+        "Rejected duplicate 28_gabrielle_jewelry_desktop_secondary_experience_001.jpg; it matched 28_gabrielle_jewelry_interaction_detail_state_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "29",
+      "slug": "black-arrow-gallery",
+      "folder": "29-black-arrow-gallery",
+      "name": "Black Arrow Gallery",
+      "url": "https://www.blackarrowgallery.com",
+      "kind": "Native American jewelry and art",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "29_black_arrow_gallery_project_wear_real_stories_collection_source_001.jpg",
+          "label": "Authentic Wear Real Stories collection source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_wear_real_stories_collection_source_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_desktop_wear_real_stories_hero_source_001.jpg",
+          "label": "Authentic Wear Something Real hero source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_desktop_wear_real_stories_hero_source_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_stand_up_headdress_source_001.jpg",
+          "label": "Authentic stand-up headdress art source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_stand_up_headdress_source_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_double_twist_ring_001.jpg",
+          "label": "Authentic Artie Yellowhorse double-twist ring source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_double_twist_ring_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_shadow_box_ring_001.jpg",
+          "label": "Authentic Artie Yellowhorse shadow-box ring source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_shadow_box_ring_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_black_onyx_pendant_001.jpg",
+          "label": "Authentic Artie Yellowhorse black-onyx pendant source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_black_onyx_pendant_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_oval_earrings_001.jpg",
+          "label": "Authentic Artie Yellowhorse oval-earrings source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_oval_earrings_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_palm_wood_ring_001.jpg",
+          "label": "Authentic Artie Yellowhorse palm-wood ring source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_palm_wood_ring_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_desktop_home_hero_001.jpg",
+          "label": "Desktop Wear Something Real hero reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_mobile_home_hero_001.jpg",
+          "label": "Mobile Wear Something Real hero reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_desktop_artie_yellowhorse_collection_001.jpg",
+          "label": "Desktop Artie Yellowhorse artisan collection reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_desktop_artie_yellowhorse_collection_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_mobile_artisan_jewelry_collection_001.jpg",
+          "label": "Mobile artisan-jewelry collection reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_mobile_artisan_jewelry_collection_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA artisan-discovery reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "29_black_arrow_gallery_video_artisan_jewelry_journey_001.mp4",
+          "thumbnail": "29_black_arrow_gallery_video_artisan_jewelry_journey_001.jpg",
+          "purpose": "Authentic Native American artisan story and jewelry-detail journey",
+          "duration": 10.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/video/29_black_arrow_gallery_video_artisan_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/video/29_black_arrow_gallery_video_artisan_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Direct GitHub Actions browser requests returned the same blocked response for every route; that response was rejected and is not included.",
+        "Authentic public Black Arrow Gallery source images were retrieved through a domain-constrained image index and visually checked before use.",
+        "Reference compositions use only those live-site source images and verbatim public Black Arrow Gallery identity/category information.",
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "30",
+      "slug": "cowbells",
+      "folder": "30-cowbells",
+      "name": "Cowbells.com",
+      "url": "https://cowbells.com",
+      "kind": "Custom, event, and team cowbells",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "30_cowbells_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "30_cowbells_desktop_signature_section_001.jpg",
+          "label": "Desktop Featured Cowbells section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "30_cowbells_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "30_cowbells_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "30_cowbells_project_highlight_custom_bell_options_001.jpg",
+          "label": "Project highlight: custom bell options",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_project_highlight_custom_bell_options_001.jpg"
+        },
+        {
+          "file": "30_cowbells_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "30_cowbells_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "30_cowbells_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "30_cowbells_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "30_cowbells_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "30_cowbells_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "30_cowbells_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "30_cowbells_video_cowbell_customization_journey_001.mp4",
+          "thumbnail": "30_cowbells_video_cowbell_customization_journey_001.jpg",
+          "purpose": "Cowbell discovery from event categories to customizable bell details",
+          "duration": 28.64,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/video/30_cowbells_video_cowbell_customization_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/video/30_cowbells_video_cowbell_customization_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 28.64 seconds, complete decode passed.",
+        "Rejected duplicate 30_cowbells_interaction_detail_state_001.jpg; it matched 30_cowbells_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    }
+  ]
+}
