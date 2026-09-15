@@ -35,25 +35,25 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 <!-- SPRINT_02_PROGRESS_START -->
 
-**Sprint status:** In progress  
-**Completed projects:** 0 / 10  
-**Latest pipeline stage:** Moor Body Care asset set generated and published  
+**Sprint status:** Complete  
+**Completed projects:** 10 / 10  
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed  
 **Last updated:** 2026-09-16 01:22 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 11 | Glo by Glen Skin | <https://globyglenskin.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 12 | Funky Flickr Boyz Gear | <https://funkyflickrboyzgear.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 13 | My Rug World | <https://myrugworld.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 14 | Gorgeous Alpacas | <https://gorgeousalpacas.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 15 | The Bread Essentials | <https://thebreadessentials.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 16 | Something Pretty Floral | <https://somethingprettyfloral.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 17 | London Flower Academy | <https://londonfloweracademy.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 18 | Monsoon Flowers | <https://monsoonflowers.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 20 | Moor Body Care | <https://moorbodycare.co.uk> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
+| 11 | Glo by Glen Skin | <https://globyglenskin.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 12 | Funky Flickr Boyz Gear | <https://funkyflickrboyzgear.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 13 | My Rug World | <https://myrugworld.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 14 | Gorgeous Alpacas | <https://gorgeousalpacas.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 15 | The Bread Essentials | <https://thebreadessentials.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 16 | Something Pretty Floral | <https://somethingprettyfloral.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 17 | London Flower Academy | <https://londonfloweracademy.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
+| 18 | Monsoon Flowers | <https://monsoonflowers.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 20 | Moor Body Care | <https://moorbodycare.co.uk> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 119 static images and 10 playable MP4 videos.  
+**Current verified inventory:** 119 static images and 10 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_02_PROGRESS_END -->
