@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Xtinctio asset set generated and published",
+  "stage": "Wendy McCallum Art asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -27,6 +27,13 @@
       "id": "24",
       "status": "captured",
       "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "25",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

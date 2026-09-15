@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 3",
   "generated": "2026-09-16",
-  "totalImages": 46,
-  "totalVideos": 4,
+  "totalImages": 59,
+  "totalVideos": 5,
   "projects": [
     {
       "id": "21",
@@ -340,6 +340,96 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 27.32 seconds, complete decode passed.",
         "Rejected duplicate 24_xtinctio_interaction_mobile_header_001.jpg; it matched 24_xtinctio_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "25",
+      "slug": "wendy-mccallum-art",
+      "folder": "25-wendy-mccallum-art",
+      "name": "Wendy McCallum Art",
+      "url": "https://wendymccallumart.co.uk",
+      "kind": "Frequency art, resin artwork, and prints",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "25_wendy_mccallum_art_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_signature_section_001.jpg",
+          "label": "Desktop FREQUENCY ART section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_project_highlight_mini_resin_and_crystal_artwork_001.jpg",
+          "label": "Project highlight: mini resin and crystal artwork",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_project_highlight_mini_resin_and_crystal_artwork_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "25_wendy_mccallum_art_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "25_wendy_mccallum_art_video_frequency_art_journey_001.mp4",
+          "thumbnail": "25_wendy_mccallum_art_video_frequency_art_journey_001.jpg",
+          "purpose": "Frequency-art discovery from gallery collection to original artwork detail",
+          "duration": 25,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/video/25_wendy_mccallum_art_video_frequency_art_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/video/25_wendy_mccallum_art_video_frequency_art_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 25.00 seconds, complete decode passed."
       ]
     }
   ]
