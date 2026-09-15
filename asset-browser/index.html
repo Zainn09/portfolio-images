@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>QA Portfolio · Sprint 1 Asset Browser</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#151c30; --line:#2b3857; --text:#eef2ff; --muted:#9aa7bf; --accent:#63e6be; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; }
+    header { position:sticky; top:0; z-index:4; background:#0b1020ee; backdrop-filter:blur(12px); border-bottom:1px solid var(--line); padding:20px max(24px,calc((100vw - 1440px)/2)); }
+    .head { display:flex; gap:24px; align-items:center; justify-content:space-between; }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
+    h1 { font-size:clamp(23px,3vw,38px); margin:2px 0; }
+    .summary,.project-meta,.notes { color:var(--muted); }
+    .actions { display:flex; gap:9px; flex-wrap:wrap; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; border:1px solid var(--line); border-radius:8px; padding:9px 13px; background:#1c2741; color:var(--text); text-decoration:none; font-weight:700; cursor:pointer; }
+    .btn.primary { background:var(--accent); color:#07150f; border-color:var(--accent); }
+    main { max-width:1440px; margin:auto; padding:30px 24px 80px; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; margin:24px 0 34px; }
+    .project-link { display:block; padding:17px; border:1px solid var(--line); border-radius:10px; background:var(--panel); text-decoration:none; color:var(--text); }
+    .project-link span { display:block; color:var(--muted); font-size:13px; }
+    .project { border-top:1px solid var(--line); padding:42px 0; }
+    .project-head { display:flex; justify-content:space-between; align-items:end; gap:20px; margin-bottom:20px; }
+    .project h2 { font-size:30px; margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:18px; }
+    .asset { margin:0; background:var(--panel); border:1px solid var(--line); border-radius:11px; overflow:hidden; }
+    .preview { aspect-ratio:16/10; background:#080c17; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+    .preview img,.preview video { width:100%; height:100%; object-fit:cover; object-position:top; }
+    .asset figcaption { padding:12px; }
+    .asset-name { font-weight:750; overflow-wrap:anywhere; }
+    .asset-label { color:var(--muted); font-size:13px; min-height:40px; margin:4px 0 11px; }
+    .asset-actions { display:flex; gap:8px; }
+    .asset-actions .btn { font-size:12px; padding:7px 10px; }
+    .video-grid { display:grid; grid-template-columns:minmax(300px,760px); gap:18px; margin:18px 0; }
+    .notes { font-size:13px; }
+    .back { color:var(--accent); }
+    @media(max-width:700px) { header{position:static}.head,.project-head{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <header><div class="head">
+    <div><div class="eyebrow">QA Portfolio Visual Asset Generation</div><h1>Sprint 1 Asset Browser</h1><div class="summary" id="summary">Loading verified asset inventory…</div></div>
+    <div class="actions"><a class="btn" href="/QA-PORTFOLIO-ASSETS/Sprint-01/README.md" target="_blank">Read capture report</a><a class="btn primary" href="/QA-Portfolio-Sprint-01-Assets.zip" download>Download all Sprint 1 assets</a></div>
+  </div></header>
+  <main><div class="projects" id="projects"></div><div id="content"></div></main>
+  <script>
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const button = (href,label,primary=false,download=false) => '<a class="btn '+(primary?'primary':'')+'" href="'+href+'" '+(download?'download':'')+'>'+label+'</a>';
+    fetch('/asset-browser/manifest.json').then(r => {
+      if (!r.ok) throw new Error('Asset manifest is not available. Run the capture pipeline first.');
+      return r.json();
+    }).then(data => {
+      const imageCount=data.projects.reduce((n,p)=>n+p.images.length,0);
+      const videoCount=data.projects.reduce((n,p)=>n+p.videos.length,0);
+      document.querySelector('#summary').textContent=data.projects.length+' projects · '+imageCount+' static images · '+videoCount+' videos · generated '+data.generated;
+      document.querySelector('#projects').innerHTML=data.projects.map(p =>
+        '<a class="project-link" href="#'+p.slug+'"><b>'+p.id+' · '+esc(p.name)+'</b><span>'+p.images.length+' images · '+p.videos.length+' video · '+esc(p.kind)+'</span></a>'
+      ).join('');
+      document.querySelector('#content').innerHTML=data.projects.map(p => {
+        const imageCards=p.images.map(a =>
+          '<figure class="asset"><a class="preview" href="/'+a.path+'" target="_blank"><img src="/'+a.path+'" loading="lazy" alt="'+esc(a.label)+'"></a><figcaption><div class="asset-name">'+esc(a.file)+'</div><div class="asset-label">'+esc(a.label)+'</div><div class="asset-actions">'+button('/'+a.path,'Full size')+button('/'+a.path,'Download image',false,true)+'</div></figcaption></figure>'
+        ).join('');
+        const videos=p.videos.map(v =>
+          '<figure class="asset"><div class="preview"><video controls preload="metadata" poster="/'+v.thumbnailPath+'"><source src="/'+v.path+'" type="video/mp4"></video></div><figcaption><div class="asset-name">'+esc(v.file)+'</div><div class="asset-label">'+esc(v.purpose)+'</div><div class="asset-actions">'+button('/'+v.thumbnailPath,'Download thumbnail',false,true)+button('/'+v.path,'Download video',true,true)+'</div></figcaption></figure>'
+        ).join('');
+        const notes=p.notes.length?'<div class="notes"><b>Availability notes:</b> '+p.notes.map(esc).join(' ')+'</div>':'';
+        return '<section class="project" id="'+p.slug+'"><div class="project-head"><div><div class="eyebrow">Project '+p.id+'</div><h2>'+esc(p.name)+'</h2><div class="project-meta"><a class="back" href="'+p.url+'" target="_blank" rel="noreferrer">'+p.url+'</a> · '+esc(p.kind)+'</div></div><div class="actions">'+button('/QA-PORTFOLIO-ASSETS/Sprint-01/'+p.folder+'/README.md','Project notes')+button('/download/project/'+p.folder,'Download project ZIP',true)+'</div></div><h3>Images</h3><div class="grid">'+imageCards+'</div><h3>Video</h3><div class="video-grid">'+videos+'</div>'+notes+'</section>';
+      }).join('');
+    }).catch(error => document.querySelector('#summary').textContent=error.message);
+  </script>
+</body>
+</html>

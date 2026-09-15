@@ -1,0 +1,73 @@
+name: Generate Sprint 01 QA Assets
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  capture-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Check out capture pipeline
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install capture dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture authentic website assets
+        run: npm run capture
+
+      - name: Build and verify Sprint ZIP
+        run: npm run package
+
+      - name: Run final inventory QA
+        run: python3 scripts/verify_assets.py
+
+      - name: Verify asset browser and download endpoints
+        run: |
+          python3 serve-assets.py --port 4173 > /tmp/asset-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          sleep 2
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/ > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/manifest.json > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-01-Assets.zip > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/download/project/01-fandiem -o /tmp/01-fandiem.zip
+          unzip -t /tmp/01-fandiem.zip
+
+      - name: Upload completed library
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Portfolio-Sprint-01-Complete
+          path: |
+            QA-PORTFOLIO-ASSETS/
+            QA-Portfolio-Sprint-01-Assets.zip
+            asset-browser/
+            capture-report.json
+          compression-level: 0
+          retention-days: 14
+
+      - name: Upload partial diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint-01-capture-diagnostics
+          path: |
+            QA-PORTFOLIO-ASSETS/
+            capture-report.json
+          if-no-files-found: ignore
+          retention-days: 3
