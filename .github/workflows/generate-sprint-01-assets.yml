@@ -38,6 +38,19 @@ jobs:
           git config user.name "arena-ai-coding-agent[bot]"
           git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
 
+      - name: Recapture Peak Scents through validated live rendering
+        if: hashFiles('QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/asset-manifest.json') == ''
+        run: node scripts/recapture-peak-scents.mjs
+
+      - name: Publish Peak Scents recapture checkpoint
+        if: hashFiles('QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/asset-manifest.json') != '' && github.event_name == 'pull_request'
+        run: |
+          if ! git diff --quiet -- QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents README.md capture-progress.json; then
+            git add QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents README.md capture-progress.json
+            git commit -m "Add validated Peak Scents asset checkpoint [skip ci]"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
       - name: Capture authentic website assets
         env:
           CHECKPOINT_COMMITS: "1"
