@@ -72,12 +72,21 @@ def render(state: dict, final: bool) -> str:
 
 
 def main(final: bool) -> None:
+    state = load_state()
+    if final:
+        state["stage"] = "Final image, playable-video, ZIP, browser, and download QA passed"
+        for item in state.get("projects", []):
+            if item.get("status") == "captured":
+                item["status"] = "complete"
+                item["note"] = "Website and playable video QA passed"
+        STATE.write_text(json.dumps(state, indent=2) + "\n")
+
     text = README.read_text()
     if START not in text or END not in text:
         raise SystemExit("Sprint 2 README markers are missing")
     before, rest = text.split(START, 1)
     _, after = rest.split(END, 1)
-    README.write_text(before + render(load_state(), final) + after)
+    README.write_text(before + render(state, final) + after)
     print("Updated README.md Sprint 2 progress")
 
 
