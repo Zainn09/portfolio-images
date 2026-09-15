@@ -173,8 +173,9 @@ async function dismissKnownProjectOverlay(page) {
       ? { x: width - 49, y: Math.max(25, (height - 634) / 2 + 24) }
       : { x: width / 2 + 212, y: Math.max(25, (height - 650) / 2 + 24) };
   } else if (host === 'glisserbeauty.com') {
-    // OptiMonk renders this offer above the page without an accessible close
-    // role, so use the real visible close control at the modal's top-right.
+    // OptiMonk loads later than the primary page. Wait for its entrance before
+    // clicking the real visible close control at the modal's top-right.
+    await page.waitForTimeout(2_000);
     point = width < 600
       ? { x: width - 40, y: Math.max(25, (height - 668) / 2 + 20) }
       : { x: width / 2 + 372, y: Math.max(25, (height - 566) / 2 + 25) };
