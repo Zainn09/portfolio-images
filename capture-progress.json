@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-15",
-  "stage": "Maison Khloe asset set generated and published",
+  "stage": "Summit Sheets asset set generated and published",
   "projects": [
     {
       "id": "01",
@@ -46,6 +46,13 @@
     },
     {
       "id": "07",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "08",
       "status": "captured",
       "images": 13,
       "videos": 1,
