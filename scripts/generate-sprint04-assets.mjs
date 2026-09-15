@@ -131,27 +131,43 @@ async function mkdirs(project) {
   return base;
 }
 
-async function closeInterruptions(page) {
+async function clickInterruptionControls(scope, includeGenericClose = false) {
   const labels = [
     /accept all/i, /accept cookies/i, /allow all/i, /agree/i, /got it/i,
     /continue without accepting/i, /no thanks/i, /not now/i, /^save$/i, /close/i
   ];
   for (const label of labels) {
-    const button = page.getByRole('button', { name: label }).first();
+    const button = scope.getByRole('button', { name: label }).first();
     try {
       if (await button.isVisible({ timeout: 250 })) await button.click({ timeout: 1_000 });
     } catch {}
   }
   const closeSelectors = [
     '[aria-label="Close dialog"]', '[aria-label="Close"]', '.popup-close',
-    '.modal__close-button', '.newsletter-popup__close', '#shopify-chat-dummy button'
+    '.modal__close-button', '.newsletter-popup__close', '#shopify-chat-dummy button',
+    ...(includeGenericClose ? [
+      'button[aria-label*="close" i]', '[role="button"][aria-label*="close" i]',
+      'button[title*="close" i]', '[data-testid*="close" i]',
+      'button[class*="close" i]', 'button[class*="minimize" i]'
+    ] : [])
   ];
   for (const selector of closeSelectors) {
     try {
-      const el = page.locator(selector).first();
-      if (await el.isVisible({ timeout: 150 })) await el.click({ timeout: 500 });
+      const el = scope.locator(selector).first();
+      if (await el.isVisible({ timeout: 180 })) await el.click({ timeout: 700 });
     } catch {}
   }
+}
+
+async function closeInterruptions(page) {
+  await clickInterruptionControls(page);
+  // Email offers and live-chat panels commonly render in child frames. Dismiss
+  // their own controls without using generic root-page selectors that could
+  // accidentally close a deliberately opened mobile navigation state.
+  for (const frame of page.frames().filter(item => item !== page.mainFrame())) {
+    await clickInterruptionControls(frame, true);
+  }
+  await page.waitForTimeout(250);
 }
 
 async function settle(page, wait = 1_500) {
