@@ -7,19 +7,17 @@
 
 ## Inventory
 
-- Static images: **13**
+- Static images: **11**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
 ## Coverage
 
 - `06_the_scaff_shop_desktop_home_hero_001.jpg` — Desktop homepage hero
-- `06_the_scaff_shop_desktop_signature_section_001.jpg` — Desktop Handcrafted in the UK section
 - `06_the_scaff_shop_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
 - `06_the_scaff_shop_desktop_product_detail_001.jpg` — Desktop detail page
 - `06_the_scaff_shop_interaction_detail_state_001.jpg` — Meaningful detail interaction / content state
 - `06_the_scaff_shop_project_highlight_reclaimed_material_brand_story_001.jpg` — Project highlight: reclaimed-material brand story
-- `06_the_scaff_shop_desktop_secondary_experience_001.jpg` — Secondary project-specific experience
 - `06_the_scaff_shop_mobile_home_hero_001.jpg` — Mobile homepage hero
 - `06_the_scaff_shop_interaction_mobile_header_001.jpg` — Mobile header state
 - `06_the_scaff_shop_mobile_product_detail_001.jpg` — Mobile detail page
@@ -38,5 +36,3 @@
 - Desktop viewport: 1440 × 900; mobile viewport: 390 × 844; video: 1280 × 720.
 - Responsive and user-flow compositions contain only authentic live-site captures plus neutral QA reference labels.
 - No checkout submission, purchase, account creation, or personal data entry was performed.
-- Capture 06_the_scaff_shop_desktop_signature_section_001.jpg matched 06_the_scaff_shop_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.
-- Capture 06_the_scaff_shop_desktop_secondary_experience_001.jpg matched 06_the_scaff_shop_interaction_detail_state_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.
