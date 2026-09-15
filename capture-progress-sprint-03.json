@@ -1,13 +1,13 @@
 {
   "generated": "2026-09-16",
-  "stage": "Moore Beauty capture requires attention",
+  "stage": "Moore Beauty asset set generated and published",
   "projects": [
     {
       "id": "21",
-      "status": "blocked",
-      "images": 0,
-      "videos": 0,
-      "note": "Capture stopped; review workflow diagnostics"
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }

@@ -1,7 +1,96 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 3",
   "generated": "2026-09-16",
-  "totalImages": 0,
-  "totalVideos": 0,
-  "projects": []
+  "totalImages": 12,
+  "totalVideos": 1,
+  "projects": [
+    {
+      "id": "21",
+      "slug": "moore-beauty",
+      "folder": "21-moore-beauty",
+      "name": "Moore Beauty",
+      "url": "https://www.moore-beauty.co.uk",
+      "kind": "Home-based beauty treatments and holistic therapies",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "21_moore_beauty_project_brand_mark_001.jpg",
+          "label": "Authentic Moore Beauty brand mark from the live site",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_project_brand_mark_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_treatment_room_source_001.jpg",
+          "label": "Authentic desktop treatment-room source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_treatment_room_source_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_mobile_treatment_room_source_001.jpg",
+          "label": "Authentic mobile treatment-room source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_mobile_treatment_room_source_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_project_owner_portrait_001.jpg",
+          "label": "Authentic Moore Beauty owner portrait from the live site",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_project_owner_portrait_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_home_hero_001.jpg",
+          "label": "Desktop hero reference using authentic live-site imagery and copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_mobile_home_hero_001.jpg",
+          "label": "Mobile hero reference using authentic live-site imagery and copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_treatment_specialties_001.jpg",
+          "label": "Desktop treatment-specialties reference using live-site copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_treatment_specialties_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_mobile_treatment_specialties_001.jpg",
+          "label": "Mobile treatment-specialties reference using live-site copy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_mobile_treatment_specialties_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_treatment_menu_reference_001.jpg",
+          "label": "Desktop facials and treatment-menu reference using live public information",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_treatment_menu_reference_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_desktop_contact_information_001.jpg",
+          "label": "Desktop public contact-information reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_desktop_contact_information_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "21_moore_beauty_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA treatment-discovery reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/images/21_moore_beauty_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "21_moore_beauty_video_treatment_discovery_journey_001.mp4",
+          "thumbnail": "21_moore_beauty_video_treatment_discovery_journey_001.jpg",
+          "purpose": "Beauty treatment discovery from the personal studio story to treatment information",
+          "duration": 10.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/video/21_moore_beauty_video_treatment_discovery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/21-moore-beauty/video/21_moore_beauty_video_treatment_discovery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Direct browser and remote-renderer requests were rejected because the live host returned HTTP 403 security verification.",
+        "No security-verification page is included. Authentic public site images and verbatim public treatment/contact information were used for the reference compositions.",
+        "Playable video uses only the authentic Moore Beauty hero, treatment-specialty, and menu references.",
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
+      ]
+    }
+  ]
 }
