@@ -391,7 +391,7 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
   try {
     await goto(page, project, '/', notes, 'Video homepage');
     video = page.video();
-    await page.evaluate(() => scrollTo(0, 0));
+    await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await page.waitForTimeout(1_300);
     await smoothScroll(page, 0.42, 1_650);
     await page.waitForTimeout(900);
@@ -588,7 +588,7 @@ async function captureProject(browser, project) {
 
   try {
     await goto(page, project, '/', notes, 'Homepage');
-    await page.evaluate(() => scrollTo(0, 0));
+    await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(page, 500);
     const desktopHero = await add('desktop_home_hero', 'Desktop homepage hero');
 
@@ -601,7 +601,7 @@ async function captureProject(browser, project) {
 
     const detailRoute = await discoverDetail(page, project, notes);
     await goto(page, project, detailRoute, notes, 'Detail');
-    await page.evaluate(() => scrollTo(0, 0));
+    await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(page, 450);
     const desktopDetail = await add(`desktop_${project.slug === 'green-beauty-expert' ? 'article_detail' : 'product_detail'}`, 'Desktop detail page');
 
@@ -627,7 +627,7 @@ async function captureProject(browser, project) {
     const mobile = await mobileContext.newPage();
     mobile.setDefaultTimeout(8_000);
     await goto(mobile, project, '/', notes, 'Mobile homepage');
-    await mobile.evaluate(() => scrollTo(0, 0));
+    await mobile.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(mobile, 450);
     const mobileHomeFile = path.join(imagesDir, `${project.prefix}_mobile_home_hero_001.jpg`);
     await screenshot(mobile, mobileHomeFile);
@@ -640,7 +640,7 @@ async function captureProject(browser, project) {
     captures.push({ file: path.basename(mobileNavFile), label: `Mobile ${navType} state` });
 
     await goto(mobile, project, detailRoute, notes, 'Mobile detail');
-    await mobile.evaluate(() => scrollTo(0, 0));
+    await mobile.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(mobile, 450);
     const mobileDetailFile = path.join(imagesDir, `${project.prefix}_mobile_${project.slug === 'green-beauty-expert' ? 'article_detail' : 'product_detail'}_001.jpg`);
     await screenshot(mobile, mobileDetailFile);
