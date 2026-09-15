@@ -1,0 +1,93 @@
+{
+  "id": "09",
+  "slug": "peak-scents",
+  "folder": "09-peak-scents",
+  "name": "Peak Scents",
+  "url": "https://peakscents.com",
+  "kind": "Plant-based skincare and refill shop",
+  "generated": "2026-09-15",
+  "images": [
+    {
+      "file": "09_peak_scents_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_signature_section_001.jpg",
+      "label": "Desktop Shop Our Best Sellers section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_project_highlight_botanical_skincare_merchandising_001.jpg",
+      "label": "Project highlight: botanical skincare merchandising",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_project_highlight_botanical_skincare_merchandising_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_interaction_mobile_search_001.jpg",
+      "label": "Mobile search state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_interaction_mobile_search_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "09_peak_scents_video_product_journey_001.mp4",
+      "thumbnail": "09_peak_scents_video_product_journey_001.jpg",
+      "purpose": "Plant-based skincare shopping and product detail flow",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Capture 09_peak_scents_desktop_signature_section_001.jpg matched 09_peak_scents_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 09_peak_scents_desktop_collection_listing_001.jpg matched 09_peak_scents_desktop_signature_section_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 09_peak_scents_desktop_product_detail_001.jpg matched 09_peak_scents_desktop_collection_listing_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 09_peak_scents_project_highlight_botanical_skincare_merchandising_001.jpg matched 09_peak_scents_desktop_product_detail_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 09_peak_scents_desktop_secondary_experience_001.jpg matched 09_peak_scents_interaction_detail_state_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 09_peak_scents_mobile_product_detail_001.jpg matched 09_peak_scents_mobile_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+  ]
+}
