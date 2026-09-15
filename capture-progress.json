@@ -47,9 +47,9 @@
     {
       "id": "07",
       "status": "captured",
-      "images": 13,
+      "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
     },
     {
       "id": "08",
