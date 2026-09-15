@@ -7,14 +7,13 @@
 
 ## Inventory
 
-- Static images: **13**
+- Static images: **12**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
 ## Coverage
 
 - `03_kcaps_desktop_home_hero_001.jpg` — Desktop homepage hero
-- `03_kcaps_desktop_signature_section_001.jpg` — Desktop Our Certifications section
 - `03_kcaps_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
 - `03_kcaps_desktop_product_detail_001.jpg` — Desktop detail page
 - `03_kcaps_interaction_capsule_options_001.jpg` — Meaningful detail interaction / content state
@@ -38,4 +37,3 @@
 - Desktop viewport: 1440 × 900; mobile viewport: 390 × 844; video: 1280 × 720.
 - Responsive and user-flow compositions contain only authentic live-site captures plus neutral QA reference labels.
 - No checkout submission, purchase, account creation, or personal data entry was performed.
-- Capture 03_kcaps_desktop_signature_section_001.jpg matched 03_kcaps_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.
