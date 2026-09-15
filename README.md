@@ -95,8 +95,8 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Tinnie Tots asset set generated and published<br>
-**Last updated:** 2026-09-16 04:28 PKT
+**Latest pipeline stage:** La Petite Wardrobe asset set generated and published<br>
+**Last updated:** 2026-09-16 04:29 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -107,11 +107,11 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 | 35 | Adonis Jewellery | <https://adonisjewellery.gr> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 36 | smoveyUSA | <https://www.smoveyusa.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 37 | Tinnie Tots | <https://www.tinnietots.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | ⚪ Pending | — | — | Handmade children’s occasionwear |
+| 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 39 | Koala Picks | <https://www.koalapicks.com> | ⚪ Pending | — | — | Healthy snacks for children and families |
 | 40 | Glisser Beauty | <https://www.glisserbeauty.com> | ⚪ Pending | — | — | Skincare and facial beauty products |
 
-**Current checkpoint inventory:** 83 static images and 7 playable MP4 videos.<br>
+**Current checkpoint inventory:** 96 static images and 8 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_04_PROGRESS_END -->

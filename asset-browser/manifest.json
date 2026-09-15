@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 438,
-  "totalVideos": 37,
+  "totalImages": 451,
+  "totalVideos": 38,
   "projects": [
     {
       "id": "01",
@@ -3141,6 +3141,96 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 23.92 seconds, complete decode passed.",
         "Rejected duplicate 37_tinnie_tots_interaction_detail_state_001.jpg; it matched 37_tinnie_tots_desktop_product_detail_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "38",
+      "slug": "la-petite-wardrobe",
+      "folder": "38-la-petite-wardrobe",
+      "name": "La Petite Wardrobe",
+      "url": "https://lapetitewardrobe.co.uk",
+      "kind": "Handmade children\u2019s occasionwear",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "38_la_petite_wardrobe_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_desktop_signature_section_001.jpg",
+          "label": "Desktop NEW ARRIVALS section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_project_highlight_christmas_occasionwear_collection_001.jpg",
+          "label": "Project highlight: Christmas occasionwear collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_project_highlight_christmas_occasionwear_collection_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "38_la_petite_wardrobe_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/images/38_la_petite_wardrobe_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "38_la_petite_wardrobe_video_occasionwear_journey_001.mp4",
+          "thumbnail": "38_la_petite_wardrobe_video_occasionwear_journey_001.jpg",
+          "purpose": "Handmade occasionwear discovery from seasonal collection to garment detail",
+          "duration": 23.88,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/video/38_la_petite_wardrobe_video_occasionwear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/38-la-petite-wardrobe/video/38_la_petite_wardrobe_video_occasionwear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 23.88 seconds, complete decode passed."
+      ]
     }
   ],
   "sprints": [
@@ -3168,9 +3258,9 @@
     {
       "number": 4,
       "label": "Sprint 4",
-      "images": 83,
-      "videos": 7,
-      "projects": 7
+      "images": 96,
+      "videos": 8,
+      "projects": 8
     }
   ]
 }
