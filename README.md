@@ -1,6 +1,6 @@
-# QA Portfolio Visual Assets — Sprints 1–2
+# QA Portfolio Visual Assets — Sprints 1–3
 
-A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. Work is strictly limited to Sprint 1 and Sprint 2.
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains the completed visual-asset deliveries for Sprints 1, 2, and 3.
 
 ## Live progress
 
@@ -31,7 +31,7 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 <!-- SPRINT_PROGRESS_END -->
 
-### Sprint 2 — In progress
+### Sprint 2 — Complete
 
 <!-- SPRINT_02_PROGRESS_START -->
 
@@ -64,10 +64,10 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 <!-- SPRINT_03_PROGRESS_START -->
 
-**Sprint status:** Complete  
-**Completed projects:** 10 / 10  
-**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed  
-**Last updated:** 2026-09-16 03:53 PKT
+**Sprint status:** Complete<br>
+**Completed projects:** 10 / 10<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
+**Last updated:** 2026-09-16 03:59 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -75,14 +75,14 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 | 22 | KUURTH | <https://kuurth.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
 | 23 | Biofield Resonator | <https://biofieldresonator.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
 | 24 | Xtinctio | <https://xtinctio.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 25 | Wendy McCallum Art | <https://wendymccallumart.co.uk> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
-| 26 | E & E Essentials | <https://eandeessentials.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 25 | Wendy McCallum Art | <https://wendymccallumart.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 26 | E & E Essentials | <https://eandeessentials.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
 | 27 | Anthom Design House | <https://anthomdesignhouse.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
 | 28 | Gabrielle Jewelry | <https://gabriellejewelry.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 | 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | 🟢 Complete | 14 | 1 | Website and playable video QA passed |
 | 30 | Cowbells.com | <https://cowbells.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 
-**Current verified inventory:** 120 static images and 10 playable MP4 videos.  
+**Current verified inventory:** 116 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_03_PROGRESS_END -->
@@ -109,15 +109,17 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-The repository contains two separate, complete sprint deliveries:
+The repository contains three separate, complete sprint deliveries:
 
 - `QA-PORTFOLIO-ASSETS/Sprint-01/` — Sprint 1 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-02/` — Sprint 2 project-organized images, videos, thumbnails, and capture notes
+- `QA-PORTFOLIO-ASSETS/Sprint-03/` — Sprint 3 project-organized images, videos, thumbnails, and capture notes
 - `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
 - `QA-Portfolio-Sprint-02-Assets.zip` — complete downloadable Sprint 2 package
+- `QA-Portfolio-Sprint-03-Assets.zip` — complete downloadable Sprint 3 package
 - `asset-browser/` — combined local preview and download interface
-- `capture-report.json` and `capture-report-sprint-02.json` — machine-readable inventories and availability notes
-- `capture-progress.json` and `capture-progress-sprint-02.json` — machine-readable project checkpoint status
+- `capture-report.json`, `capture-report-sprint-02.json`, and `capture-report-sprint-03.json` — machine-readable inventories and availability notes
+- `capture-progress.json`, `capture-progress-sprint-02.json`, and `capture-progress-sprint-03.json` — machine-readable project checkpoint status
 
 ## Open the local asset browser
 
@@ -129,12 +131,12 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All 20 project inventories across Sprints 1 and 2
+- All 30 project inventories across Sprints 1–3
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Separate complete Sprint 1 and Sprint 2 ZIP downloads
+- Separate complete Sprint 1, Sprint 2, and Sprint 3 ZIP downloads
 
 ## Re-run capture, packaging, and verification
 
@@ -148,6 +150,10 @@ python3 scripts/verify_assets.py
 npm run capture:sprint02
 npm run package:sprint02
 npm run verify:sprint02
+
+npm run capture:sprint03
+npm run package:sprint03
+npm run verify:sprint03
 ```
 
 The capture process uses public live-site UI only. It does not submit checkout, create accounts, make purchases, enter personal data, or invent QA defects.
