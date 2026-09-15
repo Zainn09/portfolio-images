@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-15",
-  "stage": "K-CAPS asset set generated and published",
+  "stage": "Dr. Stengler asset set generated and published",
   "projects": [
     {
       "id": "01",
@@ -18,6 +18,13 @@
     },
     {
       "id": "03",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "04",
       "status": "captured",
       "images": 13,
       "videos": 1,
