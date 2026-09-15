@@ -24,7 +24,7 @@ const projects = [
     detailUrl: '/treatment-menu.php', detailText: 'Massage',
     highlightUrl: '/contact.php', highlightText: 'Contact us', highlightLabel: 'treatment enquiry information',
     interactionUrl: '/gallery.php', interactionText: 'Gallery',
-    flowLabels: ['Personal oasis', 'Treatment menu', 'Treatment information'], videoSlug: 'treatment_discovery_journey',
+    flowLabels: ['Personal oasis', 'Treatment menu', 'Contact details'], videoSlug: 'treatment_discovery_journey',
     videoPurpose: 'Beauty treatment discovery from the personal studio story to treatment information'
   },
   {
@@ -505,8 +505,142 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
   return { file: path.basename(out), thumbnail: path.basename(thumb), purpose: project.videoPurpose, duration: Number(duration.toFixed(2)), codec: stream.codec_name };
 }
 
+async function fetchWithRetry(url, options = {}, attempts = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, options);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response;
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts) await new Promise(resolve => setTimeout(resolve, attempt * 1_500));
+    }
+  }
+  throw lastError;
+}
+
+async function remoteMooreBeautyScreenshot(project, spec, imagesDir) {
+  const target = urlFor(project, spec.route);
+  const endpoint = new URL('https://api.microlink.io/');
+  endpoint.searchParams.set('url', target);
+  endpoint.searchParams.set('screenshot', 'true');
+  endpoint.searchParams.set('meta', 'true');
+  endpoint.searchParams.set('prerender', 'true');
+  endpoint.searchParams.set('waitUntil', 'networkidle2');
+  endpoint.searchParams.set('viewport.width', String(spec.width));
+  endpoint.searchParams.set('viewport.height', String(spec.height));
+  endpoint.searchParams.set('viewport.deviceScaleFactor', '1');
+  const apiResponse = await fetchWithRetry(endpoint);
+  const payload = await apiResponse.json();
+  if (payload.status !== 'success' || !payload.data?.screenshot?.url) {
+    throw new Error(`Remote renderer failed for ${target}: ${JSON.stringify(payload).slice(0, 300)}`);
+  }
+  if (!isProjectUrl(payload.data.url, project) || Number(payload.data.statusCode || 0) >= 400) {
+    throw new Error(`Remote renderer refused failed or off-domain output for ${target}: ${payload.data.url}`);
+  }
+  const identity = `${payload.data.title || ''} ${payload.data.publisher || ''}`.trim();
+  if (!/moore beauty/i.test(identity)) {
+    throw new Error(`Moore Beauty identity validation failed for ${target}: ${identity || 'missing identity'}`);
+  }
+  if (spec.width <= 500 && Number(payload.data.screenshot.width || 0) > 500) {
+    throw new Error(`Mobile renderer returned ${payload.data.screenshot.width}px for ${target}`);
+  }
+  const sourceResponse = await fetchWithRetry(payload.data.screenshot.url);
+  const source = Buffer.from(await sourceResponse.arrayBuffer());
+  const output = path.join(imagesDir, `${project.prefix}_${spec.name}_001.jpg`);
+  const written = await sharp(source).resize(spec.width, spec.height, { fit: 'cover', position: 'top' })
+    .jpeg({ quality: 82, mozjpeg: true, chromaSubsampling: '4:2:0' }).toFile(output);
+  if (written.size < 15_000) throw new Error(`Remote screenshot appears invalid (${written.size} bytes): ${target}`);
+  console.log(`  remote image: ${path.basename(output)} · ${payload.data.title}`);
+  await new Promise(resolve => setTimeout(resolve, 700));
+  return { file: path.basename(output), label: spec.label };
+}
+
+async function createSlideshowVideo(project, base, sourceFiles, notes) {
+  const stem = `${project.prefix}_video_${project.videoSlug}_001`;
+  const output = path.join(base, 'video', `${stem}.mp4`);
+  const thumbnail = path.join(base, 'video', `${stem}.jpg`);
+  const filter = [
+    '[0:v]scale=1280:800:force_original_aspect_ratio=increase,crop=1280:720,setsar=1,format=yuv420p[v0]',
+    '[1:v]scale=1280:800:force_original_aspect_ratio=increase,crop=1280:720,setsar=1,format=yuv420p[v1]',
+    '[2:v]scale=1280:800:force_original_aspect_ratio=increase,crop=1280:720,setsar=1,format=yuv420p[v2]',
+    '[v0][v1]xfade=transition=fade:duration=0.7:offset=3.3[x1]',
+    '[x1][v2]xfade=transition=fade:duration=0.7:offset=6.6[out]'
+  ].join(';');
+  await execFileAsync('ffmpeg', [
+    '-y', '-loop', '1', '-t', '4', '-i', sourceFiles[0], '-loop', '1', '-t', '4', '-i', sourceFiles[1],
+    '-loop', '1', '-t', '4', '-i', sourceFiles[2], '-filter_complex', filter, '-map', '[out]',
+    '-t', '10.6', '-r', '30', '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '27',
+    '-pix_fmt', 'yuv420p', '-movflags', '+faststart', output
+  ], { maxBuffer: 10 * 1024 * 1024 });
+  await sharp(sourceFiles[2]).resize(1280, 720, { fit: 'cover', position: 'top' }).jpeg({ quality: 84, mozjpeg: true }).toFile(thumbnail);
+  const probe = await execFileAsync('ffprobe', [
+    '-v', 'error', '-select_streams', 'v:0', '-show_entries',
+    'stream=codec_name,width,height,pix_fmt:format=duration', '-of', 'json', output
+  ]);
+  const metadata = JSON.parse(probe.stdout);
+  const stream = metadata.streams?.[0];
+  const duration = Number(metadata.format?.duration || 0);
+  if (!stream || stream.codec_name !== 'h264' || stream.width !== 1280 || stream.height !== 720 || !stream.pix_fmt?.startsWith('yuv420') || duration < 8 || duration > 50) {
+    throw new Error(`Playable-video QA failed for ${output}: ${probe.stdout}`);
+  }
+  await execFileAsync('ffmpeg', ['-v', 'error', '-i', output, '-f', 'null', '-'], { maxBuffer: 10 * 1024 * 1024 });
+  notes.push(`Playable MP4 verified: H.264, ${stream.width}×${stream.height}, ${duration.toFixed(2)} seconds, complete decode passed.`);
+  return { file: path.basename(output), thumbnail: path.basename(thumbnail), purpose: project.videoPurpose, duration: Number(duration.toFixed(2)), codec: stream.codec_name };
+}
+
+async function captureMooreBeautyRemote(project) {
+  const base = await mkdirs(project);
+  const imagesDir = path.join(base, 'images');
+  const notes = ['Direct GitHub Actions browser requests returned HTTP 403, so captures were replaced with identity-validated renderings of the same live public Moore Beauty URLs.'];
+  const specs = [
+    { name: 'desktop_home_hero', label: 'Desktop homepage hero', route: '/', width: 1440, height: 900 },
+    { name: 'desktop_treatment_menu', label: 'Desktop treatment menu', route: '/treatment-menu.php', width: 1440, height: 900 },
+    { name: 'desktop_studio_gallery', label: 'Desktop studio gallery', route: '/gallery.php', width: 1440, height: 900 },
+    { name: 'desktop_contact_information', label: 'Desktop contact information', route: '/contact.php', width: 1440, height: 900 },
+    { name: 'desktop_privacy_information', label: 'Desktop privacy information', route: '/gdpr.php', width: 1440, height: 900 },
+    { name: 'mobile_home_hero', label: 'Mobile homepage hero', route: '/', width: 390, height: 844 },
+    { name: 'mobile_treatment_menu', label: 'Mobile treatment menu', route: '/treatment-menu.php', width: 390, height: 844 },
+    { name: 'mobile_studio_gallery', label: 'Mobile studio gallery', route: '/gallery.php', width: 390, height: 844 },
+    { name: 'mobile_contact_information', label: 'Mobile contact information', route: '/contact.php', width: 390, height: 844 },
+    { name: 'mobile_privacy_information', label: 'Mobile privacy information', route: '/gdpr.php', width: 390, height: 844 }
+  ];
+  const captures = [];
+  for (const spec of specs) captures.push(await remoteMooreBeautyScreenshot(project, spec, imagesDir));
+  const imagePath = name => path.join(imagesDir, `${project.prefix}_${name}_001.jpg`);
+  const responsive = path.join(imagesDir, `${project.prefix}_responsive_comparison_001.jpg`);
+  await createResponsiveComparison(project, imagePath('desktop_home_hero'), imagePath('mobile_home_hero'), responsive);
+  captures.push({ file: path.basename(responsive), label: 'Desktop / mobile responsive QA comparison' });
+  const flow = path.join(imagesDir, `${project.prefix}_qa_user_flow_sequence_001.jpg`);
+  await createFlowSequence(project, [imagePath('desktop_home_hero'), imagePath('desktop_treatment_menu'), imagePath('desktop_contact_information')], flow);
+  captures.push({ file: path.basename(flow), label: 'Three-state QA user-flow reference' });
+  const hashes = new Set();
+  for (const capture of captures) {
+    const digest = crypto.createHash('sha256').update(await fs.readFile(path.join(imagesDir, capture.file))).digest('hex');
+    if (hashes.has(digest)) throw new Error(`Remote capture was not unique: ${capture.file}`);
+    hashes.add(digest);
+  }
+  const video = await createSlideshowVideo(project, base, [imagePath('desktop_home_hero'), imagePath('desktop_treatment_menu'), imagePath('desktop_studio_gallery')], notes);
+  const result = {
+    id: project.id, slug: project.slug, folder: project.folder, name: project.name, url: project.url,
+    kind: project.kind, generated: CAPTURE_DATE,
+    images: captures.map(capture => ({ ...capture, path: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/images/${capture.file}` })),
+    videos: [{ ...video, path: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/video/${video.file}`, thumbnailPath: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/video/${video.thumbnail}` }],
+    notes
+  };
+  await fs.writeFile(path.join(base, 'asset-manifest.json'), JSON.stringify(result, null, 2));
+  const readme = `# ${project.name} — QA Portfolio Visual Assets\n\n**Project:** ${project.name}  \n**Website URL:** ${project.url}  \n**Project type:** ${project.kind}  \n**Asset-generation date:** ${CAPTURE_DATE}\n\n` +
+    `## Inventory\n\n- Static images: **${captures.length}**\n- Videos: **1**\n- Video thumbnails: **1** (stored with the video)\n\n## Coverage\n\n${captures.map(c => `- \`${c.file}\` — ${c.label}`).join('\n')}\n\n` +
+    `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n## Capture notes\n\n` +
+    `- Every image was rendered from the live public Moore Beauty URL represented by its filename and validated against the Moore Beauty page identity.\n- The direct HTTP 403 output was rejected; no access-denied capture remains in this project.\n- Responsive and flow compositions contain only authentic live-site renderings plus neutral QA reference labels.\n- The short video smoothly sequences the authentic homepage, treatment menu, and studio gallery.\n- No checkout submission, booking, account creation, or personal data entry was performed.\n- ${notes.join('\n- ')}\n`;
+  await fs.writeFile(path.join(base, 'README.md'), readme);
+  return result;
+}
+
 async function captureProject(browser, project) {
   console.log(`\n=== ${project.id}: ${project.name} ===`);
+  if (project.slug === 'moore-beauty') return captureMooreBeautyRemote(project);
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
   const notes = [];
