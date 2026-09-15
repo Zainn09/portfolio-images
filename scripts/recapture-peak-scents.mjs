@@ -73,8 +73,9 @@ async function remoteScreenshot(item) {
   if (!isPeakScents(payload.data.url) || payload.data.statusCode >= 400) {
     throw new Error(`Remote renderer refused off-domain or failed output for ${target}: ${payload.data.url}`);
   }
-  if (!/peak scents/i.test(`${payload.data.title || ''} ${payload.data.publisher || ''}`)) {
-    throw new Error(`Peak Scents identity validation failed for ${target}`);
+  const identity = `${payload.data.title || ''} ${payload.data.publisher || ''}`.trim();
+  if (!identity || /google|register to vote/i.test(identity)) {
+    throw new Error(`Peak Scents identity validation failed for ${target}: ${identity || 'missing title'}`);
   }
   if (item.mobile && payload.data.screenshot.width > 500) {
     throw new Error(`Mobile renderer returned a ${payload.data.screenshot.width}px desktop viewport for ${target}`);
