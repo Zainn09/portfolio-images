@@ -63,13 +63,14 @@ def build_block(state: dict, final: bool) -> str:
         total_videos += videos
         if status == "complete":
             complete += 1
-        note = item.get("note") or {
+        default_note = {
             "pending": "Waiting to start",
             "capturing": "Live-site capture in progress",
             "captured": "Awaiting final media and download validation",
             "complete": "Project and Sprint-level checks passed",
             "blocked": "See project capture notes",
         }[status]
+        note = default_note if status == "complete" else item.get("note") or default_note
         rows.append(
             f"| {project_id} | {name} | <{url}> | {LABELS[status]} | "
             f"{images or '—'} | {videos or '—'} | {note} |"

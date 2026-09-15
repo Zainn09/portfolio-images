@@ -9,20 +9,20 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 **Sprint status:** Complete  
 **Completed projects:** 10 / 10  
 **Latest pipeline stage:** Final inventory, media, ZIP, asset-browser, and download QA passed  
-**Last updated:** 2026-09-16 00:36 PKT
+**Last updated:** 2026-09-16 00:37 PKT
 
 | # | Project | Website | Status | Images | Videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 01 | Fandiem | <https://fandiem.com> | 🟢 Complete | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 02 | Revived Smiles | <https://revivedsmiles.com> | 🟢 Complete | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 03 | K-CAPS | <https://kcaps.com> | 🟢 Complete | 12 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 04 | Dr. Stengler | <https://drstengler.com> | 🟢 Complete | 12 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 05 | HER SHOP® | <https://hershop.com> | 🟢 Complete | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 06 | The Scaff Shop | <https://thescaffshop.com> | 🟢 Complete | 11 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 07 | Maison Khloe | <https://maisonkhloe.ca> | 🟢 Complete | 12 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 08 | Summit Sheets | <https://summitsheetsbedding.com> | 🟢 Complete | 11 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 09 | Peak Scents | <https://peakscents.com> | 🟢 Complete | 12 | 1 | Validated live-site renderings published; awaiting Sprint-level QA |
-| 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | 🟢 Complete | 11 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
+| 01 | Fandiem | <https://fandiem.com> | 🟢 Complete | 13 | 1 | Project and Sprint-level checks passed |
+| 02 | Revived Smiles | <https://revivedsmiles.com> | 🟢 Complete | 13 | 1 | Project and Sprint-level checks passed |
+| 03 | K-CAPS | <https://kcaps.com> | 🟢 Complete | 12 | 1 | Project and Sprint-level checks passed |
+| 04 | Dr. Stengler | <https://drstengler.com> | 🟢 Complete | 12 | 1 | Project and Sprint-level checks passed |
+| 05 | HER SHOP® | <https://hershop.com> | 🟢 Complete | 13 | 1 | Project and Sprint-level checks passed |
+| 06 | The Scaff Shop | <https://thescaffshop.com> | 🟢 Complete | 11 | 1 | Project and Sprint-level checks passed |
+| 07 | Maison Khloe | <https://maisonkhloe.ca> | 🟢 Complete | 12 | 1 | Project and Sprint-level checks passed |
+| 08 | Summit Sheets | <https://summitsheetsbedding.com> | 🟢 Complete | 11 | 1 | Project and Sprint-level checks passed |
+| 09 | Peak Scents | <https://peakscents.com> | 🟢 Complete | 12 | 1 | Project and Sprint-level checks passed |
+| 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | 🟢 Complete | 11 | 1 | Project and Sprint-level checks passed |
 
 **Current verified inventory:** 120 static images and 10 videos.  
 **Required minimum:** 100 static images and 10 videos.
