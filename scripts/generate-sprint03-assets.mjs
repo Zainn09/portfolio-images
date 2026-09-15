@@ -252,9 +252,11 @@ async function captureMooreBeautyHomepageSections(page, project, imagesDir, capt
   const height = metadata.height || DESKTOP.height;
   console.log(`  Moore Beauty full-page source: ${width}×${height}`);
 
-  const overview = path.join(imagesDir, `${project.prefix}_desktop_homepage_full_page_reference_001.jpg`);
-  await sharp(source).jpeg({ quality: 78, mozjpeg: true }).toFile(overview);
-  captures.push({ file: path.basename(overview), label: 'Desktop full-page homepage reference' });
+  if (height > DESKTOP.height + 100) {
+    const overview = path.join(imagesDir, `${project.prefix}_desktop_homepage_full_page_reference_001.jpg`);
+    await sharp(source).jpeg({ quality: 78, mozjpeg: true }).toFile(overview);
+    captures.push({ file: path.basename(overview), label: 'Desktop full-page homepage reference' });
+  }
 
   const sections = [
     ['personal_oasis_story', 'Your Personal Oasis of Well-being', 'Personal oasis and studio introduction'],
@@ -265,20 +267,10 @@ async function captureMooreBeautyHomepageSections(page, project, imagesDir, capt
     ['contact_footer', 'Oak Tree Rd', 'Contact and location footer']
   ];
   for (const [slug, text, label] of sections) {
-    const matches = page.getByText(text, { exact: false });
-    const count = Math.min(await matches.count().catch(() => 0), 30);
-    let documentTop = null;
-    for (let index = 0; index < count; index += 1) {
-      const candidate = matches.nth(index);
-      if (!(await candidate.isVisible({ timeout: 200 }).catch(() => false))) continue;
-      documentTop = await candidate.evaluate(el => el.getBoundingClientRect().top + scrollY).catch(() => null);
-      if (Number.isFinite(documentTop)) break;
-    }
-    if (!Number.isFinite(documentTop)) continue;
-    const cropHeight = Math.min(DESKTOP.height, height);
-    const top = Math.max(0, Math.min(height - cropHeight, Math.round(documentTop - 190)));
+    const found = await scrollToText(page, text, 0.5);
+    if (!found) continue;
     const output = path.join(imagesDir, `${project.prefix}_desktop_${slug}_001.jpg`);
-    await sharp(source).extract({ left: 0, top, width, height: cropHeight }).jpeg({ quality: 80, mozjpeg: true }).toFile(output);
+    await screenshot(page, output);
     captures.push({ file: path.basename(output), label: `Desktop ${label}` });
     console.log(`  image: ${path.basename(output)}`);
   }
@@ -551,6 +543,22 @@ async function captureProject(browser, project) {
     await screenshot(mobile, mobileHomeFile);
     captures.push({ file: path.basename(mobileHomeFile), label: 'Mobile homepage hero' });
 
+    if (project.slug === 'moore-beauty') {
+      const mobileSections = [
+        ['personal_oasis_story', 'Your Personal Oasis of Well-being', 'Mobile personal oasis and studio introduction'],
+        ['treatment_specialties', 'At Moore Beauty, I specialise in', 'Mobile beauty and holistic treatment specialties'],
+        ['social_and_testimonials', 'Follow my socials', 'Mobile social-gallery and testimonial section']
+      ];
+      for (const [slug, text, label] of mobileSections) {
+        if (!(await scrollToText(mobile, text, 0.5))) continue;
+        const output = path.join(imagesDir, `${project.prefix}_mobile_${slug}_001.jpg`);
+        await screenshot(mobile, output);
+        captures.push({ file: path.basename(output), label });
+        console.log(`  image: ${path.basename(output)}`);
+      }
+    }
+
+    if (project.slug === 'moore-beauty') await goto(mobile, project, '/', notes, 'Mobile navigation reset');
     const navType = await openMobileNavigation(mobile);
     const mobileNavFile = path.join(imagesDir, `${project.prefix}_interaction_mobile_${navType}_001.jpg`);
     await screenshot(mobile, mobileNavFile);
