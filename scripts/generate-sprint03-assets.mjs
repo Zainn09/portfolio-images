@@ -211,8 +211,11 @@ async function goto(page, project, route, notes, label) {
 async function scrollToText(page, text, fallbackRatio = 0.48) {
   if (text) {
     try {
-      const locator = page.getByText(text, { exact: false }).first();
-      if (await locator.count()) {
+      const matches = page.getByText(text, { exact: false });
+      const count = Math.min(await matches.count(), 30);
+      for (let index = 0; index < count; index += 1) {
+        const locator = matches.nth(index);
+        if (!(await locator.isVisible({ timeout: 250 }).catch(() => false))) continue;
         await locator.scrollIntoViewIfNeeded({ timeout: 4_000 });
         await page.evaluate(() => scrollBy({ top: -130, behavior: 'instant' }));
         await page.waitForTimeout(900);
@@ -538,7 +541,9 @@ async function captureProject(browser, project) {
       const hash = crypto.createHash('sha256').update(data).digest('hex');
       if (hashes.has(hash)) {
         await fs.rm(path.join(imagesDir, item.file), { force: true });
-        notes.push(`Rejected duplicate ${item.file}; it matched ${hashes.get(hash)} byte-for-byte.`);
+        const duplicateNote = `Rejected duplicate ${item.file}; it matched ${hashes.get(hash)} byte-for-byte.`;
+        notes.push(duplicateNote);
+        console.log(`  ${duplicateNote}`);
       } else {
         hashes.set(hash, item.file);
         uniqueCaptures.push(item);
