@@ -276,6 +276,34 @@ async function captureMooreBeautyHomepageSections(page, project, imagesDir, capt
   }
 }
 
+async function captureMooreBeautyGallerySources(context, project, imagesDir, captures, notes) {
+  let saved = 0;
+  for (let index = 1; index <= 8; index += 1) {
+    let source = null;
+    for (const suffix of [`${index}.jpg`, `${index}-thmb.jpg`]) {
+      const assetUrl = urlFor(project, `/assets/img/gallery/${suffix}`);
+      try {
+        const response = await context.request.get(assetUrl, { timeout: NAV_TIMEOUT });
+        const contentType = response.headers()['content-type'] || '';
+        if (response.ok() && contentType.startsWith('image/')) {
+          source = await response.body();
+          break;
+        }
+      } catch {}
+    }
+    if (!source) continue;
+    try {
+      await sharp(source).metadata();
+      const output = path.join(imagesDir, `${project.prefix}_project_studio_gallery_${String(index).padStart(2, '0')}_001.jpg`);
+      await sharp(source).rotate().resize(1200, 900, { fit: 'contain', background: '#f7f4ef' }).jpeg({ quality: 84, mozjpeg: true }).toFile(output);
+      captures.push({ file: path.basename(output), label: `Authentic live-site studio gallery image ${index}` });
+      console.log(`  image: ${path.basename(output)}`);
+      saved += 1;
+    } catch {}
+  }
+  if (saved < 5) notes.push(`Only ${saved} direct studio gallery sources could be retrieved from the live site's public gallery.`);
+}
+
 async function discoverDetail(page, project, notes) {
   if (project.detailUrl) return project.detailUrl;
   await goto(page, project, project.listingUrl, notes, 'Product listing');
@@ -500,6 +528,8 @@ async function captureProject(browser, project) {
     const desktopHero = await add('desktop_home_hero', 'Desktop homepage hero');
     if (project.slug === 'moore-beauty') {
       await captureMooreBeautyHomepageSections(page, project, imagesDir, captures);
+      await captureMooreBeautyGallerySources(context, project, imagesDir, captures, notes);
+      await goto(page, project, '/', notes, 'Homepage reset after studio gallery capture');
     }
 
     await scrollToText(page, project.signatureText, 0.30);
