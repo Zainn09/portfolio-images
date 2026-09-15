@@ -16,7 +16,7 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 01 | Fandiem | <https://fandiem.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 02 | Revived Smiles | <https://revivedsmiles.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 03 | K-CAPS | <https://kcaps.com> | 🟡 Captured · QA pending | 12 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 04 | Dr. Stengler | <https://drstengler.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
+| 04 | Dr. Stengler | <https://drstengler.com> | 🟡 Captured · QA pending | 12 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
 | 05 | HER SHOP® | <https://hershop.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 06 | The Scaff Shop | <https://thescaffshop.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 07 | Maison Khloe | <https://maisonkhloe.ca> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
@@ -24,7 +24,7 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 09 | Peak Scents | <https://peakscents.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 129 static images and 10 videos; completion remains subject to final QA.  
+**Current checkpoint inventory:** 128 static images and 10 videos; completion remains subject to final QA.  
 **Required minimum:** 100 static images and 10 videos.
 
 <!-- SPRINT_PROGRESS_END -->
