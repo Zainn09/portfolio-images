@@ -66,13 +66,13 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** KUURTH capture requires attention  
-**Last updated:** 2026-09-16 03:31 PKT
+**Latest pipeline stage:** KUURTH asset set generated and published  
+**Last updated:** 2026-09-16 03:35 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 21 | Moore Beauty | <https://moore-beauty.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 22 | KUURTH | <https://kuurth.com> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
+| 22 | KUURTH | <https://kuurth.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 23 | Biofield Resonator | <https://biofieldresonator.com> | ⚪ Pending | — | — | Energy-field wearable and educational content |
 | 24 | Xtinctio | <https://xtinctio.com> | ⚪ Pending | — | — | Conservation jewelry and wildlife art |
 | 25 | Wendy McCallum Art | <https://wendymccallumart.co.uk> | ⚪ Pending | — | — | Frequency art, resin artwork, and prints |
@@ -82,7 +82,7 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 | 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | ⚪ Pending | — | — | Native American jewelry and art |
 | 30 | Cowbells.com | <https://cowbells.com> | ⚪ Pending | — | — | Custom, event, and team cowbells |
 
-**Current checkpoint inventory:** 12 static images and 1 playable MP4 videos.  
+**Current checkpoint inventory:** 23 static images and 2 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_03_PROGRESS_END -->

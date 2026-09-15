@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 3",
   "generated": "2026-09-16",
-  "totalImages": 12,
-  "totalVideos": 1,
+  "totalImages": 23,
+  "totalVideos": 2,
   "projects": [
     {
       "id": "21",
@@ -90,6 +90,88 @@
         "No security-verification page is included. Authentic public site images and verbatim public treatment/contact information were used for the reference compositions.",
         "Playable video uses only the authentic Moore Beauty hero, treatment-specialty, and menu references.",
         "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "22",
+      "slug": "kuurth",
+      "folder": "22-kuurth",
+      "name": "KUURTH",
+      "url": "https://kuurth.com",
+      "kind": "Wearable-art jewelry and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "22_kuurth_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_signature_section_001.jpg",
+          "label": "Desktop RINGS section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "22_kuurth_project_highlight_naruto_collaboration_collection_001.jpg",
+          "label": "Project highlight: Naruto collaboration collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_project_highlight_naruto_collaboration_collection_001.jpg"
+        },
+        {
+          "file": "22_kuurth_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "22_kuurth_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "22_kuurth_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "22_kuurth_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "22_kuurth_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "22_kuurth_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/images/22_kuurth_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "22_kuurth_video_wearable_art_journey_001.mp4",
+          "thumbnail": "22_kuurth_video_wearable_art_journey_001.jpg",
+          "purpose": "Wearable-art discovery from category campaign to ring details",
+          "duration": 35.36,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/video/22_kuurth_video_wearable_art_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/22-kuurth/video/22_kuurth_video_wearable_art_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 35.36 seconds, complete decode passed.",
+        "Rejected duplicate 22_kuurth_interaction_detail_state_001.jpg; it matched 22_kuurth_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 22_kuurth_interaction_mobile_header_001.jpg; it matched 22_kuurth_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
