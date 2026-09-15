@@ -95,8 +95,8 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Koala Picks asset set generated and published<br>
-**Last updated:** 2026-09-16 04:32 PKT
+**Latest pipeline stage:** Glisser Beauty asset set generated and published<br>
+**Last updated:** 2026-09-16 04:34 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -109,9 +109,9 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 | 37 | Tinnie Tots | <https://www.tinnietots.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 39 | Koala Picks | <https://www.koalapicks.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 40 | Glisser Beauty | <https://www.glisserbeauty.com> | ⚪ Pending | — | — | Skincare and facial beauty products |
+| 40 | Glisser Beauty | <https://www.glisserbeauty.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 107 static images and 9 playable MP4 videos.<br>
+**Current checkpoint inventory:** 118 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_04_PROGRESS_END -->
