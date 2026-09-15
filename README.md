@@ -66,8 +66,8 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Gabrielle Jewelry asset set generated and published  
-**Last updated:** 2026-09-16 03:45 PKT
+**Latest pipeline stage:** Black Arrow Gallery capture requires attention  
+**Last updated:** 2026-09-16 03:46 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -79,7 +79,7 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 | 26 | E & E Essentials | <https://eandeessentials.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 27 | Anthom Design House | <https://anthomdesignhouse.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
 | 28 | Gabrielle Jewelry | <https://gabriellejewelry.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | ⚪ Pending | — | — | Native American jewelry and art |
+| 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
 | 30 | Cowbells.com | <https://cowbells.com> | ⚪ Pending | — | — | Custom, event, and team cowbells |
 
 **Current checkpoint inventory:** 94 static images and 8 playable MP4 videos.  

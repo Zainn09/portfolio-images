@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Gabrielle Jewelry asset set generated and published",
+  "stage": "Black Arrow Gallery capture requires attention",
   "projects": [
     {
       "id": "21",
@@ -57,6 +57,13 @@
       "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "29",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped; review workflow diagnostics"
     }
   ]
 }
