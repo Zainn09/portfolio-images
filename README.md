@@ -66,8 +66,8 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Wendy McCallum Art asset set generated and published  
-**Last updated:** 2026-09-16 03:39 PKT
+**Latest pipeline stage:** E & E Essentials asset set generated and published  
+**Last updated:** 2026-09-16 03:41 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -76,13 +76,13 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 | 23 | Biofield Resonator | <https://biofieldresonator.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 24 | Xtinctio | <https://xtinctio.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 25 | Wendy McCallum Art | <https://wendymccallumart.co.uk> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 26 | E & E Essentials | <https://eandeessentials.com> | ⚪ Pending | — | — | Handcrafted natural soap and skincare |
+| 26 | E & E Essentials | <https://eandeessentials.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 27 | Anthom Design House | <https://anthomdesignhouse.com> | ⚪ Pending | — | — | Furniture collections and project inspiration |
 | 28 | Gabrielle Jewelry | <https://gabriellejewelry.com> | ⚪ Pending | — | — | Handmade fine, estate, and contemporary jewelry |
 | 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | ⚪ Pending | — | — | Native American jewelry and art |
 | 30 | Cowbells.com | <https://cowbells.com> | ⚪ Pending | — | — | Custom, event, and team cowbells |
 
-**Current checkpoint inventory:** 59 static images and 5 playable MP4 videos.  
+**Current checkpoint inventory:** 72 static images and 6 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_03_PROGRESS_END -->

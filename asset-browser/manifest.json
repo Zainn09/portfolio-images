@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20133",
   "generated": "2026-09-16",
-  "totalImages": 298,
-  "totalVideos": 25,
+  "totalImages": 311,
+  "totalVideos": 26,
   "projects": [
     {
       "id": "01",
@@ -2117,6 +2117,96 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280\u00d7720, 25.00 seconds, complete decode passed."
       ]
+    },
+    {
+      "id": "26",
+      "slug": "e-and-e-essentials",
+      "folder": "26-e-and-e-essentials",
+      "name": "E & E Essentials",
+      "url": "https://eandeessentials.com",
+      "kind": "Handcrafted natural soap and skincare",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "26_e_and_e_essentials_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_signature_section_001.jpg",
+          "label": "Desktop Clean Skincare You Can Trust section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg",
+          "label": "Project highlight: unscented skincare collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "26_e_and_e_essentials_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "26_e_and_e_essentials_video_natural_skincare_journey_001.mp4",
+          "thumbnail": "26_e_and_e_essentials_video_natural_skincare_journey_001.jpg",
+          "purpose": "Natural soap and skincare discovery through product detail",
+          "duration": 30.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/video/26_e_and_e_essentials_video_natural_skincare_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/video/26_e_and_e_essentials_video_natural_skincare_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 30.84 seconds, complete decode passed."
+      ]
     }
   ],
   "sprints": [
@@ -2137,9 +2227,9 @@
     {
       "number": 3,
       "label": "Sprint 3",
-      "images": 59,
-      "videos": 5,
-      "projects": 5
+      "images": 72,
+      "videos": 6,
+      "projects": 6
     }
   ]
 }
