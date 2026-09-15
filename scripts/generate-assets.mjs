@@ -174,6 +174,16 @@ async function settle(page, wait = 1_500) {
   await page.waitForTimeout(350);
 }
 
+function isProjectUrl(currentUrl, project) {
+  try {
+    const currentHost = new URL(currentUrl).hostname.replace(/^www\./, '');
+    const projectHost = new URL(project.url).hostname.replace(/^www\./, '');
+    return currentHost === projectHost || currentHost.endsWith(`.${projectHost}`);
+  } catch {
+    return false;
+  }
+}
+
 async function goto(page, project, route, notes, label) {
   const target = urlFor(project, route);
   try {
@@ -181,14 +191,18 @@ async function goto(page, project, route, notes, label) {
     await settle(page);
     const status = response?.status() || 0;
     const title = await page.title().catch(() => '');
-    const bad = status >= 400 || /404|page not found|access denied|just a moment/i.test(title);
-    if (bad) throw new Error(`HTTP ${status || 'unknown'} / ${title}`);
+    const offDomain = !isProjectUrl(page.url(), project);
+    const bad = status >= 400 || offDomain || /404|page not found|access denied|just a moment/i.test(title);
+    if (bad) throw new Error(offDomain ? `redirected off-domain to ${page.url()}` : `HTTP ${status || 'unknown'} / ${title}`);
     return true;
   } catch (error) {
-    notes.push(`${label} at ${target} was unavailable (${String(error.message).slice(0, 140)}); a verified on-site fallback was used.`);
+    notes.push(`${label} at ${target} was unavailable (${String(error.message).slice(0, 140)}); a verified on-site fallback was requested.`);
     if (target !== urlFor(project, '/')) {
       await page.goto(urlFor(project, '/'), { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT }).catch(() => {});
       await settle(page);
+    }
+    if (!isProjectUrl(page.url(), project)) {
+      throw new Error(`${project.name} capture refused an off-domain fallback at ${page.url()}`);
     }
     return false;
   }
