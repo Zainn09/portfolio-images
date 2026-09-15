@@ -7,7 +7,7 @@
 
 ## Inventory
 
-- Static images: **13**
+- Static images: **10**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
@@ -17,11 +17,8 @@
 - `26_e_and_e_essentials_desktop_signature_section_001.jpg` — Desktop Clean Skincare You Can Trust section
 - `26_e_and_e_essentials_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
 - `26_e_and_e_essentials_desktop_product_detail_001.jpg` — Desktop detail page
-- `26_e_and_e_essentials_interaction_detail_state_001.jpg` — Meaningful detail interaction / content state
 - `26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg` — Project highlight: unscented skincare collection
-- `26_e_and_e_essentials_desktop_secondary_experience_001.jpg` — Secondary project-specific experience
 - `26_e_and_e_essentials_mobile_home_hero_001.jpg` — Mobile homepage hero
-- `26_e_and_e_essentials_interaction_mobile_navigation_001.jpg` — Mobile navigation state
 - `26_e_and_e_essentials_mobile_product_detail_001.jpg` — Mobile detail page
 - `26_e_and_e_essentials_mobile_project_specific_section_001.jpg` — Mobile project-specific section
 - `26_e_and_e_essentials_responsive_comparison_001.jpg` — Desktop / mobile responsive QA comparison
@@ -38,4 +35,5 @@
 - Desktop viewport: 1440 × 900; mobile viewport: 390 × 844; video: 1280 × 720.
 - Responsive and user-flow compositions contain only authentic live-site captures plus neutral QA reference labels.
 - No checkout submission, purchase, account creation, or personal data entry was performed.
+- Independent perceptual QA removed three near-identical states; the retained 10-image set contains only meaningfully distinct visuals.
 - Playable MP4 verified: H.264, 1280×720, 30.84 seconds, complete decode passed.

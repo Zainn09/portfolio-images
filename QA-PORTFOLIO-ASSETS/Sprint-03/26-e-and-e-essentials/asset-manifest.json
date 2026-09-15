@@ -28,29 +28,14 @@
       "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_product_detail_001.jpg"
     },
     {
-      "file": "26_e_and_e_essentials_interaction_detail_state_001.jpg",
-      "label": "Meaningful detail interaction / content state",
-      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_detail_state_001.jpg"
-    },
-    {
       "file": "26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg",
       "label": "Project highlight: unscented skincare collection",
       "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg"
     },
     {
-      "file": "26_e_and_e_essentials_desktop_secondary_experience_001.jpg",
-      "label": "Secondary project-specific experience",
-      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_secondary_experience_001.jpg"
-    },
-    {
       "file": "26_e_and_e_essentials_mobile_home_hero_001.jpg",
       "label": "Mobile homepage hero",
       "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_home_hero_001.jpg"
-    },
-    {
-      "file": "26_e_and_e_essentials_interaction_mobile_navigation_001.jpg",
-      "label": "Mobile navigation state",
-      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_mobile_navigation_001.jpg"
     },
     {
       "file": "26_e_and_e_essentials_mobile_product_detail_001.jpg",
@@ -85,6 +70,7 @@
     }
   ],
   "notes": [
-    "Playable MP4 verified: H.264, 1280×720, 30.84 seconds, complete decode passed."
+    "Playable MP4 verified: H.264, 1280\u00d7720, 30.84 seconds, complete decode passed.",
+    "Independent perceptual QA removed three near-identical states; the retained 10-image set contains only meaningfully distinct visuals."
   ]
 }

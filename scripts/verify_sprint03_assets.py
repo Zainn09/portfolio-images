@@ -25,6 +25,27 @@ if len(projects) != 10:
 all_hashes: dict[str, Path] = {}
 image_count = video_count = 0
 durations: list[float] = []
+PERCEPTUAL_DUPLICATE_RMSE = 4.0
+
+
+def image_fingerprint(file: Path) -> bytes:
+    """Normalize a JPEG to a tiny grayscale frame for near-duplicate QA."""
+    result = subprocess.run(
+        [
+            "ffmpeg", "-v", "error", "-i", str(file), "-vf", "scale=32:32",
+            "-frames:v", "1", "-pix_fmt", "gray", "-f", "rawvideo", "-",
+        ],
+        check=True,
+        capture_output=True,
+    )
+    if len(result.stdout) != 32 * 32:
+        raise RuntimeError(f"Unexpected fingerprint size for {file}")
+    return result.stdout
+
+
+def visual_distance(left: bytes, right: bytes) -> float:
+    return (sum((a - b) ** 2 for a, b in zip(left, right)) / len(left)) ** 0.5
+
 
 for project in projects:
     base = SPRINT / project["folder"]
@@ -35,6 +56,10 @@ for project in projects:
     video_count += len(videos)
     if len(images) < 10:
         errors.append(f"{project['folder']}: only {len(images)} static images")
+    listed_images = {item.get("file") for item in project.get("images", [])}
+    disk_images = {file.name for file in images}
+    if listed_images != disk_images:
+        errors.append(f"{project['folder']}: manifest image inventory does not match files on disk")
     if len(videos) != 1:
         errors.append(f"{project['folder']}: expected exactly one MP4")
     if not posters:
@@ -49,11 +74,24 @@ for project in projects:
     for file in images + videos + posters:
         if file.name != file.name.lower() or not NAME.fullmatch(file.name):
             errors.append(f"Invalid filename: {file}")
+    project_fingerprints: list[tuple[Path, bytes]] = []
     for image in images:
         digest = hashlib.sha256(image.read_bytes()).hexdigest()
         if digest in all_hashes:
             errors.append(f"Exact duplicate: {image} equals {all_hashes[digest]}")
         all_hashes[digest] = image
+        try:
+            fingerprint = image_fingerprint(image)
+            for previous, previous_fingerprint in project_fingerprints:
+                distance = visual_distance(fingerprint, previous_fingerprint)
+                if distance < PERCEPTUAL_DUPLICATE_RMSE:
+                    errors.append(
+                        f"Near duplicate: {image} visually matches {previous} "
+                        f"(RMSE {distance:.2f})"
+                    )
+            project_fingerprints.append((image, fingerprint))
+        except (subprocess.CalledProcessError, RuntimeError) as error:
+            errors.append(f"{image}: perceptual image QA failed ({error})")
 
     for video in videos:
         result = subprocess.run(

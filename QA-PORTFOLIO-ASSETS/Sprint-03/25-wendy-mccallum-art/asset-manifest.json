@@ -13,11 +13,6 @@
       "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_home_hero_001.jpg"
     },
     {
-      "file": "25_wendy_mccallum_art_desktop_signature_section_001.jpg",
-      "label": "Desktop FREQUENCY ART section",
-      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_signature_section_001.jpg"
-    },
-    {
       "file": "25_wendy_mccallum_art_desktop_collection_listing_001.jpg",
       "label": "Desktop listing / catalogue",
       "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_collection_listing_001.jpg"
@@ -85,6 +80,7 @@
     }
   ],
   "notes": [
-    "Playable MP4 verified: H.264, 1280×720, 25.00 seconds, complete decode passed."
+    "Playable MP4 verified: H.264, 1280\u00d7720, 25.00 seconds, complete decode passed.",
+    "Independent perceptual QA removed one near-identical carousel capture; the retained 12-image set contains only meaningfully distinct visuals."
   ]
 }

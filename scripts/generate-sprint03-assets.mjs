@@ -239,6 +239,21 @@ async function screenshot(page, file) {
   await fs.writeFile(file, buffer);
 }
 
+const PERCEPTUAL_DUPLICATE_RMSE = 4;
+
+async function visualFingerprint(file) {
+  return sharp(file).rotate().resize(32, 32, { fit: 'fill' }).grayscale().raw().toBuffer();
+}
+
+function visualDistance(left, right) {
+  let squaredDifference = 0;
+  for (let index = 0; index < left.length; index += 1) {
+    const difference = left[index] - right[index];
+    squaredDifference += difference * difference;
+  }
+  return Math.sqrt(squaredDifference / left.length);
+}
+
 async function discoverDetail(page, project, notes) {
   if (project.detailUrl) return project.detailUrl;
   await goto(page, project, project.listingUrl, notes, 'Product listing');
@@ -745,19 +760,30 @@ async function captureProject(browser, project) {
     await context.close();
     const video = await recordVideo(browser, project, detailRoute, base, notes);
 
-    // Reject byte-identical screenshots rather than inflating the project count.
+    // Reject byte-identical and visually near-identical screenshots rather than
+    // inflating the project count with states that add no meaningful coverage.
     const hashes = new Map();
+    const acceptedFingerprints = [];
     const uniqueCaptures = [];
     for (const item of captures) {
-      const data = await fs.readFile(path.join(imagesDir, item.file));
+      const file = path.join(imagesDir, item.file);
+      const data = await fs.readFile(file);
       const hash = crypto.createHash('sha256').update(data).digest('hex');
-      if (hashes.has(hash)) {
-        await fs.rm(path.join(imagesDir, item.file), { force: true });
-        const duplicateNote = `Rejected duplicate ${item.file}; it matched ${hashes.get(hash)} byte-for-byte.`;
+      const exactMatch = hashes.get(hash);
+      const fingerprint = await visualFingerprint(file);
+      const perceptualMatch = acceptedFingerprints.find(candidate =>
+        visualDistance(fingerprint, candidate.fingerprint) < PERCEPTUAL_DUPLICATE_RMSE
+      );
+      if (exactMatch || perceptualMatch) {
+        await fs.rm(file, { force: true });
+        const matchedFile = exactMatch || perceptualMatch.file;
+        const reason = exactMatch ? 'byte-for-byte' : 'in perceptual image QA';
+        const duplicateNote = `Rejected duplicate ${item.file}; it matched ${matchedFile} ${reason}.`;
         notes.push(duplicateNote);
         console.log(`  ${duplicateNote}`);
       } else {
         hashes.set(hash, item.file);
+        acceptedFingerprints.push({ file: item.file, fingerprint });
         uniqueCaptures.push(item);
       }
     }
@@ -902,11 +928,11 @@ async function main() {
   const totalImages = results.reduce((sum, p) => sum + p.images.length, 0);
   const totalVideos = results.reduce((sum, p) => sum + p.videos.length, 0);
   const readme = `# QA Portfolio Visual Asset Library — Sprint 3\n\n` +
-    `**Asset-generation date:** ${CAPTURE_DATE}  \n**Projects:** ${results.length}  \n**Static images:** ${totalImages}  \n**Videos:** ${totalVideos}\n\n` +
+    `**Asset-generation date:** ${CAPTURE_DATE}<br>\n**Projects:** ${results.length}<br>\n**Static images:** ${totalImages}<br>\n**Videos:** ${totalVideos}\n\n` +
     `This package is a visual asset archive for an existing QA portfolio. It is not a portfolio website. Every captured UI state originates from the live public website listed below. Neutral QA labels appear only in the responsive and user-flow comparison compositions.\n\n` +
     `## Project inventory\n\n| # | Project | Website | Images | Videos |\n|---:|---|---|---:|---:|\n` +
     results.map(p => `| ${p.id} | ${p.name} | ${p.url} | ${p.images.length} | ${p.videos.length} |`).join('\n') +
-    `\n\n## Capture standards\n\n- Desktop coverage: 1440 × 900\n- Mobile coverage: 390 × 844\n- Video: 1280 × 720 MP4, short task-oriented walkthrough\n- No checkout completion, purchases, account creation, or personal data entry\n- No fabricated defects, pages, products, testimonials, features, or interactions\n- Publicly unavailable routes are documented in the relevant project README\n\nEach project folder contains an image inventory, video notes, availability notes, and descriptive filenames.\n`;
+    `\n\n## Capture standards\n\n- Desktop coverage: 1440 × 900\n- Mobile coverage: 390 × 844\n- Video: 1280 × 720 MP4, short task-oriented walkthrough\n- No checkout completion, purchases, account creation, or personal data entry\n- No fabricated defects, pages, products, testimonials, features, or interactions\n- Exact and perceptual near-duplicate rejection\n- Publicly unavailable routes are documented in the relevant project README\n\nEach project folder contains an image inventory, video notes, availability notes, and descriptive filenames.\n`;
   await fs.writeFile(path.join(ROOT, 'README.md'), readme);
 
   const manifest = { title: 'QA Portfolio Visual Assets — Sprint 3', generated: CAPTURE_DATE, totalImages, totalVideos, projects: results };

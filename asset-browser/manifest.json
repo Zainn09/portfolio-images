@@ -1,7 +1,7 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20133",
   "generated": "2026-09-16",
-  "totalImages": 359,
+  "totalImages": 355,
   "totalVideos": 30,
   "projects": [
     {
@@ -2043,11 +2043,6 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_home_hero_001.jpg"
         },
         {
-          "file": "25_wendy_mccallum_art_desktop_signature_section_001.jpg",
-          "label": "Desktop FREQUENCY ART section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_signature_section_001.jpg"
-        },
-        {
           "file": "25_wendy_mccallum_art_desktop_collection_listing_001.jpg",
           "label": "Desktop listing / catalogue",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-03/25-wendy-mccallum-art/images/25_wendy_mccallum_art_desktop_collection_listing_001.jpg"
@@ -2115,7 +2110,8 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.00 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280\u00d7720, 25.00 seconds, complete decode passed.",
+        "Independent perceptual QA removed one near-identical carousel capture; the retained 12-image set contains only meaningfully distinct visuals."
       ]
     },
     {
@@ -2148,29 +2144,14 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_product_detail_001.jpg"
         },
         {
-          "file": "26_e_and_e_essentials_interaction_detail_state_001.jpg",
-          "label": "Meaningful detail interaction / content state",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_detail_state_001.jpg"
-        },
-        {
           "file": "26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg",
           "label": "Project highlight: unscented skincare collection",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_project_highlight_unscented_skincare_collection_001.jpg"
         },
         {
-          "file": "26_e_and_e_essentials_desktop_secondary_experience_001.jpg",
-          "label": "Secondary project-specific experience",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_desktop_secondary_experience_001.jpg"
-        },
-        {
           "file": "26_e_and_e_essentials_mobile_home_hero_001.jpg",
           "label": "Mobile homepage hero",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_mobile_home_hero_001.jpg"
-        },
-        {
-          "file": "26_e_and_e_essentials_interaction_mobile_navigation_001.jpg",
-          "label": "Mobile navigation state",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/26-e-and-e-essentials/images/26_e_and_e_essentials_interaction_mobile_navigation_001.jpg"
         },
         {
           "file": "26_e_and_e_essentials_mobile_product_detail_001.jpg",
@@ -2205,7 +2186,8 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.84 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280\u00d7720, 30.84 seconds, complete decode passed.",
+        "Independent perceptual QA removed three near-identical states; the retained 10-image set contains only meaningfully distinct visuals."
       ]
     },
     {
@@ -2575,7 +2557,7 @@
     {
       "number": 3,
       "label": "Sprint 3",
-      "images": 120,
+      "images": 116,
       "videos": 10,
       "projects": 10
     }

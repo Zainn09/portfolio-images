@@ -60,13 +60,13 @@ def render(state: dict, final: bool) -> str:
     updated = datetime.now(ZoneInfo("Asia/Karachi")).strftime("%Y-%m-%d %H:%M PKT")
     return "\n".join([
         START, "",
-        f"**Sprint status:** {'Complete' if done else 'In progress'}  ",
-        f"**Completed projects:** {complete} / {len(PROJECTS)}  ",
-        f"**Latest pipeline stage:** {stage}  ",
+        f"**Sprint status:** {'Complete' if done else 'In progress'}<br>",
+        f"**Completed projects:** {complete} / {len(PROJECTS)}<br>",
+        f"**Latest pipeline stage:** {stage}<br>",
         f"**Last updated:** {updated}", "",
         "| # | Project | Website | Status | Images | Playable videos | Notes |",
         "|---:|---|---|---|---:|---:|---|", *rows, "",
-        f"**Current {inventory} inventory:** {image_total} static images and {video_total} playable MP4 videos.  ",
+        f"**Current {inventory} inventory:** {image_total} static images and {video_total} playable MP4 videos.<br>",
         "**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.", "", END,
     ])
 

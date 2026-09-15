@@ -7,14 +7,13 @@
 
 ## Inventory
 
-- Static images: **13**
+- Static images: **12**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
 ## Coverage
 
 - `25_wendy_mccallum_art_desktop_home_hero_001.jpg` — Desktop homepage hero
-- `25_wendy_mccallum_art_desktop_signature_section_001.jpg` — Desktop FREQUENCY ART section
 - `25_wendy_mccallum_art_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
 - `25_wendy_mccallum_art_desktop_product_detail_001.jpg` — Desktop detail page
 - `25_wendy_mccallum_art_interaction_detail_state_001.jpg` — Meaningful detail interaction / content state
@@ -38,4 +37,5 @@
 - Desktop viewport: 1440 × 900; mobile viewport: 390 × 844; video: 1280 × 720.
 - Responsive and user-flow compositions contain only authentic live-site captures plus neutral QA reference labels.
 - No checkout submission, purchase, account creation, or personal data entry was performed.
+- Independent perceptual QA removed one near-identical carousel capture; the retained 12-image set contains only meaningfully distinct visuals.
 - Playable MP4 verified: H.264, 1280×720, 25.00 seconds, complete decode passed.
