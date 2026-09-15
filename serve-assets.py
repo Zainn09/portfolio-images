@@ -12,8 +12,8 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PROJECT_ROOT = ROOT / "QA-PORTFOLIO-ASSETS" / "Sprint-01"
-PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|10)-[a-z0-9-]+$")
+ASSET_ROOT = ROOT / "QA-PORTFOLIO-ASSETS"
+PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|1[0-9]|20)-[a-z0-9-]+$")
 
 
 class AssetHandler(SimpleHTTPRequestHandler):
@@ -36,7 +36,9 @@ class AssetHandler(SimpleHTTPRequestHandler):
         if not PROJECT_PATTERN.fullmatch(project):
             self.send_error(400, "Invalid project name")
             return
-        project_dir = PROJECT_ROOT / project
+        project_number = int(project.split("-", 1)[0])
+        sprint = "Sprint-01" if project_number <= 10 else "Sprint-02"
+        project_dir = ASSET_ROOT / sprint / project
         if not project_dir.is_dir():
             self.send_error(404, "Project assets are not available")
             return
@@ -45,7 +47,7 @@ class AssetHandler(SimpleHTTPRequestHandler):
         with zipfile.ZipFile(stream, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
             for file in sorted(project_dir.rglob("*")):
                 if file.is_file():
-                    archive.write(file, Path("Sprint-01") / project / file.relative_to(project_dir))
+                    archive.write(file, Path(sprint) / project / file.relative_to(project_dir))
         payload = stream.getvalue()
         filename = f"{project}-QA-assets.zip"
         self.send_response(200)
