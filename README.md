@@ -38,7 +38,7 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 **Sprint status:** Complete  
 **Completed projects:** 10 / 10  
 **Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed  
-**Last updated:** 2026-09-16 01:22 PKT
+**Last updated:** 2026-09-16 01:24 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -80,13 +80,15 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-When complete, the repository contains:
+The repository contains two separate, complete sprint deliveries:
 
-- `QA-PORTFOLIO-ASSETS/Sprint-01/` — project-organized images, videos, thumbnails, and capture notes
+- `QA-PORTFOLIO-ASSETS/Sprint-01/` — Sprint 1 project-organized images, videos, thumbnails, and capture notes
+- `QA-PORTFOLIO-ASSETS/Sprint-02/` — Sprint 2 project-organized images, videos, thumbnails, and capture notes
 - `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
-- `asset-browser/` — local preview and download interface
-- `capture-report.json` — machine-readable inventory and availability notes
-- `capture-progress.json` — machine-readable project checkpoint status
+- `QA-Portfolio-Sprint-02-Assets.zip` — complete downloadable Sprint 2 package
+- `asset-browser/` — combined local preview and download interface
+- `capture-report.json` and `capture-report-sprint-02.json` — machine-readable inventories and availability notes
+- `capture-progress.json` and `capture-progress-sprint-02.json` — machine-readable project checkpoint status
 
 ## Open the local asset browser
 
@@ -98,14 +100,14 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All ten project inventories
+- All 20 project inventories across Sprints 1 and 2
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Complete Sprint 1 ZIP download
+- Separate complete Sprint 1 and Sprint 2 ZIP downloads
 
-## Re-run capture and packaging
+## Re-run capture, packaging, and verification
 
 ```bash
 npm install
@@ -113,6 +115,10 @@ npx playwright install chromium
 npm run capture
 npm run package
 python3 scripts/verify_assets.py
+
+npm run capture:sprint02
+npm run package:sprint02
+npm run verify:sprint02
 ```
 
 The capture process uses public live-site UI only. It does not submit checkout, create accounts, make purchases, enter personal data, or invent QA defects.
