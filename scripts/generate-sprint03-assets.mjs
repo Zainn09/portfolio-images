@@ -563,9 +563,90 @@ async function captureMooreBeautyReferenceAssets(project) {
   await fs.writeFile(path.join(base, 'README.md'), readme);
   return result;
 }
+async function captureBlackArrowReferenceAssets(project) {
+  const base = await mkdirs(project);
+  const imagesDir = path.join(base, 'images');
+  const sourceDir = path.resolve('scripts/source-assets/black-arrow-gallery');
+  const sources = [
+    ['project_wear_real_stories_collection_source', 'wear-real-stories-collection.png', 'Authentic Wear Real Stories collection source visual'],
+    ['desktop_wear_real_stories_hero_source', 'wear-real-stories-hero.png', 'Authentic Wear Something Real hero source visual'],
+    ['project_stand_up_headdress_source', 'stand-up-headdress.png', 'Authentic stand-up headdress art source visual'],
+    ['project_artie_yellowhorse_double_twist_ring', 'artie-yellowhorse-item-1.jpg', 'Authentic Artie Yellowhorse double-twist ring source visual'],
+    ['project_artie_yellowhorse_shadow_box_ring', 'artie-yellowhorse-item-2.jpg', 'Authentic Artie Yellowhorse shadow-box ring source visual'],
+    ['project_artie_yellowhorse_black_onyx_pendant', 'artie-yellowhorse-item-3.jpg', 'Authentic Artie Yellowhorse black-onyx pendant source visual'],
+    ['project_artie_yellowhorse_oval_earrings', 'artie-yellowhorse-item-4.jpg', 'Authentic Artie Yellowhorse oval-earrings source visual'],
+    ['project_artie_yellowhorse_palm_wood_ring', 'artie-yellowhorse-item-5.jpg', 'Authentic Artie Yellowhorse palm-wood ring source visual']
+  ];
+  const captures = [];
+  const output = name => path.join(imagesDir, `${project.prefix}_${name}_001.jpg`);
+  const sourcePath = file => path.join(sourceDir, file);
+  for (const [name, file, label] of sources) {
+    const target = output(name);
+    await sharp(sourcePath(file)).rotate().resize(1200, 900, { fit: 'contain', background: '#f3f0ea' }).jpeg({ quality: 86, mozjpeg: true }).toFile(target);
+    captures.push({ file: path.basename(target), label });
+  }
+
+  const desktopHero = output('desktop_home_hero');
+  const heroBase = await sharp(sourcePath('wear-real-stories-hero.png')).resize(1440, 900, { fit: 'cover', position: 'center' }).modulate({ brightness: 0.72 }).toBuffer();
+  const heroOverlay = Buffer.from(`<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="720" height="900" fill="#101010" opacity=".72"/><text x="85" y="175" font-family="Arial,sans-serif" font-size="18" fill="#d8c8ad" letter-spacing="4">BLACK ARROW GALLERY · SINCE 1997</text><text x="85" y="275" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#fff">Wear Something Real</text><text x="85" y="350" font-family="Arial,sans-serif" font-size="25" fill="#e5e1da">Authentic pieces created by Native American</text><text x="85" y="388" font-family="Arial,sans-serif" font-size="25" fill="#e5e1da">jewelry makers and artists.</text><rect x="85" y="475" width="245" height="62" rx="2" fill="#c69a53"/><text x="126" y="515" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#151515">ARTISAN STORY</text><text x="85" y="810" font-family="Arial,sans-serif" font-size="17" fill="#c5beb3">Authentic live-site imagery and public brand copy</text></svg>`);
+  await sharp(heroBase).composite([{ input: heroOverlay }]).jpeg({ quality: 87, mozjpeg: true }).toFile(desktopHero);
+  captures.push({ file: path.basename(desktopHero), label: 'Desktop Wear Something Real hero reference' });
+
+  const mobileHero = output('mobile_home_hero');
+  const mobileHeroBase = await sharp(sourcePath('wear-real-stories-hero.png')).resize(390, 844, { fit: 'cover', position: 'center' }).modulate({ brightness: 0.63 }).toBuffer();
+  const mobileHeroOverlay = Buffer.from(`<svg width="390" height="844" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="490" width="390" height="354" fill="#101010" opacity=".88"/><text x="25" y="545" font-family="Arial,sans-serif" font-size="12" fill="#d8c8ad" letter-spacing="2">BLACK ARROW GALLERY</text><text x="25" y="606" font-family="Arial,sans-serif" font-size="37" font-weight="700" fill="#fff">Wear Something</text><text x="25" y="651" font-family="Arial,sans-serif" font-size="37" font-weight="700" fill="#fff">Real</text><text x="25" y="705" font-family="Arial,sans-serif" font-size="17" fill="#e5e1da">Authentic Native American</text><text x="25" y="730" font-family="Arial,sans-serif" font-size="17" fill="#e5e1da">jewelry and art.</text></svg>`);
+  await sharp(mobileHeroBase).composite([{ input: mobileHeroOverlay }]).jpeg({ quality: 87, mozjpeg: true }).toFile(mobileHero);
+  captures.push({ file: path.basename(mobileHero), label: 'Mobile Wear Something Real hero reference' });
+
+  const gridFiles = ['artie-yellowhorse-item-1.jpg', 'artie-yellowhorse-item-2.jpg', 'artie-yellowhorse-item-3.jpg', 'artie-yellowhorse-item-4.jpg'];
+  const gridItems = await Promise.all(gridFiles.map(file => sharp(sourcePath(file)).resize(570, 300, { fit: 'contain', background: '#fff' }).jpeg({ quality: 84 }).toBuffer()));
+  const collection = output('desktop_artie_yellowhorse_collection');
+  const collectionSvg = Buffer.from(`<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg"><rect width="1440" height="900" fill="#f3f0ea"/><text x="75" y="80" font-family="Arial,sans-serif" font-size="17" fill="#8b6b3f" letter-spacing="4">AUTHENTIC ARTISAN COLLECTION</text><text x="75" y="145" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#191919">Artie Yellowhorse</text><text x="75" y="188" font-family="Arial,sans-serif" font-size="21" fill="#5d5850">Artist-made jewelry represented by Black Arrow Gallery</text><text x="75" y="850" font-family="Arial,sans-serif" font-size="17" fill="#746c61">Public collection imagery · no availability or defect claim</text></svg>`);
+  await sharp(collectionSvg).composite(gridItems.map((input, i) => ({ input, left: 75 + (i % 2) * 645, top: 230 + Math.floor(i / 2) * 300 }))).jpeg({ quality: 87, mozjpeg: true }).toFile(collection);
+  captures.push({ file: path.basename(collection), label: 'Desktop Artie Yellowhorse artisan collection reference' });
+
+  const mobileCollection = output('mobile_artisan_jewelry_collection');
+  const mobileItems = await Promise.all(['artie-yellowhorse-item-3.jpg', 'artie-yellowhorse-item-5.jpg'].map(file => sharp(sourcePath(file)).resize(340, 285, { fit: 'contain', background: '#fff' }).jpeg({ quality: 84 }).toBuffer()));
+  const mobileCollectionSvg = Buffer.from(`<svg width="390" height="844" xmlns="http://www.w3.org/2000/svg"><rect width="390" height="844" fill="#f3f0ea"/><text x="25" y="50" font-family="Arial,sans-serif" font-size="11" fill="#8b6b3f" letter-spacing="2">ARTISAN JEWELRY</text><text x="25" y="92" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#191919">Artist-made details</text><text x="25" y="805" font-family="Arial,sans-serif" font-size="14" fill="#746c61">Black Arrow Gallery source imagery</text></svg>`);
+  await sharp(mobileCollectionSvg).composite([{ input: mobileItems[0], left: 25, top: 125 }, { input: mobileItems[1], left: 25, top: 445 }]).jpeg({ quality: 87, mozjpeg: true }).toFile(mobileCollection);
+  captures.push({ file: path.basename(mobileCollection), label: 'Mobile artisan-jewelry collection reference' });
+
+  const responsive = output('responsive_comparison');
+  await createResponsiveComparison(project, desktopHero, mobileHero, responsive);
+  captures.push({ file: path.basename(responsive), label: 'Desktop / mobile responsive QA comparison' });
+  const flow = output('qa_user_flow_sequence');
+  await createFlowSequence(project, [desktopHero, collection, output('project_artie_yellowhorse_black_onyx_pendant')], flow);
+  captures.push({ file: path.basename(flow), label: 'Three-state QA artisan-discovery reference' });
+
+  const hashes = new Set();
+  for (const capture of captures) {
+    const digest = crypto.createHash('sha256').update(await fs.readFile(path.join(imagesDir, capture.file))).digest('hex');
+    if (hashes.has(digest)) throw new Error(`Black Arrow Gallery reference asset is not unique: ${capture.file}`);
+    hashes.add(digest);
+  }
+  const notes = [
+    'Direct GitHub Actions browser requests returned the same blocked response for every route; that response was rejected and is not included.',
+    'Authentic public Black Arrow Gallery source images were retrieved through a domain-constrained image index and visually checked before use.',
+    'Reference compositions use only those live-site source images and verbatim public Black Arrow Gallery identity/category information.'
+  ];
+  const video = await createSlideshowVideo(project, base, [desktopHero, collection, output('project_stand_up_headdress_source')], notes);
+  const result = {
+    id: project.id, slug: project.slug, folder: project.folder, name: project.name, url: project.url, kind: project.kind, generated: CAPTURE_DATE,
+    images: captures.map(capture => ({ ...capture, path: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/images/${capture.file}` })),
+    videos: [{ ...video, path: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/video/${video.file}`, thumbnailPath: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/video/${video.thumbnail}` }], notes
+  };
+  await fs.writeFile(path.join(base, 'asset-manifest.json'), JSON.stringify(result, null, 2));
+  const readme = `# ${project.name} — QA Portfolio Visual Assets\n\n**Project:** ${project.name}  \n**Website URL:** ${project.url}  \n**Project type:** ${project.kind}  \n**Asset-generation date:** ${CAPTURE_DATE}\n\n` +
+    `## Inventory\n\n- Static images: **${captures.length}**\n- Videos: **1**\n- Video thumbnails: **1** (stored with the video)\n\n## Coverage\n\n${captures.map(c => `- \`${c.file}\` — ${c.label}`).join('\n')}\n\n` +
+    `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n## Capture notes\n\n- ${notes.join('\n- ')}\n- No checkout, purchase, account creation, or personal data entry was performed.\n`;
+  await fs.writeFile(path.join(base, 'README.md'), readme);
+  return result;
+}
+
 async function captureProject(browser, project) {
   console.log(`\n=== ${project.id}: ${project.name} ===`);
   if (project.slug === 'moore-beauty') return captureMooreBeautyReferenceAssets(project);
+  if (project.slug === 'black-arrow-gallery') return captureBlackArrowReferenceAssets(project);
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
   const notes = [];
