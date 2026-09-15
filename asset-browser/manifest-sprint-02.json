@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 2",
   "generated": "2026-09-16",
-  "totalImages": 36,
-  "totalVideos": 3,
+  "totalImages": 48,
+  "totalVideos": 4,
   "projects": [
     {
       "id": "11",
@@ -260,6 +260,95 @@
       ],
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 35.12 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "14",
+      "slug": "gorgeous-alpacas",
+      "folder": "14-gorgeous-alpacas",
+      "name": "Gorgeous Alpacas",
+      "url": "https://gorgeousalpacas.co.uk",
+      "kind": "Yarn, craft kits, and knitwear",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "14_gorgeous_alpacas_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_project_highlight_alpaca_yarn_collection_001.jpg",
+          "label": "Project highlight: alpaca yarn collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_project_highlight_alpaca_yarn_collection_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "14_gorgeous_alpacas_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/images/14_gorgeous_alpacas_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "14_gorgeous_alpacas_video_craft_journey_001.mp4",
+          "thumbnail": "14_gorgeous_alpacas_video_craft_journey_001.jpg",
+          "purpose": "Alpaca yarn and craft product discovery journey",
+          "duration": 25.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/video/14_gorgeous_alpacas_video_craft_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/14-gorgeous-alpacas/video/14_gorgeous_alpacas_video_craft_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Project highlight at https://gorgeousalpacas.co.uk/collections/yarn was unavailable (HTTP 404 / 404 Not Found – Gorgeous Alpacas); a verified on-site fallback was requested.",
+        "Secondary interaction at https://gorgeousalpacas.co.uk/collections/craft-kits was unavailable (HTTP 404 / 404 Not Found – Gorgeous Alpacas); a verified on-site fallback was requested.",
+        "Mobile project highlight at https://gorgeousalpacas.co.uk/collections/yarn was unavailable (HTTP 404 / 404 Not Found – Gorgeous Alpacas); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 25.60 seconds, complete decode passed.",
+        "Rejected duplicate 14_gorgeous_alpacas_desktop_signature_section_001.jpg; it matched 14_gorgeous_alpacas_desktop_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
