@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 378,
-  "totalVideos": 32,
+  "totalImages": 390,
+  "totalVideos": 33,
   "projects": [
     {
       "id": "01",
@@ -2708,6 +2708,94 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 31.76 seconds, complete decode passed.",
         "Rejected duplicate 32_lilly_jace_kids_desktop_signature_section_001.jpg; it matched 32_lilly_jace_kids_desktop_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "33",
+      "slug": "rad-childrens-furniture",
+      "folder": "33-rad-childrens-furniture",
+      "name": "RAD Children\u2019s Furniture",
+      "url": "https://radchildrensfurniture.com",
+      "kind": "Montessori children\u2019s furniture",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "33_rad_childrens_furniture_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_desktop_signature_section_001.jpg",
+          "label": "Desktop Made for How Kids Grow section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_project_highlight_montessori_climbing_collection_001.jpg",
+          "label": "Project highlight: Montessori climbing collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_project_highlight_montessori_climbing_collection_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "33_rad_childrens_furniture_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/images/33_rad_childrens_furniture_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "33_rad_childrens_furniture_video_montessori_furniture_journey_001.mp4",
+          "thumbnail": "33_rad_childrens_furniture_video_montessori_furniture_journey_001.jpg",
+          "purpose": "Montessori furniture discovery from room inspiration to product detail",
+          "duration": 33.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/video/33_rad_childrens_furniture_video_montessori_furniture_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/33-rad-childrens-furniture/video/33_rad_childrens_furniture_video_montessori_furniture_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Project highlight at https://radchildrensfurniture.com/collections/climbing-triangles was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
+        "Mobile project highlight at https://radchildrensfurniture.com/collections/climbing-triangles was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 33.84 seconds, complete decode passed.",
+        "Rejected duplicate 33_rad_childrens_furniture_interaction_detail_state_001.jpg; it matched 33_rad_childrens_furniture_desktop_product_detail_001.jpg in perceptual image QA."
+      ]
     }
   ],
   "sprints": [
@@ -2735,9 +2823,9 @@
     {
       "number": 4,
       "label": "Sprint 4",
-      "images": 23,
-      "videos": 2,
-      "projects": 2
+      "images": 35,
+      "videos": 3,
+      "projects": 3
     }
   ]
 }
