@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20132",
   "generated": "2026-09-16",
-  "totalImages": 181,
-  "totalVideos": 15,
+  "totalImages": 192,
+  "totalVideos": 16,
   "projects": [
     {
       "id": "01",
@@ -1267,6 +1267,88 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280\u00d7720, 18.56 seconds, complete decode passed."
       ]
+    },
+    {
+      "id": "16",
+      "slug": "something-pretty-floral",
+      "folder": "16-something-pretty-floral",
+      "name": "Something Pretty Floral",
+      "url": "https://somethingprettyfloral.com",
+      "kind": "Luxury floral studio and events",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "16_something_pretty_floral_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_desktop_signature_section_001.jpg",
+          "label": "Desktop BOUTIQUE FLORAL STUDIO section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_project_highlight_consultation_contact_flow_001.jpg",
+          "label": "Project highlight: consultation contact flow",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_project_highlight_consultation_contact_flow_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "16_something_pretty_floral_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/images/16_something_pretty_floral_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "16_something_pretty_floral_video_floral_journey_001.mp4",
+          "thumbnail": "16_something_pretty_floral_video_floral_journey_001.jpg",
+          "purpose": "Luxury floral shopping and consultation discovery journey",
+          "duration": 34.44,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/video/16_something_pretty_floral_video_floral_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/16-something-pretty-floral/video/16_something_pretty_floral_video_floral_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 34.44 seconds, complete decode passed.",
+        "Rejected duplicate 16_something_pretty_floral_interaction_detail_state_001.jpg; it matched 16_something_pretty_floral_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 16_something_pretty_floral_interaction_mobile_navigation_001.jpg; it matched 16_something_pretty_floral_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -1280,9 +1362,9 @@
     {
       "number": 2,
       "label": "Sprint 2",
-      "images": 61,
-      "videos": 5,
-      "projects": 5
+      "images": 72,
+      "videos": 6,
+      "projects": 6
     }
   ]
 }

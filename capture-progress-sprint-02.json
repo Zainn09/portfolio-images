@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "The Bread Essentials asset set generated and published",
+  "stage": "Something Pretty Floral asset set generated and published",
   "projects": [
     {
       "id": "11",
@@ -34,6 +34,13 @@
       "id": "15",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "16",
+      "status": "captured",
+      "images": 11,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
