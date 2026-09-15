@@ -8,8 +8,8 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Green Beauty Expert asset set generated and published  
-**Last updated:** 2026-09-16 00:23 PKT
+**Latest pipeline stage:** Peak Scents off-domain captures rejected; authentic recapture prepared  
+**Last updated:** 2026-09-16 00:24 PKT
 
 | # | Project | Website | Status | Images | Videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -21,10 +21,10 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 06 | The Scaff Shop | <https://thescaffshop.com> | 🟡 Captured · QA pending | 11 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
 | 07 | Maison Khloe | <https://maisonkhloe.ca> | 🟡 Captured · QA pending | 12 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
 | 08 | Summit Sheets | <https://summitsheetsbedding.com> | 🟡 Captured · QA pending | 11 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
-| 09 | Peak Scents | <https://peakscents.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
+| 09 | Peak Scents | <https://peakscents.com> | 🔴 Blocked | — | — | Off-domain captures removed; authentic recapture required |
 | 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | 🟡 Captured · QA pending | 11 | 1 | Duplicate-free asset set published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 121 static images and 10 videos; completion remains subject to final QA.  
+**Current checkpoint inventory:** 108 static images and 9 videos; completion remains subject to final QA.  
 **Required minimum:** 100 static images and 10 videos.
 
 <!-- SPRINT_PROGRESS_END -->
