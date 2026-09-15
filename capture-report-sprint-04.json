@@ -343,14 +343,14 @@
           "file": "34_lalys_candles_video_candle_discovery_journey_001.mp4",
           "thumbnail": "34_lalys_candles_video_candle_discovery_journey_001.jpg",
           "purpose": "Hand-poured candle discovery from scent collection to product detail",
-          "duration": 25.16,
+          "duration": 26,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/video/34_lalys_candles_video_candle_discovery_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/34-lalys-candles/video/34_lalys_candles_video_candle_discovery_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 25.16 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 26.00 seconds, complete decode passed."
       ]
     },
     {
@@ -768,14 +768,14 @@
           "file": "39_koala_picks_video_healthy_snack_journey_001.mp4",
           "thumbnail": "39_koala_picks_video_healthy_snack_journey_001.jpg",
           "purpose": "Healthy snack discovery from family promise to product detail",
-          "duration": 35.88,
+          "duration": 34.24,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/video/39_koala_picks_video_healthy_snack_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/video/39_koala_picks_video_healthy_snack_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 35.88 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 34.24 seconds, complete decode passed.",
         "Rejected duplicate 39_koala_picks_interaction_detail_state_001.jpg; it matched 39_koala_picks_desktop_product_detail_001.jpg in perceptual image QA.",
         "Rejected duplicate 39_koala_picks_interaction_mobile_header_001.jpg; it matched 39_koala_picks_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -850,14 +850,14 @@
           "file": "40_glisser_beauty_video_skincare_discovery_journey_001.mp4",
           "thumbnail": "40_glisser_beauty_video_skincare_discovery_journey_001.jpg",
           "purpose": "Skincare discovery from natural-ingredient positioning to product detail",
-          "duration": 28.64,
+          "duration": 29.56,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/40-glisser-beauty/video/40_glisser_beauty_video_skincare_discovery_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/40-glisser-beauty/video/40_glisser_beauty_video_skincare_discovery_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 28.64 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 29.56 seconds, complete decode passed.",
         "Rejected duplicate 40_glisser_beauty_interaction_detail_state_001.jpg; it matched 40_glisser_beauty_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 40_glisser_beauty_interaction_mobile_header_001.jpg; it matched 40_glisser_beauty_mobile_home_hero_001.jpg in perceptual image QA."
       ]
