@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Black Arrow Gallery capture requires attention",
+  "stage": "Black Arrow Gallery asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -60,10 +60,10 @@
     },
     {
       "id": "29",
-      "status": "blocked",
-      "images": 0,
-      "videos": 0,
-      "note": "Capture stopped; review workflow diagnostics"
+      "status": "captured",
+      "images": 14,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20133",
   "generated": "2026-09-16",
-  "totalImages": 333,
-  "totalVideos": 28,
+  "totalImages": 347,
+  "totalVideos": 29,
   "projects": [
     {
       "id": "01",
@@ -2371,6 +2371,104 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 29.12 seconds, complete decode passed.",
         "Rejected duplicate 28_gabrielle_jewelry_desktop_secondary_experience_001.jpg; it matched 28_gabrielle_jewelry_interaction_detail_state_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "29",
+      "slug": "black-arrow-gallery",
+      "folder": "29-black-arrow-gallery",
+      "name": "Black Arrow Gallery",
+      "url": "https://www.blackarrowgallery.com",
+      "kind": "Native American jewelry and art",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "29_black_arrow_gallery_project_wear_real_stories_collection_source_001.jpg",
+          "label": "Authentic Wear Real Stories collection source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_wear_real_stories_collection_source_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_desktop_wear_real_stories_hero_source_001.jpg",
+          "label": "Authentic Wear Something Real hero source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_desktop_wear_real_stories_hero_source_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_stand_up_headdress_source_001.jpg",
+          "label": "Authentic stand-up headdress art source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_stand_up_headdress_source_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_double_twist_ring_001.jpg",
+          "label": "Authentic Artie Yellowhorse double-twist ring source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_double_twist_ring_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_shadow_box_ring_001.jpg",
+          "label": "Authentic Artie Yellowhorse shadow-box ring source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_shadow_box_ring_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_black_onyx_pendant_001.jpg",
+          "label": "Authentic Artie Yellowhorse black-onyx pendant source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_black_onyx_pendant_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_oval_earrings_001.jpg",
+          "label": "Authentic Artie Yellowhorse oval-earrings source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_oval_earrings_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_project_artie_yellowhorse_palm_wood_ring_001.jpg",
+          "label": "Authentic Artie Yellowhorse palm-wood ring source visual",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_project_artie_yellowhorse_palm_wood_ring_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_desktop_home_hero_001.jpg",
+          "label": "Desktop Wear Something Real hero reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_mobile_home_hero_001.jpg",
+          "label": "Mobile Wear Something Real hero reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_desktop_artie_yellowhorse_collection_001.jpg",
+          "label": "Desktop Artie Yellowhorse artisan collection reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_desktop_artie_yellowhorse_collection_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_mobile_artisan_jewelry_collection_001.jpg",
+          "label": "Mobile artisan-jewelry collection reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_mobile_artisan_jewelry_collection_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "29_black_arrow_gallery_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA artisan-discovery reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/images/29_black_arrow_gallery_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "29_black_arrow_gallery_video_artisan_jewelry_journey_001.mp4",
+          "thumbnail": "29_black_arrow_gallery_video_artisan_jewelry_journey_001.jpg",
+          "purpose": "Authentic Native American artisan story and jewelry-detail journey",
+          "duration": 10.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/video/29_black_arrow_gallery_video_artisan_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/29-black-arrow-gallery/video/29_black_arrow_gallery_video_artisan_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Direct GitHub Actions browser requests returned the same blocked response for every route; that response was rejected and is not included.",
+        "Authentic public Black Arrow Gallery source images were retrieved through a domain-constrained image index and visually checked before use.",
+        "Reference compositions use only those live-site source images and verbatim public Black Arrow Gallery identity/category information.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+      ]
     }
   ],
   "sprints": [
@@ -2391,9 +2489,9 @@
     {
       "number": 3,
       "label": "Sprint 3",
-      "images": 94,
-      "videos": 8,
-      "projects": 8
+      "images": 108,
+      "videos": 9,
+      "projects": 9
     }
   ]
 }
