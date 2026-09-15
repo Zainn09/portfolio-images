@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "smoveyUSA asset set generated and published",
+  "stage": "Tinnie Tots asset set generated and published",
   "projects": [
     {
       "id": "31",
@@ -39,6 +39,13 @@
     },
     {
       "id": "36",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "37",
       "status": "captured",
       "images": 12,
       "videos": 1,
