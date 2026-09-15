@@ -1705,6 +1705,13 @@
       "images": 119,
       "videos": 10,
       "projects": 10
+    },
+    {
+      "number": 3,
+      "label": "Sprint 3",
+      "images": 0,
+      "videos": 0,
+      "projects": 0
     }
   ]
 }

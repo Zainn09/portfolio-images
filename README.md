@@ -66,12 +66,12 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Website analysis and capture configuration  
-**Last updated:** 2026-09-16 03:00 PKT
+**Latest pipeline stage:** Moore Beauty capture requires attention  
+**Last updated:** 2026-09-16 03:06 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 21 | Moore Beauty | <https://moore-beauty.co.uk> | ⚪ Pending | — | — | Home-based beauty treatments and holistic therapies |
+| 21 | Moore Beauty | <https://moore-beauty.co.uk> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
 | 22 | KUURTH | <https://kuurth.com> | ⚪ Pending | — | — | Wearable-art jewelry and accessories |
 | 23 | Biofield Resonator | <https://biofieldresonator.com> | ⚪ Pending | — | — | Energy-field wearable and educational content |
 | 24 | Xtinctio | <https://xtinctio.com> | ⚪ Pending | — | — | Conservation jewelry and wildlife art |
