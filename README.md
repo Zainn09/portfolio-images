@@ -95,14 +95,14 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Lilly & Jace Kids asset set generated and published<br>
-**Last updated:** 2026-09-16 04:13 PKT
+**Latest pipeline stage:** RAD Children’s Furniture capture requires attention<br>
+**Last updated:** 2026-09-16 04:16 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 31 | Nine AM Roast | <https://nineamroast.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 32 | Lilly & Jace Kids | <https://lillyjacekids.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 33 | RAD Children’s Furniture | <https://radchildrensfurniture.com> | ⚪ Pending | — | — | Montessori children’s furniture |
+| 33 | RAD Children’s Furniture | <https://radchildrensfurniture.com> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
 | 34 | Laly’s Candles | <https://lalyscandles.com> | ⚪ Pending | — | — | Hand-poured scented candles |
 | 35 | Adonis Jewellery | <https://adonisjewellery.gr> | ⚪ Pending | — | — | Fine jewellery and Swiss watches |
 | 36 | smoveyUSA | <https://www.smoveyusa.com> | ⚪ Pending | — | — | Vibroswing fitness and wellness equipment |
