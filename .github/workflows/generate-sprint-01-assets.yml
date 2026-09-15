@@ -10,7 +10,6 @@ on:
       - 'scripts/package_assets.py'
       - 'scripts/verify_assets.py'
       - 'scripts/update_readme_progress.py'
-      - 'package.json'
   workflow_dispatch:
 
 permissions:
