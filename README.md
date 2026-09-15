@@ -37,14 +37,14 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Funky Flickr Boyz Gear asset set generated and published  
-**Last updated:** 2026-09-16 01:05 PKT
+**Latest pipeline stage:** My Rug World asset set generated and published  
+**Last updated:** 2026-09-16 01:08 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 11 | Glo by Glen Skin | <https://globyglenskin.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 12 | Funky Flickr Boyz Gear | <https://funkyflickrboyzgear.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 13 | My Rug World | <https://myrugworld.com> | ⚪ Pending | — | — | Rugs and guided shape discovery |
+| 13 | My Rug World | <https://myrugworld.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 14 | Gorgeous Alpacas | <https://gorgeousalpacas.co.uk> | ⚪ Pending | — | — | Yarn, craft kits, and knitwear |
 | 15 | The Bread Essentials | <https://thebreadessentials.com> | ⚪ Pending | — | — | Gluten-free bakery and grocery |
 | 16 | Something Pretty Floral | <https://somethingprettyfloral.com> | ⚪ Pending | — | — | Floral studio and event services |
@@ -53,7 +53,7 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | ⚪ Pending | — | — | Electric bikes and conversion kits |
 | 20 | Moor Body Care | <https://moorbodycare.co.uk> | ⚪ Pending | — | — | Moor therapy skincare |
 
-**Current checkpoint inventory:** 23 static images and 2 playable MP4 videos.  
+**Current checkpoint inventory:** 36 static images and 3 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_02_PROGRESS_END -->

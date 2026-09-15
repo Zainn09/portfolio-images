@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 2",
   "generated": "2026-09-16",
-  "totalImages": 23,
-  "totalVideos": 2,
+  "totalImages": 36,
+  "totalVideos": 3,
   "projects": [
     {
       "id": "11",
@@ -170,6 +170,96 @@
         "Playable MP4 verified: H.264, 1280×720, 34.28 seconds, complete decode passed.",
         "Rejected duplicate 12_funky_flickr_boyz_gear_interaction_detail_state_001.jpg; it matched 12_funky_flickr_boyz_gear_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 12_funky_flickr_boyz_gear_interaction_mobile_header_001.jpg; it matched 12_funky_flickr_boyz_gear_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "13",
+      "slug": "my-rug-world",
+      "folder": "13-my-rug-world",
+      "name": "My Rug World",
+      "url": "https://myrugworld.com",
+      "kind": "Rugs and guided shape discovery",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "13_my_rug_world_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_desktop_signature_section_001.jpg",
+          "label": "Desktop New Arrivals section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_project_highlight_guided_rug_finder_001.jpg",
+          "label": "Project highlight: guided rug finder",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_project_highlight_guided_rug_finder_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_interaction_mobile_header_001.jpg",
+          "label": "Mobile header state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_interaction_mobile_header_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "13_my_rug_world_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/images/13_my_rug_world_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "13_my_rug_world_video_rug_discovery_journey_001.mp4",
+          "thumbnail": "13_my_rug_world_video_rug_discovery_journey_001.jpg",
+          "purpose": "Guided rug discovery and product detail journey",
+          "duration": 35.12,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/video/13_my_rug_world_video_rug_discovery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/13-my-rug-world/video/13_my_rug_world_video_rug_discovery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 35.12 seconds, complete decode passed."
       ]
     }
   ]

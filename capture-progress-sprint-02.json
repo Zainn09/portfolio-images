@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Funky Flickr Boyz Gear asset set generated and published",
+  "stage": "My Rug World asset set generated and published",
   "projects": [
     {
       "id": "11",
@@ -13,6 +13,13 @@
       "id": "12",
       "status": "captured",
       "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "13",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
