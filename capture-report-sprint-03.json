@@ -1,5 +1,5 @@
 {
-  "title": "QA Portfolio Visual Assets \u2014 Sprint 3",
+  "title": "QA Portfolio Visual Assets — Sprint 3",
   "generated": "2026-09-16",
   "totalImages": 116,
   "totalVideos": 10,
@@ -89,7 +89,7 @@
         "Direct browser and remote-renderer requests were rejected because the live host returned HTTP 403 security verification.",
         "No security-verification page is included. Authentic public site images and verbatim public treatment/contact information were used for the reference compositions.",
         "Playable video uses only the authentic Moore Beauty hero, treatment-specialty, and menu references.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
       ]
     },
     {
@@ -169,7 +169,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 35.36 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 35.36 seconds, complete decode passed.",
         "Rejected duplicate 22_kuurth_interaction_detail_state_001.jpg; it matched 22_kuurth_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 22_kuurth_interaction_mobile_header_001.jpg; it matched 22_kuurth_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -251,7 +251,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 24.84 seconds, complete decode passed.",
         "Rejected duplicate 23_biofield_resonator_desktop_secondary_experience_001.jpg; it matched 23_biofield_resonator_interaction_detail_state_001.jpg byte-for-byte.",
         "Rejected duplicate 23_biofield_resonator_interaction_mobile_header_001.jpg; it matched 23_biofield_resonator_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -338,7 +338,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 27.32 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 27.32 seconds, complete decode passed.",
         "Rejected duplicate 24_xtinctio_interaction_mobile_header_001.jpg; it matched 24_xtinctio_mobile_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -424,7 +424,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.00 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 25.00 seconds, complete decode passed.",
         "Independent perceptual QA removed one near-identical carousel capture; the retained 12-image set contains only meaningfully distinct visuals."
       ]
     },
@@ -500,7 +500,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 30.84 seconds, complete decode passed.",
         "Independent perceptual QA removed three near-identical states; the retained 10-image set contains only meaningfully distinct visuals."
       ]
     },
@@ -576,7 +576,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.16 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 24.16 seconds, complete decode passed.",
         "Rejected duplicate 27_anthom_design_house_desktop_signature_section_001.jpg; it matched 27_anthom_design_house_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 27_anthom_design_house_interaction_detail_state_001.jpg; it matched 27_anthom_design_house_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 27_anthom_design_house_interaction_mobile_header_001.jpg; it matched 27_anthom_design_house_mobile_home_hero_001.jpg byte-for-byte."
@@ -664,7 +664,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 29.12 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 29.12 seconds, complete decode passed.",
         "Rejected duplicate 28_gabrielle_jewelry_desktop_secondary_experience_001.jpg; it matched 28_gabrielle_jewelry_interaction_detail_state_001.jpg byte-for-byte."
       ]
     },
@@ -763,7 +763,7 @@
         "Direct GitHub Actions browser requests returned the same blocked response for every route; that response was rejected and is not included.",
         "Authentic public Black Arrow Gallery source images were retrieved through a domain-constrained image index and visually checked before use.",
         "Reference compositions use only those live-site source images and verbatim public Black Arrow Gallery identity/category information.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
       ]
     },
     {
@@ -848,7 +848,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 28.64 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 28.64 seconds, complete decode passed.",
         "Rejected duplicate 30_cowbells_interaction_detail_state_001.jpg; it matched 30_cowbells_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
