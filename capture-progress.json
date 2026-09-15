@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-15",
-  "stage": "The Scaff Shop asset set generated and published",
+  "stage": "Maison Khloe asset set generated and published",
   "projects": [
     {
       "id": "01",
@@ -39,6 +39,13 @@
     },
     {
       "id": "06",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "07",
       "status": "captured",
       "images": 13,
       "videos": 1,
