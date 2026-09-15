@@ -1,9 +1,16 @@
 {
   "generated": "2026-09-15",
-  "stage": "Fandiem asset set generated and published",
+  "stage": "Revived Smiles asset set generated and published",
   "projects": [
     {
       "id": "01",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "02",
       "status": "captured",
       "images": 13,
       "videos": 1,
