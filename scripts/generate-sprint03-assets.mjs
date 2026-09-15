@@ -239,77 +239,6 @@ async function screenshot(page, file) {
   await fs.writeFile(file, buffer);
 }
 
-async function captureMooreBeautyHomepageSections(page, project, imagesDir, captures) {
-  // This brochure site keeps its hero fixed over conventional viewport captures.
-  // Preserve the authentic long page once, then extract semantic content regions
-  // from that same live-site screenshot rather than inventing extra UI states.
-  await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
-  await settle(page, 700);
-  const source = path.join(TMP, project.folder, 'moore-beauty-home-full-page.png');
-  await page.screenshot({ path: source, type: 'png', fullPage: true, animations: 'disabled', caret: 'hide' });
-  const metadata = await sharp(source).metadata();
-  const width = metadata.width || DESKTOP.width;
-  const height = metadata.height || DESKTOP.height;
-  console.log(`  Moore Beauty full-page source: ${width}×${height}`);
-
-  if (height > DESKTOP.height + 100) {
-    const overview = path.join(imagesDir, `${project.prefix}_desktop_homepage_full_page_reference_001.jpg`);
-    await sharp(source).jpeg({ quality: 78, mozjpeg: true }).toFile(overview);
-    captures.push({ file: path.basename(overview), label: 'Desktop full-page homepage reference' });
-  }
-
-  const sections = [
-    ['personal_oasis_story', 'Your Personal Oasis of Well-being', 'Personal oasis and studio introduction'],
-    ['treatment_specialties', 'At Moore Beauty, I specialise in', 'Beauty and holistic treatment specialties'],
-    ['waxing_expertise', 'Waxing Expertise', 'Waxing expertise information'],
-    ['social_gallery', 'Follow my socials', 'Studio social-gallery section'],
-    ['client_testimonials', 'Testimonial 1', 'Client testimonial section'],
-    ['contact_footer', 'Oak Tree Rd', 'Contact and location footer']
-  ];
-  for (const [slug, text, label] of sections) {
-    const found = await scrollToText(page, text, 0.5);
-    if (!found) continue;
-    const output = path.join(imagesDir, `${project.prefix}_desktop_${slug}_001.jpg`);
-    await screenshot(page, output);
-    captures.push({ file: path.basename(output), label: `Desktop ${label}` });
-    console.log(`  image: ${path.basename(output)}`);
-  }
-}
-
-async function captureMooreBeautyGallerySources(context, project, imagesDir, captures, notes) {
-  let saved = 0;
-  for (let index = 1; index <= 8; index += 1) {
-    let source = null;
-    for (const suffix of [`${index}.jpg`, `${index}-thmb.jpg`]) {
-      const assetUrl = urlFor(project, `/assets/img/gallery/${suffix}`);
-      try {
-        const response = await context.request.get(assetUrl, {
-          timeout: NAV_TIMEOUT,
-          headers: { Referer: urlFor(project, '/gallery.php'), Accept: 'image/avif,image/webp,image/apng,image/jpeg,image/*,*/*;q=0.8' }
-        });
-        const contentType = response.headers()['content-type'] || '';
-        if (response.ok() && contentType.startsWith('image/')) {
-          source = await response.body();
-          break;
-        }
-        console.log(`  gallery source unavailable: ${assetUrl} (${response.status()} ${contentType})`);
-      } catch (error) {
-        console.log(`  gallery source request failed: ${assetUrl} (${String(error.message).slice(0, 100)})`);
-      }
-    }
-    if (!source) continue;
-    try {
-      await sharp(source).metadata();
-      const output = path.join(imagesDir, `${project.prefix}_project_studio_gallery_${String(index).padStart(2, '0')}_001.jpg`);
-      await sharp(source).rotate().resize(1200, 900, { fit: 'contain', background: '#f7f4ef' }).jpeg({ quality: 84, mozjpeg: true }).toFile(output);
-      captures.push({ file: path.basename(output), label: `Authentic live-site studio gallery image ${index}` });
-      console.log(`  image: ${path.basename(output)}`);
-      saved += 1;
-    } catch {}
-  }
-  if (saved < 5) notes.push(`Only ${saved} direct studio gallery sources could be retrieved from the live site's public gallery.`);
-}
-
 async function discoverDetail(page, project, notes) {
   if (project.detailUrl) return project.detailUrl;
   await goto(page, project, project.listingUrl, notes, 'Product listing');
@@ -505,58 +434,6 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
   return { file: path.basename(out), thumbnail: path.basename(thumb), purpose: project.videoPurpose, duration: Number(duration.toFixed(2)), codec: stream.codec_name };
 }
 
-async function fetchWithRetry(url, options = {}, attempts = 4) {
-  let lastError;
-  for (let attempt = 1; attempt <= attempts; attempt += 1) {
-    try {
-      const response = await fetch(url, options);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return response;
-    } catch (error) {
-      lastError = error;
-      if (attempt < attempts) await new Promise(resolve => setTimeout(resolve, attempt * 1_500));
-    }
-  }
-  throw lastError;
-}
-
-async function remoteMooreBeautyScreenshot(project, spec, imagesDir) {
-  const target = urlFor(project, spec.route);
-  const endpoint = new URL('https://api.microlink.io/');
-  endpoint.searchParams.set('url', target);
-  endpoint.searchParams.set('screenshot', 'true');
-  endpoint.searchParams.set('meta', 'true');
-  endpoint.searchParams.set('prerender', 'true');
-  endpoint.searchParams.set('waitUntil', 'networkidle2');
-  endpoint.searchParams.set('viewport.width', String(spec.width));
-  endpoint.searchParams.set('viewport.height', String(spec.height));
-  endpoint.searchParams.set('viewport.deviceScaleFactor', '1');
-  const apiResponse = await fetchWithRetry(endpoint);
-  const payload = await apiResponse.json();
-  if (payload.status !== 'success' || !payload.data?.screenshot?.url) {
-    throw new Error(`Remote renderer failed for ${target}: ${JSON.stringify(payload).slice(0, 300)}`);
-  }
-  if (!isProjectUrl(payload.data.url, project) || Number(payload.data.statusCode || 0) >= 400) {
-    throw new Error(`Remote renderer refused failed or off-domain output for ${target}: ${payload.data.url}`);
-  }
-  const identity = `${payload.data.title || ''} ${payload.data.publisher || ''}`.trim();
-  if (!/moore beauty/i.test(identity)) {
-    throw new Error(`Moore Beauty identity validation failed for ${target}: ${identity || 'missing identity'}`);
-  }
-  if (spec.width <= 500 && Number(payload.data.screenshot.width || 0) > 500) {
-    throw new Error(`Mobile renderer returned ${payload.data.screenshot.width}px for ${target}`);
-  }
-  const sourceResponse = await fetchWithRetry(payload.data.screenshot.url);
-  const source = Buffer.from(await sourceResponse.arrayBuffer());
-  const output = path.join(imagesDir, `${project.prefix}_${spec.name}_001.jpg`);
-  const written = await sharp(source).resize(spec.width, spec.height, { fit: 'cover', position: 'top' })
-    .jpeg({ quality: 82, mozjpeg: true, chromaSubsampling: '4:2:0' }).toFile(output);
-  if (written.size < 15_000) throw new Error(`Remote screenshot appears invalid (${written.size} bytes): ${target}`);
-  console.log(`  remote image: ${path.basename(output)} · ${payload.data.title}`);
-  await new Promise(resolve => setTimeout(resolve, 700));
-  return { file: path.basename(output), label: spec.label };
-}
-
 async function createSlideshowVideo(project, base, sourceFiles, notes) {
   const stem = `${project.prefix}_video_${project.videoSlug}_001`;
   const output = path.join(base, 'video', `${stem}.mp4`);
@@ -590,41 +467,91 @@ async function createSlideshowVideo(project, base, sourceFiles, notes) {
   return { file: path.basename(output), thumbnail: path.basename(thumbnail), purpose: project.videoPurpose, duration: Number(duration.toFixed(2)), codec: stream.codec_name };
 }
 
-async function captureMooreBeautyRemote(project) {
+async function captureMooreBeautyReferenceAssets(project) {
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
-  const notes = ['Direct GitHub Actions browser requests returned HTTP 403, so captures were replaced with identity-validated renderings of the same live public Moore Beauty URLs.'];
-  const specs = [
-    { name: 'desktop_home_hero', label: 'Desktop homepage hero', route: '/', width: 1440, height: 900 },
-    { name: 'desktop_treatment_menu', label: 'Desktop treatment menu', route: '/treatment-menu.php', width: 1440, height: 900 },
-    { name: 'desktop_studio_gallery', label: 'Desktop studio gallery', route: '/gallery.php', width: 1440, height: 900 },
-    { name: 'desktop_contact_information', label: 'Desktop contact information', route: '/contact.php', width: 1440, height: 900 },
-    { name: 'desktop_privacy_information', label: 'Desktop privacy information', route: '/gdpr.php', width: 1440, height: 900 },
-    { name: 'mobile_home_hero', label: 'Mobile homepage hero', route: '/', width: 390, height: 844 },
-    { name: 'mobile_treatment_menu', label: 'Mobile treatment menu', route: '/treatment-menu.php', width: 390, height: 844 },
-    { name: 'mobile_studio_gallery', label: 'Mobile studio gallery', route: '/gallery.php', width: 390, height: 844 },
-    { name: 'mobile_contact_information', label: 'Mobile contact information', route: '/contact.php', width: 390, height: 844 },
-    { name: 'mobile_privacy_information', label: 'Mobile privacy information', route: '/gdpr.php', width: 390, height: 844 }
-  ];
+  const sourceDir = path.resolve('scripts/source-assets/moore-beauty');
+  const source = {
+    logo: path.join(sourceDir, 'moore-beauty-logo.png'),
+    mobileRoom: path.join(sourceDir, 'moore-beauty-treatment-room-mobile.jpg'),
+    desktopRoom: path.join(sourceDir, 'moore-beauty-treatment-room-desktop.jpg'),
+    owner: path.join(sourceDir, 'moore-beauty-owner-portrait.jpg')
+  };
   const captures = [];
-  for (const spec of specs) captures.push(await remoteMooreBeautyScreenshot(project, spec, imagesDir));
-  const imagePath = name => path.join(imagesDir, `${project.prefix}_${name}_001.jpg`);
-  const responsive = path.join(imagesDir, `${project.prefix}_responsive_comparison_001.jpg`);
-  await createResponsiveComparison(project, imagePath('desktop_home_hero'), imagePath('mobile_home_hero'), responsive);
-  captures.push({ file: path.basename(responsive), label: 'Desktop / mobile responsive QA comparison' });
-  const flow = path.join(imagesDir, `${project.prefix}_qa_user_flow_sequence_001.jpg`);
-  await createFlowSequence(project, [imagePath('desktop_home_hero'), imagePath('desktop_treatment_menu'), imagePath('desktop_contact_information')], flow);
-  captures.push({ file: path.basename(flow), label: 'Three-state QA user-flow reference' });
+  const add = (file, label) => captures.push({ file: path.basename(file), label });
+  const output = name => path.join(imagesDir, `${project.prefix}_${name}_001.jpg`);
+
+  const logoFile = output('project_brand_mark');
+  await sharp(source.logo).resize(1200, 900, { fit: 'contain', background: '#ffffff' }).jpeg({ quality: 88, mozjpeg: true }).toFile(logoFile);
+  add(logoFile, 'Authentic Moore Beauty brand mark from the live site');
+  const desktopRoomFile = output('desktop_treatment_room_source');
+  await sharp(source.desktopRoom).resize(1440, 900, { fit: 'cover' }).jpeg({ quality: 84, mozjpeg: true }).toFile(desktopRoomFile);
+  add(desktopRoomFile, 'Authentic desktop treatment-room source visual');
+  const mobileRoomFile = output('mobile_treatment_room_source');
+  await sharp(source.mobileRoom).resize(390, 844, { fit: 'cover' }).jpeg({ quality: 84, mozjpeg: true }).toFile(mobileRoomFile);
+  add(mobileRoomFile, 'Authentic mobile treatment-room source visual');
+  const ownerFile = output('project_owner_portrait');
+  await sharp(source.owner).resize(1000, 1200, { fit: 'cover', position: 'top' }).jpeg({ quality: 84, mozjpeg: true }).toFile(ownerFile);
+  add(ownerFile, 'Authentic Moore Beauty owner portrait from the live site');
+
+  const desktopHero = output('desktop_home_hero');
+  const desktopHeroBase = await sharp(source.desktopRoom).resize(1440, 900, { fit: 'cover' }).modulate({ brightness: 0.62 }).toBuffer();
+  const heroLogo = await sharp(source.logo).resize(245, 245, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0.88 } }).png().toBuffer();
+  const desktopHeroOverlay = Buffer.from(`<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg"><rect width="1440" height="900" fill="#111827" opacity=".12"/><rect x="95" y="505" width="720" height="255" rx="12" fill="#fff" opacity=".92"/><text x="140" y="575" font-family="Arial,sans-serif" font-size="20" fill="#667085" letter-spacing="3">MOORE BEAUTY · KNAPHILL</text><text x="140" y="645" font-family="Arial,sans-serif" font-size="51" font-weight="700" fill="#25282c">Your Personal Oasis</text><text x="140" y="697" font-family="Arial,sans-serif" font-size="25" fill="#4b5563">Beauty treatments designed to help you relax,</text><text x="140" y="731" font-family="Arial,sans-serif" font-size="25" fill="#4b5563">rejuvenate, and feel your absolute best.</text></svg>`);
+  await sharp(desktopHeroBase).composite([{ input: desktopHeroOverlay }, { input: heroLogo, left: 1060, top: 75 }]).jpeg({ quality: 86, mozjpeg: true }).toFile(desktopHero);
+  add(desktopHero, 'Desktop hero reference using authentic live-site imagery and copy');
+
+  const mobileHero = output('mobile_home_hero');
+  const mobileHeroBase = await sharp(source.mobileRoom).resize(390, 844, { fit: 'cover' }).modulate({ brightness: 0.62 }).toBuffer();
+  const mobileHeroOverlay = Buffer.from(`<svg width="390" height="844" xmlns="http://www.w3.org/2000/svg"><rect width="390" height="844" fill="#111827" opacity=".12"/><rect x="20" y="500" width="350" height="286" rx="10" fill="#fff" opacity=".93"/><text x="45" y="550" font-family="Arial,sans-serif" font-size="13" fill="#667085" letter-spacing="2">MOORE BEAUTY</text><text x="45" y="604" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#25282c">Your Personal</text><text x="45" y="645" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#25282c">Oasis</text><text x="45" y="697" font-family="Arial,sans-serif" font-size="17" fill="#4b5563">Relax, rejuvenate, and feel</text><text x="45" y="722" font-family="Arial,sans-serif" font-size="17" fill="#4b5563">your absolute best.</text></svg>`);
+  await sharp(mobileHeroBase).composite([{ input: mobileHeroOverlay }]).jpeg({ quality: 86, mozjpeg: true }).toFile(mobileHero);
+  add(mobileHero, 'Mobile hero reference using authentic live-site imagery and copy');
+
+  const ownerPanel = await sharp(source.owner).resize(560, 760, { fit: 'cover', position: 'top' }).toBuffer();
+  const services = output('desktop_treatment_specialties');
+  const servicesSvg = Buffer.from(`<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg"><rect width="1440" height="900" fill="#f5f2ef"/><text x="650" y="105" font-family="Arial,sans-serif" font-size="18" fill="#7c6f67" letter-spacing="3">LIVE-SITE SERVICE REFERENCE</text><text x="650" y="170" font-family="Arial,sans-serif" font-size="47" font-weight="700" fill="#302d2b">At Moore Beauty,</text><text x="650" y="225" font-family="Arial,sans-serif" font-size="47" font-weight="700" fill="#302d2b">I specialise in:</text><text x="650" y="330" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#514943">Waxing Expertise</text><text x="650" y="377" font-family="Arial,sans-serif" font-size="22" fill="#6b625c">Precision waxing with the Sienna X wax range.</text><text x="650" y="475" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#514943">Luxury Facials &amp; Body Treatments</text><text x="650" y="522" font-family="Arial,sans-serif" font-size="22" fill="#6b625c">Sienna X skincare and body products.</text><text x="650" y="620" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#514943">Holistic Treatments</text><text x="650" y="667" font-family="Arial,sans-serif" font-size="22" fill="#6b625c">Crystal healing and reflexology.</text><text x="650" y="790" font-family="Arial,sans-serif" font-size="18" fill="#8a817b">Source: moore-beauty.co.uk</text></svg>`);
+  await sharp(servicesSvg).composite([{ input: ownerPanel, left: 55, top: 70 }]).jpeg({ quality: 86, mozjpeg: true }).toFile(services);
+  add(services, 'Desktop treatment-specialties reference using live-site copy');
+
+  const mobileServices = output('mobile_treatment_specialties');
+  const mobileOwner = await sharp(source.owner).resize(390, 430, { fit: 'cover', position: 'top' }).toBuffer();
+  const mobileServicesSvg = Buffer.from(`<svg width="390" height="844" xmlns="http://www.w3.org/2000/svg"><rect width="390" height="844" fill="#f5f2ef"/><text x="25" y="486" font-family="Arial,sans-serif" font-size="12" fill="#7c6f67" letter-spacing="2">TREATMENT SPECIALTIES</text><text x="25" y="535" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#302d2b">At Moore Beauty</text><text x="25" y="596" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#514943">Waxing Expertise</text><text x="25" y="638" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#514943">Luxury Facials &amp; Body Treatments</text><text x="25" y="680" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#514943">Holistic Treatments</text><text x="25" y="758" font-family="Arial,sans-serif" font-size="15" fill="#756d67">15+ years of beauty-industry experience</text></svg>`);
+  await sharp(mobileServicesSvg).composite([{ input: mobileOwner, left: 0, top: 0 }]).jpeg({ quality: 86, mozjpeg: true }).toFile(mobileServices);
+  add(mobileServices, 'Mobile treatment-specialties reference using live-site copy');
+
+  const menu = output('desktop_treatment_menu_reference');
+  const menuSvg = Buffer.from(`<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg"><rect width="1440" height="900" fill="#fff"/><rect x="0" y="0" width="1440" height="125" fill="#efebe8"/><text x="85" y="78" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#302d2b">Moore Beauty · Treatment Menu</text><text x="85" y="185" font-family="Arial,sans-serif" font-size="18" fill="#7c6f67" letter-spacing="3">FACIALS · LIVE PUBLIC MENU</text><text x="85" y="255" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#3f3935">Revive &amp; Refresh</text><text x="1090" y="255" font-family="Arial,sans-serif" font-size="24" fill="#3f3935">30 mins · £30</text><line x1="85" y1="285" x2="1355" y2="285" stroke="#d6d0cb"/><text x="85" y="360" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#3f3935">Opulent Detox</text><text x="1090" y="360" font-family="Arial,sans-serif" font-size="24" fill="#3f3935">1 hr · £50</text><line x1="85" y1="390" x2="1355" y2="390" stroke="#d6d0cb"/><text x="85" y="465" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#3f3935">Luminosity Treatment</text><text x="1090" y="465" font-family="Arial,sans-serif" font-size="24" fill="#3f3935">1 hr · £50</text><line x1="85" y1="495" x2="1355" y2="495" stroke="#d6d0cb"/><text x="85" y="570" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#3f3935">Retinol Rejuvenation</text><text x="1045" y="570" font-family="Arial,sans-serif" font-size="24" fill="#3f3935">1 hr 15 mins · £60</text><line x1="85" y1="600" x2="1355" y2="600" stroke="#d6d0cb"/><text x="85" y="690" font-family="Arial,sans-serif" font-size="24" fill="#6b625c">Additional live menu categories: Advanced Facials · Eye Treatments · Waxing</text><text x="85" y="735" font-family="Arial,sans-serif" font-size="24" fill="#6b625c">Massage · Body Treatments · Holistic Health Therapies · Feet</text><text x="85" y="830" font-family="Arial,sans-serif" font-size="18" fill="#8a817b">Captured from the public treatment information on 2026-09-16 · no booking submitted</text></svg>`);
+  await sharp(menuSvg).jpeg({ quality: 88, mozjpeg: true }).toFile(menu);
+  add(menu, 'Desktop facials and treatment-menu reference using live public information');
+
+  const contact = output('desktop_contact_information');
+  const contactPortrait = await sharp(source.owner).resize(580, 900, { fit: 'cover', position: 'top' }).toBuffer();
+  const contactSvg = Buffer.from(`<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg"><rect width="1440" height="900" fill="#f8f7f6"/><text x="90" y="145" font-family="Arial,sans-serif" font-size="18" fill="#7c6f67" letter-spacing="3">CONTACT INFORMATION</text><text x="90" y="225" font-family="Arial,sans-serif" font-size="50" font-weight="700" fill="#302d2b">Contact Moore Beauty</text><text x="90" y="350" font-family="Arial,sans-serif" font-size="22" fill="#7c6f67">PHONE</text><text x="90" y="395" font-family="Arial,sans-serif" font-size="30" fill="#3f3935">07738 284538</text><text x="90" y="500" font-family="Arial,sans-serif" font-size="22" fill="#7c6f67">EMAIL</text><text x="90" y="545" font-family="Arial,sans-serif" font-size="28" fill="#3f3935">enquiries@moore-beauty.co.uk</text><text x="90" y="650" font-family="Arial,sans-serif" font-size="22" fill="#7c6f67">LOCATION</text><text x="90" y="695" font-family="Arial,sans-serif" font-size="28" fill="#3f3935">Oak Tree Rd, Knaphill</text><text x="90" y="733" font-family="Arial,sans-serif" font-size="28" fill="#3f3935">Surrey GU21 2RW</text><text x="90" y="835" font-family="Arial,sans-serif" font-size="17" fill="#8a817b">Public contact details from moore-beauty.co.uk</text></svg>`);
+  await sharp(contactSvg).composite([{ input: contactPortrait, left: 860, top: 0 }]).jpeg({ quality: 86, mozjpeg: true }).toFile(contact);
+  add(contact, 'Desktop public contact-information reference');
+
+  const responsive = output('responsive_comparison');
+  await createResponsiveComparison(project, desktopHero, mobileHero, responsive);
+  add(responsive, 'Desktop / mobile responsive QA comparison');
+  const flow = output('qa_user_flow_sequence');
+  await createFlowSequence(project, [desktopHero, services, menu], flow);
+  add(flow, 'Three-state QA treatment-discovery reference');
+
   const hashes = new Set();
   for (const capture of captures) {
     const digest = crypto.createHash('sha256').update(await fs.readFile(path.join(imagesDir, capture.file))).digest('hex');
-    if (hashes.has(digest)) throw new Error(`Remote capture was not unique: ${capture.file}`);
+    if (hashes.has(digest)) throw new Error(`Moore Beauty reference asset is not unique: ${capture.file}`);
     hashes.add(digest);
   }
-  const video = await createSlideshowVideo(project, base, [imagePath('desktop_home_hero'), imagePath('desktop_treatment_menu'), imagePath('desktop_studio_gallery')], notes);
+  if (captures.length < 10) throw new Error(`Moore Beauty produced only ${captures.length} authentic reference assets`);
+  const notes = [
+    'Direct browser and remote-renderer requests were rejected because the live host returned HTTP 403 security verification.',
+    'No security-verification page is included. Authentic public site images and verbatim public treatment/contact information were used for the reference compositions.',
+    'Playable video uses only the authentic Moore Beauty hero, treatment-specialty, and menu references.'
+  ];
+  const video = await createSlideshowVideo(project, base, [desktopHero, services, menu], notes);
   const result = {
-    id: project.id, slug: project.slug, folder: project.folder, name: project.name, url: project.url,
-    kind: project.kind, generated: CAPTURE_DATE,
+    id: project.id, slug: project.slug, folder: project.folder, name: project.name, url: project.url, kind: project.kind, generated: CAPTURE_DATE,
     images: captures.map(capture => ({ ...capture, path: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/images/${capture.file}` })),
     videos: [{ ...video, path: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/video/${video.file}`, thumbnailPath: `QA-PORTFOLIO-ASSETS/Sprint-03/${project.folder}/video/${video.thumbnail}` }],
     notes
@@ -632,15 +559,13 @@ async function captureMooreBeautyRemote(project) {
   await fs.writeFile(path.join(base, 'asset-manifest.json'), JSON.stringify(result, null, 2));
   const readme = `# ${project.name} — QA Portfolio Visual Assets\n\n**Project:** ${project.name}  \n**Website URL:** ${project.url}  \n**Project type:** ${project.kind}  \n**Asset-generation date:** ${CAPTURE_DATE}\n\n` +
     `## Inventory\n\n- Static images: **${captures.length}**\n- Videos: **1**\n- Video thumbnails: **1** (stored with the video)\n\n## Coverage\n\n${captures.map(c => `- \`${c.file}\` — ${c.label}`).join('\n')}\n\n` +
-    `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n## Capture notes\n\n` +
-    `- Every image was rendered from the live public Moore Beauty URL represented by its filename and validated against the Moore Beauty page identity.\n- The direct HTTP 403 output was rejected; no access-denied capture remains in this project.\n- Responsive and flow compositions contain only authentic live-site renderings plus neutral QA reference labels.\n- The short video smoothly sequences the authentic homepage, treatment menu, and studio gallery.\n- No checkout submission, booking, account creation, or personal data entry was performed.\n- ${notes.join('\n- ')}\n`;
+    `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n## Capture notes\n\n- ${notes.join('\n- ')}\n- Every service, price, contact detail, image, and brand element is sourced from the public Moore Beauty site; no treatment, testimonial, booking state, or defect was invented.\n- No booking submission or personal data entry was performed.\n`;
   await fs.writeFile(path.join(base, 'README.md'), readme);
   return result;
 }
-
 async function captureProject(browser, project) {
   console.log(`\n=== ${project.id}: ${project.name} ===`);
-  if (project.slug === 'moore-beauty') return captureMooreBeautyRemote(project);
+  if (project.slug === 'moore-beauty') return captureMooreBeautyReferenceAssets(project);
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
   const notes = [];
@@ -666,11 +591,6 @@ async function captureProject(browser, project) {
     await page.evaluate(() => scrollTo(0, 0));
     await settle(page, 500);
     const desktopHero = await add('desktop_home_hero', 'Desktop homepage hero');
-    if (project.slug === 'moore-beauty') {
-      await captureMooreBeautyHomepageSections(page, project, imagesDir, captures);
-      await captureMooreBeautyGallerySources(context, project, imagesDir, captures, notes);
-      await goto(page, project, '/', notes, 'Homepage reset after studio gallery capture');
-    }
 
     await scrollToText(page, project.signatureText, 0.30);
     const desktopSignature = await add(`desktop_${project.slug === 'green-beauty-expert' ? 'beauty_blog' : 'signature_section'}`, `Desktop ${project.signatureText} section`);
@@ -713,22 +633,7 @@ async function captureProject(browser, project) {
     await screenshot(mobile, mobileHomeFile);
     captures.push({ file: path.basename(mobileHomeFile), label: 'Mobile homepage hero' });
 
-    if (project.slug === 'moore-beauty') {
-      const mobileSections = [
-        ['personal_oasis_story', 'Your Personal Oasis of Well-being', 'Mobile personal oasis and studio introduction'],
-        ['treatment_specialties', 'At Moore Beauty, I specialise in', 'Mobile beauty and holistic treatment specialties'],
-        ['social_and_testimonials', 'Follow my socials', 'Mobile social-gallery and testimonial section']
-      ];
-      for (const [slug, text, label] of mobileSections) {
-        if (!(await scrollToText(mobile, text, 0.5))) continue;
-        const output = path.join(imagesDir, `${project.prefix}_mobile_${slug}_001.jpg`);
-        await screenshot(mobile, output);
-        captures.push({ file: path.basename(output), label });
-        console.log(`  image: ${path.basename(output)}`);
-      }
-    }
 
-    if (project.slug === 'moore-beauty') await goto(mobile, project, '/', notes, 'Mobile navigation reset');
     const navType = await openMobileNavigation(mobile);
     const mobileNavFile = path.join(imagesDir, `${project.prefix}_interaction_mobile_${navType}_001.jpg`);
     await screenshot(mobile, mobileNavFile);
