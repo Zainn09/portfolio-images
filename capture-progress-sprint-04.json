@@ -1,76 +1,76 @@
 {
   "generated": "2026-09-16",
-  "stage": "Glisser Beauty asset set generated and published",
+  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
   "projects": [
     {
       "id": "31",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "32",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "33",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "34",
-      "status": "captured",
+      "status": "complete",
       "images": 13,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "35",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "36",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "37",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "38",
-      "status": "captured",
+      "status": "complete",
       "images": 13,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "39",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "40",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     }
   ]
 }
