@@ -35,14 +35,14 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 <!-- SPRINT_02_PROGRESS_START -->
 
-**Sprint status:** Ready to capture  
+**Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Website analysis and capture configuration  
-**Last updated:** 2026-09-16
+**Latest pipeline stage:** Glo by Glen Skin asset set generated and published  
+**Last updated:** 2026-09-16 01:03 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 11 | Glo by Glen Skin | <https://globyglenskin.com> | ⚪ Pending | — | — | Medical-grade skincare |
+| 11 | Glo by Glen Skin | <https://globyglenskin.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 12 | Funky Flickr Boyz Gear | <https://funkyflickrboyzgear.com> | ⚪ Pending | — | — | Performance wrestling gear |
 | 13 | My Rug World | <https://myrugworld.com> | ⚪ Pending | — | — | Rugs and guided shape discovery |
 | 14 | Gorgeous Alpacas | <https://gorgeousalpacas.co.uk> | ⚪ Pending | — | — | Yarn, craft kits, and knitwear |
@@ -53,6 +53,7 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | ⚪ Pending | — | — | Electric bikes and conversion kits |
 | 20 | Moor Body Care | <https://moorbodycare.co.uk> | ⚪ Pending | — | — | Moor therapy skincare |
 
+**Current checkpoint inventory:** 12 static images and 1 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_02_PROGRESS_END -->

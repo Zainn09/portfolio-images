@@ -1,8 +1,8 @@
 {
-  "title": "QA Portfolio Visual Assets — Sprint 1",
-  "generated": "2026-09-15",
-  "totalImages": 120,
-  "totalVideos": 10,
+  "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20132",
+  "generated": "2026-09-16",
+  "totalImages": 132,
+  "totalVideos": 11,
   "projects": [
     {
       "id": "01",
@@ -346,7 +346,7 @@
       "id": "05",
       "slug": "hershop",
       "folder": "05-hershop",
-      "name": "HER SHOP®",
+      "name": "HER SHOP\u00ae",
       "url": "https://hershop.com",
       "kind": "Bridal and occasion fashion",
       "generated": "2026-09-15",
@@ -513,7 +513,7 @@
       "folder": "07-maison-khloe",
       "name": "Maison Khloe",
       "url": "https://maisonkhloe.ca",
-      "kind": "Curated women’s fashion",
+      "kind": "Curated women\u2019s fashion",
       "generated": "2026-09-15",
       "images": [
         {
@@ -743,7 +743,7 @@
         {
           "file": "09_peak_scents_video_product_journey_001.mp4",
           "thumbnail": "09_peak_scents_video_product_journey_001.jpg",
-          "purpose": "Authentic homepage → best sellers → Babchi Serum visual journey",
+          "purpose": "Authentic homepage \u2192 best sellers \u2192 Babchi Serum visual journey",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.jpg"
         }
@@ -830,6 +830,108 @@
         "Capture 10_green_beauty_expert_desktop_beauty_blog_001.jpg matched 10_green_beauty_expert_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
         "Capture 10_green_beauty_expert_interaction_mobile_header_001.jpg matched 10_green_beauty_expert_mobile_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
       ]
+    },
+    {
+      "id": "11",
+      "slug": "globy-glen-skin",
+      "folder": "11-globy-glen-skin",
+      "name": "Glo by Glen Skin",
+      "url": "https://www.globyglenskin.com",
+      "kind": "Medical-grade skincare",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "11_globy_glen_skin_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_desktop_signature_section_001.jpg",
+          "label": "Desktop Glo Serums section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_project_highlight_targeted_skincare_collection_001.jpg",
+          "label": "Project highlight: targeted skincare collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_project_highlight_targeted_skincare_collection_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "11_globy_glen_skin_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/images/11_globy_glen_skin_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "11_globy_glen_skin_video_skincare_journey_001.mp4",
+          "thumbnail": "11_globy_glen_skin_video_skincare_journey_001.jpg",
+          "purpose": "Medical-grade skincare journey from hero to serum detail",
+          "duration": 17.76,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/video/11_globy_glen_skin_video_skincare_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/11-globy-glen-skin/video/11_globy_glen_skin_video_skincare_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 17.76 seconds, complete decode passed.",
+        "Rejected duplicate 11_globy_glen_skin_interaction_detail_state_001.jpg; it matched 11_globy_glen_skin_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    }
+  ],
+  "sprints": [
+    {
+      "number": 1,
+      "label": "Sprint 1",
+      "images": 120,
+      "videos": 10,
+      "projects": 10
+    },
+    {
+      "number": 2,
+      "label": "Sprint 2",
+      "images": 12,
+      "videos": 1,
+      "projects": 1
     }
   ]
 }
