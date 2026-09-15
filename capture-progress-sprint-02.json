@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "ElectroCity Bikes asset set generated and published",
+  "stage": "Moor Body Care asset set generated and published",
   "projects": [
     {
       "id": "11",
@@ -62,6 +62,13 @@
       "id": "19",
       "status": "captured",
       "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "20",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

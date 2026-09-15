@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 2",
   "generated": "2026-09-16",
-  "totalImages": 106,
-  "totalVideos": 9,
+  "totalImages": 119,
+  "totalVideos": 10,
   "projects": [
     {
       "id": "11",
@@ -771,6 +771,96 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 23.12 seconds, complete decode passed.",
         "Rejected duplicate 19_electrocity_bikes_desktop_signature_section_001.jpg; it matched 19_electrocity_bikes_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "20",
+      "slug": "moor-body-care",
+      "folder": "20-moor-body-care",
+      "name": "Moor Body Care",
+      "url": "https://www.moorbodycare.co.uk",
+      "kind": "Moor therapy skincare",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "20_moor_body_care_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_desktop_signature_section_001.jpg",
+          "label": "Desktop Would you like to know our origins section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_project_highlight_moor_therapy_heritage_001.jpg",
+          "label": "Project highlight: moor therapy heritage",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_project_highlight_moor_therapy_heritage_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "20_moor_body_care_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/images/20_moor_body_care_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "20_moor_body_care_video_moor_spa_journey_001.mp4",
+          "thumbnail": "20_moor_body_care_video_moor_spa_journey_001.jpg",
+          "purpose": "Moor therapy skincare and treatment-detail journey",
+          "duration": 22.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/video/20_moor_body_care_video_moor_spa_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/20-moor-body-care/video/20_moor_body_care_video_moor_spa_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 22.60 seconds, complete decode passed."
       ]
     }
   ]
