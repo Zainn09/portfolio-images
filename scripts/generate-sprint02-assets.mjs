@@ -630,6 +630,8 @@ async function publishCheckpoint(project) {
   if (!/^arena\/[a-z0-9-]+$/.test(branch)) throw new Error(`Unsafe or missing checkpoint branch: ${branch}`);
   await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-02.json', 'asset-browser/manifest-sprint-02.json', 'asset-browser/manifest.json', path.join(ROOT, project.folder)]);
   await execFileAsync('git', ['commit', '-m', `Add Sprint 2 ${project.id} ${project.name} asset checkpoint [skip ci]`]);
+  await execFileAsync('git', ['fetch', 'origin', branch]);
+  await execFileAsync('git', ['rebase', 'FETCH_HEAD']);
   await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`], { maxBuffer: 10 * 1024 * 1024 });
   console.log(`  checkpoint published: ${project.id} ${project.name}`);
 }
@@ -640,7 +642,11 @@ async function publishBlockedProgress(project) {
   if (!/^arena\/[a-z0-9-]+$/.test(branch)) return;
   await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-02.json', 'asset-browser/manifest-sprint-02.json', 'asset-browser/manifest.json']);
   const commit = await execFileAsync('git', ['commit', '-m', `Document Sprint 2 ${project.id} capture interruption [skip ci]`]).catch(() => null);
-  if (commit) await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`]);
+  if (commit) {
+    await execFileAsync('git', ['fetch', 'origin', branch]);
+    await execFileAsync('git', ['rebase', 'FETCH_HEAD']);
+    await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`]);
+  }
 }
 
 async function main() {
