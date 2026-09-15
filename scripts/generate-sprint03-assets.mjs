@@ -18,7 +18,7 @@ const NAV_TIMEOUT = 45_000;
 
 const projects = [
   {
-    id: '21', slug: 'moore-beauty', folder: '21-moore-beauty', name: 'Moore Beauty', url: 'https://moore-beauty.co.uk',
+    id: '21', slug: 'moore-beauty', folder: '21-moore-beauty', name: 'Moore Beauty', url: 'https://www.moore-beauty.co.uk',
     prefix: '21_moore_beauty', kind: 'Home-based beauty treatments and holistic therapies',
     signatureText: 'At Moore Beauty, I specialise in', listingUrl: '/treatment-menu.php', listingText: 'Facials',
     detailUrl: '/treatment-menu.php', detailText: 'Massage',
@@ -283,13 +283,19 @@ async function captureMooreBeautyGallerySources(context, project, imagesDir, cap
     for (const suffix of [`${index}.jpg`, `${index}-thmb.jpg`]) {
       const assetUrl = urlFor(project, `/assets/img/gallery/${suffix}`);
       try {
-        const response = await context.request.get(assetUrl, { timeout: NAV_TIMEOUT });
+        const response = await context.request.get(assetUrl, {
+          timeout: NAV_TIMEOUT,
+          headers: { Referer: urlFor(project, '/gallery.php'), Accept: 'image/avif,image/webp,image/apng,image/jpeg,image/*,*/*;q=0.8' }
+        });
         const contentType = response.headers()['content-type'] || '';
         if (response.ok() && contentType.startsWith('image/')) {
           source = await response.body();
           break;
         }
-      } catch {}
+        console.log(`  gallery source unavailable: ${assetUrl} (${response.status()} ${contentType})`);
+      } catch (error) {
+        console.log(`  gallery source request failed: ${assetUrl} (${String(error.message).slice(0, 100)})`);
+      }
     }
     if (!source) continue;
     try {
