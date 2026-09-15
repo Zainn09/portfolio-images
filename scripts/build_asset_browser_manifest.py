@@ -12,7 +12,7 @@ OUTPUT = BROWSER / "manifest.json"
 
 sprints = []
 projects = []
-for number in (1, 2):
+for number in (1, 2, 3):
     source = BROWSER / ("manifest.json" if number == 1 else f"manifest-sprint-{number:02d}.json")
     # Sprint 1 originally used manifest.json as its canonical file. Once the
     # combined file exists, capture-report.json remains its immutable source.
@@ -32,7 +32,7 @@ for number in (1, 2):
     })
 
 combined = {
-    "title": "QA Portfolio Visual Assets — Sprints 1–2",
+    "title": "QA Portfolio Visual Assets — Sprints 1–3",
     "generated": "2026-09-16",
     "totalImages": sum(len(project.get("images", [])) for project in projects),
     "totalVideos": sum(len(project.get("videos", [])) for project in projects),
