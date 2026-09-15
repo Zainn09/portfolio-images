@@ -1,76 +1,34 @@
 {
   "generated": "2026-09-16",
-  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
+  "stage": "Laly’s Candles asset set generated and published",
   "projects": [
     {
       "id": "31",
-      "status": "complete",
+      "status": "captured",
       "images": 11,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "32",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "33",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "34",
-      "status": "complete",
+      "status": "captured",
       "images": 13,
       "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "35",
-      "status": "complete",
-      "images": 11,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "36",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "37",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "38",
-      "status": "complete",
-      "images": 13,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "39",
-      "status": "complete",
-      "images": 11,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "40",
-      "status": "complete",
-      "images": 11,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }
