@@ -1,0 +1,83 @@
+{
+  "id": "09",
+  "slug": "peak-scents",
+  "folder": "09-peak-scents",
+  "name": "Peak Scents",
+  "url": "https://peakscents.com",
+  "kind": "Plant-based skincare and refill shop",
+  "generated": "2026-09-15",
+  "images": [
+    {
+      "file": "09_peak_scents_desktop_home_hero_001.jpg",
+      "label": "Desktop clean-beauty homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_best_sellers_collection_001.jpg",
+      "label": "Desktop best-sellers collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_best_sellers_collection_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_babchi_serum_detail_001.jpg",
+      "label": "Desktop Organic Rose Phyto3 Babchi Serum detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_babchi_serum_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_night_cream_detail_001.jpg",
+      "label": "Desktop Organic Rose Phyto3 Night Cream detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_night_cream_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_facial_cleanser_detail_001.jpg",
+      "label": "Desktop Organic Rose Phyto3 Facial Cleanser detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_facial_cleanser_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_all_products_collection_001.jpg",
+      "label": "Desktop complete product collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_all_products_collection_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_desktop_babchi_bundle_detail_001.jpg",
+      "label": "Desktop Babchi Beauty Bundle detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_babchi_bundle_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_mobile_home_hero_001.jpg",
+      "label": "Mobile clean-beauty homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_mobile_best_sellers_collection_001.jpg",
+      "label": "Mobile best-sellers collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_best_sellers_collection_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_mobile_babchi_serum_detail_001.jpg",
+      "label": "Mobile Babchi Serum product detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_babchi_serum_detail_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "09_peak_scents_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA skincare user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "09_peak_scents_video_product_journey_001.mp4",
+      "thumbnail": "09_peak_scents_video_product_journey_001.jpg",
+      "purpose": "Authentic homepage → best sellers → Babchi Serum visual journey",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Direct browser sessions redirected off-domain, so the rejected files were replaced with validated Peak Scents renderings from the live public URLs."
+  ]
+}
