@@ -40,11 +40,11 @@ const projects = [
   {
     id: '33', slug: 'rad-childrens-furniture', folder: '33-rad-childrens-furniture', name: 'RAD Children’s Furniture', url: 'https://radchildrensfurniture.com',
     prefix: '33_rad_childrens_furniture', kind: 'Montessori children’s furniture',
-    signatureText: 'Made in USA', listingUrl: '/collections/all', listingText: 'Products',
-    detailUrl: null, detailText: 'Furniture',
-    highlightUrl: '/', highlightText: 'Montessori', highlightLabel: 'Montessori furniture overview',
-    interactionUrl: '/collections/all', interactionText: 'Furniture',
-    flowLabels: ['Child-led spaces', 'Furniture catalogue', 'Furniture detail'], videoSlug: 'montessori_furniture_journey',
+    signatureText: 'Made for How Kids Grow', listingUrl: '/collections/tables-and-chairs', listingText: 'Tables and Chairs',
+    detailUrl: '/products/montessori-cube-chair', detailText: 'Montessori Cube Chair',
+    highlightUrl: '/collections/climbing-triangles', highlightText: 'Climbing Triangles', highlightLabel: 'Montessori climbing collection',
+    interactionUrl: '/collections/shelves-and-storage', interactionText: 'Shelves and Storage',
+    flowLabels: ['Child-led spaces', 'Tables and chairs', 'Cube chair detail'], videoSlug: 'montessori_furniture_journey',
     videoPurpose: 'Montessori furniture discovery from room inspiration to product detail'
   },
   {
