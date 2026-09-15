@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Monsoon Flowers asset set generated and published",
+  "stage": "ElectroCity Bikes asset set generated and published",
   "projects": [
     {
       "id": "11",
@@ -53,6 +53,13 @@
     },
     {
       "id": "18",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "19",
       "status": "captured",
       "images": 12,
       "videos": 1,

@@ -37,8 +37,8 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Monsoon Flowers asset set generated and published  
-**Last updated:** 2026-09-16 01:18 PKT
+**Latest pipeline stage:** ElectroCity Bikes asset set generated and published  
+**Last updated:** 2026-09-16 01:20 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -50,10 +50,10 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 16 | Something Pretty Floral | <https://somethingprettyfloral.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 17 | London Flower Academy | <https://londonfloweracademy.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
 | 18 | Monsoon Flowers | <https://monsoonflowers.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | ⚪ Pending | — | — | Electric bikes and conversion kits |
+| 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 20 | Moor Body Care | <https://moorbodycare.co.uk> | ⚪ Pending | — | — | Moor therapy skincare |
 
-**Current checkpoint inventory:** 94 static images and 8 playable MP4 videos.  
+**Current checkpoint inventory:** 106 static images and 9 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_02_PROGRESS_END -->
