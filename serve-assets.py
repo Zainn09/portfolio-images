@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local browser and download server for the Sprint 1 QA visual asset library."""
+"""Local browser and download server for the multi-sprint QA visual asset library."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ASSET_ROOT = ROOT / "QA-PORTFOLIO-ASSETS"
-PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|1[0-9]|20)-[a-z0-9-]+$")
+PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[12][0-9]|30)-[a-z0-9-]+$")
 
 
 class AssetHandler(SimpleHTTPRequestHandler):
@@ -37,7 +37,7 @@ class AssetHandler(SimpleHTTPRequestHandler):
             self.send_error(400, "Invalid project name")
             return
         project_number = int(project.split("-", 1)[0])
-        sprint = "Sprint-01" if project_number <= 10 else "Sprint-02"
+        sprint = "Sprint-01" if project_number <= 10 else "Sprint-02" if project_number <= 20 else "Sprint-03"
         project_dir = ASSET_ROOT / sprint / project
         if not project_dir.is_dir():
             self.send_error(404, "Project assets are not available")
@@ -64,7 +64,7 @@ class AssetHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Serve the Sprint 1 QA asset browser")
+    parser = argparse.ArgumentParser(description="Serve the multi-sprint QA asset browser")
     parser.add_argument("--port", type=int, default=int(os.getenv("PORT", "4173")))
     args = parser.parse_args()
     server = ThreadingHTTPServer(("0.0.0.0", args.port), AssetHandler)
