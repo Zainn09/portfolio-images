@@ -1,28 +1,63 @@
 # QA Portfolio Visual Assets — Sprint 1
 
-This repository contains the capture, verification, packaging, and local browsing tools for a visual asset library covering these ten live products:
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website.
 
-1. Fandiem
-2. Revived Smiles
-3. K-CAPS
-4. Dr. Stengler
-5. HER SHOP®
-6. The Scaff Shop
-7. Maison Khloe
-8. Summit Sheets
-9. Peak Scents
-10. Green Beauty Expert
+## Live progress
 
-The deliverable is an asset archive for an **existing QA portfolio**. It is not a portfolio website.
+<!-- SPRINT_PROGRESS_START -->
 
-## Finished output
+**Sprint status:** In progress  
+**Completed projects:** 0 / 10  
+**Latest pipeline stage:** Live-site captures generated; final inventory QA requires attention  
+**Last updated:** 2026-09-15 23:57 PKT
 
-After generation, the repository includes:
+| # | Project | Website | Status | Images | Videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 01 | Fandiem | <https://fandiem.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 02 | Revived Smiles | <https://revivedsmiles.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 03 | K-CAPS | <https://kcaps.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 04 | Dr. Stengler | <https://drstengler.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 05 | HER SHOP® | <https://hershop.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 06 | The Scaff Shop | <https://thescaffshop.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 07 | Maison Khloe | <https://maisonkhloe.ca> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 08 | Summit Sheets | <https://summitsheetsbedding.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 09 | Peak Scents | <https://peakscents.com> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+| 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | 🟡 Captured · QA pending | 12 | 1 | Awaiting final media validation |
+
+**Current generated inventory:** 120 static images and 10 videos, pending final QA and repository publication.  
+**Required minimum:** 100 static images and 10 videos.
+
+<!-- SPRINT_PROGRESS_END -->
+
+### Status legend
+
+- ⚪ **Pending** — capture has not started.
+- 🔵 **Capturing** — live-site asset generation is running.
+- 🟡 **Captured · QA pending** — planned images and video exist, but final checks are not complete.
+- 🟢 **Complete** — assets, video, README, ZIP packaging, and download checks passed.
+- 🔴 **Blocked** — access or technical issue requires attention; the reason must be documented.
+
+### Progress update policy
+
+This README is the sprint status source of truth. It is updated whenever:
+
+1. A website starts processing.
+2. A website's image and video set is generated.
+3. A website passes or fails its project-level QA.
+4. Packaging, ZIP integrity, or download-interface status changes.
+5. Sprint-level final QA completes.
+
+A project is not marked **Complete** merely because files were generated. Completion requires the project inventory, media, naming, README, and download checks to pass.
+
+## Delivery structure
+
+When complete, the repository contains:
 
 - `QA-PORTFOLIO-ASSETS/Sprint-01/` — project-organized images, videos, thumbnails, and capture notes
 - `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
-- `asset-browser/` — local preview/download interface
+- `asset-browser/` — local preview and download interface
 - `capture-report.json` — machine-readable inventory and availability notes
+- `capture-progress.json` — machine-readable project checkpoint status
 
 ## Open the local asset browser
 
@@ -32,7 +67,14 @@ python3 serve-assets.py --port 4173
 
 Then open <http://localhost:4173/asset-browser/>.
 
-The browser supports full-size previews, video playback, individual file downloads, on-demand project ZIP downloads, and complete Sprint ZIP download.
+The browser supports:
+
+- All ten project inventories
+- Full-size image previews
+- Video thumbnails and playback
+- Individual image and video downloads
+- On-demand project ZIP downloads
+- Complete Sprint 1 ZIP download
 
 ## Re-run capture and packaging
 
@@ -44,4 +86,4 @@ npm run package
 python3 scripts/verify_assets.py
 ```
 
-The automated capture uses public live-site UI only. It does not submit checkout, create accounts, make purchases, or invent QA defects.
+The capture process uses public live-site UI only. It does not submit checkout, create accounts, make purchases, enter personal data, or invent QA defects.
