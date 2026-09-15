@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 355,
-  "totalVideos": 30,
+  "totalImages": 366,
+  "totalVideos": 31,
   "projects": [
     {
       "id": "01",
@@ -2537,6 +2537,91 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 28.64 seconds, complete decode passed.",
         "Rejected duplicate 30_cowbells_interaction_detail_state_001.jpg; it matched 30_cowbells_desktop_product_detail_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "31",
+      "slug": "nine-am-roast",
+      "folder": "31-nine-am-roast",
+      "name": "Nine AM Roast",
+      "url": "https://nineamroast.com",
+      "kind": "Specialty coffee and tea",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "31_nine_am_roast_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_desktop_signature_section_001.jpg",
+          "label": "Desktop Curated Coffees section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_project_highlight_fresh_roasted_coffee_experience_001.jpg",
+          "label": "Project highlight: fresh-roasted coffee experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_project_highlight_fresh_roasted_coffee_experience_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "31_nine_am_roast_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/images/31_nine_am_roast_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "31_nine_am_roast_video_coffee_discovery_journey_001.mp4",
+          "thumbnail": "31_nine_am_roast_video_coffee_discovery_journey_001.jpg",
+          "purpose": "Specialty-coffee discovery from brand story to roast detail",
+          "duration": 32.88,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/video/31_nine_am_roast_video_coffee_discovery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/31-nine-am-roast/video/31_nine_am_roast_video_coffee_discovery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Detail at https://nineamroast.com/products/breakfast-blend was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
+        "Mobile detail at https://nineamroast.com/products/breakfast-blend was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
+        "Video detail at https://nineamroast.com/products/breakfast-blend was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 32.88 seconds, complete decode passed.",
+        "Rejected duplicate 31_nine_am_roast_desktop_product_detail_001.jpg; it matched 31_nine_am_roast_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 31_nine_am_roast_mobile_project_specific_section_001.jpg; it matched 31_nine_am_roast_mobile_product_detail_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -2560,6 +2645,13 @@
       "images": 116,
       "videos": 10,
       "projects": 10
+    },
+    {
+      "number": 4,
+      "label": "Sprint 4",
+      "images": 11,
+      "videos": 1,
+      "projects": 1
     }
   ]
 }

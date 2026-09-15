@@ -1,5 +1,13 @@
 {
   "generated": "2026-09-16",
-  "stage": "Website analysis and capture configuration",
-  "projects": []
+  "stage": "Nine AM Roast asset set generated and published",
+  "projects": [
+    {
+      "id": "31",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    }
+  ]
 }
