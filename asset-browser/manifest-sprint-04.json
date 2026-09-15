@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 4",
   "generated": "2026-09-16",
-  "totalImages": 48,
-  "totalVideos": 4,
+  "totalImages": 59,
+  "totalVideos": 5,
   "projects": [
     {
       "id": "31",
@@ -351,6 +351,88 @@
       ],
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 25.16 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "35",
+      "slug": "adonis-jewellery",
+      "folder": "35-adonis-jewellery",
+      "name": "Adonis Jewellery",
+      "url": "https://adonisjewellery.gr",
+      "kind": "Fine jewellery and Swiss watches",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "35_adonis_jewellery_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Collection section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_project_highlight_tudor_watch_collection_001.jpg",
+          "label": "Project highlight: Tudor watch collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_project_highlight_tudor_watch_collection_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "35_adonis_jewellery_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/images/35_adonis_jewellery_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "35_adonis_jewellery_video_fine_jewellery_journey_001.mp4",
+          "thumbnail": "35_adonis_jewellery_video_fine_jewellery_journey_001.jpg",
+          "purpose": "Fine jewellery and watch discovery from collection overview to item detail",
+          "duration": 28.52,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/video/35_adonis_jewellery_video_fine_jewellery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/35-adonis-jewellery/video/35_adonis_jewellery_video_fine_jewellery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 28.52 seconds, complete decode passed.",
+        "Rejected duplicate 35_adonis_jewellery_interaction_detail_state_001.jpg; it matched 35_adonis_jewellery_desktop_product_detail_001.jpg in perceptual image QA.",
+        "Rejected duplicate 35_adonis_jewellery_interaction_mobile_navigation_001.jpg; it matched 35_adonis_jewellery_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]

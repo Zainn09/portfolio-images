@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Laly’s Candles asset set generated and published",
+  "stage": "Adonis Jewellery asset set generated and published",
   "projects": [
     {
       "id": "31",
@@ -27,6 +27,13 @@
       "id": "34",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "35",
+      "status": "captured",
+      "images": 11,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
