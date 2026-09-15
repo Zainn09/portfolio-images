@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20132",
   "generated": "2026-09-16",
-  "totalImages": 132,
-  "totalVideos": 11,
+  "totalImages": 143,
+  "totalVideos": 12,
   "projects": [
     {
       "id": "01",
@@ -916,6 +916,88 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 17.76 seconds, complete decode passed.",
         "Rejected duplicate 11_globy_glen_skin_interaction_detail_state_001.jpg; it matched 11_globy_glen_skin_desktop_product_detail_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "12",
+      "slug": "funky-flickr-boyz-gear",
+      "folder": "12-funky-flickr-boyz-gear",
+      "name": "Funky Flickr Boyz Gear",
+      "url": "https://funkyflickrboyzgear.com",
+      "kind": "Performance wrestling gear",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "12_funky_flickr_boyz_gear_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_desktop_signature_section_001.jpg",
+          "label": "Desktop SHOP THE CURRENT LINEUP section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_project_highlight_wrestling_brand_story_001.jpg",
+          "label": "Project highlight: wrestling brand story",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_project_highlight_wrestling_brand_story_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "12_funky_flickr_boyz_gear_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/images/12_funky_flickr_boyz_gear_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "12_funky_flickr_boyz_gear_video_wrestling_gear_journey_001.mp4",
+          "thumbnail": "12_funky_flickr_boyz_gear_video_wrestling_gear_journey_001.jpg",
+          "purpose": "Wrestling footwear discovery from campaign to shoe detail",
+          "duration": 34.28,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/video/12_funky_flickr_boyz_gear_video_wrestling_gear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/12-funky-flickr-boyz-gear/video/12_funky_flickr_boyz_gear_video_wrestling_gear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 34.28 seconds, complete decode passed.",
+        "Rejected duplicate 12_funky_flickr_boyz_gear_interaction_detail_state_001.jpg; it matched 12_funky_flickr_boyz_gear_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 12_funky_flickr_boyz_gear_interaction_mobile_header_001.jpg; it matched 12_funky_flickr_boyz_gear_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -929,9 +1011,9 @@
     {
       "number": 2,
       "label": "Sprint 2",
-      "images": 12,
-      "videos": 1,
-      "projects": 1
+      "images": 23,
+      "videos": 2,
+      "projects": 2
     }
   ]
 }
