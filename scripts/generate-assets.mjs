@@ -519,13 +519,15 @@ async function captureProject(browser, project) {
       (notes.length ? notes.map(n => `- ${n}`).join('\n') + '\n' : '- All planned public routes were accessible during capture.\n');
     await fs.writeFile(path.join(base, 'README.md'), readme);
 
-    return {
+    const result = {
       id: project.id, slug: project.slug, folder: project.folder, name: project.name,
       url: project.url, kind: project.kind, generated: CAPTURE_DATE,
       images: captures.map(c => ({ ...c, path: `QA-PORTFOLIO-ASSETS/Sprint-01/${project.folder}/images/${c.file}` })),
       videos: [{ ...video, path: `QA-PORTFOLIO-ASSETS/Sprint-01/${project.folder}/video/${video.file}`, thumbnailPath: `QA-PORTFOLIO-ASSETS/Sprint-01/${project.folder}/video/${video.thumbnail}` }],
       notes
     };
+    await fs.writeFile(path.join(base, 'asset-manifest.json'), JSON.stringify(result, null, 2));
+    return result;
   } catch (error) {
     await context.close().catch(() => {});
     throw error;
@@ -537,15 +539,91 @@ async function createBrowser(manifest) {
   await fs.writeFile('asset-browser/manifest.json', JSON.stringify(manifest, null, 2));
 }
 
+async function loadProjectCheckpoint(project) {
+  const manifestFile = path.join(ROOT, project.folder, 'asset-manifest.json');
+  if (!fsSync.existsSync(manifestFile)) return null;
+  try {
+    const result = JSON.parse(await fs.readFile(manifestFile, 'utf8'));
+    const files = [
+      ...result.images.map(item => path.resolve(item.path)),
+      ...result.videos.flatMap(item => [path.resolve(item.path), path.resolve(item.thumbnailPath)])
+    ];
+    if (result.images.length < 10 || result.videos.length < 1 || !files.every(file => fsSync.existsSync(file))) return null;
+    return result;
+  } catch {
+    return null;
+  }
+}
+
+async function updateRootProgress(results, stage, activeProject = null, blocked = false) {
+  const completed = results.map(result => ({
+    id: result.id,
+    status: 'captured',
+    images: result.images.length,
+    videos: result.videos.length,
+    note: 'Project assets published; awaiting Sprint-level QA'
+  }));
+  if (activeProject && !completed.some(item => item.id === activeProject.id)) {
+    completed.push({
+      id: activeProject.id,
+      status: blocked ? 'blocked' : 'capturing',
+      images: 0,
+      videos: 0,
+      note: blocked ? 'Capture stopped; review workflow diagnostics' : 'Live-site capture in progress'
+    });
+  }
+  const progress = { generated: CAPTURE_DATE, stage, projects: completed };
+  await fs.writeFile('capture-progress.json', JSON.stringify(progress, null, 2));
+  await execFileAsync('python3', ['scripts/update_readme_progress.py']);
+}
+
+async function publishCheckpoint(project) {
+  if (process.env.CHECKPOINT_COMMITS !== '1') return;
+  const branch = process.env.CHECKPOINT_BRANCH || '';
+  if (!/^arena\/[a-z0-9-]+$/.test(branch)) throw new Error(`Unsafe or missing checkpoint branch: ${branch}`);
+  await execFileAsync('git', ['add', 'README.md', 'capture-progress.json', path.join(ROOT, project.folder)]);
+  await execFileAsync('git', ['commit', '-m', `Add ${project.id} ${project.name} asset checkpoint [skip ci]`]);
+  await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`], { maxBuffer: 10 * 1024 * 1024 });
+  console.log(`  checkpoint published: ${project.id} ${project.name}`);
+}
+
+async function publishBlockedProgress(project) {
+  if (process.env.CHECKPOINT_COMMITS !== '1') return;
+  const branch = process.env.CHECKPOINT_BRANCH || '';
+  if (!/^arena\/[a-z0-9-]+$/.test(branch)) return;
+  await execFileAsync('git', ['add', 'README.md', 'capture-progress.json']);
+  const commit = await execFileAsync('git', ['commit', '-m', `Document ${project.id} capture interruption [skip ci]`]).catch(() => null);
+  if (commit) await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`]);
+}
+
 async function main() {
-  await fs.rm(ROOT, { recursive: true, force: true });
+  const checkpointMode = process.env.CHECKPOINT_COMMITS === '1';
+  if (!checkpointMode) await fs.rm(ROOT, { recursive: true, force: true });
   await fs.rm(TMP, { recursive: true, force: true });
   await fs.mkdir(ROOT, { recursive: true });
   await fs.mkdir(TMP, { recursive: true });
   const browser = await chromium.launch({ headless: true, args: ['--disable-dev-shm-usage', '--no-sandbox'] });
   const results = [];
   try {
-    for (const project of projects) results.push(await captureProject(browser, project));
+    for (const project of projects) {
+      const existing = checkpointMode ? await loadProjectCheckpoint(project) : null;
+      if (existing) {
+        results.push(existing);
+        console.log(`\n=== ${project.id}: ${project.name} (restored from checkpoint) ===`);
+        continue;
+      }
+      await updateRootProgress(results, `${project.name} live-site capture in progress`, project);
+      try {
+        const result = await captureProject(browser, project);
+        results.push(result);
+        await updateRootProgress(results, `${project.name} asset set generated and published`);
+        await publishCheckpoint(project);
+      } catch (error) {
+        await updateRootProgress(results, `${project.name} capture requires attention`, project, true);
+        await publishBlockedProgress(project);
+        throw error;
+      }
+    }
   } finally {
     await browser.close();
   }
