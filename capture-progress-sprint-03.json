@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Biofield Resonator asset set generated and published",
+  "stage": "Xtinctio asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -20,6 +20,13 @@
       "id": "23",
       "status": "captured",
       "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "24",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
