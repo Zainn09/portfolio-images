@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ASSET_ROOT = ROOT / "QA-PORTFOLIO-ASSETS"
-PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[12][0-9]|30)-[a-z0-9-]+$")
+PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[1-5][0-9]|60)-[a-z0-9-]+$")
 
 
 class AssetHandler(SimpleHTTPRequestHandler):
@@ -37,7 +37,7 @@ class AssetHandler(SimpleHTTPRequestHandler):
             self.send_error(400, "Invalid project name")
             return
         project_number = int(project.split("-", 1)[0])
-        sprint = "Sprint-01" if project_number <= 10 else "Sprint-02" if project_number <= 20 else "Sprint-03"
+        sprint = f"Sprint-{((project_number - 1) // 10) + 1:02d}"
         project_dir = ASSET_ROOT / sprint / project
         if not project_dir.is_dir():
             self.send_error(404, "Project assets are not available")

@@ -12,7 +12,10 @@
     "verify:sprint02": "python3 scripts/verify_sprint02_assets.py",
     "capture:sprint03": "node scripts/generate-sprint03-assets.mjs",
     "package:sprint03": "python3 scripts/package_sprint03_assets.py",
-    "verify:sprint03": "python3 scripts/verify_sprint03_assets.py"
+    "verify:sprint03": "python3 scripts/verify_sprint03_assets.py",
+    "capture:sprint04": "node scripts/generate-sprint04-assets.mjs",
+    "package:sprint04": "python3 scripts/package_sprint04_assets.py",
+    "verify:sprint04": "python3 scripts/verify_sprint04_assets.py"
   },
   "dependencies": {
     "playwright": "^1.55.0",

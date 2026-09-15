@@ -41,7 +41,7 @@
 <body>
   <header><div class="head">
     <div><div class="eyebrow">QA Portfolio Visual Asset Generation</div><h1>Asset Browser</h1><div class="summary" id="summary">Loading verified asset inventory…</div></div>
-    <div class="actions"><a class="btn" href="/QA-Portfolio-Sprint-01-Assets.zip" download>Download Sprint 1</a><a class="btn" href="/QA-Portfolio-Sprint-02-Assets.zip" download>Download Sprint 2</a><a class="btn primary" href="/QA-Portfolio-Sprint-03-Assets.zip" download>Download Sprint 3</a></div>
+    <div class="actions" id="sprint-actions"></div>
   </div></header>
   <main><div class="projects" id="projects"></div><div id="content"></div></main>
   <script>
@@ -54,6 +54,9 @@
       const imageCount=data.projects.reduce((n,p)=>n+p.images.length,0);
       const videoCount=data.projects.reduce((n,p)=>n+p.videos.length,0);
       document.querySelector('#summary').textContent=data.projects.length+' projects · '+imageCount+' static images · '+videoCount+' videos · generated '+data.generated;
+      document.querySelector('#sprint-actions').innerHTML=(data.sprints||[]).map((s,index,all) =>
+        button('/QA-Portfolio-Sprint-'+String(s.number).padStart(2,'0')+'-Assets.zip','Download Sprint '+s.number,index===all.length-1,true)
+      ).join('');
       document.querySelector('#projects').innerHTML=data.projects.map(p =>
         '<a class="project-link" href="#'+p.slug+'"><b>'+p.id+' · '+esc(p.name)+'</b><span>'+p.images.length+' images · '+p.videos.length+' video · '+esc(p.kind)+'</span></a>'
       ).join('');
@@ -65,7 +68,7 @@
           '<figure class="asset"><div class="preview"><video controls preload="metadata" poster="/'+v.thumbnailPath+'"><source src="/'+v.path+'" type="video/mp4"></video></div><figcaption><div class="asset-name">'+esc(v.file)+'</div><div class="asset-label">'+esc(v.purpose)+'</div><div class="asset-actions">'+button('/'+v.thumbnailPath,'Download thumbnail',false,true)+button('/'+v.path,'Download video',true,true)+'</div></figcaption></figure>'
         ).join('');
         const notes=p.notes.length?'<div class="notes"><b>Availability notes:</b> '+p.notes.map(esc).join(' ')+'</div>':'';
-        const sprint=Number(p.id)<=10?'Sprint-01':Number(p.id)<=20?'Sprint-02':'Sprint-03';
+        const sprint='Sprint-'+String(Math.ceil(Number(p.id)/10)).padStart(2,'0');
         return '<section class="project" id="'+p.slug+'"><div class="project-head"><div><div class="eyebrow">Project '+p.id+'</div><h2>'+esc(p.name)+'</h2><div class="project-meta"><a class="back" href="'+p.url+'" target="_blank" rel="noreferrer">'+p.url+'</a> · '+esc(p.kind)+'</div></div><div class="actions">'+button('/QA-PORTFOLIO-ASSETS/'+sprint+'/'+p.folder+'/README.md','Project notes')+button('/download/project/'+p.folder,'Download project ZIP',true)+'</div></div><h3>Images</h3><div class="grid">'+imageCards+'</div><h3>Video</h3><div class="video-grid">'+videos+'</div>'+notes+'</section>';
       }).join('');
     }).catch(error => document.querySelector('#summary').textContent=error.message);

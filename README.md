@@ -87,6 +87,35 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 <!-- SPRINT_03_PROGRESS_END -->
 
+## Sprint 4 — Websites 31–40
+
+Sprint 4 continues the visual asset library with the next ten supplied websites.
+
+<!-- SPRINT_04_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 10<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** 2026-09-16 04:07 PKT
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 31 | Nine AM Roast | <https://nineamroast.com> | ⚪ Pending | — | — | Specialty coffee and tea |
+| 32 | Lilly & Jace Kids | <https://lillyjacekids.com> | ⚪ Pending | — | — | Children’s clothing and accessories boutique |
+| 33 | RAD Children’s Furniture | <https://radchildrensfurniture.com> | ⚪ Pending | — | — | Montessori children’s furniture |
+| 34 | Laly’s Candles | <https://lalyscandles.com> | ⚪ Pending | — | — | Hand-poured scented candles |
+| 35 | Adonis Jewellery | <https://adonisjewellery.gr> | ⚪ Pending | — | — | Fine jewellery and Swiss watches |
+| 36 | smoveyUSA | <https://www.smoveyusa.com> | ⚪ Pending | — | — | Vibroswing fitness and wellness equipment |
+| 37 | Tinnie Tots | <https://www.tinnietots.com> | ⚪ Pending | — | — | Children’s clothing and footwear |
+| 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | ⚪ Pending | — | — | Handmade children’s occasionwear |
+| 39 | Koala Picks | <https://www.koalapicks.com> | ⚪ Pending | — | — | Healthy snacks for children and families |
+| 40 | Glisser Beauty | <https://www.glisserbeauty.com> | ⚪ Pending | — | — | Skincare and facial beauty products |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
+
+<!-- SPRINT_04_PROGRESS_END -->
+
 ### Status legend
 
 - ⚪ **Pending** — capture has not started.
