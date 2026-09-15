@@ -239,6 +239,51 @@ async function screenshot(page, file) {
   await fs.writeFile(file, buffer);
 }
 
+async function captureMooreBeautyHomepageSections(page, project, imagesDir, captures) {
+  // This brochure site keeps its hero fixed over conventional viewport captures.
+  // Preserve the authentic long page once, then extract semantic content regions
+  // from that same live-site screenshot rather than inventing extra UI states.
+  await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
+  await settle(page, 700);
+  const source = path.join(TMP, project.folder, 'moore-beauty-home-full-page.png');
+  await page.screenshot({ path: source, type: 'png', fullPage: true, animations: 'disabled', caret: 'hide' });
+  const metadata = await sharp(source).metadata();
+  const width = metadata.width || DESKTOP.width;
+  const height = metadata.height || DESKTOP.height;
+  console.log(`  Moore Beauty full-page source: ${width}×${height}`);
+
+  const overview = path.join(imagesDir, `${project.prefix}_desktop_homepage_full_page_reference_001.jpg`);
+  await sharp(source).jpeg({ quality: 78, mozjpeg: true }).toFile(overview);
+  captures.push({ file: path.basename(overview), label: 'Desktop full-page homepage reference' });
+
+  const sections = [
+    ['personal_oasis_story', 'Your Personal Oasis of Well-being', 'Personal oasis and studio introduction'],
+    ['treatment_specialties', 'At Moore Beauty, I specialise in', 'Beauty and holistic treatment specialties'],
+    ['waxing_expertise', 'Waxing Expertise', 'Waxing expertise information'],
+    ['social_gallery', 'Follow my socials', 'Studio social-gallery section'],
+    ['client_testimonials', 'Testimonial 1', 'Client testimonial section'],
+    ['contact_footer', 'Oak Tree Rd', 'Contact and location footer']
+  ];
+  for (const [slug, text, label] of sections) {
+    const matches = page.getByText(text, { exact: false });
+    const count = Math.min(await matches.count().catch(() => 0), 30);
+    let documentTop = null;
+    for (let index = 0; index < count; index += 1) {
+      const candidate = matches.nth(index);
+      if (!(await candidate.isVisible({ timeout: 200 }).catch(() => false))) continue;
+      documentTop = await candidate.evaluate(el => el.getBoundingClientRect().top + scrollY).catch(() => null);
+      if (Number.isFinite(documentTop)) break;
+    }
+    if (!Number.isFinite(documentTop)) continue;
+    const cropHeight = Math.min(DESKTOP.height, height);
+    const top = Math.max(0, Math.min(height - cropHeight, Math.round(documentTop - 190)));
+    const output = path.join(imagesDir, `${project.prefix}_desktop_${slug}_001.jpg`);
+    await sharp(source).extract({ left: 0, top, width, height: cropHeight }).jpeg({ quality: 80, mozjpeg: true }).toFile(output);
+    captures.push({ file: path.basename(output), label: `Desktop ${label}` });
+    console.log(`  image: ${path.basename(output)}`);
+  }
+}
+
 async function discoverDetail(page, project, notes) {
   if (project.detailUrl) return project.detailUrl;
   await goto(page, project, project.listingUrl, notes, 'Product listing');
@@ -461,6 +506,9 @@ async function captureProject(browser, project) {
     await page.evaluate(() => scrollTo(0, 0));
     await settle(page, 500);
     const desktopHero = await add('desktop_home_hero', 'Desktop homepage hero');
+    if (project.slug === 'moore-beauty') {
+      await captureMooreBeautyHomepageSections(page, project, imagesDir, captures);
+    }
 
     await scrollToText(page, project.signatureText, 0.30);
     const desktopSignature = await add(`desktop_${project.slug === 'green-beauty-expert' ? 'beauty_blog' : 'signature_section'}`, `Desktop ${project.signatureText} section`);
