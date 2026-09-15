@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-15",
-  "stage": "Peak Scents asset set generated and published",
+  "stage": "Green Beauty Expert asset set generated and published",
   "projects": [
     {
       "id": "01",
@@ -60,6 +60,13 @@
     },
     {
       "id": "09",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "10",
       "status": "captured",
       "images": 13,
       "videos": 1,

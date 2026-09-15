@@ -1,0 +1,89 @@
+{
+  "id": "10",
+  "slug": "green-beauty-expert",
+  "folder": "10-green-beauty-expert",
+  "name": "Green Beauty Expert",
+  "url": "https://www.greenbeautyexpert.ca",
+  "kind": "Natural beauty education and services",
+  "generated": "2026-09-15",
+  "images": [
+    {
+      "file": "10_green_beauty_expert_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_desktop_beauty_blog_001.jpg",
+      "label": "Desktop Beauty Blog section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_beauty_blog_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_desktop_editorial_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_editorial_listing_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_desktop_article_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_article_detail_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_interaction_article_content_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_interaction_article_content_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_project_highlight_beauty_education_library_001.jpg",
+      "label": "Project highlight: beauty education library",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_project_highlight_beauty_education_library_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_desktop_services_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_services_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_interaction_mobile_header_001.jpg",
+      "label": "Mobile header state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_interaction_mobile_header_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_mobile_article_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_mobile_article_detail_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "10_green_beauty_expert_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "10_green_beauty_expert_video_editorial_journey_001.mp4",
+      "thumbnail": "10_green_beauty_expert_video_editorial_journey_001.jpg",
+      "purpose": "Beauty education journey from homepage to editorial article",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/video/10_green_beauty_expert_video_editorial_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/video/10_green_beauty_expert_video_editorial_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Capture 10_green_beauty_expert_desktop_beauty_blog_001.jpg matched 10_green_beauty_expert_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 10_green_beauty_expert_interaction_mobile_header_001.jpg matched 10_green_beauty_expert_mobile_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+  ]
+}

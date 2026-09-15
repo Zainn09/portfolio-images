@@ -8,8 +8,8 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Peak Scents asset set generated and published  
-**Last updated:** 2026-09-16 00:19 PKT
+**Latest pipeline stage:** Green Beauty Expert asset set generated and published  
+**Last updated:** 2026-09-16 00:21 PKT
 
 | # | Project | Website | Status | Images | Videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -22,9 +22,9 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 | 07 | Maison Khloe | <https://maisonkhloe.ca> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 08 | Summit Sheets | <https://summitsheetsbedding.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 09 | Peak Scents | <https://peakscents.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | ⚪ Pending | — | — | Waiting to start |
+| 10 | Green Beauty Expert | <https://greenbeautyexpert.ca> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 117 static images and 9 videos; completion remains subject to final QA.  
+**Current checkpoint inventory:** 130 static images and 10 videos; completion remains subject to final QA.  
 **Required minimum:** 100 static images and 10 videos.
 
 <!-- SPRINT_PROGRESS_END -->
