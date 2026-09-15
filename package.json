@@ -9,7 +9,10 @@
     "package": "python3 scripts/package_assets.py",
     "capture:sprint02": "node scripts/generate-sprint02-assets.mjs",
     "package:sprint02": "python3 scripts/package_sprint02_assets.py",
-    "verify:sprint02": "python3 scripts/verify_sprint02_assets.py"
+    "verify:sprint02": "python3 scripts/verify_sprint02_assets.py",
+    "capture:sprint03": "node scripts/generate-sprint03-assets.mjs",
+    "package:sprint03": "python3 scripts/package_sprint03_assets.py",
+    "verify:sprint03": "python3 scripts/verify_sprint03_assets.py"
   },
   "dependencies": {
     "playwright": "^1.55.0",
