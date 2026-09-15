@@ -1,0 +1,86 @@
+{
+  "id": "30",
+  "slug": "cowbells",
+  "folder": "30-cowbells",
+  "name": "Cowbells.com",
+  "url": "https://cowbells.com",
+  "kind": "Custom, event, and team cowbells",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "30_cowbells_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "30_cowbells_desktop_signature_section_001.jpg",
+      "label": "Desktop Featured Cowbells section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "30_cowbells_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "30_cowbells_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "30_cowbells_project_highlight_custom_bell_options_001.jpg",
+      "label": "Project highlight: custom bell options",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_project_highlight_custom_bell_options_001.jpg"
+    },
+    {
+      "file": "30_cowbells_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "30_cowbells_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "30_cowbells_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "30_cowbells_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "30_cowbells_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "30_cowbells_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "30_cowbells_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/images/30_cowbells_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "30_cowbells_video_cowbell_customization_journey_001.mp4",
+      "thumbnail": "30_cowbells_video_cowbell_customization_journey_001.jpg",
+      "purpose": "Cowbell discovery from event categories to customizable bell details",
+      "duration": 28.64,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/video/30_cowbells_video_cowbell_customization_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/30-cowbells/video/30_cowbells_video_cowbell_customization_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 28.64 seconds, complete decode passed.",
+    "Rejected duplicate 30_cowbells_interaction_detail_state_001.jpg; it matched 30_cowbells_desktop_product_detail_001.jpg byte-for-byte."
+  ]
+}

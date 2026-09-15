@@ -66,8 +66,8 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 
 **Sprint status:** In progress  
 **Completed projects:** 0 / 10  
-**Latest pipeline stage:** Black Arrow Gallery asset set generated and published  
-**Last updated:** 2026-09-16 03:49 PKT
+**Latest pipeline stage:** Cowbells.com asset set generated and published  
+**Last updated:** 2026-09-16 03:51 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -80,9 +80,9 @@ Sprint 3 continues the visual asset library with the ten live websites supplied 
 | 27 | Anthom Design House | <https://anthomdesignhouse.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
 | 28 | Gabrielle Jewelry | <https://gabriellejewelry.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 29 | Black Arrow Gallery | <https://www.blackarrowgallery.com> | 🟡 Captured · QA pending | 14 | 1 | Project assets published; awaiting Sprint-level QA |
-| 30 | Cowbells.com | <https://cowbells.com> | ⚪ Pending | — | — | Custom, event, and team cowbells |
+| 30 | Cowbells.com | <https://cowbells.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 108 static images and 9 playable MP4 videos.  
+**Current checkpoint inventory:** 120 static images and 10 playable MP4 videos.  
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_03_PROGRESS_END -->

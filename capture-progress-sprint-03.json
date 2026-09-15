@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Black Arrow Gallery asset set generated and published",
+  "stage": "Cowbells.com asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -62,6 +62,13 @@
       "id": "29",
       "status": "captured",
       "images": 14,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "30",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
