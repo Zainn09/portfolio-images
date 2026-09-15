@@ -63,7 +63,8 @@ async function remoteScreenshot(item) {
   endpoint.searchParams.set('viewport.width', String(item.width));
   endpoint.searchParams.set('viewport.height', String(item.height));
   endpoint.searchParams.set('viewport.deviceScaleFactor', '1');
-  if (item.mobile) endpoint.searchParams.set('viewport.isMobile', 'true');
+  // Width-driven responsive rendering is more reliable for this Shopify theme
+  // than Chromium's full mobile-device emulation, which returns an error page.
 
   const apiResponse = await fetchWithRetry(endpoint);
   const payload = await apiResponse.json();
@@ -84,10 +85,14 @@ async function remoteScreenshot(item) {
   const sourceResponse = await fetchWithRetry(payload.data.screenshot.url);
   const source = Buffer.from(await sourceResponse.arrayBuffer());
   const output = path.join(IMAGES, `${PREFIX}_${item.name}_001.jpg`);
-  await sharp(source)
+  const written = await sharp(source)
     .resize(item.width, item.height, { fit: 'cover', position: 'top' })
     .jpeg({ quality: 82, mozjpeg: true, chromaSubsampling: '4:2:0' })
     .toFile(output);
+  if (written.size < 15_000) {
+    await fs.rm(output, { force: true });
+    throw new Error(`Rendered capture appears to be an error page (${written.size} bytes): ${target}`);
+  }
   console.log(`remote image: ${path.basename(output)} · ${payload.data.title}`);
   await sleep(900);
   return { ...item, file: path.basename(output), path: `QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/${path.basename(output)}` };
