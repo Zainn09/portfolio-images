@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "KUURTH asset set generated and published",
+  "stage": "Biofield Resonator asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -11,6 +11,13 @@
     },
     {
       "id": "22",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "23",
       "status": "captured",
       "images": 11,
       "videos": 1,
