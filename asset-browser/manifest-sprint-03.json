@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 3",
   "generated": "2026-09-16",
-  "totalImages": 82,
-  "totalVideos": 7,
+  "totalImages": 94,
+  "totalVideos": 8,
   "projects": [
     {
       "id": "21",
@@ -598,6 +598,92 @@
         "Rejected duplicate 27_anthom_design_house_desktop_signature_section_001.jpg; it matched 27_anthom_design_house_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 27_anthom_design_house_interaction_detail_state_001.jpg; it matched 27_anthom_design_house_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 27_anthom_design_house_interaction_mobile_header_001.jpg; it matched 27_anthom_design_house_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "28",
+      "slug": "gabrielle-jewelry",
+      "folder": "28-gabrielle-jewelry",
+      "name": "Gabrielle Jewelry",
+      "url": "https://gabriellejewelry.com",
+      "kind": "Handmade fine, estate, and contemporary jewelry",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "28_gabrielle_jewelry_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_desktop_signature_section_001.jpg",
+          "label": "Desktop Best Sellers section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_project_highlight_bespoke_jewelry_service_001.jpg",
+          "label": "Project highlight: bespoke jewelry service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_project_highlight_bespoke_jewelry_service_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "28_gabrielle_jewelry_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/images/28_gabrielle_jewelry_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "28_gabrielle_jewelry_video_handmade_jewelry_journey_001.mp4",
+          "thumbnail": "28_gabrielle_jewelry_video_handmade_jewelry_journey_001.jpg",
+          "purpose": "Handmade jewelry discovery from brand story to product detail",
+          "duration": 29.12,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/video/28_gabrielle_jewelry_video_handmade_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/28-gabrielle-jewelry/video/28_gabrielle_jewelry_video_handmade_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 29.12 seconds, complete decode passed.",
+        "Rejected duplicate 28_gabrielle_jewelry_desktop_secondary_experience_001.jpg; it matched 28_gabrielle_jewelry_interaction_detail_state_001.jpg byte-for-byte."
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Anthom Design House asset set generated and published",
+  "stage": "Gabrielle Jewelry asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -48,6 +48,13 @@
       "id": "27",
       "status": "captured",
       "images": 10,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "28",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
