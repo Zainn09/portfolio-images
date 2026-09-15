@@ -1,11 +1,18 @@
 {
   "generated": "2026-09-16",
-  "stage": "Nine AM Roast asset set generated and published",
+  "stage": "Lilly & Jace Kids asset set generated and published",
   "projects": [
     {
       "id": "31",
       "status": "captured",
       "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "32",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

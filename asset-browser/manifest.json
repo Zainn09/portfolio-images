@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 366,
-  "totalVideos": 31,
+  "totalImages": 378,
+  "totalVideos": 32,
   "projects": [
     {
       "id": "01",
@@ -2622,6 +2622,92 @@
         "Rejected duplicate 31_nine_am_roast_desktop_product_detail_001.jpg; it matched 31_nine_am_roast_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 31_nine_am_roast_mobile_project_specific_section_001.jpg; it matched 31_nine_am_roast_mobile_product_detail_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "32",
+      "slug": "lilly-jace-kids",
+      "folder": "32-lilly-jace-kids",
+      "name": "Lilly & Jace Kids",
+      "url": "https://lillyjacekids.com",
+      "kind": "Children\u2019s clothing and accessories boutique",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "32_lilly_jace_kids_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_project_highlight_girls_clothing_collection_001.jpg",
+          "label": "Project highlight: girls clothing collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_project_highlight_girls_clothing_collection_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "32_lilly_jace_kids_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/images/32_lilly_jace_kids_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "32_lilly_jace_kids_video_kids_boutique_journey_001.mp4",
+          "thumbnail": "32_lilly_jace_kids_video_kids_boutique_journey_001.jpg",
+          "purpose": "Children\u2019s boutique discovery from new arrivals to garment detail",
+          "duration": 31.76,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/video/32_lilly_jace_kids_video_kids_boutique_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/video/32_lilly_jace_kids_video_kids_boutique_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 31.76 seconds, complete decode passed.",
+        "Rejected duplicate 32_lilly_jace_kids_desktop_signature_section_001.jpg; it matched 32_lilly_jace_kids_desktop_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -2649,9 +2735,9 @@
     {
       "number": 4,
       "label": "Sprint 4",
-      "images": 11,
-      "videos": 1,
-      "projects": 1
+      "images": 23,
+      "videos": 2,
+      "projects": 2
     }
   ]
 }
