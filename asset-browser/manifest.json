@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 414,
-  "totalVideos": 35,
+  "totalImages": 426,
+  "totalVideos": 36,
   "projects": [
     {
       "id": "01",
@@ -2968,6 +2968,92 @@
         "Rejected duplicate 35_adonis_jewellery_interaction_detail_state_001.jpg; it matched 35_adonis_jewellery_desktop_product_detail_001.jpg in perceptual image QA.",
         "Rejected duplicate 35_adonis_jewellery_interaction_mobile_navigation_001.jpg; it matched 35_adonis_jewellery_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "36",
+      "slug": "smovey-usa",
+      "folder": "36-smovey-usa",
+      "name": "smoveyUSA",
+      "url": "https://www.smoveyusa.com",
+      "kind": "Vibroswing fitness and wellness equipment",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "36_smovey_usa_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_desktop_signature_section_001.jpg",
+          "label": "Desktop Built for Power and Recovery section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_project_highlight_vibroswing_movement_applications_001.jpg",
+          "label": "Project highlight: Vibroswing movement applications",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_project_highlight_vibroswing_movement_applications_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "36_smovey_usa_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/images/36_smovey_usa_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "36_smovey_usa_video_vibroswing_fitness_journey_001.mp4",
+          "thumbnail": "36_smovey_usa_video_vibroswing_fitness_journey_001.jpg",
+          "purpose": "Vibroswing fitness discovery from movement benefits to equipment detail",
+          "duration": 28.08,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/video/36_smovey_usa_video_vibroswing_fitness_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/36-smovey-usa/video/36_smovey_usa_video_vibroswing_fitness_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 28.08 seconds, complete decode passed.",
+        "Rejected duplicate 36_smovey_usa_interaction_detail_state_001.jpg; it matched 36_smovey_usa_desktop_product_detail_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -2995,9 +3081,9 @@
     {
       "number": 4,
       "label": "Sprint 4",
-      "images": 59,
-      "videos": 5,
-      "projects": 5
+      "images": 71,
+      "videos": 6,
+      "projects": 6
     }
   ]
 }

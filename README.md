@@ -95,8 +95,8 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Adonis Jewellery asset set generated and published<br>
-**Last updated:** 2026-09-16 04:24 PKT
+**Latest pipeline stage:** smoveyUSA asset set generated and published<br>
+**Last updated:** 2026-09-16 04:26 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -105,13 +105,13 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 | 33 | RAD Children’s Furniture | <https://radchildrensfurniture.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 34 | Laly’s Candles | <https://lalyscandles.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 35 | Adonis Jewellery | <https://adonisjewellery.gr> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 36 | smoveyUSA | <https://www.smoveyusa.com> | ⚪ Pending | — | — | Vibroswing fitness and wellness equipment |
+| 36 | smoveyUSA | <https://www.smoveyusa.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 37 | Tinnie Tots | <https://www.tinnietots.com> | ⚪ Pending | — | — | Children’s clothing and footwear |
 | 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | ⚪ Pending | — | — | Handmade children’s occasionwear |
 | 39 | Koala Picks | <https://www.koalapicks.com> | ⚪ Pending | — | — | Healthy snacks for children and families |
 | 40 | Glisser Beauty | <https://www.glisserbeauty.com> | ⚪ Pending | — | — | Skincare and facial beauty products |
 
-**Current checkpoint inventory:** 59 static images and 5 playable MP4 videos.<br>
+**Current checkpoint inventory:** 71 static images and 6 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_04_PROGRESS_END -->
