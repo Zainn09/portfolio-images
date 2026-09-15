@@ -1,8 +1,10 @@
-# QA Portfolio Visual Assets — Sprint 1
+# QA Portfolio Visual Assets — Sprints 1–2
 
-A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website.
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. Work is strictly limited to Sprint 1 and Sprint 2.
 
 ## Live progress
+
+### Sprint 1 — Complete
 
 <!-- SPRINT_PROGRESS_START -->
 
@@ -28,6 +30,32 @@ A professional visual asset archive for an **existing QA portfolio**. This repos
 **Required minimum:** 100 static images and 10 videos.
 
 <!-- SPRINT_PROGRESS_END -->
+
+### Sprint 2 — In progress
+
+<!-- SPRINT_02_PROGRESS_START -->
+
+**Sprint status:** Ready to capture  
+**Completed projects:** 0 / 10  
+**Latest pipeline stage:** Website analysis and capture configuration  
+**Last updated:** 2026-09-16
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 11 | Glo by Glen Skin | <https://globyglenskin.com> | ⚪ Pending | — | — | Medical-grade skincare |
+| 12 | Funky Flickr Boyz Gear | <https://funkyflickrboyzgear.com> | ⚪ Pending | — | — | Performance wrestling gear |
+| 13 | My Rug World | <https://myrugworld.com> | ⚪ Pending | — | — | Rugs and guided shape discovery |
+| 14 | Gorgeous Alpacas | <https://gorgeousalpacas.co.uk> | ⚪ Pending | — | — | Yarn, craft kits, and knitwear |
+| 15 | The Bread Essentials | <https://thebreadessentials.com> | ⚪ Pending | — | — | Gluten-free bakery and grocery |
+| 16 | Something Pretty Floral | <https://somethingprettyfloral.com> | ⚪ Pending | — | — | Floral studio and event services |
+| 17 | London Flower Academy | <https://londonfloweracademy.com> | ⚪ Pending | — | — | Floral design workshops |
+| 18 | Monsoon Flowers | <https://monsoonflowers.com> | ⚪ Pending | — | — | Same-day flowers and gifts |
+| 19 | ElectroCity Bikes | <https://electrocitybikes.co.uk> | ⚪ Pending | — | — | Electric bikes and conversion kits |
+| 20 | Moor Body Care | <https://moorbodycare.co.uk> | ⚪ Pending | — | — | Moor therapy skincare |
+
+**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
+
+<!-- SPRINT_02_PROGRESS_END -->
 
 ### Status legend
 
