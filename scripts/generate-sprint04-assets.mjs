@@ -159,6 +159,38 @@ async function clickInterruptionControls(scope, includeGenericClose = false) {
   }
 }
 
+const projectOverlayDismissed = new WeakSet();
+
+async function dismissKnownProjectOverlay(page) {
+  if (projectOverlayDismissed.has(page)) return;
+  const { width, height } = page.viewportSize() || DESKTOP;
+  const host = new URL(page.url()).hostname.replace(/^www\./, '');
+  let point = null;
+  if (host === 'lalyscandles.com') {
+    // Laly's responsive discount modal is 480×650 on desktop and 350×634 on
+    // mobile. Click its visible top-right close control, never the offer CTA.
+    point = width < 600
+      ? { x: width - 49, y: Math.max(25, (height - 634) / 2 + 24) }
+      : { x: width / 2 + 212, y: Math.max(25, (height - 650) / 2 + 24) };
+  } else if (host === 'glisserbeauty.com') {
+    // OptiMonk renders this offer above the page without an accessible close
+    // role, so use the real visible close control at the modal's top-right.
+    point = width < 600
+      ? { x: width - 40, y: Math.max(25, (height - 668) / 2 + 20) }
+      : { x: width / 2 + 372, y: Math.max(25, (height - 566) / 2 + 25) };
+  } else if (host === 'koalapicks.com') {
+    // The loyalty welcome panel is full-screen on mobile and bottom-aligned on
+    // desktop; both layouts expose a visible close control in the top-right.
+    point = width < 600
+      ? { x: width - 28, y: 31 }
+      : { x: width - 44, y: Math.max(31, height - 584) };
+  }
+  if (!point) return;
+  projectOverlayDismissed.add(page);
+  await page.mouse.click(point.x, point.y).catch(() => {});
+  await page.waitForTimeout(450);
+}
+
 async function closeInterruptions(page) {
   await clickInterruptionControls(page);
   // Email offers and live-chat panels commonly render in child frames. Dismiss
@@ -167,6 +199,7 @@ async function closeInterruptions(page) {
   for (const frame of page.frames().filter(item => item !== page.mainFrame())) {
     await clickInterruptionControls(frame, true);
   }
+  await dismissKnownProjectOverlay(page);
   await page.waitForTimeout(250);
 }
 
