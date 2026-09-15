@@ -1,0 +1,835 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 1",
+  "generated": "2026-09-15",
+  "totalImages": 120,
+  "totalVideos": 10,
+  "projects": [
+    {
+      "id": "01",
+      "slug": "fandiem",
+      "folder": "01-fandiem",
+      "name": "Fandiem",
+      "url": "https://fandiem.com",
+      "kind": "Fundraising sweepstakes platform",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "01_fandiem_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "01_fandiem_desktop_signature_section_001.jpg",
+          "label": "Desktop Trending section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "01_fandiem_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "01_fandiem_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "01_fandiem_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "01_fandiem_project_highlight_donation_journey_001.jpg",
+          "label": "Project highlight: donation journey",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_project_highlight_donation_journey_001.jpg"
+        },
+        {
+          "file": "01_fandiem_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "01_fandiem_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "01_fandiem_interaction_mobile_header_001.jpg",
+          "label": "Mobile header state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_interaction_mobile_header_001.jpg"
+        },
+        {
+          "file": "01_fandiem_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "01_fandiem_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "01_fandiem_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "01_fandiem_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/images/01_fandiem_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "01_fandiem_video_product_journey_001.mp4",
+          "thumbnail": "01_fandiem_video_product_journey_001.jpg",
+          "purpose": "Homepage to active sweepstakes discovery flow",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/video/01_fandiem_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/01-fandiem/video/01_fandiem_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "02",
+      "slug": "revived-smiles",
+      "folder": "02-revived-smiles",
+      "name": "Revived Smiles",
+      "url": "https://revivedsmiles.com",
+      "kind": "At-home dental appliances",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "02_revived_smiles_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_desktop_signature_section_001.jpg",
+          "label": "Desktop Revive Your Smile section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_project_highlight_three_step_impression_process_001.jpg",
+          "label": "Project highlight: three-step impression process",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_project_highlight_three_step_impression_process_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_desktop_smile_assessment_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_desktop_smile_assessment_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "02_revived_smiles_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/images/02_revived_smiles_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "02_revived_smiles_video_product_journey_001.mp4",
+          "thumbnail": "02_revived_smiles_video_product_journey_001.jpg",
+          "purpose": "Homepage, appliance catalogue, and product detail flow",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/video/02_revived_smiles_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/02-revived-smiles/video/02_revived_smiles_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "03",
+      "slug": "kcaps",
+      "folder": "03-kcaps",
+      "name": "K-CAPS",
+      "url": "https://www.kcaps.com",
+      "kind": "B2B capsule manufacturing",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "03_kcaps_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "03_kcaps_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "03_kcaps_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "03_kcaps_interaction_capsule_options_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_interaction_capsule_options_001.jpg"
+        },
+        {
+          "file": "03_kcaps_project_highlight_capsule_configurator_001.jpg",
+          "label": "Project highlight: capsule configurator",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_project_highlight_capsule_configurator_001.jpg"
+        },
+        {
+          "file": "03_kcaps_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "03_kcaps_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "03_kcaps_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "03_kcaps_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "03_kcaps_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "03_kcaps_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "03_kcaps_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/images/03_kcaps_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "03_kcaps_video_product_journey_001.mp4",
+          "thumbnail": "03_kcaps_video_product_journey_001.jpg",
+          "purpose": "B2B capsule catalogue and product configuration journey",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/video/03_kcaps_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/03-kcaps/video/03_kcaps_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Capture 03_kcaps_desktop_signature_section_001.jpg matched 03_kcaps_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "dr-stengler",
+      "folder": "04-dr-stengler",
+      "name": "Dr. Stengler",
+      "url": "https://drstengler.com",
+      "kind": "Integrative wellness and supplements",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "04_dr_stengler_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_project_highlight_practitioner_credentials_001.jpg",
+          "label": "Project highlight: practitioner credentials",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_project_highlight_practitioner_credentials_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_desktop_bundle_builder_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_bundle_builder_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "04_dr_stengler_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "04_dr_stengler_video_product_journey_001.mp4",
+          "thumbnail": "04_dr_stengler_video_product_journey_001.jpg",
+          "purpose": "Doctor-led wellness discovery from homepage to protocol detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/video/04_dr_stengler_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/video/04_dr_stengler_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Capture 04_dr_stengler_desktop_signature_section_001.jpg matched 04_dr_stengler_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+      ]
+    },
+    {
+      "id": "05",
+      "slug": "hershop",
+      "folder": "05-hershop",
+      "name": "HER SHOP®",
+      "url": "https://hershop.com",
+      "kind": "Bridal and occasion fashion",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "05_hershop_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "05_hershop_desktop_signature_section_001.jpg",
+          "label": "Desktop Shop by Bridal Category section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "05_hershop_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "05_hershop_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "05_hershop_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "05_hershop_project_highlight_bridal_editorial_merchandising_001.jpg",
+          "label": "Project highlight: bridal editorial merchandising",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_project_highlight_bridal_editorial_merchandising_001.jpg"
+        },
+        {
+          "file": "05_hershop_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "05_hershop_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "05_hershop_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "05_hershop_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "05_hershop_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "05_hershop_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "05_hershop_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "05_hershop_video_product_journey_001.mp4",
+          "thumbnail": "05_hershop_video_product_journey_001.jpg",
+          "purpose": "Bridal shopping flow from campaign to gown detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/video/05_hershop_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/video/05_hershop_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "06",
+      "slug": "the-scaff-shop",
+      "folder": "06-the-scaff-shop",
+      "name": "The Scaff Shop",
+      "url": "https://thescaffshop.com",
+      "kind": "Reclaimed scaffold furniture and materials",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "06_the_scaff_shop_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_project_highlight_reclaimed_material_brand_story_001.jpg",
+          "label": "Project highlight: reclaimed-material brand story",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_project_highlight_reclaimed_material_brand_story_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_interaction_mobile_header_001.jpg",
+          "label": "Mobile header state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_interaction_mobile_header_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "06_the_scaff_shop_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/images/06_the_scaff_shop_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "06_the_scaff_shop_video_product_journey_001.mp4",
+          "thumbnail": "06_the_scaff_shop_video_product_journey_001.jpg",
+          "purpose": "Reclaimed furniture discovery and product browsing flow",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/video/06_the_scaff_shop_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/06-the-scaff-shop/video/06_the_scaff_shop_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Capture 06_the_scaff_shop_desktop_signature_section_001.jpg matched 06_the_scaff_shop_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+        "Capture 06_the_scaff_shop_desktop_secondary_experience_001.jpg matched 06_the_scaff_shop_interaction_detail_state_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+      ]
+    },
+    {
+      "id": "07",
+      "slug": "maison-khloe",
+      "folder": "07-maison-khloe",
+      "name": "Maison Khloe",
+      "url": "https://maisonkhloe.ca",
+      "kind": "Curated women’s fashion",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "07_maison_khloe_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_project_highlight_seasonal_editorial_collection_001.jpg",
+          "label": "Project highlight: seasonal editorial collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_project_highlight_seasonal_editorial_collection_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "07_maison_khloe_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/images/07_maison_khloe_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "07_maison_khloe_video_product_journey_001.mp4",
+          "thumbnail": "07_maison_khloe_video_product_journey_001.jpg",
+          "purpose": "Editorial fashion flow from homepage to product detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/video/07_maison_khloe_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/07-maison-khloe/video/07_maison_khloe_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Capture 07_maison_khloe_desktop_signature_section_001.jpg matched 07_maison_khloe_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+      ]
+    },
+    {
+      "id": "08",
+      "slug": "summit-sheets-bedding",
+      "folder": "08-summit-sheets-bedding",
+      "name": "Summit Sheets",
+      "url": "https://summitsheetsbedding.com",
+      "kind": "Custom camping bedding",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "08_summit_sheets_bedding_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_desktop_signature_section_001.jpg",
+          "label": "Desktop Custom-Made Sheets section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_project_highlight_performance_fabric_technology_001.jpg",
+          "label": "Project highlight: performance fabric technology",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_project_highlight_performance_fabric_technology_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "08_summit_sheets_bedding_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "08_summit_sheets_bedding_video_product_journey_001.mp4",
+          "thumbnail": "08_summit_sheets_bedding_video_product_journey_001.jpg",
+          "purpose": "Camping bedding discovery and custom-fit product flow",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/video/08_summit_sheets_bedding_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/video/08_summit_sheets_bedding_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Capture 08_summit_sheets_bedding_interaction_detail_state_001.jpg matched 08_summit_sheets_bedding_desktop_product_detail_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+        "Capture 08_summit_sheets_bedding_mobile_product_detail_001.jpg matched 08_summit_sheets_bedding_mobile_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+      ]
+    },
+    {
+      "id": "09",
+      "slug": "peak-scents",
+      "folder": "09-peak-scents",
+      "name": "Peak Scents",
+      "url": "https://peakscents.com",
+      "kind": "Plant-based skincare and refill shop",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "09_peak_scents_desktop_home_hero_001.jpg",
+          "label": "Desktop clean-beauty homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_desktop_best_sellers_collection_001.jpg",
+          "label": "Desktop best-sellers collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_best_sellers_collection_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_desktop_babchi_serum_detail_001.jpg",
+          "label": "Desktop Organic Rose Phyto3 Babchi Serum detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_babchi_serum_detail_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_desktop_night_cream_detail_001.jpg",
+          "label": "Desktop Organic Rose Phyto3 Night Cream detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_night_cream_detail_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_desktop_facial_cleanser_detail_001.jpg",
+          "label": "Desktop Organic Rose Phyto3 Facial Cleanser detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_facial_cleanser_detail_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_desktop_all_products_collection_001.jpg",
+          "label": "Desktop complete product collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_all_products_collection_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_desktop_babchi_bundle_detail_001.jpg",
+          "label": "Desktop Babchi Beauty Bundle detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_desktop_babchi_bundle_detail_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_mobile_home_hero_001.jpg",
+          "label": "Mobile clean-beauty homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_mobile_best_sellers_collection_001.jpg",
+          "label": "Mobile best-sellers collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_best_sellers_collection_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_mobile_babchi_serum_detail_001.jpg",
+          "label": "Mobile Babchi Serum product detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_mobile_babchi_serum_detail_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "09_peak_scents_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA skincare user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/images/09_peak_scents_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "09_peak_scents_video_product_journey_001.mp4",
+          "thumbnail": "09_peak_scents_video_product_journey_001.jpg",
+          "purpose": "Authentic homepage → best sellers → Babchi Serum visual journey",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Direct browser sessions redirected off-domain, so the rejected files were replaced with validated Peak Scents renderings from the live public URLs."
+      ]
+    },
+    {
+      "id": "10",
+      "slug": "green-beauty-expert",
+      "folder": "10-green-beauty-expert",
+      "name": "Green Beauty Expert",
+      "url": "https://www.greenbeautyexpert.ca",
+      "kind": "Natural beauty education and services",
+      "generated": "2026-09-15",
+      "images": [
+        {
+          "file": "10_green_beauty_expert_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_desktop_editorial_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_editorial_listing_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_desktop_article_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_article_detail_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_interaction_article_content_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_interaction_article_content_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_project_highlight_beauty_education_library_001.jpg",
+          "label": "Project highlight: beauty education library",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_project_highlight_beauty_education_library_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_desktop_services_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_desktop_services_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_mobile_article_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_mobile_article_detail_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "10_green_beauty_expert_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/images/10_green_beauty_expert_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "10_green_beauty_expert_video_editorial_journey_001.mp4",
+          "thumbnail": "10_green_beauty_expert_video_editorial_journey_001.jpg",
+          "purpose": "Beauty education journey from homepage to editorial article",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/video/10_green_beauty_expert_video_editorial_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/10-green-beauty-expert/video/10_green_beauty_expert_video_editorial_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Capture 10_green_beauty_expert_desktop_beauty_blog_001.jpg matched 10_green_beauty_expert_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+        "Capture 10_green_beauty_expert_interaction_mobile_header_001.jpg matched 10_green_beauty_expert_mobile_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+      ]
+    }
+  ]
+}
