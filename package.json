@@ -6,7 +6,10 @@
   "description": "Authenticated visual asset capture pipeline for QA Portfolio Sprint 1",
   "scripts": {
     "capture": "node scripts/generate-assets.mjs",
-    "package": "python3 scripts/package_assets.py"
+    "package": "python3 scripts/package_assets.py",
+    "capture:sprint02": "node scripts/generate-sprint02-assets.mjs",
+    "package:sprint02": "python3 scripts/package_sprint02_assets.py",
+    "verify:sprint02": "python3 scripts/verify_sprint02_assets.py"
   },
   "dependencies": {
     "playwright": "^1.55.0",
