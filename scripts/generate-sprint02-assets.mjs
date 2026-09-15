@@ -613,14 +613,22 @@ async function updateRootProgress(results, stage, activeProject = null, blocked 
   }
   const progress = { generated: CAPTURE_DATE, stage, projects: completed };
   await fs.writeFile('capture-progress-sprint-02.json', JSON.stringify(progress, null, 2));
+  const totalImages = results.reduce((sum, result) => sum + result.images.length, 0);
+  const totalVideos = results.reduce((sum, result) => sum + result.videos.length, 0);
+  await fs.mkdir('asset-browser', { recursive: true });
+  await fs.writeFile('asset-browser/manifest-sprint-02.json', JSON.stringify({
+    title: 'QA Portfolio Visual Assets — Sprint 2', generated: CAPTURE_DATE,
+    totalImages, totalVideos, projects: results
+  }, null, 2));
   await execFileAsync('python3', ['scripts/update_readme_sprint02.py']);
+  await execFileAsync('python3', ['scripts/build_asset_browser_manifest.py']);
 }
 
 async function publishCheckpoint(project) {
   if (process.env.CHECKPOINT_COMMITS !== '1') return;
   const branch = process.env.CHECKPOINT_BRANCH || '';
   if (!/^arena\/[a-z0-9-]+$/.test(branch)) throw new Error(`Unsafe or missing checkpoint branch: ${branch}`);
-  await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-02.json', path.join(ROOT, project.folder)]);
+  await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-02.json', 'asset-browser/manifest-sprint-02.json', 'asset-browser/manifest.json', path.join(ROOT, project.folder)]);
   await execFileAsync('git', ['commit', '-m', `Add Sprint 2 ${project.id} ${project.name} asset checkpoint [skip ci]`]);
   await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`], { maxBuffer: 10 * 1024 * 1024 });
   console.log(`  checkpoint published: ${project.id} ${project.name}`);
@@ -630,7 +638,7 @@ async function publishBlockedProgress(project) {
   if (process.env.CHECKPOINT_COMMITS !== '1') return;
   const branch = process.env.CHECKPOINT_BRANCH || '';
   if (!/^arena\/[a-z0-9-]+$/.test(branch)) return;
-  await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-02.json']);
+  await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-02.json', 'asset-browser/manifest-sprint-02.json', 'asset-browser/manifest.json']);
   const commit = await execFileAsync('git', ['commit', '-m', `Document Sprint 2 ${project.id} capture interruption [skip ci]`]).catch(() => null);
   if (commit) await execFileAsync('git', ['push', 'origin', `HEAD:${branch}`]);
 }
