@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "E & E Essentials asset set generated and published",
+  "stage": "Anthom Design House asset set generated and published",
   "projects": [
     {
       "id": "21",
@@ -41,6 +41,13 @@
       "id": "26",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "27",
+      "status": "captured",
+      "images": 10,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

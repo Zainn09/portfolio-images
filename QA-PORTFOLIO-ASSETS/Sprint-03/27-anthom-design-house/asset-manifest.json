@@ -1,0 +1,78 @@
+{
+  "id": "27",
+  "slug": "anthom-design-house",
+  "folder": "27-anthom-design-house",
+  "name": "Anthom Design House",
+  "url": "https://anthomdesignhouse.com",
+  "kind": "Furniture collections and project inspiration",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "27_anthom_design_house_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_project_highlight_solo_house_project_spotlight_001.jpg",
+      "label": "Project highlight: Solo House project spotlight",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_project_highlight_solo_house_project_spotlight_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "27_anthom_design_house_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/images/27_anthom_design_house_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "27_anthom_design_house_video_furniture_design_journey_001.mp4",
+      "thumbnail": "27_anthom_design_house_video_furniture_design_journey_001.jpg",
+      "purpose": "Furniture-design discovery from modular collection to product specifications",
+      "duration": 24.16,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/video/27_anthom_design_house_video_furniture_design_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-03/27-anthom-design-house/video/27_anthom_design_house_video_furniture_design_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 24.16 seconds, complete decode passed.",
+    "Rejected duplicate 27_anthom_design_house_desktop_signature_section_001.jpg; it matched 27_anthom_design_house_desktop_home_hero_001.jpg byte-for-byte.",
+    "Rejected duplicate 27_anthom_design_house_interaction_detail_state_001.jpg; it matched 27_anthom_design_house_desktop_product_detail_001.jpg byte-for-byte.",
+    "Rejected duplicate 27_anthom_design_house_interaction_mobile_header_001.jpg; it matched 27_anthom_design_house_mobile_home_hero_001.jpg byte-for-byte."
+  ]
+}
