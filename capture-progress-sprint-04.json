@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "La Petite Wardrobe asset set generated and published",
+  "stage": "Koala Picks asset set generated and published",
   "projects": [
     {
       "id": "31",
@@ -55,6 +55,13 @@
       "id": "38",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "39",
+      "status": "captured",
+      "images": 11,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

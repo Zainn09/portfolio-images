@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 4",
   "generated": "2026-09-16",
-  "totalImages": 96,
-  "totalVideos": 8,
+  "totalImages": 107,
+  "totalVideos": 9,
   "projects": [
     {
       "id": "31",
@@ -696,6 +696,88 @@
       ],
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 23.88 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "39",
+      "slug": "koala-picks",
+      "folder": "39-koala-picks",
+      "name": "Koala Picks",
+      "url": "https://www.koalapicks.com",
+      "kind": "Healthy snacks for children and families",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "39_koala_picks_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_desktop_signature_section_001.jpg",
+          "label": "Desktop What is Koala Picks section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_project_highlight_healthy_snack_range_001.jpg",
+          "label": "Project highlight: healthy snack range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_project_highlight_healthy_snack_range_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "39_koala_picks_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/images/39_koala_picks_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "39_koala_picks_video_healthy_snack_journey_001.mp4",
+          "thumbnail": "39_koala_picks_video_healthy_snack_journey_001.jpg",
+          "purpose": "Healthy snack discovery from family promise to product detail",
+          "duration": 35.88,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/video/39_koala_picks_video_healthy_snack_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/39-koala-picks/video/39_koala_picks_video_healthy_snack_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 35.88 seconds, complete decode passed.",
+        "Rejected duplicate 39_koala_picks_interaction_detail_state_001.jpg; it matched 39_koala_picks_desktop_product_detail_001.jpg in perceptual image QA.",
+        "Rejected duplicate 39_koala_picks_interaction_mobile_header_001.jpg; it matched 39_koala_picks_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
