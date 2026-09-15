@@ -101,6 +101,8 @@ jobs:
         run: |
           git add README.md capture-progress-sprint-02.json QA-PORTFOLIO-ASSETS/Sprint-02 QA-Portfolio-Sprint-02-Assets.zip asset-browser/manifest.json asset-browser/manifest-sprint-02.json capture-report-sprint-02.json package-lock.json
           git commit -m "Publish verified Sprint 2 package [skip ci]"
+          git fetch origin ${{ github.head_ref }}
+          git rebase FETCH_HEAD
           git push origin HEAD:${{ github.head_ref }}
 
       - name: Upload completed Sprint 2 package
