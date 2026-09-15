@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Gorgeous Alpacas asset set generated and published",
+  "stage": "The Bread Essentials asset set generated and published",
   "projects": [
     {
       "id": "11",
@@ -27,6 +27,13 @@
       "id": "14",
       "status": "captured",
       "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "15",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

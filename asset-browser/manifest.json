@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20132",
   "generated": "2026-09-16",
-  "totalImages": 168,
-  "totalVideos": 14,
+  "totalImages": 181,
+  "totalVideos": 15,
   "projects": [
     {
       "id": "01",
@@ -1177,6 +1177,96 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 25.60 seconds, complete decode passed.",
         "Rejected duplicate 14_gorgeous_alpacas_desktop_signature_section_001.jpg; it matched 14_gorgeous_alpacas_desktop_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "15",
+      "slug": "the-bread-essentials",
+      "folder": "15-the-bread-essentials",
+      "name": "The Bread Essentials",
+      "url": "https://www.thebreadessentials.com",
+      "kind": "Gluten-free bakery and grocery",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "15_the_bread_essentials_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_desktop_signature_section_001.jpg",
+          "label": "Desktop BEST SELLERS section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_project_highlight_gluten_free_bread_collection_001.jpg",
+          "label": "Project highlight: gluten-free bread collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_project_highlight_gluten_free_bread_collection_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "15_the_bread_essentials_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/images/15_the_bread_essentials_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "15_the_bread_essentials_video_bakery_journey_001.mp4",
+          "thumbnail": "15_the_bread_essentials_video_bakery_journey_001.jpg",
+          "purpose": "Gluten-free bakery discovery and product journey",
+          "duration": 18.56,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/video/15_the_bread_essentials_video_bakery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/15-the-bread-essentials/video/15_the_bread_essentials_video_bakery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 18.56 seconds, complete decode passed."
+      ]
     }
   ],
   "sprints": [
@@ -1190,9 +1280,9 @@
     {
       "number": 2,
       "label": "Sprint 2",
-      "images": 48,
-      "videos": 4,
-      "projects": 4
+      "images": 61,
+      "videos": 5,
+      "projects": 5
     }
   ]
 }
