@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 6",
   "generated": "2026-09-16",
-  "totalImages": 22,
-  "totalVideos": 2,
+  "totalImages": 32,
+  "totalVideos": 3,
   "projects": [
     {
       "id": "51",
@@ -166,6 +166,85 @@
         "Playable MP4 verified: H.264, 1280×720, 25.76 seconds, complete decode passed.",
         "Rejected duplicate 52_lady_flora_desktop_signature_section_001.jpg; it matched 52_lady_flora_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 52_lady_flora_interaction_detail_state_001.jpg; it matched 52_lady_flora_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "53",
+      "slug": "nano-lamination",
+      "folder": "53-nano-lamination",
+      "name": "Nano Lamination",
+      "url": "https://www.nanolamination.com",
+      "kind": "Professional hair smoothing and lamination treatments",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "53_nano_lamination_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_project_highlight_professional_salon_locator_001.jpg",
+          "label": "Project highlight: professional salon locator",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_project_highlight_professional_salon_locator_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "53_nano_lamination_video_hair_smoothing_journey_001.mp4",
+          "thumbnail": "53_nano_lamination_video_hair_smoothing_journey_001.jpg",
+          "purpose": "Professional smoothing-treatment discovery from range to detail",
+          "duration": 25.52,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/video/53_nano_lamination_video_hair_smoothing_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/video/53_nano_lamination_video_hair_smoothing_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Mobile detail at https://www.nanolamination.com/products/i-smooth-starter-kit was unavailable (HTTP 429 / Just a moment...); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 25.52 seconds, complete decode passed.",
+        "Rejected duplicate 53_nano_lamination_desktop_signature_section_001.jpg; it matched 53_nano_lamination_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 53_nano_lamination_desktop_secondary_experience_001.jpg; it matched 53_nano_lamination_desktop_collection_listing_001.jpg byte-for-byte.",
+        "Rejected duplicate 53_nano_lamination_mobile_product_detail_001.jpg; it matched 53_nano_lamination_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
