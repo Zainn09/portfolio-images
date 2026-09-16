@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ASSET_ROOT = ROOT / "QA-PORTFOLIO-ASSETS"
-PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[1-5][0-9]|60)-[a-z0-9-]+$")
+PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[1-8][0-9]|9[0-4])-[a-z0-9-]+$")
 
 
 class AssetHandler(SimpleHTTPRequestHandler):
