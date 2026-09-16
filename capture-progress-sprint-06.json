@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Luxe Atelier asset set generated and published",
+  "stage": "Eastern Inspiration asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -32,6 +32,13 @@
     },
     {
       "id": "55",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "56",
       "status": "captured",
       "images": 12,
       "videos": 1,
