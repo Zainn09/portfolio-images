@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Rocket Krunch asset set generated and published",
+  "stage": "Rahiza capture requires attention",
   "projects": [
     {
       "id": "61",
@@ -8,6 +8,13 @@
       "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "62",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped; review workflow diagnostics"
     }
   ]
 }

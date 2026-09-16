@@ -182,13 +182,13 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Rocket Krunch asset set generated and published<br>
-**Last updated:** 2026-09-16 19:01 PKT
+**Latest pipeline stage:** Rahiza capture requires attention<br>
+**Last updated:** 2026-09-16 19:02 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 61 | Rocket Krunch | <https://www.rocketkrunch.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 62 | Rahiza | <https://www.rahiza.com> | ⚪ Pending | — | — | Designer phone cases and technology accessories |
+| 62 | Rahiza | <https://www.rahiza.com> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
 | 63 | Total Beauty Experience | <https://totalbeautyexp.com> | ⚪ Pending | — | — | Beauty, haircare, skincare, fragrance, and personal care retailer |
 | 64 | John White Shoes | <https://www.johnwhiteshoes.com> | ⚪ Pending | — | — | British heritage men’s leather footwear |
 | 65 | Love Renaissance | <https://love-renaissance.shop> | ⚪ Pending | — | — | Japanese-crafted skincare, haircare, wellness, and fragrance |
