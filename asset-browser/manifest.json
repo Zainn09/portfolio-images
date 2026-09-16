@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 597,
-  "totalVideos": 50,
+  "totalImages": 608,
+  "totalVideos": 51,
   "projects": [
     {
       "id": "01",
@@ -4274,6 +4274,88 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 19.32 seconds, complete decode passed.",
         "Rejected duplicate 50_peter_james_jewelry_interaction_detail_state_001.jpg; it matched 50_peter_james_jewelry_desktop_product_detail_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "51",
+      "slug": "judyp-apparel",
+      "folder": "51-judyp-apparel",
+      "name": "JudyP Apparel",
+      "url": "https://judypapparel.com",
+      "kind": "Women\u2019s wrinkle-resistant travel clothing",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "51_judyp_apparel_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_project_highlight_travel_clothing_edit_001.jpg",
+          "label": "Project highlight: travel clothing edit",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_project_highlight_travel_clothing_edit_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "51_judyp_apparel_video_travel_apparel_journey_001.mp4",
+          "thumbnail": "51_judyp_apparel_video_travel_apparel_journey_001.jpg",
+          "purpose": "Travel-apparel discovery from easy-care collection to garment detail",
+          "duration": 33.16,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/video/51_judyp_apparel_video_travel_apparel_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/video/51_judyp_apparel_video_travel_apparel_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 33.16 seconds, complete decode passed.",
+        "Rejected duplicate 51_judyp_apparel_desktop_signature_section_001.jpg; it matched 51_judyp_apparel_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 51_judyp_apparel_interaction_detail_state_001.jpg; it matched 51_judyp_apparel_desktop_product_detail_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -4311,6 +4393,13 @@
       "images": 123,
       "videos": 10,
       "projects": 10
+    },
+    {
+      "number": 6,
+      "label": "Sprint 6",
+      "images": 11,
+      "videos": 1,
+      "projects": 1
     }
   ]
 }
