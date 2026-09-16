@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 1036,
-  "totalVideos": 87,
+  "totalImages": 1049,
+  "totalVideos": 88,
   "projects": [
     {
       "id": "01",
@@ -7447,6 +7447,96 @@
         "Rejected duplicate 88_mrca_desktop_secondary_experience_001.jpg; it matched 88_mrca_interaction_detail_state_001.jpg byte-for-byte.",
         "Rejected duplicate 88_mrca_mobile_appointment_page_001.jpg; it matched 88_mrca_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "89",
+      "slug": "wells-industries",
+      "folder": "89-wells-industries",
+      "name": "Wells Industries",
+      "url": "https://wellsind.com",
+      "kind": "Texas-made custom furniture for hospitality spaces",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "89_wells_industries_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Capabilities section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_project_highlight_custom_hospitality_furniture_philosophy_001.jpg",
+          "label": "Project highlight: custom hospitality furniture philosophy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_project_highlight_custom_hospitality_furniture_philosophy_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "89_wells_industries_video_hospitality_furniture_journey_001.mp4",
+          "thumbnail": "89_wells_industries_video_hospitality_furniture_journey_001.jpg",
+          "purpose": "Custom hospitality-furniture discovery from bench collection to product specification",
+          "duration": 33.96,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/video/89_wells_industries_video_hospitality_furniture_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/video/89_wells_industries_video_hospitality_furniture_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 33.96 seconds, complete decode passed."
+      ]
     }
   ],
   "sprints": [
@@ -7509,9 +7599,9 @@
     {
       "number": 9,
       "label": "Sprint 9",
-      "images": 97,
-      "videos": 8,
-      "projects": 8
+      "images": 110,
+      "videos": 9,
+      "projects": 9
     }
   ]
 }
