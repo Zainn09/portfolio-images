@@ -683,7 +683,7 @@ async function publishBlockedProgress(project) {
   if (process.env.CHECKPOINT_COMMITS !== '1') return;
   const branch = process.env.CHECKPOINT_BRANCH || '';
   if (!/^arena\/[a-z0-9-]+$/.test(branch)) return;
-  await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-08.json', 'asset-browser/manifest-sprint-08.json', 'asset-browser/manifest.json']);
+  await execFileAsync('git', ['add', 'README.md', 'capture-progress-sprint-08.json', 'asset-browser/manifest-sprint-08.json', 'asset-browser/manifest.json', path.join(ROOT, project.folder)]);
   const commit = await execFileAsync('git', ['commit', '-m', `Document Sprint 8 ${project.id} capture interruption [skip ci]`]).catch(() => null);
   if (commit) {
     await execFileAsync('git', ['fetch', 'origin', branch]);
