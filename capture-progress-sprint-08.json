@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Coffee@Work asset set generated and published",
+  "stage": "Audrey K Boutique asset set generated and published",
   "projects": [
     {
       "id": "71",
@@ -27,6 +27,13 @@
       "id": "74",
       "status": "captured",
       "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "75",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

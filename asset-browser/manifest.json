@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 870,
-  "totalVideos": 73,
+  "totalImages": 882,
+  "totalVideos": 74,
   "projects": [
     {
       "id": "01",
@@ -6245,6 +6245,92 @@
         "Rejected duplicate 74_coffee_at_work_interaction_detail_state_001.jpg; it matched 74_coffee_at_work_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 74_coffee_at_work_interaction_mobile_navigation_001.jpg; it matched 74_coffee_at_work_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "75",
+      "slug": "audrey-k-boutique",
+      "folder": "75-audrey-k-boutique",
+      "name": "Audrey K Boutique",
+      "url": "https://audreykboutique.com",
+      "kind": "Independent women\u2019s fashion and gift boutique",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "75_audrey_k_boutique_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_signature_section_001.jpg",
+          "label": "Desktop Opened in 2006 section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_project_highlight_women_s_dress_collection_001.jpg",
+          "label": "Project highlight: women\u2019s dress collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_project_highlight_women_s_dress_collection_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_interaction_mobile_header_001.jpg",
+          "label": "Mobile header state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_interaction_mobile_header_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "75_audrey_k_boutique_video_boutique_fashion_journey_001.mp4",
+          "thumbnail": "75_audrey_k_boutique_video_boutique_fashion_journey_001.jpg",
+          "purpose": "Independent-boutique discovery from new arrivals to featured tote detail",
+          "duration": 27.64,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/video/75_audrey_k_boutique_video_boutique_fashion_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/video/75_audrey_k_boutique_video_boutique_fashion_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 27.64 seconds, complete decode passed.",
+        "Rejected duplicate 75_audrey_k_boutique_interaction_detail_state_001.jpg; it matched 75_audrey_k_boutique_desktop_product_detail_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -6300,9 +6386,9 @@
     {
       "number": 8,
       "label": "Sprint 8",
-      "images": 46,
-      "videos": 4,
-      "projects": 4
+      "images": 58,
+      "videos": 5,
+      "projects": 5
     }
   ]
 }
