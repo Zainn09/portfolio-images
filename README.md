@@ -209,25 +209,25 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 
 <!-- SPRINT_08_PROGRESS_START -->
 
-**Sprint status:** In progress<br>
-**Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Expressive Audio asset set generated and published<br>
-**Last updated:** 2026-09-16 20:01 PKT
+**Sprint status:** Complete<br>
+**Completed projects:** 10 / 10<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
+**Last updated:** 2026-09-16 21:53 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 71 | Biofield Expert | <https://biofieldexpert.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 72 | SOL Eyewear | <https://mysolstyle.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 73 | Ameliora | <https://ameliora.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 74 | Coffee@Work | <https://coffeeatwork.uk.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 75 | Audrey K Boutique | <https://audreykboutique.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 76 | Second Chance Online | <https://secondchanceonline.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 77 | Second Chance Clothing & Home Decor | <https://secondchanceclothing-homedecor.myshopify.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 78 | VTC Watches | <https://www.vtcwatches.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 80 | Expressive Audio | <https://expressiveaudio.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 71 | Biofield Expert | <https://biofieldexpert.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
+| 72 | SOL Eyewear | <https://mysolstyle.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 73 | Ameliora | <https://ameliora.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 74 | Coffee@Work | <https://coffeeatwork.uk.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 75 | Audrey K Boutique | <https://audreykboutique.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 76 | Second Chance Online | <https://secondchanceonline.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 77 | Second Chance Clothing & Home Decor | <https://secondchanceclothing-homedecor.myshopify.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 78 | VTC Watches | <https://www.vtcwatches.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
+| 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 80 | Expressive Audio | <https://expressiveaudio.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 116 static images and 10 playable MP4 videos.<br>
+**Current verified inventory:** 115 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_08_PROGRESS_END -->

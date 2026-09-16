@@ -1,76 +1,76 @@
 {
   "generated": "2026-09-16",
-  "stage": "Expressive Audio asset set generated and published",
+  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
   "projects": [
     {
       "id": "71",
-      "status": "captured",
+      "status": "complete",
       "images": 10,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "72",
-      "status": "captured",
+      "status": "complete",
       "images": 13,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "73",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "74",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "75",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "76",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "77",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "78",
-      "status": "captured",
+      "status": "complete",
       "images": 10,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "79",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "80",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     }
   ]
 }
