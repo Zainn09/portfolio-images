@@ -1,11 +1,8 @@
 name: Generate Sprint 09 QA Assets
 
+# Sprint 9 is complete. Keep regeneration available without rerunning the
+# capture job for unrelated pull-request changes.
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - '.github/workflows/generate-sprint-09-assets.yml'
-      - 'scripts/generate-sprint09-assets.mjs'
   workflow_dispatch:
 
 permissions:

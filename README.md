@@ -306,23 +306,17 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-The repository contains six separate, complete sprint deliveries:
+The repository contains nine complete Sprint deliveries plus the preserved Sprint 7 checkpoint:
 
-- `QA-PORTFOLIO-ASSETS/Sprint-01/` — Sprint 1 project-organized images, videos, thumbnails, and capture notes
-- `QA-PORTFOLIO-ASSETS/Sprint-02/` — Sprint 2 project-organized images, videos, thumbnails, and capture notes
-- `QA-PORTFOLIO-ASSETS/Sprint-03/` — Sprint 3 project-organized images, videos, thumbnails, and capture notes
-- `QA-PORTFOLIO-ASSETS/Sprint-04/` — Sprint 4 project-organized images, videos, thumbnails, and capture notes
-- `QA-PORTFOLIO-ASSETS/Sprint-05/` — Sprint 5 project-organized images, videos, thumbnails, and capture notes
-- `QA-PORTFOLIO-ASSETS/Sprint-06/` — Sprint 6 project-organized images, videos, thumbnails, and capture notes
-- `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
-- `QA-Portfolio-Sprint-02-Assets.zip` — complete downloadable Sprint 2 package
-- `QA-Portfolio-Sprint-03-Assets.zip` — complete downloadable Sprint 3 package
-- `QA-Portfolio-Sprint-04-Assets.zip` — complete downloadable Sprint 4 package
-- `QA-Portfolio-Sprint-05-Assets.zip` — complete downloadable Sprint 5 package
-- `QA-Portfolio-Sprint-06-Assets.zip` — complete downloadable Sprint 6 package
-- `asset-browser/` — combined local preview and download interface
-- `capture-report.json` and `capture-report-sprint-02.json` through `capture-report-sprint-06.json` — machine-readable inventories and availability notes
-- `capture-progress.json` and `capture-progress-sprint-02.json` through `capture-progress-sprint-06.json` — machine-readable project checkpoint status
+- `QA-PORTFOLIO-ASSETS/Sprint-01/` through `Sprint-06/` — complete project-organized image, video, poster, manifest, and README sets
+- `QA-PORTFOLIO-ASSETS/Sprint-07/` — nine validated project checkpoints; Rahiza (ID 62) remains unavailable
+- `QA-PORTFOLIO-ASSETS/Sprint-08/` through `Sprint-10/` — complete project-organized image, video, poster, manifest, and README sets
+- `QA-Portfolio-Sprint-01-Assets.zip` through `QA-Portfolio-Sprint-06-Assets.zip` — complete downloadable Sprint packages
+- `QA-Portfolio-Sprint-08-Assets.zip` through `QA-Portfolio-Sprint-10-Assets.zip` — complete downloadable Sprint packages
+- `asset-browser/` — combined local preview, playback, and download interface
+- `capture-report*.json` — machine-readable finalized inventories and availability notes
+- `capture-progress*.json` — machine-readable project checkpoint status
+- `AVAILABLE-PROJECTS-ASSET-AUDIT.md` — complete cross-project media, manifest, archive, browser, and download audit
 
 ## Open the local asset browser
 
@@ -334,12 +328,12 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All 60 completed project inventories across Sprints 1–6, expanding through Sprints 7–10 checkpoints
+- All 93 available project inventories across IDs 01–94 (Rahiza ID 62 is unavailable)
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Separate complete Sprint 1–6 ZIP downloads
+- Separate complete Sprint 1–6 and Sprint 8–10 ZIP downloads
 
 ## Re-run capture, packaging, and verification
 
