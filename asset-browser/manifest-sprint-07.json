@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 7",
   "generated": "2026-09-16",
-  "totalImages": 63,
-  "totalVideos": 5,
+  "totalImages": 76,
+  "totalVideos": 6,
   "projects": [
     {
       "id": "61",
@@ -447,6 +447,96 @@
       ],
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 42.12 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "67",
+      "slug": "vezorla",
+      "folder": "67-vezorla",
+      "name": "Vezorla",
+      "url": "https://www.vezorla.com",
+      "kind": "Spanish extra-virgin olive oil and gourmet foods",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "67_vezorla_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_signature_section_001.jpg",
+          "label": "Desktop The Flavours I Grew Up With section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "67_vezorla_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "67_vezorla_project_highlight_spanish_olive_oil_collection_001.jpg",
+          "label": "Project highlight: Spanish olive oil collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_project_highlight_spanish_olive_oil_collection_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "67_vezorla_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "67_vezorla_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "67_vezorla_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "67_vezorla_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "67_vezorla_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "67_vezorla_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "67_vezorla_video_olive_oil_journey_001.mp4",
+          "thumbnail": "67_vezorla_video_olive_oil_journey_001.jpg",
+          "purpose": "Spanish gourmet-food discovery from collection to olive-oil detail",
+          "duration": 24.04,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/video/67_vezorla_video_olive_oil_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/video/67_vezorla_video_olive_oil_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 24.04 seconds, complete decode passed."
       ]
     }
   ]
