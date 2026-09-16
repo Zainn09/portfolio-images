@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Elysian Blooms asset set generated and published",
+  "stage": "Rahiza capture requires attention",
   "projects": [
     {
       "id": "61",
@@ -64,6 +64,13 @@
       "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "62",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped: Rahiza produced only 4 unique authentic images; at least 10 are required."
     }
   ]
 }
