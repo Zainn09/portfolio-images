@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Eastern Inspiration asset set generated and published",
+  "stage": "Pet Prestige UK capture requires attention",
   "projects": [
     {
       "id": "51",
@@ -43,6 +43,13 @@
       "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "57",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped; review workflow diagnostics"
     }
   ]
 }

@@ -153,8 +153,8 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Eastern Inspiration asset set generated and published<br>
-**Last updated:** 2026-09-16 08:07 PKT
+**Latest pipeline stage:** Pet Prestige UK capture requires attention<br>
+**Last updated:** 2026-09-16 08:09 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -164,7 +164,7 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 | 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 55 | Luxe Atelier | <https://luxeatelier.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 56 | Eastern Inspiration | <https://easterninspiration.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 57 | Pet Prestige UK | <https://petprestigeuk.com> | ⚪ Pending | — | — | Luxury pet beds, blankets, mats, and accessories |
+| 57 | Pet Prestige UK | <https://petprestigeuk.com> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
 | 58 | Midland Textiles | <https://midlandtextiles.co.uk> | ⚪ Pending | — | — | Dressmaking, craft, lace, and apparel fabrics |
 | 59 | BA² Fitness | <https://basquaredfitness.com> | ⚪ Pending | — | — | Performance fitness apparel |
 | 60 | Belo Jewelry | <https://belojewelry.com> | ⚪ Pending | — | — | Handcrafted crystal and symbolic jewelry |
