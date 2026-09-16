@@ -51,6 +51,12 @@
       "file": "91_morris_manufacturing_qa_user_flow_sequence_001.jpg",
       "label": "Three-state QA user-flow reference",
       "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_qa_user_flow_sequence_001.jpg"
+    },
+    {
+      "file": "91_morris_manufacturing_desktop_company_video_poster_001.jpg",
+      "label": "Official company-video poster",
+      "sourceUrl": "https://cdn.prod.website-files.com/6822424ac4688cdd221928e8/682afd6545a0def39b976513_Morris%20Video%20Img.png",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_company_video_poster_001.jpg"
     }
   ],
   "videos": [
@@ -58,14 +64,15 @@
       "file": "91_morris_manufacturing_video_precision_manufacturing_journey_001.mp4",
       "thumbnail": "91_morris_manufacturing_video_precision_manufacturing_journey_001.jpg",
       "purpose": "Precision-manufacturing story from American-made mission to production capabilities",
-      "duration": 33.52,
+      "duration": 33.48,
       "codec": "h264",
       "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/video/91_morris_manufacturing_video_precision_manufacturing_journey_001.mp4",
       "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/video/91_morris_manufacturing_video_precision_manufacturing_journey_001.jpg"
     }
   ],
   "notes": [
-    "Playable MP4 verified: H.264, 1280×720, 33.52 seconds, complete decode passed.",
+    "Official company-video poster uses a current image embedded by the live site from its official Webflow CDN; the exact source URL is recorded in the manifest.",
+    "Playable MP4 verified: H.264, 1280×720, 33.48 seconds, complete decode passed.",
     "Rejected duplicate 91_morris_manufacturing_desktop_manufacturing_capabilities_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg byte-for-byte.",
     "Rejected duplicate 91_morris_manufacturing_interaction_detail_state_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg byte-for-byte.",
     "Rejected duplicate 91_morris_manufacturing_project_highlight_precision_manufacturing_facility_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg in perceptual image QA.",

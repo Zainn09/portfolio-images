@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 1060,
-  "totalVideos": 89,
+  "totalImages": 1070,
+  "totalVideos": 90,
   "projects": [
     {
       "id": "01",
@@ -7620,6 +7620,88 @@
         "Rejected duplicate 90_wisconic_interaction_detail_state_001.jpg; it matched 90_wisconic_desktop_private_label_service_001.jpg byte-for-byte.",
         "Rejected duplicate 90_wisconic_interaction_mobile_header_001.jpg; it matched 90_wisconic_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "91",
+      "slug": "morris-manufacturing",
+      "folder": "91-morris-manufacturing",
+      "name": "Morris Manufacturing",
+      "url": "https://morrismfg.com",
+      "kind": "American precision machined metal parts manufacturing",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "91_morris_manufacturing_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_desktop_signature_section_001.jpg",
+          "label": "Desktop ABOUT US section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_desktop_quality_systems_001.jpg",
+          "label": "Manufacturing quality systems",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_quality_systems_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_mobile_manufacturing_capabilities_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_mobile_manufacturing_capabilities_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_qa_user_flow_sequence_001.jpg"
+        },
+        {
+          "file": "91_morris_manufacturing_desktop_company_video_poster_001.jpg",
+          "label": "Official company-video poster",
+          "sourceUrl": "https://cdn.prod.website-files.com/6822424ac4688cdd221928e8/682afd6545a0def39b976513_Morris%20Video%20Img.png",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_company_video_poster_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "91_morris_manufacturing_video_precision_manufacturing_journey_001.mp4",
+          "thumbnail": "91_morris_manufacturing_video_precision_manufacturing_journey_001.jpg",
+          "purpose": "Precision-manufacturing story from American-made mission to production capabilities",
+          "duration": 33.48,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/video/91_morris_manufacturing_video_precision_manufacturing_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/video/91_morris_manufacturing_video_precision_manufacturing_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Official company-video poster uses a current image embedded by the live site from its official Webflow CDN; the exact source URL is recorded in the manifest.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 33.48 seconds, complete decode passed.",
+        "Rejected duplicate 91_morris_manufacturing_desktop_manufacturing_capabilities_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 91_morris_manufacturing_interaction_detail_state_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 91_morris_manufacturing_project_highlight_precision_manufacturing_facility_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg in perceptual image QA.",
+        "Rejected duplicate 91_morris_manufacturing_desktop_secondary_experience_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg in perceptual image QA.",
+        "Rejected duplicate 91_morris_manufacturing_interaction_mobile_header_001.jpg; it matched 91_morris_manufacturing_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -7689,9 +7771,9 @@
     {
       "number": 10,
       "label": "Sprint 10",
-      "images": 0,
-      "videos": 0,
-      "projects": 0
+      "images": 10,
+      "videos": 1,
+      "projects": 1
     }
   ]
 }
