@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 1001,
-  "totalVideos": 84,
+  "totalImages": 1012,
+  "totalVideos": 85,
   "projects": [
     {
       "id": "01",
@@ -7188,6 +7188,88 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280\u00d7720, 30.32 seconds, complete decode passed."
       ]
+    },
+    {
+      "id": "86",
+      "slug": "bidet-toilets",
+      "folder": "86-bidet-toilets",
+      "name": "Bidet Toilets Store",
+      "url": "https://bidet-toilets.co.uk",
+      "kind": "UK smart bidet toilets, seats, and bathroom fittings",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "86_bidet_toilets_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_desktop_signature_section_001.jpg",
+          "label": "Desktop Find Your Perfect Fit section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_project_highlight_close_coupled_bidet_toilets_001.jpg",
+          "label": "Project highlight: close-coupled bidet toilets",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_project_highlight_close_coupled_bidet_toilets_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "86_bidet_toilets_video_smart_bidet_journey_001.mp4",
+          "thumbnail": "86_bidet_toilets_video_smart_bidet_journey_001.jpg",
+          "purpose": "Smart-bidet discovery from wall-hung collection to Geberit product detail",
+          "duration": 32.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/video/86_bidet_toilets_video_smart_bidet_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/video/86_bidet_toilets_video_smart_bidet_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 32.20 seconds, complete decode passed.",
+        "Rejected duplicate 86_bidet_toilets_desktop_collection_listing_001.jpg; it matched 86_bidet_toilets_desktop_signature_section_001.jpg in perceptual image QA.",
+        "Rejected duplicate 86_bidet_toilets_mobile_product_detail_001.jpg; it matched 86_bidet_toilets_mobile_home_hero_001.jpg in perceptual image QA."
+      ]
     }
   ],
   "sprints": [
@@ -7250,9 +7332,9 @@
     {
       "number": 9,
       "label": "Sprint 9",
-      "images": 62,
-      "videos": 5,
-      "projects": 5
+      "images": 73,
+      "videos": 6,
+      "projects": 6
     }
   ]
 }
