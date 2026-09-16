@@ -153,8 +153,8 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** BA² Fitness asset set generated and published<br>
-**Last updated:** 2026-09-16 16:48 PKT
+**Latest pipeline stage:** Belo Jewelry asset set generated and published<br>
+**Last updated:** 2026-09-16 16:51 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -167,9 +167,9 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 | 57 | Pet Prestige UK | <https://petprestigeuk.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 58 | Midland Textiles | <https://midlandtextiles.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 59 | BA² Fitness | <https://basquaredfitness.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 60 | Belo Jewelry | <https://belojewelry.com> | ⚪ Pending | — | — | Handcrafted crystal and symbolic jewelry |
+| 60 | Belo Jewelry | <https://belojewelry.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 104 static images and 9 playable MP4 videos.<br>
+**Current checkpoint inventory:** 116 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_06_PROGRESS_END -->

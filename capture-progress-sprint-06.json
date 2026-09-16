@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "BA² Fitness asset set generated and published",
+  "stage": "Belo Jewelry asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -60,6 +60,13 @@
     },
     {
       "id": "59",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "60",
       "status": "captured",
       "images": 12,
       "videos": 1,
