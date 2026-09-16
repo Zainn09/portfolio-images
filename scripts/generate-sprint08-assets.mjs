@@ -361,7 +361,7 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
   const context = await browser.newContext({
     viewport: VIDEO_SIZE,
     recordVideo: { dir: videoDir, size: VIDEO_SIZE },
-    userAgent: project.id === '57'
+    userAgent: ['57', '71'].includes(project.id)
       ? 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
       : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36 QA-Portfolio-Capture/1.0',
     locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce'
@@ -456,7 +456,7 @@ async function captureProject(browser, project) {
   const captures = [];
   const context = await browser.newContext({
     viewport: DESKTOP,
-    userAgent: project.id === '57'
+    userAgent: ['57', '71'].includes(project.id)
       ? 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
       : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36 QA-Portfolio-Capture/1.0',
     locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1
@@ -513,7 +513,7 @@ async function captureProject(browser, project) {
 
     const mobileContext = await browser.newContext({
       viewport: MOBILE,
-      userAgent: project.id === '57'
+      userAgent: ['57', '71'].includes(project.id)
         ? 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
         : 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1 QA-Portfolio-Capture/1.0',
       locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1,
