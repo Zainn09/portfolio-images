@@ -238,25 +238,25 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 
 <!-- SPRINT_09_PROGRESS_START -->
 
-**Sprint status:** In progress<br>
-**Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Wisconic asset set generated and published<br>
-**Last updated:** 2026-09-16 23:44 PKT
+**Sprint status:** Complete<br>
+**Completed projects:** 10 / 10<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
+**Last updated:** 2026-09-16 23:45 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 81 | Limitless Brain Lab | <https://limitlessbrainlab.com> | 🟡 Captured · QA pending | 14 | 1 | Project assets published; awaiting Sprint-level QA |
-| 82 | Enerex | <https://enerex.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 83 | BalletPro | <https://www.balletpro.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 84 | Cuddles Dog Bakery | <https://cuddlespetbrand.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 85 | Myzo Chocolate | <https://myzochocolate.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 86 | Bidet Toilets Store | <https://bidet-toilets.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 87 | Faraway Finds | <https://farawayfinds.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 88 | MRCA | <https://mrca.net> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 89 | Wells Industries | <https://wellsind.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 90 | Wisconic | <https://wisconic.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
+| 81 | Limitless Brain Lab | <https://limitlessbrainlab.com> | 🟢 Complete | 14 | 1 | Website and playable video QA passed |
+| 82 | Enerex | <https://enerex.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 83 | BalletPro | <https://www.balletpro.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 84 | Cuddles Dog Bakery | <https://cuddlespetbrand.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 85 | Myzo Chocolate | <https://myzochocolate.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 86 | Bidet Toilets Store | <https://bidet-toilets.co.uk> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 87 | Faraway Finds | <https://farawayfinds.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 88 | MRCA | <https://mrca.net> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 89 | Wells Industries | <https://wellsind.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 90 | Wisconic | <https://wisconic.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 121 static images and 10 playable MP4 videos.<br>
+**Current verified inventory:** 121 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_09_PROGRESS_END -->
