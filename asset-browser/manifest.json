@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 713,
-  "totalVideos": 60,
+  "totalImages": 725,
+  "totalVideos": 61,
   "projects": [
     {
       "id": "01",
@@ -5120,6 +5120,95 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 36.08 seconds, complete decode passed.",
         "Rejected duplicate 60_belo_jewelry_interaction_detail_state_001.jpg; it matched 60_belo_jewelry_desktop_product_detail_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "61",
+      "slug": "rocket-krunch",
+      "folder": "61-rocket-krunch",
+      "name": "Rocket Krunch",
+      "url": "https://www.rocketkrunch.com",
+      "kind": "Freeze-dried candy, fruit, and pantry foods",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "61_rocket_krunch_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_desktop_signature_section_001.jpg",
+          "label": "Desktop The Pantry by Rocket Krunch section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_project_highlight_freeze_dried_pantry_collection_001.jpg",
+          "label": "Project highlight: freeze-dried pantry collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_project_highlight_freeze_dried_pantry_collection_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "61_rocket_krunch_video_freeze_dried_treat_journey_001.mp4",
+          "thumbnail": "61_rocket_krunch_video_freeze_dried_treat_journey_001.jpg",
+          "purpose": "Freeze-dried treat discovery from new arrivals to product detail",
+          "duration": 36.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/video/61_rocket_krunch_video_freeze_dried_treat_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/video/61_rocket_krunch_video_freeze_dried_treat_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found \u2013 Rocket Krunch); a verified on-site fallback was requested.",
+        "Mobile detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found \u2013 Rocket Krunch); a verified on-site fallback was requested.",
+        "Video detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found \u2013 Rocket Krunch); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 36.32 seconds, complete decode passed.",
+        "Rejected duplicate 61_rocket_krunch_desktop_product_detail_001.jpg; it matched 61_rocket_krunch_desktop_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -5164,6 +5253,13 @@
       "images": 116,
       "videos": 10,
       "projects": 10
+    },
+    {
+      "number": 7,
+      "label": "Sprint 7",
+      "images": 12,
+      "videos": 1,
+      "projects": 1
     }
   ]
 }

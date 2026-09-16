@@ -182,12 +182,12 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Website analysis and capture configuration<br>
-**Last updated:** 2026-09-16 18:56 PKT
+**Latest pipeline stage:** Rocket Krunch asset set generated and published<br>
+**Last updated:** 2026-09-16 19:01 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 61 | Rocket Krunch | <https://www.rocketkrunch.com> | ⚪ Pending | — | — | Freeze-dried candy, fruit, and pantry foods |
+| 61 | Rocket Krunch | <https://www.rocketkrunch.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 62 | Rahiza | <https://www.rahiza.com> | ⚪ Pending | — | — | Designer phone cases and technology accessories |
 | 63 | Total Beauty Experience | <https://totalbeautyexp.com> | ⚪ Pending | — | — | Beauty, haircare, skincare, fragrance, and personal care retailer |
 | 64 | John White Shoes | <https://www.johnwhiteshoes.com> | ⚪ Pending | — | — | British heritage men’s leather footwear |
@@ -198,7 +198,7 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 | 69 | Gym Emotion | <https://gymemotion.com> | ⚪ Pending | — | — | Commercial and home gym equipment |
 | 70 | Elysian Blooms | <https://www.elysianblooms.co.uk> | ⚪ Pending | — | — | Surrey gift, wedding, sympathy, and occasion florist |
 
-**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Current checkpoint inventory:** 12 static images and 1 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_07_PROGRESS_END -->
