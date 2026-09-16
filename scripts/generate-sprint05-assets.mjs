@@ -58,14 +58,14 @@ const projects = [
     videoPurpose: 'Luxury collection discovery from featured categories to item detail'
   },
   {
-    id: '45', slug: 'hugh-mcelvanna-menswear', folder: '45-hugh-mcelvanna-menswear', name: 'Hugh McElvanna Menswear', url: 'https://www.hughmcelvannamenswear.com',
+    id: '45', slug: 'hugh-mcelvanna-menswear', folder: '45-hugh-mcelvanna-menswear', name: 'Hugh McElvanna Menswear', url: 'https://hughmcelvanna.com',
     prefix: '45_hugh_mcelvanna_menswear', kind: 'Men’s suits and casual clothing',
-    signatureText: 'Featured Collections', listingUrl: '/en-us/collections/new-season-arrivals', listingText: 'New Arrivals',
-    detailUrl: '/en-us/products/kessler-quarter-zip-sweatshirt-blue-stripe-25weraysr', detailText: 'Kessler Quarter Zip',
-    highlightUrl: '/en-us/collections/mens-wedding-wear-suits-groom-attire', highlightText: 'Wedding', highlightLabel: 'men’s wedding wear collection',
-    interactionUrl: '/en-us/collections/mens-jeans-collection-stretch-fabric', interactionText: 'Jeans',
-    flowLabels: ['Premium menswear', 'New season', 'Quarter-zip detail'], videoSlug: 'menswear_journey',
-    videoPurpose: 'Premium menswear discovery from new-season collection to garment detail'
+    signatureText: 'A Legacy of Style', listingUrl: '/en-us/collections/new-arrivals', listingText: 'New Arrivals',
+    detailUrl: null, detailText: 'Size',
+    highlightUrl: '/en-us/collections/spring-summer-elegance-the-new-collection', highlightText: 'Versatility', highlightLabel: 'spring summer menswear collection',
+    interactionUrl: '/en-us/collections/mens-blazers-casual-jackets', interactionText: 'Blazers',
+    flowLabels: ['Premium menswear', 'New arrivals', 'Garment detail'], videoSlug: 'menswear_journey',
+    videoPurpose: 'Premium menswear discovery from new-arrivals collection to garment detail'
   },
   {
     id: '46', slug: 'j-fredric', folder: '46-j-fredric', name: 'J. Fredric', url: 'https://jfredrics.com',
