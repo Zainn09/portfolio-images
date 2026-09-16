@@ -267,19 +267,19 @@ Sprint 10 is the confirmed four-website final sprint, covering projects 91–94.
 
 <!-- SPRINT_10_PROGRESS_START -->
 
-**Sprint status:** In progress<br>
-**Completed projects:** 0 / 4<br>
-**Latest pipeline stage:** Morris Manufacturing asset set generated and published<br>
+**Sprint status:** Complete<br>
+**Completed projects:** 4 / 4<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
 **Last updated:** 2026-09-16 22:46 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 91 | Morris Manufacturing | <https://morrismfg.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 92 | TMI Products | <https://www.tmiproducts.com> | ⚪ Pending | — | — | Custom automotive interiors, seats, materials, and vehicle restoration parts |
-| 93 | American Hose & Gasket | <https://americanhosegasket.com> | ⚪ Pending | — | — | American industrial hose, fittings, and custom assembly solutions |
-| 94 | Rock Angel Creations | <https://rockangelcreations.com> | ⚪ Pending | — | — | Handcrafted gothic and metal-inspired clothing and accessories |
+| 91 | Morris Manufacturing | <https://morrismfg.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
+| 92 | TMI Products | <https://www.tmiproducts.com> | 🟢 Complete | 15 | 1 | Website and playable video QA passed |
+| 93 | American Hose & Gasket | <https://americanhosegasket.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 94 | Rock Angel Creations | <https://rockangelcreations.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 10 static images and 1 playable MP4 videos.<br>
+**Current verified inventory:** 49 static images and 4 playable MP4 videos.<br>
 **Required minimum:** 40 unique static images and 4 verified playable MP4 videos.
 
 <!-- SPRINT_10_PROGRESS_END -->
