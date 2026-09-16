@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 10",
   "generated": "2026-09-16",
-  "totalImages": 23,
-  "totalVideos": 2,
+  "totalImages": 35,
+  "totalVideos": 3,
   "projects": [
     {
       "id": "91",
@@ -174,6 +174,92 @@
         "Playable MP4 verified: H.264, 1280×720, 28.88 seconds, complete decode passed.",
         "Rejected duplicate 93_american_hose_gasket_desktop_secondary_experience_001.jpg; it matched 93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg in perceptual image QA.",
         "Rejected duplicate 93_american_hose_gasket_desktop_concrete_applications_001.jpg; it matched 93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "94",
+      "slug": "rock-angel-creations",
+      "folder": "94-rock-angel-creations",
+      "name": "Rock Angel Creations",
+      "url": "https://rockangelcreations.com",
+      "kind": "Handcrafted gothic and metal-inspired clothing and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "94_rock_angel_creations_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_desktop_signature_section_001.jpg",
+          "label": "Desktop Wear Your Dark Side section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_project_highlight_gothic_dress_collection_001.jpg",
+          "label": "Project highlight: gothic dress collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_project_highlight_gothic_dress_collection_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "94_rock_angel_creations_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/images/94_rock_angel_creations_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "94_rock_angel_creations_video_gothic_fashion_journey_001.mp4",
+          "thumbnail": "94_rock_angel_creations_video_gothic_fashion_journey_001.jpg",
+          "purpose": "Gothic-fashion discovery from trending collection to featured product detail",
+          "duration": 37.64,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/video/94_rock_angel_creations_video_gothic_fashion_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-10/94-rock-angel-creations/video/94_rock_angel_creations_video_gothic_fashion_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 37.64 seconds, complete decode passed.",
+        "Rejected duplicate 94_rock_angel_creations_interaction_detail_state_001.jpg; it matched 94_rock_angel_creations_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
   ]

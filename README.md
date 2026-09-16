@@ -269,17 +269,17 @@ Sprint 10 is the confirmed four-website final sprint, covering projects 91–94.
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 4<br>
-**Latest pipeline stage:** American Hose & Gasket asset set generated and published<br>
-**Last updated:** 2026-09-16 22:28 PKT
+**Latest pipeline stage:** Rock Angel Creations asset set generated and published<br>
+**Last updated:** 2026-09-16 22:30 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 91 | Morris Manufacturing | <https://morrismfg.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
 | 92 | TMI Products | <https://www.tmiproducts.com> | ⚪ Pending | — | — | Custom automotive interiors, seats, materials, and vehicle restoration parts |
 | 93 | American Hose & Gasket | <https://americanhosegasket.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 94 | Rock Angel Creations | <https://rockangelcreations.com> | ⚪ Pending | — | — | Handcrafted gothic and metal-inspired clothing and accessories |
+| 94 | Rock Angel Creations | <https://rockangelcreations.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 23 static images and 2 playable MP4 videos.<br>
+**Current checkpoint inventory:** 35 static images and 3 playable MP4 videos.<br>
 **Required minimum:** 40 unique static images and 4 verified playable MP4 videos.
 
 <!-- SPRINT_10_PROGRESS_END -->

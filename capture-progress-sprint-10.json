@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "American Hose & Gasket asset set generated and published",
+  "stage": "Rock Angel Creations asset set generated and published",
   "projects": [
     {
       "id": "91",
@@ -13,6 +13,13 @@
       "id": "93",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "94",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
