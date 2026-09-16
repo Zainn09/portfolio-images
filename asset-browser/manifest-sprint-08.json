@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 8",
   "generated": "2026-09-16",
-  "totalImages": 82,
-  "totalVideos": 7,
+  "totalImages": 92,
+  "totalVideos": 8,
   "projects": [
     {
       "id": "71",
@@ -595,6 +595,84 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
         "Rejected duplicate 77_second_chance_clothing_home_decor_interaction_detail_state_001.jpg; it matched 77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "78",
+      "slug": "vtc-watches",
+      "folder": "78-vtc-watches",
+      "name": "VTC Watches",
+      "url": "https://www.vtcwatches.com",
+      "kind": "Watch and jewelry sales, repair, and custom bridal service",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "78_vtc_watches_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_desktop_signature_section_001.jpg",
+          "label": "Desktop BRANDS WE SERVICE section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_project_highlight_insured_watch_repair_service_001.jpg",
+          "label": "Project highlight: insured watch repair service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_project_highlight_insured_watch_repair_service_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "78_vtc_watches_video_watch_specialist_journey_001.mp4",
+          "thumbnail": "78_vtc_watches_video_watch_specialist_journey_001.jpg",
+          "purpose": "Watch-specialist discovery from timepiece collection to featured-watch detail",
+          "duration": 36.96,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/video/78_vtc_watches_video_watch_specialist_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/video/78_vtc_watches_video_watch_specialist_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.96 seconds, complete decode passed.",
+        "Rejected duplicate 78_vtc_watches_interaction_detail_state_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
+        "Rejected duplicate 78_vtc_watches_desktop_secondary_experience_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
+        "Rejected duplicate 78_vtc_watches_interaction_mobile_navigation_001.jpg; it matched 78_vtc_watches_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
