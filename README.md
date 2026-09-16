@@ -240,8 +240,8 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Wells Industries asset set generated and published<br>
-**Last updated:** 2026-09-16 22:12 PKT
+**Latest pipeline stage:** Wisconic asset set generated and published<br>
+**Last updated:** 2026-09-16 22:14 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -254,9 +254,9 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 | 87 | Faraway Finds | <https://farawayfinds.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 88 | MRCA | <https://mrca.net> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 89 | Wells Industries | <https://wellsind.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 90 | Wisconic | <https://wisconic.com> | ⚪ Pending | — | — | American custom plastic injection molding and fulfillment |
+| 90 | Wisconic | <https://wisconic.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 110 static images and 9 playable MP4 videos.<br>
+**Current checkpoint inventory:** 121 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_09_PROGRESS_END -->

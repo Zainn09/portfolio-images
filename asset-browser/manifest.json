@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 1049,
-  "totalVideos": 88,
+  "totalImages": 1060,
+  "totalVideos": 89,
   "projects": [
     {
       "id": "01",
@@ -7537,6 +7537,89 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280\u00d7720, 33.96 seconds, complete decode passed."
       ]
+    },
+    {
+      "id": "90",
+      "slug": "wisconic",
+      "folder": "90-wisconic",
+      "name": "Wisconic",
+      "url": "https://wisconic.com",
+      "kind": "American custom plastic injection molding and fulfillment",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "90_wisconic_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_private_label_service_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_private_label_service_001.jpg"
+        },
+        {
+          "file": "90_wisconic_project_highlight_plastic_molding_industries_001.jpg",
+          "label": "Project highlight: plastic molding industries",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_project_highlight_plastic_molding_industries_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_cad_design_001.jpg",
+          "label": "CAD design and mold engineering",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_cad_design_001.jpg"
+        },
+        {
+          "file": "90_wisconic_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "90_wisconic_mobile_private_label_service_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_mobile_private_label_service_001.jpg"
+        },
+        {
+          "file": "90_wisconic_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "90_wisconic_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "90_wisconic_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "90_wisconic_video_plastic_molding_journey_001.mp4",
+          "thumbnail": "90_wisconic_video_plastic_molding_journey_001.jpg",
+          "purpose": "Plastic-manufacturing journey from custom molding capabilities to private-label service",
+          "duration": 32.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/video/90_wisconic_video_plastic_molding_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/video/90_wisconic_video_plastic_molding_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 32.60 seconds, complete decode passed.",
+        "Rejected duplicate 90_wisconic_desktop_signature_section_001.jpg; it matched 90_wisconic_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 90_wisconic_interaction_detail_state_001.jpg; it matched 90_wisconic_desktop_private_label_service_001.jpg byte-for-byte.",
+        "Rejected duplicate 90_wisconic_interaction_mobile_header_001.jpg; it matched 90_wisconic_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -7599,9 +7682,9 @@
     {
       "number": 9,
       "label": "Sprint 9",
-      "images": 110,
-      "videos": 9,
-      "projects": 9
+      "images": 121,
+      "videos": 10,
+      "projects": 10
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Wells Industries asset set generated and published",
+  "stage": "Wisconic asset set generated and published",
   "projects": [
     {
       "id": "81",
@@ -62,6 +62,13 @@
       "id": "89",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "90",
+      "status": "captured",
+      "images": 11,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
