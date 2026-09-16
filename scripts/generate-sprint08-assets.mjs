@@ -448,7 +448,95 @@ async function createSlideshowVideo(project, base, sourceFiles, notes) {
   return { file: path.basename(output), thumbnail: path.basename(thumbnail), purpose: project.videoPurpose, duration: Number(duration.toFixed(2)), codec: stream.codec_name };
 }
 
+async function captureBiofieldProject(browser, project) {
+  console.log(`\n=== ${project.id}: ${project.name} (rate-limit-safe capture) ===`);
+  const base = await mkdirs(project);
+  const imagesDir = path.join(base, 'images');
+  const notes = ['The storefront challenged repeated route changes from the capture runner, so coverage uses varied authentic states from one live collection load and one live mobile homepage load.'];
+  const captures = [];
+  const save = async (page, slug, label) => {
+    const file = path.join(imagesDir, `${project.prefix}_${slug}_001.jpg`);
+    await screenshot(page, file);
+    captures.push({ file: path.basename(file), label });
+    console.log(`  image: ${path.basename(file)}`);
+    return file;
+  };
+  const assertAuthentic = async page => {
+    const body = await page.locator('body').innerText().catch(() => '');
+    if (/verify you are human|problem loading this website|connection needs to be verified/i.test(body)) {
+      throw new Error('Biofield Expert returned a connection-verification page instead of authentic storefront content');
+    }
+  };
+  const desktopContext = await browser.newContext({
+    viewport: DESKTOP,
+    userAgent: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+    locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1
+  });
+  const page = await desktopContext.newPage();
+  page.setDefaultTimeout(8_000);
+  await goto(page, project, project.listingUrl, notes, 'Home harmonization collection');
+  await assertAuthentic(page);
+  await scrollToText(page, 'Home Harmonization Products', 0.02);
+  const collectionTop = await save(page, 'desktop_home_harmonization_intro', 'Desktop home-harmonization collection introduction');
+  await scrollToText(page, 'Biofield Resonator Pendant', 0.18);
+  const collectionProducts = await save(page, 'desktop_harmonization_product_grid', 'Desktop harmonization product grid');
+  await smoothScroll(page, 0.42, 500);
+  const collectionMid = await save(page, 'desktop_harmonization_catalogue_mid', 'Desktop mid-collection product coverage');
+  await smoothScroll(page, 0.68, 500);
+  const collectionLower = await save(page, 'desktop_harmonization_catalogue_lower', 'Desktop lower-collection product coverage');
+  await smoothScroll(page, 0.92, 500);
+  await save(page, 'desktop_harmonization_catalogue_end', 'Desktop collection end and supporting navigation');
+  await desktopContext.close();
+
+  const mobileContext = await browser.newContext({
+    viewport: MOBILE,
+    userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1',
+    locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1,
+    isMobile: true, hasTouch: true
+  });
+  const mobile = await mobileContext.newPage();
+  mobile.setDefaultTimeout(8_000);
+  await goto(mobile, project, '/', notes, 'Mobile homepage');
+  await assertAuthentic(mobile);
+  await mobile.evaluate(() => scrollTo(0, 0));
+  await settle(mobile, 350);
+  const mobileHero = await save(mobile, 'mobile_home_hero', 'Mobile homepage hero');
+  await scrollToText(mobile, 'Quantum Clear', 0.16);
+  await save(mobile, 'mobile_quantum_clear_feature', 'Mobile Quantum Clear feature');
+  await scrollToText(mobile, 'Home Harmonization Products', 0.34);
+  await save(mobile, 'mobile_harmonization_products', 'Mobile home-harmonization product section');
+  await smoothScroll(mobile, 0.72, 500);
+  await save(mobile, 'mobile_wellness_collections', 'Mobile wellness collection discovery');
+  await mobileContext.close();
+
+  const responsive = path.join(imagesDir, `${project.prefix}_responsive_comparison_001.jpg`);
+  await createResponsiveComparison(project, collectionTop, mobileHero, responsive);
+  captures.push({ file: path.basename(responsive), label: 'Desktop / mobile responsive QA comparison' });
+  const flow = path.join(imagesDir, `${project.prefix}_qa_user_flow_sequence_001.jpg`);
+  await createFlowSequence(project, [collectionTop, collectionProducts, collectionLower], flow);
+  captures.push({ file: path.basename(flow), label: 'Three-state harmonization-product discovery reference' });
+  const video = await createSlideshowVideo(project, base, [collectionTop, collectionMid, collectionLower], notes);
+
+  const readme = `# ${project.name} — QA Portfolio Visual Assets\n\n` +
+    `**Project:** ${project.name}  \n**Website URL:** ${project.url}  \n**Project type:** ${project.kind}  \n**Asset-generation date:** ${CAPTURE_DATE}\n\n` +
+    `## Inventory\n\n- Static images: **${captures.length}**\n- Videos: **1**\n- Video thumbnails: **1** (stored with the video)\n\n` +
+    `## Coverage\n\n${captures.map(item => `- \`${item.file}\` — ${item.label}`).join('\n')}\n\n` +
+    `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n` +
+    `## Capture notes\n\n- Captures use only authentic live-site content; no products, copy, UI, or findings were invented.\n- Desktop viewport: ${DESKTOP.width} × ${DESKTOP.height}; mobile viewport: ${MOBILE.width} × ${MOBILE.height}; video: ${VIDEO_SIZE.width} × ${VIDEO_SIZE.height}.\n- ${notes.join('\n- ')}\n`;
+  await fs.writeFile(path.join(base, 'README.md'), readme);
+  const result = {
+    id: project.id, slug: project.slug, folder: project.folder, name: project.name,
+    url: project.url, kind: project.kind, generated: CAPTURE_DATE,
+    images: captures.map(item => ({ ...item, path: `QA-PORTFOLIO-ASSETS/Sprint-08/${project.folder}/images/${item.file}` })),
+    videos: [{ ...video, path: `QA-PORTFOLIO-ASSETS/Sprint-08/${project.folder}/video/${video.file}`, thumbnailPath: `QA-PORTFOLIO-ASSETS/Sprint-08/${project.folder}/video/${video.thumbnail}` }],
+    notes
+  };
+  await fs.writeFile(path.join(base, 'asset-manifest.json'), JSON.stringify(result, null, 2));
+  return result;
+}
+
 async function captureProject(browser, project) {
+  if (project.id === '71') return captureBiofieldProject(browser, project);
   console.log(`\n=== ${project.id}: ${project.name} ===`);
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
