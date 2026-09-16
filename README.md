@@ -232,6 +232,35 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 
 <!-- SPRINT_08_PROGRESS_END -->
 
+## Sprint 9 — Websites 81–90
+
+Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites.
+
+<!-- SPRINT_09_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 10<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** 2026-09-16 21:54 PKT
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 81 | Limitless Brain Lab | <https://limitlessbrainlab.com> | ⚪ Pending | — | — | Personalized brain mapping, assessment, and brain wellness services |
+| 82 | Enerex | <https://enerex.com> | ⚪ Pending | — | — | Connected software platform for retail energy brokers and suppliers |
+| 83 | BalletPro | <https://www.balletpro.co.uk> | ⚪ Pending | — | — | Ballet pointe, dancewear, and training accessories |
+| 84 | Cuddles Dog Bakery | <https://cuddlespetbrand.com> | ⚪ Pending | — | — | Handmade dog treats, birthday cakes, and pet celebration goods |
+| 85 | Myzo Chocolate | <https://myzochocolate.com> | ⚪ Pending | — | — | Single-origin Costa Rican bean-to-bar chocolate |
+| 86 | Bidet Toilets Store | <https://bidet-toilets.co.uk> | ⚪ Pending | — | — | UK smart bidet toilets, seats, and bathroom fittings |
+| 87 | Faraway Finds | <https://farawayfinds.co.uk> | ⚪ Pending | — | — | Fair Trade recycled-metal African garden art |
+| 88 | MRCA | <https://mrca.net> | ⚪ Pending | — | — | American manufacturing revitalization and portfolio stewardship |
+| 89 | Wells Industries | <https://wellsind.com> | ⚪ Pending | — | — | Texas-made custom furniture for hospitality spaces |
+| 90 | Wisconic | <https://wisconic.com> | ⚪ Pending | — | — | American custom plastic injection molding and fulfillment |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
+
+<!-- SPRINT_09_PROGRESS_END -->
+
 ### Status legend
 
 - ⚪ **Pending** — capture has not started.
