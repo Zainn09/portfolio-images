@@ -93,25 +93,25 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 
 <!-- SPRINT_04_PROGRESS_START -->
 
-**Sprint status:** In progress<br>
-**Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Glisser Beauty asset set generated and published<br>
-**Last updated:** 2026-09-16 05:00 PKT
+**Sprint status:** Complete<br>
+**Completed projects:** 10 / 10<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
+**Last updated:** 2026-09-16 05:01 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 31 | Nine AM Roast | <https://nineamroast.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 32 | Lilly & Jace Kids | <https://lillyjacekids.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 33 | RAD Children’s Furniture | <https://radchildrensfurniture.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 34 | Laly’s Candles | <https://lalyscandles.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 35 | Adonis Jewellery | <https://adonisjewellery.gr> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 36 | smoveyUSA | <https://www.smoveyusa.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 37 | Tinnie Tots | <https://www.tinnietots.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 39 | Koala Picks | <https://www.koalapicks.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 40 | Glisser Beauty | <https://www.glisserbeauty.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
+| 31 | Nine AM Roast | <https://nineamroast.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 32 | Lilly & Jace Kids | <https://lillyjacekids.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 33 | RAD Children’s Furniture | <https://radchildrensfurniture.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 34 | Laly’s Candles | <https://lalyscandles.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 35 | Adonis Jewellery | <https://adonisjewellery.gr> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 36 | smoveyUSA | <https://www.smoveyusa.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 37 | Tinnie Tots | <https://www.tinnietots.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 38 | La Petite Wardrobe | <https://lapetitewardrobe.co.uk> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 39 | Koala Picks | <https://www.koalapicks.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 40 | Glisser Beauty | <https://www.glisserbeauty.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 118 static images and 10 playable MP4 videos.<br>
+**Current verified inventory:** 118 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_04_PROGRESS_END -->

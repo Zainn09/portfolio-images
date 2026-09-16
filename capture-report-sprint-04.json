@@ -850,14 +850,14 @@
           "file": "40_glisser_beauty_video_skincare_discovery_journey_001.mp4",
           "thumbnail": "40_glisser_beauty_video_skincare_discovery_journey_001.jpg",
           "purpose": "Skincare discovery from natural-ingredient positioning to product detail",
-          "duration": 26.52,
+          "duration": 29.04,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/40-glisser-beauty/video/40_glisser_beauty_video_skincare_discovery_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/40-glisser-beauty/video/40_glisser_beauty_video_skincare_discovery_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280×720, 26.52 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 29.04 seconds, complete decode passed.",
         "Rejected duplicate 40_glisser_beauty_interaction_detail_state_001.jpg; it matched 40_glisser_beauty_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 40_glisser_beauty_interaction_mobile_header_001.jpg; it matched 40_glisser_beauty_mobile_home_hero_001.jpg in perceptual image QA."
       ]
