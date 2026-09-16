@@ -809,6 +809,7 @@ async function main() {
     if (browser) await browser.close();
   }
 
+  await updateRootProgress(results, 'All Sprint 6 project assets generated; final QA pending');
   const totalImages = results.reduce((sum, p) => sum + p.images.length, 0);
   const totalVideos = results.reduce((sum, p) => sum + p.videos.length, 0);
   const readme = `# QA Portfolio Visual Asset Library — Sprint 6\n\n` +
