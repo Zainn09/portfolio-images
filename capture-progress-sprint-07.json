@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Rahiza capture requires attention",
+  "stage": "Rahiza storefront unavailable — rechecked 2026-09-16 23:05 PKT",
   "projects": [
     {
       "id": "61",
@@ -70,7 +70,7 @@
       "status": "blocked",
       "images": 0,
       "videos": 0,
-      "note": "Capture stopped: Rahiza produced only 4 unique authentic images; at least 10 are required."
+      "note": "Blocked with 0 accepted assets: both official domains return Shopify unavailable states; live products, collections, metadata, sitemap, contact, and password routes expose no authentic portfolio content (rechecked 2026-09-16 23:05 PKT)."
     }
   ]
 }
