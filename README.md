@@ -153,15 +153,15 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Nano Lamination asset set generated and published<br>
-**Last updated:** 2026-09-16 08:00 PKT
+**Latest pipeline stage:** Canvasback Pet Supplies asset set generated and published<br>
+**Last updated:** 2026-09-16 08:03 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 51 | JudyP Apparel | <https://judypapparel.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 52 | Lady Flora | <https://www.ladyflora.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 53 | Nano Lamination | <https://www.nanolamination.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | ⚪ Pending | — | — | Pet food, toys, and supplies |
+| 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 55 | Luxe Atelier | <https://luxeatelier.co.uk> | ⚪ Pending | — | — | Luxury women’s occasionwear and evening dresses |
 | 56 | Eastern Inspiration | <https://easterninspiration.co.uk> | ⚪ Pending | — | — | Ethically made artisan gifts and homeware |
 | 57 | Pet Prestige UK | <https://petprestigeuk.com> | ⚪ Pending | — | — | Luxury pet beds, blankets, mats, and accessories |
@@ -169,7 +169,7 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 | 59 | BA² Fitness | <https://basquaredfitness.com> | ⚪ Pending | — | — | Performance fitness apparel |
 | 60 | Belo Jewelry | <https://belojewelry.com> | ⚪ Pending | — | — | Handcrafted crystal and symbolic jewelry |
 
-**Current checkpoint inventory:** 32 static images and 3 playable MP4 videos.<br>
+**Current checkpoint inventory:** 45 static images and 4 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_06_PROGRESS_END -->

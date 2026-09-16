@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 6",
   "generated": "2026-09-16",
-  "totalImages": 32,
-  "totalVideos": 3,
+  "totalImages": 45,
+  "totalVideos": 4,
   "projects": [
     {
       "id": "51",
@@ -245,6 +245,96 @@
         "Rejected duplicate 53_nano_lamination_desktop_signature_section_001.jpg; it matched 53_nano_lamination_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 53_nano_lamination_desktop_secondary_experience_001.jpg; it matched 53_nano_lamination_desktop_collection_listing_001.jpg byte-for-byte.",
         "Rejected duplicate 53_nano_lamination_mobile_product_detail_001.jpg; it matched 53_nano_lamination_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "54",
+      "slug": "canvasback-pets",
+      "folder": "54-canvasback-pets",
+      "name": "Canvasback Pet Supplies",
+      "url": "https://www.canvasbackpets.com",
+      "kind": "Pet food, toys, and supplies",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "54_canvasback_pets_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_signature_section_001.jpg",
+          "label": "Desktop Popular collections section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_project_highlight_pet_store_story_and_services_001.jpg",
+          "label": "Project highlight: pet store story and services",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_project_highlight_pet_store_story_and_services_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_interaction_mobile_search_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "54_canvasback_pets_video_pet_supplies_journey_001.mp4",
+          "thumbnail": "54_canvasback_pets_video_pet_supplies_journey_001.jpg",
+          "purpose": "Pet-supplies discovery from dog-food collection to product detail",
+          "duration": 36.4,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/video/54_canvasback_pets_video_pet_supplies_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/video/54_canvasback_pets_video_pet_supplies_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.40 seconds, complete decode passed."
       ]
     }
   ]

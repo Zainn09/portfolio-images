@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Nano Lamination asset set generated and published",
+  "stage": "Canvasback Pet Supplies asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -20,6 +20,13 @@
       "id": "53",
       "status": "captured",
       "images": 10,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "54",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
