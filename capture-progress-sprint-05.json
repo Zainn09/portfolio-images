@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "My Travel Passport asset set generated and published",
+  "stage": "Peter James Jewelry asset set generated and published",
   "projects": [
     {
       "id": "41",
@@ -60,6 +60,13 @@
     },
     {
       "id": "49",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "50",
       "status": "captured",
       "images": 12,
       "videos": 1,

@@ -124,8 +124,8 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** My Travel Passport asset set generated and published<br>
-**Last updated:** 2026-09-16 07:37 PKT
+**Latest pipeline stage:** Peter James Jewelry asset set generated and published<br>
+**Last updated:** 2026-09-16 07:38 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -138,9 +138,9 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 | 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 48 | Nørdikka Collective | <https://nordikkacollective.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 49 | My Travel Passport | <https://mytravelpassport.eu> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | ⚪ Pending | — | — | Contemporary rings, earrings, bracelets, and pendants |
+| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 108 static images and 9 playable MP4 videos.<br>
+**Current checkpoint inventory:** 120 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_05_PROGRESS_END -->

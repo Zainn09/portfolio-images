@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 5",
   "generated": "2026-09-16",
-  "totalImages": 108,
-  "totalVideos": 9,
+  "totalImages": 120,
+  "totalVideos": 10,
   "projects": [
     {
       "id": "41",
@@ -779,6 +779,92 @@
         "Mobile project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
         "Playable MP4 verified: H.264, 1280×720, 44.20 seconds, complete decode passed.",
         "Rejected duplicate 49_my_travel_passport_project_highlight_europe_travel_passport_edition_001.jpg; it matched 49_my_travel_passport_desktop_signature_section_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "50",
+      "slug": "peter-james-jewelry",
+      "folder": "50-peter-james-jewelry",
+      "name": "Peter James Jewelry",
+      "url": "https://www.peterjamesjewelry.com",
+      "kind": "Contemporary rings, earrings, bracelets, and pendants",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "50_peter_james_jewelry_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_signature_section_001.jpg",
+          "label": "Desktop Shop by Category section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_project_highlight_rings_collection_001.jpg",
+          "label": "Project highlight: rings collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_project_highlight_rings_collection_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "50_peter_james_jewelry_video_contemporary_jewelry_journey_001.mp4",
+          "thumbnail": "50_peter_james_jewelry_video_contemporary_jewelry_journey_001.jpg",
+          "purpose": "Contemporary jewelry discovery from category overview to pendant detail",
+          "duration": 19.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/video/50_peter_james_jewelry_video_contemporary_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/video/50_peter_james_jewelry_video_contemporary_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 19.32 seconds, complete decode passed.",
+        "Rejected duplicate 50_peter_james_jewelry_interaction_detail_state_001.jpg; it matched 50_peter_james_jewelry_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
   ]
