@@ -182,8 +182,8 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Love Renaissance asset set generated and published<br>
-**Last updated:** 2026-09-16 19:13 PKT
+**Latest pipeline stage:** Hughie’s Dog Accessories asset set generated and published<br>
+**Last updated:** 2026-09-16 19:16 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -192,13 +192,13 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 | 63 | Total Beauty Experience | <https://totalbeautyexp.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 64 | John White Shoes | <https://www.johnwhiteshoes.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 65 | Love Renaissance | <https://love-renaissance.shop> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 66 | Hughie’s Dog Accessories | <https://hughies-dog-accessories.com> | ⚪ Pending | — | — | Handmade sustainable dog collars, bandanas, and toys |
+| 66 | Hughie’s Dog Accessories | <https://hughies-dog-accessories.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 67 | Vezorla | <https://www.vezorla.com> | ⚪ Pending | — | — | Spanish extra-virgin olive oil and gourmet foods |
 | 68 | O & P Fashion Fabrics | <https://opfashionfabrics.co.uk> | ⚪ Pending | — | — | Wholesale and small-quantity fashion fabrics |
 | 69 | Gym Emotion | <https://gymemotion.com> | ⚪ Pending | — | — | Commercial and home gym equipment |
 | 70 | Elysian Blooms | <https://www.elysianblooms.co.uk> | ⚪ Pending | — | — | Surrey gift, wedding, sympathy, and occasion florist |
 
-**Current checkpoint inventory:** 50 static images and 4 playable MP4 videos.<br>
+**Current checkpoint inventory:** 63 static images and 5 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_07_PROGRESS_END -->

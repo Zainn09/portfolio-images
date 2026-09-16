@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Love Renaissance asset set generated and published",
+  "stage": "Hughie’s Dog Accessories asset set generated and published",
   "projects": [
     {
       "id": "61",
@@ -25,6 +25,13 @@
     },
     {
       "id": "65",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "66",
       "status": "captured",
       "images": 13,
       "videos": 1,

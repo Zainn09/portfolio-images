@@ -1,0 +1,90 @@
+{
+  "id": "66",
+  "slug": "hughies-dog-accessories",
+  "folder": "66-hughies-dog-accessories",
+  "name": "Hughie’s Dog Accessories",
+  "url": "https://hughies-dog-accessories.com",
+  "kind": "Handmade sustainable dog collars, bandanas, and toys",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "66_hughies_dog_accessories_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_desktop_signature_section_001.jpg",
+      "label": "Desktop Why Choose Hughie’s section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_project_highlight_upcycled_dog_toy_collection_001.jpg",
+      "label": "Project highlight: upcycled dog toy collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_project_highlight_upcycled_dog_toy_collection_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "66_hughies_dog_accessories_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.mp4",
+      "thumbnail": "66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.jpg",
+      "purpose": "Sustainable dog-accessory discovery from catalogue to handmade item detail",
+      "duration": 42.12,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/video/66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/video/66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 42.12 seconds, complete decode passed."
+  ]
+}
