@@ -18,7 +18,7 @@ const NAV_TIMEOUT = 45_000;
 
 const projects = [
   { id: '91', slug: 'morris-manufacturing', folder: '91-morris-manufacturing', name: 'Morris Manufacturing', url: 'https://morrismfg.com', prefix: '91_morris_manufacturing', kind: 'American precision machined metal parts manufacturing', detailSlug: 'manufacturing_capabilities', signatureText: 'ABOUT US', listingUrl: '/#about-us-section', listingText: 'PRESENT', detailUrl: '/#capabilities-section', detailText: 'Capabilities', highlightUrl: '/#facilities-serve', highlightText: 'FACILITY', highlightLabel: 'precision manufacturing facility', interactionUrl: '/#contact-us-section', interactionText: 'CONTACT', extraCaptures: [{ url: '/#capabilities-section', text: 'QUALITY', slug: 'quality_systems', label: 'Manufacturing quality systems' }, { url: '/', text: 'OUR COMPANY VIDEO', slug: 'company_video_section', label: 'Company video overview' }], flowLabels: ['Made in America', 'Company legacy', 'Capabilities'], videoSlug: 'precision_manufacturing_journey', videoPurpose: 'Precision-manufacturing story from American-made mission to production capabilities' },
-  { id: '92', slug: 'tmi-products', folder: '92-tmi-products', name: 'TMI Products', url: 'https://www.tmiproducts.com', prefix: '92_tmi_products', kind: 'Custom automotive interiors, seats, materials, and vehicle restoration parts', detailSlug: 'seat_configurator', signatureText: 'Let’s start that project', listingUrl: '/powersports', listingText: 'Powersports', detailUrl: '/configurator', detailText: 'Seat Configurator', highlightUrl: '/swatches', highlightText: 'Swatches', highlightLabel: 'automotive interior materials', interactionUrl: '/clearance', interactionText: 'Clearance', extraCaptures: [{ url: '/late-model', text: 'New Vehicle', slug: 'late_model_interiors', label: 'Late-model leather interiors' }, { url: '/blog/tmi-design-center', text: 'Design Center', slug: 'design_center', label: 'Automotive interior design center' }], flowLabels: ['Custom interiors', 'Powersports range', 'Seat configurator'], videoSlug: 'automotive_interior_journey', videoPurpose: 'Custom automotive-interior journey from vehicle range to seat configurator' },
+  { id: '92', slug: 'tmi-products', folder: '92-tmi-products', name: 'TMI Products', url: 'https://www.tmiproducts.com', prefix: '92_tmi_products', kind: 'Custom automotive interiors, seats, materials, and vehicle restoration parts', deferCapture: true, detailSlug: 'seat_configurator', signatureText: 'Let’s start that project', listingUrl: '/powersports', listingText: 'Powersports', detailUrl: '/configurator', detailText: 'Seat Configurator', highlightUrl: '/swatches', highlightText: 'Swatches', highlightLabel: 'automotive interior materials', interactionUrl: '/clearance', interactionText: 'Clearance', extraCaptures: [{ url: '/late-model', text: 'New Vehicle', slug: 'late_model_interiors', label: 'Late-model leather interiors' }, { url: '/blog/tmi-design-center', text: 'Design Center', slug: 'design_center', label: 'Automotive interior design center' }], flowLabels: ['Custom interiors', 'Powersports range', 'Seat configurator'], videoSlug: 'automotive_interior_journey', videoPurpose: 'Custom automotive-interior journey from vehicle range to seat configurator' },
   { id: '93', slug: 'american-hose-gasket', folder: '93-american-hose-gasket', name: 'American Hose & Gasket', url: 'https://americanhosegasket.com', prefix: '93_american_hose_gasket', kind: 'American industrial hose, fittings, and custom assembly solutions', detailSlug: 'agriculture_solution', signatureText: 'Industries & Applications We Serve', listingUrl: '/pages/hoses-1', listingText: 'Hose', detailUrl: '/pages/agricultural-industry', detailText: 'Agriculture', highlightUrl: '/pages/chemical-industry', highlightText: 'Chemical', highlightLabel: 'chemical hose applications', interactionUrl: '/pages/hydraulic-industry', interactionText: 'Hydraulic', extraCaptures: [{ url: '/pages/concrete-industry', text: 'Concrete', slug: 'concrete_applications', label: 'Concrete pumping applications' }, { url: '/pages/industrial-industry', text: 'Industrial', slug: 'industrial_applications', label: 'Industrial hose applications' }], flowLabels: ['Built in America', 'Hose range', 'Agriculture solution'], videoSlug: 'industrial_hose_journey', videoPurpose: 'Industrial-hose journey from product range to agriculture assembly solutions' },
   { id: '94', slug: 'rock-angel-creations', folder: '94-rock-angel-creations', name: 'Rock Angel Creations', url: 'https://rockangelcreations.com', prefix: '94_rock_angel_creations', kind: 'Handcrafted gothic and metal-inspired clothing and accessories', signatureText: 'Wear Your Dark Side', listingUrl: '/collections/trending', listingText: 'Trending', detailUrl: '/products/baphomet-thigh-high-stockings', detailText: 'BAPHOMET', highlightUrl: '/collections/dresses', highlightText: 'Dresses', highlightLabel: 'gothic dress collection', interactionUrl: '/collections/accessories', interactionText: 'Accessories', flowLabels: ['Dark alternative style', 'Trending pieces', 'Baphomet stockings'], videoSlug: 'gothic_fashion_journey', videoPurpose: 'Gothic-fashion discovery from trending collection to featured product detail' }
 ];
@@ -355,7 +355,7 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
   const context = await browser.newContext({
     viewport: VIDEO_SIZE,
     recordVideo: { dir: videoDir, size: VIDEO_SIZE },
-    userAgent: ['57', '71'].includes(project.id)
+    userAgent: ['57', '71', '92'].includes(project.id)
       ? 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
       : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36 QA-Portfolio-Capture/1.0',
     locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce'
@@ -541,7 +541,7 @@ async function captureProject(browser, project) {
   const captures = [];
   const context = await browser.newContext({
     viewport: DESKTOP,
-    userAgent: ['57', '71'].includes(project.id)
+    userAgent: ['57', '71', '92'].includes(project.id)
       ? 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
       : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36 QA-Portfolio-Capture/1.0',
     locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1
@@ -598,7 +598,7 @@ async function captureProject(browser, project) {
 
     const mobileContext = await browser.newContext({
       viewport: MOBILE,
-      userAgent: ['57', '71'].includes(project.id)
+      userAgent: ['57', '71', '92'].includes(project.id)
         ? 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
         : 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1 QA-Portfolio-Capture/1.0',
       locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1,
