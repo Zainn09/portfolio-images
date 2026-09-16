@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "BalletPro asset set generated and published",
+  "stage": "Cuddles Dog Bakery asset set generated and published",
   "projects": [
     {
       "id": "81",
@@ -18,6 +18,13 @@
     },
     {
       "id": "83",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "84",
       "status": "captured",
       "images": 12,
       "videos": 1,
