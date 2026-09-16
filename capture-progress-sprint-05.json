@@ -1,69 +1,69 @@
 {
   "generated": "2026-09-16",
-  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
+  "stage": "My Travel Passport asset set generated and published",
   "projects": [
     {
       "id": "41",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "42",
-      "status": "complete",
+      "status": "captured",
       "images": 13,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "43",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "44",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "45",
-      "status": "complete",
+      "status": "captured",
       "images": 13,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "46",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "47",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "48",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "49",
-      "status": "complete",
+      "status": "captured",
       "images": 13,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }
