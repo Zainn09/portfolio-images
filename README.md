@@ -203,6 +203,35 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 <!-- SPRINT_07_PROGRESS_END -->
 
+## Sprint 8 — Websites 71–80
+
+Sprint 8 adds ten more supplied live websites while preserving the completed Sprint 1–7 asset libraries.
+
+<!-- SPRINT_08_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 10<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** 2026-09-16 19:23 PKT
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 71 | Biofield Expert | <https://biofieldexpert.com> | ⚪ Pending | — | — | Biofield education, home harmonization, and wellness products |
+| 72 | SOL Eyewear | <https://mysolstyle.com> | ⚪ Pending | — | — | Texas-designed premium sunglasses |
+| 73 | Ameliora | <https://ameliora.com> | ⚪ Pending | — | — | Machine-washable wrinkle-resistant women’s workwear |
+| 74 | Coffee@Work | <https://coffeeatwork.uk.com> | ⚪ Pending | — | — | UK workplace coffee machines, beans, and supplies |
+| 75 | Audrey K Boutique | <https://audreykboutique.com> | ⚪ Pending | — | — | Independent women’s fashion and gift boutique |
+| 76 | Second Chance Online | <https://secondchanceonline.com> | ⚪ Pending | — | — | Independent women’s kimonos, abayas, and accessories |
+| 77 | Second Chance Clothing & Home Decor | <https://secondchanceclothing-homedecor.myshopify.com> | ⚪ Pending | — | — | Canadian women’s consignment clothing and home décor |
+| 78 | VTC Watches | <https://www.vtcwatches.com> | ⚪ Pending | — | — | Watch and jewelry sales, repair, and custom bridal service |
+| 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | ⚪ Pending | — | — | Stain-resistant Aquaclean upholstery fabrics |
+| 80 | Expressive Audio | <https://expressiveaudio.com> | ⚪ Pending | — | — | HiFi, home cinema, multiroom, and audio installation specialists |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
+
+<!-- SPRINT_08_PROGRESS_END -->
+
 ### Status legend
 
 - ⚪ **Pending** — capture has not started.
