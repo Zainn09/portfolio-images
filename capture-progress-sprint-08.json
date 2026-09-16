@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Second Chance Online asset set generated and published",
+  "stage": "Second Chance Clothing & Home Decor asset set generated and published",
   "projects": [
     {
       "id": "71",
@@ -39,6 +39,13 @@
     },
     {
       "id": "76",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "77",
       "status": "captured",
       "images": 12,
       "videos": 1,
