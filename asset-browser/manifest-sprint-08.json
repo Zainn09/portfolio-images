@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 8",
   "generated": "2026-09-16",
-  "totalImages": 104,
-  "totalVideos": 9,
+  "totalImages": 116,
+  "totalVideos": 10,
   "projects": [
     {
       "id": "71",
@@ -759,6 +759,92 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 40.32 seconds, complete decode passed.",
         "Rejected duplicate 79_liz_jordan_hill_desktop_secondary_experience_001.jpg; it matched 79_liz_jordan_hill_interaction_detail_state_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "80",
+      "slug": "expressive-audio",
+      "folder": "80-expressive-audio",
+      "name": "Expressive Audio",
+      "url": "https://expressiveaudio.com",
+      "kind": "HiFi, home cinema, multiroom, and audio installation specialists",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "80_expressive_audio_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_signature_section_001.jpg",
+          "label": "Desktop personal welcome section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_project_highlight_bespoke_hifi_installation_gallery_001.jpg",
+          "label": "Project highlight: bespoke HiFi installation gallery",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_project_highlight_bespoke_hifi_installation_gallery_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "80_expressive_audio_video_hifi_journey_001.mp4",
+          "thumbnail": "80_expressive_audio_video_hifi_journey_001.jpg",
+          "purpose": "HiFi discovery from home-cinema collection to entertainment-system detail",
+          "duration": 19.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/video/80_expressive_audio_video_hifi_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/video/80_expressive_audio_video_hifi_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
+        "Rejected duplicate 80_expressive_audio_interaction_detail_state_001.jpg; it matched 80_expressive_audio_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     }
   ]
