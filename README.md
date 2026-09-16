@@ -240,14 +240,14 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Enerex asset set generated and published<br>
-**Last updated:** 2026-09-16 21:58 PKT
+**Latest pipeline stage:** BalletPro asset set generated and published<br>
+**Last updated:** 2026-09-16 21:59 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 81 | Limitless Brain Lab | <https://limitlessbrainlab.com> | 🟡 Captured · QA pending | 14 | 1 | Project assets published; awaiting Sprint-level QA |
 | 82 | Enerex | <https://enerex.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 83 | BalletPro | <https://www.balletpro.co.uk> | ⚪ Pending | — | — | Ballet pointe, dancewear, and training accessories |
+| 83 | BalletPro | <https://www.balletpro.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 84 | Cuddles Dog Bakery | <https://cuddlespetbrand.com> | ⚪ Pending | — | — | Handmade dog treats, birthday cakes, and pet celebration goods |
 | 85 | Myzo Chocolate | <https://myzochocolate.com> | ⚪ Pending | — | — | Single-origin Costa Rican bean-to-bar chocolate |
 | 86 | Bidet Toilets Store | <https://bidet-toilets.co.uk> | ⚪ Pending | — | — | UK smart bidet toilets, seats, and bathroom fittings |
@@ -256,7 +256,7 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 | 89 | Wells Industries | <https://wellsind.com> | ⚪ Pending | — | — | Texas-made custom furniture for hospitality spaces |
 | 90 | Wisconic | <https://wisconic.com> | ⚪ Pending | — | — | American custom plastic injection molding and fulfillment |
 
-**Current checkpoint inventory:** 25 static images and 2 playable MP4 videos.<br>
+**Current checkpoint inventory:** 37 static images and 3 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_09_PROGRESS_END -->
