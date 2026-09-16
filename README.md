@@ -1,6 +1,6 @@
 # QA Portfolio Visual Assets — Sprints 1–6
 
-A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains the completed visual-asset deliveries for Sprints 1–5 and tracks the active Sprint 6 capture.
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains six completed visual-asset deliveries covering all 60 supplied live websites.
 
 ## Live progress
 
@@ -122,10 +122,10 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 <!-- SPRINT_05_PROGRESS_START -->
 
-**Sprint status:** In progress<br>
-**Completed projects:** 9 / 10<br>
+**Sprint status:** Complete<br>
+**Completed projects:** 10 / 10<br>
 **Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
-**Last updated:** 2026-09-16 07:52 PKT
+**Last updated:** 2026-09-16 16:53 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -138,9 +138,9 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 | 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 | 48 | Nørdikka Collective | <https://nordikkacollective.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 | 49 | My Travel Passport | <https://mytravelpassport.eu> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
-| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | ⚪ Pending | — | — | Contemporary rings, earrings, bracelets, and pendants |
+| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 111 static images and 9 playable MP4 videos.<br>
+**Current verified inventory:** 123 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_05_PROGRESS_END -->
@@ -196,21 +196,23 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-The repository contains five complete sprint deliveries, with Sprint 6 capture tracked above:
+The repository contains six separate, complete sprint deliveries:
 
 - `QA-PORTFOLIO-ASSETS/Sprint-01/` — Sprint 1 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-02/` — Sprint 2 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-03/` — Sprint 3 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-04/` — Sprint 4 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-05/` — Sprint 5 project-organized images, videos, thumbnails, and capture notes
+- `QA-PORTFOLIO-ASSETS/Sprint-06/` — Sprint 6 project-organized images, videos, thumbnails, and capture notes
 - `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
 - `QA-Portfolio-Sprint-02-Assets.zip` — complete downloadable Sprint 2 package
 - `QA-Portfolio-Sprint-03-Assets.zip` — complete downloadable Sprint 3 package
 - `QA-Portfolio-Sprint-04-Assets.zip` — complete downloadable Sprint 4 package
 - `QA-Portfolio-Sprint-05-Assets.zip` — complete downloadable Sprint 5 package
+- `QA-Portfolio-Sprint-06-Assets.zip` — complete downloadable Sprint 6 package
 - `asset-browser/` — combined local preview and download interface
-- `capture-report.json` and `capture-report-sprint-02.json` through `capture-report-sprint-05.json` — machine-readable inventories and availability notes
-- `capture-progress.json` and `capture-progress-sprint-02.json` through `capture-progress-sprint-05.json` — machine-readable project checkpoint status
+- `capture-report.json` and `capture-report-sprint-02.json` through `capture-report-sprint-06.json` — machine-readable inventories and availability notes
+- `capture-progress.json` and `capture-progress-sprint-02.json` through `capture-progress-sprint-06.json` — machine-readable project checkpoint status
 
 ## Open the local asset browser
 
@@ -222,12 +224,12 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All 50 completed project inventories across Sprints 1–5, expanding through Sprint 6 checkpoints
+- All 60 completed project inventories across Sprints 1–6
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Separate complete Sprint 1–5 ZIP downloads, with Sprint 6 added after final QA
+- Separate complete Sprint 1–6 ZIP downloads
 
 ## Re-run capture, packaging, and verification
 
