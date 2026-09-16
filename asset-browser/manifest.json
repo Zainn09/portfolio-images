@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 499,
-  "totalVideos": 42,
+  "totalImages": 511,
+  "totalVideos": 43,
   "projects": [
     {
       "id": "01",
@@ -3575,6 +3575,92 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280\u00d7720, 24.00 seconds, complete decode passed."
       ]
+    },
+    {
+      "id": "43",
+      "slug": "divchi",
+      "folder": "43-divchi",
+      "name": "DIVCHI",
+      "url": "https://www.divchi.co.uk",
+      "kind": "Home, garden, pet, and play essentials",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "43_divchi_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "43_divchi_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "43_divchi_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "43_divchi_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "43_divchi_project_highlight_gardening_essentials_collection_001.jpg",
+          "label": "Project highlight: gardening essentials collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_project_highlight_gardening_essentials_collection_001.jpg"
+        },
+        {
+          "file": "43_divchi_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "43_divchi_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "43_divchi_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "43_divchi_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "43_divchi_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "43_divchi_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "43_divchi_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "43_divchi_video_everyday_essentials_journey_001.mp4",
+          "thumbnail": "43_divchi_video_everyday_essentials_journey_001.jpg",
+          "purpose": "Everyday home-and-garden product discovery from category to detail",
+          "duration": 25.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/video/43_divchi_video_everyday_essentials_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/video/43_divchi_video_everyday_essentials_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 25.84 seconds, complete decode passed.",
+        "Rejected duplicate 43_divchi_desktop_signature_section_001.jpg; it matched 43_divchi_desktop_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -3609,9 +3695,9 @@
     {
       "number": 5,
       "label": "Sprint 5",
-      "images": 25,
-      "videos": 2,
-      "projects": 2
+      "images": 37,
+      "videos": 3,
+      "projects": 3
     }
   ]
 }

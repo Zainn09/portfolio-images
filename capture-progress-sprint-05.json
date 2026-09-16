@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Cryptic Mushroom Bar asset set generated and published",
+  "stage": "DIVCHI asset set generated and published",
   "projects": [
     {
       "id": "41",
@@ -13,6 +13,13 @@
       "id": "42",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "43",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
