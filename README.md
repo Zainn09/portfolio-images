@@ -124,15 +124,15 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** DIVCHI asset set generated and published<br>
-**Last updated:** 2026-09-16 07:16 PKT
+**Latest pipeline stage:** Chicopick asset set generated and published<br>
+**Last updated:** 2026-09-16 07:19 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 41 | ARTdiscount | <https://artdiscount.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 42 | Cryptic Mushroom Bar | <https://www.crypticmushrooms.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 43 | DIVCHI | <https://www.divchi.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 44 | Chicopick | <https://www.chicopick.com> | ⚪ Pending | — | — | Luxury jewellery, fashion, and accessories |
+| 44 | Chicopick | <https://www.chicopick.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 45 | Hugh McElvanna Menswear | <https://www.hughmcelvannamenswear.com> | ⚪ Pending | — | — | Men’s suits and casual clothing |
 | 46 | J. Fredric | <https://jfredrics.com> | ⚪ Pending | — | — | Hand-tailored men’s clothing |
 | 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | ⚪ Pending | — | — | London florist and floral services |
@@ -140,7 +140,7 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 | 49 | My Travel Passport | <https://mytravelpassport.eu> | ⚪ Pending | — | — | Customizable travel passport keepsakes |
 | 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | ⚪ Pending | — | — | Contemporary rings, earrings, bracelets, and pendants |
 
-**Current checkpoint inventory:** 37 static images and 3 playable MP4 videos.<br>
+**Current checkpoint inventory:** 49 static images and 4 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_05_PROGRESS_END -->
