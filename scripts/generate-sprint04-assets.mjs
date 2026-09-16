@@ -172,13 +172,6 @@ async function dismissKnownProjectOverlay(page) {
     point = width < 600
       ? { x: width - 49, y: Math.max(25, (height - 634) / 2 + 24) }
       : { x: width / 2 + 212, y: Math.max(25, (height - 650) / 2 + 24) };
-  } else if (host === 'glisserbeauty.com') {
-    // OptiMonk loads later than the primary page. Wait for its entrance before
-    // clicking the real visible close control at the modal's top-right.
-    await page.waitForTimeout(2_000);
-    point = width < 600
-      ? { x: width - 40, y: Math.max(25, (height - 668) / 2 + 20) }
-      : { x: width / 2 + 372, y: Math.max(25, (height - 566) / 2 + 25) };
   } else if (host === 'koalapicks.com') {
     // The loyalty welcome panel is full-screen on mobile and bottom-aligned on
     // desktop; both layouts expose a visible close control in the top-right.
@@ -279,6 +272,15 @@ async function scrollToText(page, text, fallbackRatio = 0.48) {
   }, fallbackRatio).catch(() => {});
   await page.waitForTimeout(900);
   return false;
+}
+
+async function suppressThirdPartyCaptureInterruptions(context, project) {
+  if (project.id === '40') {
+    // The OptiMonk offer has no reliable accessible dismissal target and can
+    // arrive after the page is otherwise settled. Prevent only that third-party
+    // overlay script from loading; all captured brand/page content remains live.
+    await context.route(/optimonk/i, route => route.abort());
+  }
 }
 
 async function screenshot(page, file) {
@@ -451,6 +453,7 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36 QA-Portfolio-Capture/1.0',
     locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce'
   });
+  await suppressThirdPartyCaptureInterruptions(context, project);
   const page = await context.newPage();
   let video;
   try {
@@ -543,6 +546,7 @@ async function captureProject(browser, project) {
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36 QA-Portfolio-Capture/1.0',
     locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1
   });
+  await suppressThirdPartyCaptureInterruptions(context, project);
   const page = await context.newPage();
   page.setDefaultTimeout(8_000);
 
@@ -592,6 +596,7 @@ async function captureProject(browser, project) {
       locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1,
       isMobile: true, hasTouch: true
     });
+    await suppressThirdPartyCaptureInterruptions(mobileContext, project);
     const mobile = await mobileContext.newPage();
     mobile.setDefaultTimeout(8_000);
     await goto(mobile, project, '/', notes, 'Mobile homepage');
