@@ -122,25 +122,25 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 <!-- SPRINT_05_PROGRESS_START -->
 
-**Sprint status:** Complete<br>
-**Completed projects:** 10 / 10<br>
-**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
-**Last updated:** 2026-09-16 07:39 PKT
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 10<br>
+**Latest pipeline stage:** Hugh McElvanna Menswear asset set generated and published<br>
+**Last updated:** 2026-09-16 07:43 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 41 | ARTdiscount | <https://artdiscount.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 42 | Cryptic Mushroom Bar | <https://www.crypticmushrooms.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
-| 43 | DIVCHI | <https://www.divchi.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 44 | Chicopick | <https://www.chicopick.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 45 | Hugh McElvanna Menswear | <https://www.hughmcelvannamenswear.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
-| 46 | J. Fredric | <https://jfredrics.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 48 | Nørdikka Collective | <https://nordikkacollective.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 49 | My Travel Passport | <https://mytravelpassport.eu> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
-| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 41 | ARTdiscount | <https://artdiscount.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 42 | Cryptic Mushroom Bar | <https://www.crypticmushrooms.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
+| 43 | DIVCHI | <https://www.divchi.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 44 | Chicopick | <https://www.chicopick.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 45 | Hugh McElvanna Menswear | <https://www.hughmcelvannamenswear.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
+| 46 | J. Fredric | <https://jfredrics.com> | ⚪ Pending | — | — | Hand-tailored men’s clothing |
+| 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | ⚪ Pending | — | — | London florist and floral services |
+| 48 | Nørdikka Collective | <https://nordikkacollective.com> | ⚪ Pending | — | — | Nordic and Scandinavian furniture, lighting, and décor |
+| 49 | My Travel Passport | <https://mytravelpassport.eu> | ⚪ Pending | — | — | Customizable travel passport keepsakes |
+| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | ⚪ Pending | — | — | Contemporary rings, earrings, bracelets, and pendants |
 
-**Current verified inventory:** 120 static images and 10 playable MP4 videos.<br>
+**Current checkpoint inventory:** 62 static images and 5 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_05_PROGRESS_END -->

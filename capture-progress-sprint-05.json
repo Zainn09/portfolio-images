@@ -1,76 +1,41 @@
 {
   "generated": "2026-09-16",
-  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
+  "stage": "Hugh McElvanna Menswear asset set generated and published",
   "projects": [
     {
       "id": "41",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "42",
-      "status": "complete",
+      "status": "captured",
       "images": 13,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "43",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "44",
-      "status": "complete",
+      "status": "captured",
       "images": 12,
       "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "45",
-      "status": "complete",
-      "images": 11,
+      "status": "captured",
+      "images": 13,
       "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "46",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "47",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "48",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "49",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "50",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }
