@@ -1,34 +1,13 @@
 {
   "generated": "2026-09-16",
-  "stage": "TMI Products asset set generated and published",
+  "stage": "Morris Manufacturing capture requires attention",
   "projects": [
     {
       "id": "91",
-      "status": "recapture queued",
-      "images": 9,
-      "videos": 1,
-      "note": "Blank frame removed; manufacturing expertise recapture queued"
-    },
-    {
-      "id": "93",
-      "status": "captured",
-      "images": 12,
-      "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
-    },
-    {
-      "id": "94",
-      "status": "captured",
-      "images": 12,
-      "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
-    },
-    {
-      "id": "92",
-      "status": "captured",
-      "images": 15,
-      "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped: Morris Manufacturing produced only 9 unique authentic images; at least 10 are required."
     }
   ]
 }
