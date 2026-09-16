@@ -1,13 +1,13 @@
 {
   "generated": "2026-09-16",
-  "stage": "Biofield Expert capture requires attention",
+  "stage": "Biofield Expert asset set generated and published",
   "projects": [
     {
       "id": "71",
-      "status": "blocked",
-      "images": 0,
-      "videos": 0,
-      "note": "Capture stopped: Biofield Expert produced only 7 unique authentic images; at least 10 are required."
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }

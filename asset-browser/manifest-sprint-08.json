@@ -1,7 +1,89 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 8",
   "generated": "2026-09-16",
-  "totalImages": 0,
-  "totalVideos": 0,
-  "projects": []
+  "totalImages": 11,
+  "totalVideos": 1,
+  "projects": [
+    {
+      "id": "71",
+      "slug": "biofield-expert",
+      "folder": "71-biofield-expert",
+      "name": "Biofield Expert",
+      "url": "https://biofieldexpert.com",
+      "kind": "Biofield education, home harmonization, and wellness products",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "71_biofield_expert_desktop_home_harmonization_intro_001.jpg",
+          "label": "Desktop home-harmonization collection introduction",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_home_harmonization_intro_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_product_grid_001.jpg",
+          "label": "Desktop harmonization product grid",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_product_grid_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_catalogue_mid_001.jpg",
+          "label": "Desktop mid-collection product coverage",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_catalogue_mid_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_catalogue_lower_001.jpg",
+          "label": "Desktop lower-collection product coverage",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_catalogue_lower_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_catalogue_end_001.jpg",
+          "label": "Desktop collection end and supporting navigation",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_catalogue_end_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_quantum_clear_feature_001.jpg",
+          "label": "Mobile Quantum Clear feature",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_quantum_clear_feature_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_harmonization_products_001.jpg",
+          "label": "Mobile home-harmonization product section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_harmonization_products_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_wellness_collections_001.jpg",
+          "label": "Mobile wellness collection discovery",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_wellness_collections_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state harmonization-product discovery reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "71_biofield_expert_video_biofield_wellness_journey_001.mp4",
+          "thumbnail": "71_biofield_expert_video_biofield_wellness_journey_001.jpg",
+          "purpose": "Biofield-wellness discovery from harmonization collection to home-remediation detail",
+          "duration": 10.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/video/71_biofield_expert_video_biofield_wellness_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/video/71_biofield_expert_video_biofield_wellness_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "The storefront challenged repeated route changes from the capture runner, so coverage uses varied authentic states from one live collection load and one live mobile homepage load.",
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
+      ]
+    }
+  ]
 }

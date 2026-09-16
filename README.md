@@ -211,12 +211,12 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Biofield Expert capture requires attention<br>
-**Last updated:** 2026-09-16 19:39 PKT
+**Latest pipeline stage:** Biofield Expert asset set generated and published<br>
+**Last updated:** 2026-09-16 19:43 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 71 | Biofield Expert | <https://biofieldexpert.com> | 🔴 Blocked | — | — | Capture stopped: Biofield Expert produced only 7 unique authentic images; at least 10 are required. |
+| 71 | Biofield Expert | <https://biofieldexpert.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 72 | SOL Eyewear | <https://mysolstyle.com> | ⚪ Pending | — | — | Texas-designed premium sunglasses |
 | 73 | Ameliora | <https://ameliora.com> | ⚪ Pending | — | — | Machine-washable wrinkle-resistant women’s workwear |
 | 74 | Coffee@Work | <https://coffeeatwork.uk.com> | ⚪ Pending | — | — | UK workplace coffee machines, beans, and supplies |
@@ -227,7 +227,7 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 | 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | ⚪ Pending | — | — | Stain-resistant Aquaclean upholstery fabrics |
 | 80 | Expressive Audio | <https://expressiveaudio.com> | ⚪ Pending | — | — | HiFi, home cinema, multiroom, and audio installation specialists |
 
-**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Current checkpoint inventory:** 11 static images and 1 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_08_PROGRESS_END -->
