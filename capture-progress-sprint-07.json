@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Rahiza capture requires attention",
+  "stage": "Total Beauty Experience asset set generated and published",
   "projects": [
     {
       "id": "61",
@@ -10,11 +10,11 @@
       "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
-      "id": "62",
-      "status": "blocked",
-      "images": 0,
-      "videos": 0,
-      "note": "Capture stopped; review workflow diagnostics"
+      "id": "63",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }

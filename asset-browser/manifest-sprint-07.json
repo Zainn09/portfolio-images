@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 7",
   "generated": "2026-09-16",
-  "totalImages": 12,
-  "totalVideos": 1,
+  "totalImages": 24,
+  "totalVideos": 2,
   "projects": [
     {
       "id": "61",
@@ -91,6 +91,92 @@
         "Video detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
         "Playable MP4 verified: H.264, 1280×720, 36.32 seconds, complete decode passed.",
         "Rejected duplicate 61_rocket_krunch_desktop_product_detail_001.jpg; it matched 61_rocket_krunch_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "63",
+      "slug": "total-beauty-experience",
+      "folder": "63-total-beauty-experience",
+      "name": "Total Beauty Experience",
+      "url": "https://totalbeautyexp.com",
+      "kind": "Beauty, haircare, skincare, fragrance, and personal care retailer",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "63_total_beauty_experience_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_signature_section_001.jpg",
+          "label": "Desktop Established in 1994 section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_project_highlight_professional_skincare_tools_001.jpg",
+          "label": "Project highlight: professional skincare tools",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_project_highlight_professional_skincare_tools_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "63_total_beauty_experience_video_beauty_retail_journey_001.mp4",
+          "thumbnail": "63_total_beauty_experience_video_beauty_retail_journey_001.jpg",
+          "purpose": "Beauty-product discovery from professional skincare range to product detail",
+          "duration": 27.04,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/video/63_total_beauty_experience_video_beauty_retail_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/video/63_total_beauty_experience_video_beauty_retail_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 27.04 seconds, complete decode passed.",
+        "Rejected duplicate 63_total_beauty_experience_interaction_detail_state_001.jpg; it matched 63_total_beauty_experience_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
   ]
