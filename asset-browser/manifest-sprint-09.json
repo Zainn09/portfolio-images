@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 9",
   "generated": "2026-09-16",
-  "totalImages": 85,
-  "totalVideos": 7,
+  "totalImages": 97,
+  "totalVideos": 8,
   "projects": [
     {
       "id": "81",
@@ -610,6 +610,97 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 21.00 seconds, complete decode passed.",
         "Rejected duplicate 87_faraway_finds_desktop_signature_section_001.jpg; it matched 87_faraway_finds_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "88",
+      "slug": "mrca",
+      "folder": "88-mrca",
+      "name": "MRCA",
+      "url": "https://mrca.net",
+      "kind": "American manufacturing revitalization and portfolio stewardship",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "88_mrca_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Story section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "88_mrca_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "88_mrca_project_highlight_american_manufacturing_portfolio_001.jpg",
+          "label": "Project highlight: American manufacturing portfolio",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_project_highlight_american_manufacturing_portfolio_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_manufacturing_brands_001.jpg",
+          "label": "American-made consumer brand portfolio",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_manufacturing_brands_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_manufacturing_news_001.jpg",
+          "label": "Manufacturing company news",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_manufacturing_news_001.jpg"
+        },
+        {
+          "file": "88_mrca_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "88_mrca_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "88_mrca_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "88_mrca_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "88_mrca_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "88_mrca_video_manufacturing_mission_journey_001.mp4",
+          "thumbnail": "88_mrca_video_manufacturing_mission_journey_001.jpg",
+          "purpose": "American-manufacturing story from revitalization mission to portfolio companies",
+          "duration": 36.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/video/88_mrca_video_manufacturing_mission_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/video/88_mrca_video_manufacturing_mission_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
+        "Mobile detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
+        "Video detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 36.20 seconds, complete decode passed.",
+        "Rejected duplicate 88_mrca_desktop_appointment_page_001.jpg; it matched 88_mrca_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 88_mrca_desktop_secondary_experience_001.jpg; it matched 88_mrca_interaction_detail_state_001.jpg byte-for-byte.",
+        "Rejected duplicate 88_mrca_mobile_appointment_page_001.jpg; it matched 88_mrca_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]

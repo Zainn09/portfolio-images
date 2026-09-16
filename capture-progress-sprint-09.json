@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Faraway Finds asset set generated and published",
+  "stage": "MRCA asset set generated and published",
   "projects": [
     {
       "id": "81",
@@ -46,6 +46,13 @@
     },
     {
       "id": "87",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "88",
       "status": "captured",
       "images": 12,
       "videos": 1,
