@@ -58,7 +58,7 @@ const projects = [
     videoPurpose: 'Luxury collection discovery from featured categories to item detail'
   },
   {
-    id: '45', slug: 'hugh-mcelvanna-menswear', folder: '45-hugh-mcelvanna-menswear', name: 'Hugh McElvanna Menswear', url: 'https://hughmcelvanna.com',
+    id: '45', slug: 'hugh-mcelvanna-menswear', folder: '45-hugh-mcelvanna-menswear', name: 'Hugh McElvanna Menswear', url: 'https://www.hughmcelvannamenswear.com', homeUrl: '/en-us',
     prefix: '45_hugh_mcelvanna_menswear', kind: 'Men’s suits and casual clothing',
     signatureText: 'A Legacy of Style', listingUrl: '/en-us/collections/new-arrivals', listingText: 'New Arrivals',
     detailUrl: null, detailText: 'Size',
@@ -240,8 +240,9 @@ async function goto(page, project, route, notes, label) {
     return true;
   } catch (error) {
     notes.push(`${label} at ${target} was unavailable (${String(error.message).slice(0, 140)}); a verified on-site fallback was requested.`);
-    if (target !== urlFor(project, '/')) {
-      await page.goto(urlFor(project, '/'), { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT }).catch(() => {});
+    const homeRoute = project.homeUrl || '/';
+    if (target !== urlFor(project, homeRoute)) {
+      await page.goto(urlFor(project, homeRoute), { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT }).catch(() => {});
       await settle(page);
     }
     if (!isProjectUrl(page.url(), project)) {
@@ -457,7 +458,7 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
   const page = await context.newPage();
   let video;
   try {
-    await goto(page, project, '/', notes, 'Video homepage');
+    await goto(page, project, project.homeUrl || '/', notes, 'Video homepage');
     video = page.video();
     await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await page.waitForTimeout(1_300);
@@ -559,7 +560,7 @@ async function captureProject(browser, project) {
   };
 
   try {
-    await goto(page, project, '/', notes, 'Homepage');
+    await goto(page, project, project.homeUrl || '/', notes, 'Homepage');
     await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(page, 500);
     const desktopHero = await add('desktop_home_hero', 'Desktop homepage hero');
@@ -599,7 +600,7 @@ async function captureProject(browser, project) {
     await suppressThirdPartyCaptureInterruptions(mobileContext, project);
     const mobile = await mobileContext.newPage();
     mobile.setDefaultTimeout(8_000);
-    await goto(mobile, project, '/', notes, 'Mobile homepage');
+    await goto(mobile, project, project.homeUrl || '/', notes, 'Mobile homepage');
     await mobile.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(mobile, 450);
     const mobileHomeFile = path.join(imagesDir, `${project.prefix}_mobile_home_hero_001.jpg`);
