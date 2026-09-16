@@ -261,6 +261,29 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 
 <!-- SPRINT_09_PROGRESS_END -->
 
+## Sprint 10 — Websites 91–94
+
+Sprint 10 is the confirmed four-website final sprint, covering projects 91–94.
+
+<!-- SPRINT_10_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 4<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** 2026-09-16 22:18 PKT
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 91 | Morris Manufacturing | <https://morrismfg.com> | ⚪ Pending | — | — | American precision machined metal parts manufacturing |
+| 92 | TMI Products | <https://www.tmiproducts.com> | ⚪ Pending | — | — | Custom automotive interiors, seats, materials, and vehicle restoration parts |
+| 93 | American Hose & Gasket | <https://americanhosegasket.com> | ⚪ Pending | — | — | American industrial hose, fittings, and custom assembly solutions |
+| 94 | Rock Angel Creations | <https://rockangelcreations.com> | ⚪ Pending | — | — | Handcrafted gothic and metal-inspired clothing and accessories |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 40 unique static images and 4 verified playable MP4 videos.
+
+<!-- SPRINT_10_PROGRESS_END -->
+
 ### Status legend
 
 - ⚪ **Pending** — capture has not started.
