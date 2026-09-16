@@ -1,0 +1,13 @@
+{
+  "generated": "2026-09-16",
+  "stage": "Morris Manufacturing asset set generated and published",
+  "projects": [
+    {
+      "id": "91",
+      "status": "captured",
+      "images": 10,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    }
+  ]
+}

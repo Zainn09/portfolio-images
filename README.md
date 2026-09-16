@@ -269,17 +269,17 @@ Sprint 10 is the confirmed four-website final sprint, covering projects 91–94.
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 4<br>
-**Latest pipeline stage:** Website analysis and capture configuration<br>
-**Last updated:** 2026-09-16 22:18 PKT
+**Latest pipeline stage:** Morris Manufacturing asset set generated and published<br>
+**Last updated:** 2026-09-16 22:22 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 91 | Morris Manufacturing | <https://morrismfg.com> | ⚪ Pending | — | — | American precision machined metal parts manufacturing |
+| 91 | Morris Manufacturing | <https://morrismfg.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
 | 92 | TMI Products | <https://www.tmiproducts.com> | ⚪ Pending | — | — | Custom automotive interiors, seats, materials, and vehicle restoration parts |
 | 93 | American Hose & Gasket | <https://americanhosegasket.com> | ⚪ Pending | — | — | American industrial hose, fittings, and custom assembly solutions |
 | 94 | Rock Angel Creations | <https://rockangelcreations.com> | ⚪ Pending | — | — | Handcrafted gothic and metal-inspired clothing and accessories |
 
-**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Current checkpoint inventory:** 10 static images and 1 playable MP4 videos.<br>
 **Required minimum:** 40 unique static images and 4 verified playable MP4 videos.
 
 <!-- SPRINT_10_PROGRESS_END -->
