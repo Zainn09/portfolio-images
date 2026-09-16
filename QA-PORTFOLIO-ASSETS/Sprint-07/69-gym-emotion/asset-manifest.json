@@ -1,0 +1,86 @@
+{
+  "id": "69",
+  "slug": "gym-emotion",
+  "folder": "69-gym-emotion",
+  "name": "Gym Emotion",
+  "url": "https://gymemotion.com",
+  "kind": "Commercial and home gym equipment",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "69_gym_emotion_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_desktop_signature_section_001.jpg",
+      "label": "Desktop See Our Categories section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_project_highlight_strength_dumbbell_equipment_001.jpg",
+      "label": "Project highlight: strength dumbbell equipment",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_project_highlight_strength_dumbbell_equipment_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "69_gym_emotion_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "69_gym_emotion_video_gym_equipment_journey_001.mp4",
+      "thumbnail": "69_gym_emotion_video_gym_equipment_journey_001.jpg",
+      "purpose": "Gym-equipment discovery from systems collection to equipment detail",
+      "duration": 25.44,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/video/69_gym_emotion_video_gym_equipment_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/video/69_gym_emotion_video_gym_equipment_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 25.44 seconds, complete decode passed.",
+    "Rejected duplicate 69_gym_emotion_interaction_mobile_search_001.jpg; it matched 69_gym_emotion_mobile_home_hero_001.jpg in perceptual image QA."
+  ]
+}

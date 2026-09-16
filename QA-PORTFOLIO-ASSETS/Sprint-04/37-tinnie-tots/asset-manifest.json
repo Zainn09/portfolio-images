@@ -1,0 +1,87 @@
+{
+  "id": "37",
+  "slug": "tinnie-tots",
+  "folder": "37-tinnie-tots",
+  "name": "Tinnie Tots",
+  "url": "https://www.tinnietots.com",
+  "kind": "Children’s clothing and footwear",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "37_tinnie_tots_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_desktop_signature_section_001.jpg",
+      "label": "Desktop CATEGORIES section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_project_highlight_children_s_footwear_collection_001.jpg",
+      "label": "Project highlight: children’s footwear collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_project_highlight_children_s_footwear_collection_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_interaction_mobile_header_001.jpg",
+      "label": "Mobile header state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_interaction_mobile_header_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "37_tinnie_tots_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "37_tinnie_tots_video_kids_fashion_journey_001.mp4",
+      "thumbnail": "37_tinnie_tots_video_kids_fashion_journey_001.jpg",
+      "purpose": "Children’s fashion discovery from seasonal collection to garment detail",
+      "duration": 23.92,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/video/37_tinnie_tots_video_kids_fashion_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/video/37_tinnie_tots_video_kids_fashion_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Video detail at https://www.tinnietots.com/products/black-brown-reglan-sweatshirt was unavailable (HTTP 429 / Just a moment...); a verified on-site fallback was requested.",
+    "Playable MP4 verified: H.264, 1280×720, 23.92 seconds, complete decode passed.",
+    "Rejected duplicate 37_tinnie_tots_interaction_detail_state_001.jpg; it matched 37_tinnie_tots_desktop_product_detail_001.jpg byte-for-byte."
+  ]
+}

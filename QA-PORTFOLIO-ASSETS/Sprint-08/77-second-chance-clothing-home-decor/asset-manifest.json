@@ -1,0 +1,86 @@
+{
+  "id": "77",
+  "slug": "second-chance-clothing-home-decor",
+  "folder": "77-second-chance-clothing-home-decor",
+  "name": "Second Chance Clothing & Home Decor",
+  "url": "https://secondchanceclothing-homedecor.myshopify.com",
+  "kind": "Canadian women’s consignment clothing and home décor",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "77_second_chance_clothing_home_decor_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_desktop_signature_section_001.jpg",
+      "label": "Desktop Women’s clothing section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_project_highlight_red_deer_store_information_001.jpg",
+      "label": "Project highlight: Red Deer store information",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_project_highlight_red_deer_store_information_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "77_second_chance_clothing_home_decor_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.mp4",
+      "thumbnail": "77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.jpg",
+      "purpose": "Consignment-clothing discovery from current catalogue to garment detail",
+      "duration": 19.6,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/video/77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/video/77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
+    "Rejected duplicate 77_second_chance_clothing_home_decor_interaction_detail_state_001.jpg; it matched 77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg byte-for-byte."
+  ]
+}

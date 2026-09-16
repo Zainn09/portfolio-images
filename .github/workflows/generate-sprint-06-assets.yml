@@ -1,0 +1,141 @@
+name: Generate Sprint 06 QA Assets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  capture-package-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the session branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install capture dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium and media tools
+        run: |
+          npx playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Prepare per-website commits
+        run: |
+          git config user.name "arena-ai-coding-agent[bot]"
+          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
+
+      - name: Capture and validate Sprint 6 websites
+        env:
+          CHECKPOINT_COMMITS: "1"
+          CHECKPOINT_BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          set -o pipefail
+          node scripts/generate-sprint06-assets.mjs 2>&1 | tee capture-sprint06.log
+
+      - name: Publish capture failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 6 website capture requires attention'
+            echo
+            echo '```text'
+            tail -n 200 capture-sprint06.log 2>/dev/null || echo 'No capture log was produced.'
+            echo '```'
+          } > /tmp/sprint06-capture-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/sprint06-capture-comment.md
+
+      - name: Build Sprint 6 ZIP
+        run: |
+          set -o pipefail
+          python3 scripts/package_sprint06_assets.py 2>&1 | tee package-sprint06.log
+
+      - name: Verify images and playable MP4 videos
+        run: |
+          set -o pipefail
+          python3 scripts/verify_sprint06_assets.py 2>&1 | tee verify-sprint06.log
+
+      - name: Mark Sprint 6 complete in README
+        run: |
+          python3 scripts/update_readme_sprint06.py --final
+          python3 scripts/build_asset_browser_manifest.py
+
+      - name: Verify Sprint 6 browser and downloads
+        run: |
+          python3 serve-assets.py --port 4173 > /tmp/sprint06-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          sleep 2
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/ > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/manifest.json > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-06-Assets.zip > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/download/project/51-judyp-apparel -o /tmp/51-judyp-apparel.zip
+          unzip -t /tmp/51-judyp-apparel.zip
+
+      - name: Commit verified Sprint 6 package
+        if: success() && github.event_name == 'pull_request'
+        run: |
+          git add README.md capture-progress-sprint-06.json QA-PORTFOLIO-ASSETS/Sprint-06 QA-Portfolio-Sprint-06-Assets.zip asset-browser/manifest.json asset-browser/manifest-sprint-06.json capture-report-sprint-06.json package-lock.json
+          git commit -m "Publish verified Sprint 6 package [skip ci]"
+          git fetch origin ${{ github.head_ref }}
+          git rebase FETCH_HEAD
+          git push origin HEAD:${{ github.head_ref }}
+
+      - name: Upload completed Sprint 6 package
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Portfolio-Sprint-06-Complete
+          path: |
+            QA-PORTFOLIO-ASSETS/Sprint-06/
+            QA-Portfolio-Sprint-06-Assets.zip
+            asset-browser/
+            capture-report-sprint-06.json
+          compression-level: 0
+          retention-days: 14
+
+      - name: Publish final QA failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 6 final QA requires attention'
+            for log in package-sprint06.log verify-sprint06.log; do
+              if [ -s "$log" ]; then
+                echo
+                echo "#### $log"
+                echo '```text'
+                tail -n 200 "$log"
+                echo '```'
+              fi
+            done
+          } > /tmp/sprint06-final-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/sprint06-final-comment.md
+
+      - name: Upload partial diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint-06-capture-diagnostics
+          path: |
+            QA-PORTFOLIO-ASSETS/Sprint-06/
+            capture-progress-sprint-06.json
+            capture-report-sprint-06.json
+          if-no-files-found: ignore
+          retention-days: 3

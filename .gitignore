@@ -1,0 +1,5 @@
+node_modules/
+.capture-tmp/
+__pycache__/
+*.py[cod]
+.DS_Store

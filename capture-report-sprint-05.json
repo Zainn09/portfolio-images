@@ -1,0 +1,883 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 5",
+  "generated": "2026-09-16",
+  "totalImages": 123,
+  "totalVideos": 10,
+  "projects": [
+    {
+      "id": "41",
+      "slug": "artdiscount",
+      "folder": "41-artdiscount",
+      "name": "ARTdiscount",
+      "url": "https://artdiscount.co.uk",
+      "kind": "Art supplies and creative materials",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "41_artdiscount_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_project_highlight_himi_art_materials_collection_001.jpg",
+          "label": "Project highlight: HIMI art materials collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_project_highlight_himi_art_materials_collection_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "41_artdiscount_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "41_artdiscount_video_art_materials_journey_001.mp4",
+          "thumbnail": "41_artdiscount_video_art_materials_journey_001.jpg",
+          "purpose": "Art-material discovery from featured brand to product detail",
+          "duration": 30.68,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/video/41_artdiscount_video_art_materials_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/video/41_artdiscount_video_art_materials_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 30.68 seconds, complete decode passed.",
+        "Rejected duplicate 41_artdiscount_desktop_signature_section_001.jpg; it matched 41_artdiscount_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "42",
+      "slug": "cryptic-mushrooms",
+      "folder": "42-cryptic-mushrooms",
+      "name": "Cryptic Mushroom Bar",
+      "url": "https://www.crypticmushrooms.com",
+      "kind": "Plant-based functional mushroom snack bars",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "42_cryptic_mushrooms_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_desktop_signature_section_001.jpg",
+          "label": "Desktop What Makes It Different section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_project_highlight_functional_mushroom_ingredients_001.jpg",
+          "label": "Project highlight: functional mushroom ingredients",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_project_highlight_functional_mushroom_ingredients_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "42_cryptic_mushrooms_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/images/42_cryptic_mushrooms_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "42_cryptic_mushrooms_video_mushroom_bar_journey_001.mp4",
+          "thumbnail": "42_cryptic_mushrooms_video_mushroom_bar_journey_001.jpg",
+          "purpose": "Functional mushroom bar discovery from ingredient story to product detail",
+          "duration": 24,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/video/42_cryptic_mushrooms_video_mushroom_bar_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/42-cryptic-mushrooms/video/42_cryptic_mushrooms_video_mushroom_bar_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 24.00 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "43",
+      "slug": "divchi",
+      "folder": "43-divchi",
+      "name": "DIVCHI",
+      "url": "https://www.divchi.co.uk",
+      "kind": "Home, garden, pet, and play essentials",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "43_divchi_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "43_divchi_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "43_divchi_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "43_divchi_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "43_divchi_project_highlight_gardening_essentials_collection_001.jpg",
+          "label": "Project highlight: gardening essentials collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_project_highlight_gardening_essentials_collection_001.jpg"
+        },
+        {
+          "file": "43_divchi_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "43_divchi_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "43_divchi_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "43_divchi_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "43_divchi_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "43_divchi_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "43_divchi_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/images/43_divchi_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "43_divchi_video_everyday_essentials_journey_001.mp4",
+          "thumbnail": "43_divchi_video_everyday_essentials_journey_001.jpg",
+          "purpose": "Everyday home-and-garden product discovery from category to detail",
+          "duration": 25.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/video/43_divchi_video_everyday_essentials_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/43-divchi/video/43_divchi_video_everyday_essentials_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 25.84 seconds, complete decode passed.",
+        "Rejected duplicate 43_divchi_desktop_signature_section_001.jpg; it matched 43_divchi_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "44",
+      "slug": "chicopick",
+      "folder": "44-chicopick",
+      "name": "Chicopick",
+      "url": "https://www.chicopick.com",
+      "kind": "Luxury jewellery, fashion, and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "44_chicopick_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "44_chicopick_desktop_signature_section_001.jpg",
+          "label": "Desktop FEATURED COLLECTIONS section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "44_chicopick_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "44_chicopick_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "44_chicopick_project_highlight_luxury_bags_collection_001.jpg",
+          "label": "Project highlight: luxury bags collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_project_highlight_luxury_bags_collection_001.jpg"
+        },
+        {
+          "file": "44_chicopick_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "44_chicopick_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "44_chicopick_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "44_chicopick_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "44_chicopick_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "44_chicopick_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "44_chicopick_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/images/44_chicopick_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "44_chicopick_video_luxury_collection_journey_001.mp4",
+          "thumbnail": "44_chicopick_video_luxury_collection_journey_001.jpg",
+          "purpose": "Luxury collection discovery from featured categories to item detail",
+          "duration": 36.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/video/44_chicopick_video_luxury_collection_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/44-chicopick/video/44_chicopick_video_luxury_collection_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.60 seconds, complete decode passed.",
+        "Rejected duplicate 44_chicopick_interaction_detail_state_001.jpg; it matched 44_chicopick_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "45",
+      "slug": "hugh-mcelvanna-menswear",
+      "folder": "45-hugh-mcelvanna-menswear",
+      "name": "Hugh McElvanna Menswear",
+      "url": "https://www.hughmcelvannamenswear.com",
+      "kind": "Men’s suits and casual clothing",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "45_hugh_mcelvanna_menswear_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_desktop_signature_section_001.jpg",
+          "label": "Desktop New Arrivals section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_project_highlight_spring_summer_menswear_collection_001.jpg",
+          "label": "Project highlight: spring summer menswear collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_project_highlight_spring_summer_menswear_collection_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_interaction_mobile_search_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "45_hugh_mcelvanna_menswear_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "45_hugh_mcelvanna_menswear_video_menswear_journey_001.mp4",
+          "thumbnail": "45_hugh_mcelvanna_menswear_video_menswear_journey_001.jpg",
+          "purpose": "Premium menswear discovery from new-arrivals collection to garment detail",
+          "duration": 24.68,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/video/45_hugh_mcelvanna_menswear_video_menswear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/video/45_hugh_mcelvanna_menswear_video_menswear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 24.68 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "46",
+      "slug": "j-fredric",
+      "folder": "46-j-fredric",
+      "name": "J. Fredric",
+      "url": "https://jfredrics.com",
+      "kind": "Hand-tailored men’s clothing",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "46_j_fredric_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_desktop_signature_section_001.jpg",
+          "label": "Desktop Shop by Category section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_project_highlight_tailored_blazer_collection_001.jpg",
+          "label": "Project highlight: tailored blazer collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_project_highlight_tailored_blazer_collection_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "46_j_fredric_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "46_j_fredric_video_tailored_clothing_journey_001.mp4",
+          "thumbnail": "46_j_fredric_video_tailored_clothing_journey_001.jpg",
+          "purpose": "Hand-tailored clothing discovery from category edit to product detail",
+          "duration": 18.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/video/46_j_fredric_video_tailored_clothing_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/video/46_j_fredric_video_tailored_clothing_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 18.84 seconds, complete decode passed.",
+        "Rejected duplicate 46_j_fredric_interaction_detail_state_001.jpg; it matched 46_j_fredric_desktop_product_detail_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "47",
+      "slug": "bloomsbury-flowers",
+      "folder": "47-bloomsbury-flowers",
+      "name": "Bloomsbury Flowers",
+      "url": "https://www.bloomsburyflowers.co.uk",
+      "kind": "London florist and floral services",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "47_bloomsbury_flowers_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_project_highlight_bespoke_wedding_flowers_001.jpg",
+          "label": "Project highlight: bespoke wedding flowers",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_project_highlight_bespoke_wedding_flowers_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "47_bloomsbury_flowers_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/images/47_bloomsbury_flowers_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "47_bloomsbury_flowers_video_floral_arrangement_journey_001.mp4",
+          "thumbnail": "47_bloomsbury_flowers_video_floral_arrangement_journey_001.jpg",
+          "purpose": "London flower discovery from floral services to bouquet detail",
+          "duration": 30.48,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/video/47_bloomsbury_flowers_video_floral_arrangement_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/47-bloomsbury-flowers/video/47_bloomsbury_flowers_video_floral_arrangement_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 30.48 seconds, complete decode passed.",
+        "Rejected duplicate 47_bloomsbury_flowers_desktop_signature_section_001.jpg; it matched 47_bloomsbury_flowers_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "48",
+      "slug": "nordikka-collective",
+      "folder": "48-nordikka-collective",
+      "name": "Nørdikka Collective",
+      "url": "https://nordikkacollective.com",
+      "kind": "Nordic and Scandinavian furniture, lighting, and décor",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "48_nordikka_collective_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_desktop_signature_section_001.jpg",
+          "label": "Desktop A Distinctive Collection section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_project_highlight_european_lighting_edit_001.jpg",
+          "label": "Project highlight: European lighting edit",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_project_highlight_european_lighting_edit_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "48_nordikka_collective_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/images/48_nordikka_collective_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "48_nordikka_collective_video_scandinavian_design_journey_001.mp4",
+          "thumbnail": "48_nordikka_collective_video_scandinavian_design_journey_001.jpg",
+          "purpose": "Scandinavian design discovery from curated collection to lighting detail",
+          "duration": 31.8,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/video/48_nordikka_collective_video_scandinavian_design_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/48-nordikka-collective/video/48_nordikka_collective_video_scandinavian_design_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Secondary interaction at https://nordikkacollective.com/collections/the-dining-chairs was unavailable (HTTP 502 / ); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 31.80 seconds, complete decode passed.",
+        "Rejected duplicate 48_nordikka_collective_desktop_secondary_experience_001.jpg; it matched 48_nordikka_collective_interaction_detail_state_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "49",
+      "slug": "my-travel-passport",
+      "folder": "49-my-travel-passport",
+      "name": "My Travel Passport",
+      "url": "https://mytravelpassport.eu",
+      "kind": "Customizable travel passport keepsakes",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "49_my_travel_passport_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_desktop_signature_section_001.jpg",
+          "label": "Desktop My Travel Passport section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_project_highlight_europe_travel_passport_edition_001.jpg",
+          "label": "Project highlight: Europe travel passport edition",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_project_highlight_europe_travel_passport_edition_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_interaction_mobile_search_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "49_my_travel_passport_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/images/49_my_travel_passport_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "49_my_travel_passport_video_travel_passport_journey_001.mp4",
+          "thumbnail": "49_my_travel_passport_video_travel_passport_journey_001.jpg",
+          "purpose": "Travel-passport keepsake discovery from edition collection to product detail",
+          "duration": 47.52,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/video/49_my_travel_passport_video_travel_passport_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/video/49_my_travel_passport_video_travel_passport_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
+        "Mobile project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 47.52 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "50",
+      "slug": "peter-james-jewelry",
+      "folder": "50-peter-james-jewelry",
+      "name": "Peter James Jewelry",
+      "url": "https://www.peterjamesjewelry.com",
+      "kind": "Contemporary rings, earrings, bracelets, and pendants",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "50_peter_james_jewelry_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_signature_section_001.jpg",
+          "label": "Desktop Shop by Category section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_project_highlight_rings_collection_001.jpg",
+          "label": "Project highlight: rings collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_project_highlight_rings_collection_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "50_peter_james_jewelry_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/images/50_peter_james_jewelry_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "50_peter_james_jewelry_video_contemporary_jewelry_journey_001.mp4",
+          "thumbnail": "50_peter_james_jewelry_video_contemporary_jewelry_journey_001.jpg",
+          "purpose": "Contemporary jewelry discovery from category overview to pendant detail",
+          "duration": 19.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/video/50_peter_james_jewelry_video_contemporary_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/50-peter-james-jewelry/video/50_peter_james_jewelry_video_contemporary_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 19.32 seconds, complete decode passed.",
+        "Rejected duplicate 50_peter_james_jewelry_interaction_detail_state_001.jpg; it matched 50_peter_james_jewelry_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    }
+  ]
+}

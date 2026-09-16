@@ -1,0 +1,86 @@
+{
+  "id": "41",
+  "slug": "artdiscount",
+  "folder": "41-artdiscount",
+  "name": "ARTdiscount",
+  "url": "https://artdiscount.co.uk",
+  "kind": "Art supplies and creative materials",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "41_artdiscount_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_project_highlight_himi_art_materials_collection_001.jpg",
+      "label": "Project highlight: HIMI art materials collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_project_highlight_himi_art_materials_collection_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "41_artdiscount_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/images/41_artdiscount_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "41_artdiscount_video_art_materials_journey_001.mp4",
+      "thumbnail": "41_artdiscount_video_art_materials_journey_001.jpg",
+      "purpose": "Art-material discovery from featured brand to product detail",
+      "duration": 30.68,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/video/41_artdiscount_video_art_materials_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/41-artdiscount/video/41_artdiscount_video_art_materials_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 30.68 seconds, complete decode passed.",
+    "Rejected duplicate 41_artdiscount_desktop_signature_section_001.jpg; it matched 41_artdiscount_desktop_home_hero_001.jpg byte-for-byte."
+  ]
+}

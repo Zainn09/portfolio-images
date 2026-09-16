@@ -1,0 +1,90 @@
+{
+  "id": "72",
+  "slug": "sol-eyewear",
+  "folder": "72-sol-eyewear",
+  "name": "SOL Eyewear",
+  "url": "https://mysolstyle.com",
+  "kind": "Texas-designed premium sunglasses",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "72_sol_eyewear_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_desktop_signature_section_001.jpg",
+      "label": "Desktop Designed in Texas section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_project_highlight_women_s_european_sunglasses_001.jpg",
+      "label": "Project highlight: women’s European sunglasses",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_project_highlight_women_s_european_sunglasses_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "72_sol_eyewear_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "72_sol_eyewear_video_sunglasses_journey_001.mp4",
+      "thumbnail": "72_sol_eyewear_video_sunglasses_journey_001.jpg",
+      "purpose": "Premium-sunglasses discovery from full collection to frame detail",
+      "duration": 39.24,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/video/72_sol_eyewear_video_sunglasses_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/video/72_sol_eyewear_video_sunglasses_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 39.24 seconds, complete decode passed."
+  ]
+}

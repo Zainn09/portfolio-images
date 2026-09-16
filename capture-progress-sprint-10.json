@@ -1,0 +1,34 @@
+{
+  "generated": "2026-09-16",
+  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
+  "projects": [
+    {
+      "id": "91",
+      "status": "complete",
+      "images": 10,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "93",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "94",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "92",
+      "status": "complete",
+      "images": 15,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    }
+  ]
+}

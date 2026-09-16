@@ -1,0 +1,76 @@
+{
+  "generated": "2026-09-15",
+  "stage": "Peak Scents authentic remote capture generated and published",
+  "projects": [
+    {
+      "id": "01",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "02",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "03",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "04",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "05",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "06",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "07",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "08",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "09",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Validated live-site renderings published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "10",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Duplicate-free asset set published; awaiting Sprint-level QA"
+    }
+  ]
+}

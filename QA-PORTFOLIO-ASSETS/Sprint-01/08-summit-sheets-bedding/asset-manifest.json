@@ -1,0 +1,79 @@
+{
+  "id": "08",
+  "slug": "summit-sheets-bedding",
+  "folder": "08-summit-sheets-bedding",
+  "name": "Summit Sheets",
+  "url": "https://summitsheetsbedding.com",
+  "kind": "Custom camping bedding",
+  "generated": "2026-09-15",
+  "images": [
+    {
+      "file": "08_summit_sheets_bedding_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_desktop_signature_section_001.jpg",
+      "label": "Desktop Custom-Made Sheets section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_project_highlight_performance_fabric_technology_001.jpg",
+      "label": "Project highlight: performance fabric technology",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_project_highlight_performance_fabric_technology_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "08_summit_sheets_bedding_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/images/08_summit_sheets_bedding_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "08_summit_sheets_bedding_video_product_journey_001.mp4",
+      "thumbnail": "08_summit_sheets_bedding_video_product_journey_001.jpg",
+      "purpose": "Camping bedding discovery and custom-fit product flow",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/video/08_summit_sheets_bedding_video_product_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/08-summit-sheets-bedding/video/08_summit_sheets_bedding_video_product_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Capture 08_summit_sheets_bedding_interaction_detail_state_001.jpg matched 08_summit_sheets_bedding_desktop_product_detail_001.jpg byte-for-byte and was retained only if it documents a distinct route/state.",
+    "Capture 08_summit_sheets_bedding_mobile_product_detail_001.jpg matched 08_summit_sheets_bedding_mobile_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+  ]
+}

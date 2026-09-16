@@ -1,0 +1,86 @@
+{
+  "id": "18",
+  "slug": "monsoon-flowers",
+  "folder": "18-monsoon-flowers",
+  "name": "Monsoon Flowers",
+  "url": "https://monsoonflowers.com",
+  "kind": "Same-day flowers and curated gifts",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "18_monsoon_flowers_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_desktop_signature_section_001.jpg",
+      "label": "Desktop Where we deliver to section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_project_highlight_delivery_coverage_information_001.jpg",
+      "label": "Project highlight: delivery coverage information",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_project_highlight_delivery_coverage_information_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "18_monsoon_flowers_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/images/18_monsoon_flowers_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "18_monsoon_flowers_video_flower_delivery_journey_001.mp4",
+      "thumbnail": "18_monsoon_flowers_video_flower_delivery_journey_001.jpg",
+      "purpose": "Same-day flower discovery and arrangement detail journey",
+      "duration": 33.76,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/video/18_monsoon_flowers_video_flower_delivery_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-02/18-monsoon-flowers/video/18_monsoon_flowers_video_flower_delivery_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 33.76 seconds, complete decode passed.",
+    "Rejected duplicate 18_monsoon_flowers_interaction_detail_state_001.jpg; it matched 18_monsoon_flowers_desktop_product_detail_001.jpg byte-for-byte."
+  ]
+}

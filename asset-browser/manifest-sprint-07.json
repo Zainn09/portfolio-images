@@ -1,0 +1,798 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 7",
+  "generated": "2026-09-16",
+  "totalImages": 111,
+  "totalVideos": 9,
+  "projects": [
+    {
+      "id": "61",
+      "slug": "rocket-krunch",
+      "folder": "61-rocket-krunch",
+      "name": "Rocket Krunch",
+      "url": "https://www.rocketkrunch.com",
+      "kind": "Freeze-dried candy, fruit, and pantry foods",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "61_rocket_krunch_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_desktop_signature_section_001.jpg",
+          "label": "Desktop The Pantry by Rocket Krunch section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_project_highlight_freeze_dried_pantry_collection_001.jpg",
+          "label": "Project highlight: freeze-dried pantry collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_project_highlight_freeze_dried_pantry_collection_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "61_rocket_krunch_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/images/61_rocket_krunch_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "61_rocket_krunch_video_freeze_dried_treat_journey_001.mp4",
+          "thumbnail": "61_rocket_krunch_video_freeze_dried_treat_journey_001.jpg",
+          "purpose": "Freeze-dried treat discovery from new arrivals to product detail",
+          "duration": 36.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/video/61_rocket_krunch_video_freeze_dried_treat_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/61-rocket-krunch/video/61_rocket_krunch_video_freeze_dried_treat_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
+        "Mobile detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
+        "Video detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 36.32 seconds, complete decode passed.",
+        "Rejected duplicate 61_rocket_krunch_desktop_product_detail_001.jpg; it matched 61_rocket_krunch_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "63",
+      "slug": "total-beauty-experience",
+      "folder": "63-total-beauty-experience",
+      "name": "Total Beauty Experience",
+      "url": "https://totalbeautyexp.com",
+      "kind": "Beauty, haircare, skincare, fragrance, and personal care retailer",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "63_total_beauty_experience_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_signature_section_001.jpg",
+          "label": "Desktop Established in 1994 section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_project_highlight_professional_skincare_tools_001.jpg",
+          "label": "Project highlight: professional skincare tools",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_project_highlight_professional_skincare_tools_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "63_total_beauty_experience_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/images/63_total_beauty_experience_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "63_total_beauty_experience_video_beauty_retail_journey_001.mp4",
+          "thumbnail": "63_total_beauty_experience_video_beauty_retail_journey_001.jpg",
+          "purpose": "Beauty-product discovery from professional skincare range to product detail",
+          "duration": 27.04,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/video/63_total_beauty_experience_video_beauty_retail_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/63-total-beauty-experience/video/63_total_beauty_experience_video_beauty_retail_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 27.04 seconds, complete decode passed.",
+        "Rejected duplicate 63_total_beauty_experience_interaction_detail_state_001.jpg; it matched 63_total_beauty_experience_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "64",
+      "slug": "john-white-shoes",
+      "folder": "64-john-white-shoes",
+      "name": "John White Shoes",
+      "url": "https://www.johnwhiteshoes.com",
+      "kind": "British heritage men’s leather footwear",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "64_john_white_shoes_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_desktop_signature_section_001.jpg",
+          "label": "Desktop since 1919 section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_project_highlight_heritage_boots_collection_001.jpg",
+          "label": "Project highlight: heritage boots collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_project_highlight_heritage_boots_collection_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "64_john_white_shoes_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/images/64_john_white_shoes_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "64_john_white_shoes_video_heritage_footwear_journey_001.mp4",
+          "thumbnail": "64_john_white_shoes_video_heritage_footwear_journey_001.jpg",
+          "purpose": "Heritage-footwear discovery from full collection to shoe detail",
+          "duration": 38.88,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/video/64_john_white_shoes_video_heritage_footwear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/64-john-white-shoes/video/64_john_white_shoes_video_heritage_footwear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 38.88 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "65",
+      "slug": "love-renaissance",
+      "folder": "65-love-renaissance",
+      "name": "Love Renaissance",
+      "url": "https://love-renaissance.shop",
+      "kind": "Japanese-crafted skincare, haircare, wellness, and fragrance",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "65_love_renaissance_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_signature_section_001.jpg",
+          "label": "Desktop Japanese craftsmanship section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_project_highlight_focused_skincare_collection_001.jpg",
+          "label": "Project highlight: focused skincare collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_project_highlight_focused_skincare_collection_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "65_love_renaissance_video_japanese_beauty_journey_001.mp4",
+          "thumbnail": "65_love_renaissance_video_japanese_beauty_journey_001.jpg",
+          "purpose": "Japanese beauty discovery from fragrance collection to skincare detail",
+          "duration": 39.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/video/65_love_renaissance_video_japanese_beauty_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/video/65_love_renaissance_video_japanese_beauty_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 39.84 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "66",
+      "slug": "hughies-dog-accessories",
+      "folder": "66-hughies-dog-accessories",
+      "name": "Hughie’s Dog Accessories",
+      "url": "https://hughies-dog-accessories.com",
+      "kind": "Handmade sustainable dog collars, bandanas, and toys",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "66_hughies_dog_accessories_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_desktop_signature_section_001.jpg",
+          "label": "Desktop Why Choose Hughie’s section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_project_highlight_upcycled_dog_toy_collection_001.jpg",
+          "label": "Project highlight: upcycled dog toy collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_project_highlight_upcycled_dog_toy_collection_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "66_hughies_dog_accessories_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.mp4",
+          "thumbnail": "66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.jpg",
+          "purpose": "Sustainable dog-accessory discovery from catalogue to handmade item detail",
+          "duration": 42.12,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/video/66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/video/66_hughies_dog_accessories_video_sustainable_dog_accessories_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 42.12 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "67",
+      "slug": "vezorla",
+      "folder": "67-vezorla",
+      "name": "Vezorla",
+      "url": "https://www.vezorla.com",
+      "kind": "Spanish extra-virgin olive oil and gourmet foods",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "67_vezorla_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_signature_section_001.jpg",
+          "label": "Desktop The Flavours I Grew Up With section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "67_vezorla_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "67_vezorla_project_highlight_spanish_olive_oil_collection_001.jpg",
+          "label": "Project highlight: Spanish olive oil collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_project_highlight_spanish_olive_oil_collection_001.jpg"
+        },
+        {
+          "file": "67_vezorla_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "67_vezorla_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "67_vezorla_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "67_vezorla_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "67_vezorla_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "67_vezorla_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "67_vezorla_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/images/67_vezorla_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "67_vezorla_video_olive_oil_journey_001.mp4",
+          "thumbnail": "67_vezorla_video_olive_oil_journey_001.jpg",
+          "purpose": "Spanish gourmet-food discovery from collection to olive-oil detail",
+          "duration": 24.04,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/video/67_vezorla_video_olive_oil_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/67-vezorla/video/67_vezorla_video_olive_oil_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 24.04 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "68",
+      "slug": "op-fashion-fabrics",
+      "folder": "68-op-fashion-fabrics",
+      "name": "O & P Fashion Fabrics",
+      "url": "https://opfashionfabrics.co.uk",
+      "kind": "Wholesale and small-quantity fashion fabrics",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "68_op_fashion_fabrics_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_signature_section_001.jpg",
+          "label": "Desktop A little bit about us section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_company_story_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_company_story_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_project_highlight_brocade_and_jacquard_range_001.jpg",
+          "label": "Project highlight: brocade and jacquard range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_project_highlight_brocade_and_jacquard_range_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_mobile_company_story_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_mobile_company_story_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "68_op_fashion_fabrics_video_fashion_fabric_journey_001.mp4",
+          "thumbnail": "68_op_fashion_fabrics_video_fashion_fabric_journey_001.jpg",
+          "purpose": "Fashion-fabric discovery from warehouse story to material ranges",
+          "duration": 17.92,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/video/68_op_fashion_fabrics_video_fashion_fabric_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/video/68_op_fashion_fabrics_video_fashion_fabric_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 17.92 seconds, complete decode passed.",
+        "Rejected duplicate 68_op_fashion_fabrics_interaction_detail_state_001.jpg; it matched 68_op_fashion_fabrics_desktop_company_story_001.jpg byte-for-byte.",
+        "Rejected duplicate 68_op_fashion_fabrics_interaction_mobile_header_001.jpg; it matched 68_op_fashion_fabrics_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "69",
+      "slug": "gym-emotion",
+      "folder": "69-gym-emotion",
+      "name": "Gym Emotion",
+      "url": "https://gymemotion.com",
+      "kind": "Commercial and home gym equipment",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "69_gym_emotion_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_desktop_signature_section_001.jpg",
+          "label": "Desktop See Our Categories section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_project_highlight_strength_dumbbell_equipment_001.jpg",
+          "label": "Project highlight: strength dumbbell equipment",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_project_highlight_strength_dumbbell_equipment_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "69_gym_emotion_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/images/69_gym_emotion_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "69_gym_emotion_video_gym_equipment_journey_001.mp4",
+          "thumbnail": "69_gym_emotion_video_gym_equipment_journey_001.jpg",
+          "purpose": "Gym-equipment discovery from systems collection to equipment detail",
+          "duration": 25.44,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/video/69_gym_emotion_video_gym_equipment_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/69-gym-emotion/video/69_gym_emotion_video_gym_equipment_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 25.44 seconds, complete decode passed.",
+        "Rejected duplicate 69_gym_emotion_interaction_mobile_search_001.jpg; it matched 69_gym_emotion_mobile_home_hero_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "70",
+      "slug": "elysian-blooms",
+      "folder": "70-elysian-blooms",
+      "name": "Elysian Blooms",
+      "url": "https://www.elysianblooms.co.uk",
+      "kind": "Surrey gift, wedding, sympathy, and occasion florist",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "70_elysian_blooms_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Best Sellers section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_bouquet_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_bouquet_detail_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_project_highlight_wedding_flower_service_001.jpg",
+          "label": "Project highlight: wedding flower service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_project_highlight_wedding_flower_service_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_mobile_bouquet_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_mobile_bouquet_detail_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "70_elysian_blooms_video_florist_journey_001.mp4",
+          "thumbnail": "70_elysian_blooms_video_florist_journey_001.jpg",
+          "purpose": "Local-florist discovery from gift flowers to seasonal bouquet detail",
+          "duration": 20.4,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/video/70_elysian_blooms_video_florist_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/video/70_elysian_blooms_video_florist_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Secondary interaction at https://www.elysianblooms.co.uk/flower-delivery/Datchet-Common.htm was unavailable (HTTP 404 / ); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 20.40 seconds, complete decode passed.",
+        "Rejected duplicate 70_elysian_blooms_interaction_mobile_header_001.jpg; it matched 70_elysian_blooms_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    }
+  ]
+}

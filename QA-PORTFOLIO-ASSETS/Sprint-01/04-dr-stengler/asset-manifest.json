@@ -1,0 +1,83 @@
+{
+  "id": "04",
+  "slug": "dr-stengler",
+  "folder": "04-dr-stengler",
+  "name": "Dr. Stengler",
+  "url": "https://drstengler.com",
+  "kind": "Integrative wellness and supplements",
+  "generated": "2026-09-15",
+  "images": [
+    {
+      "file": "04_dr_stengler_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_project_highlight_practitioner_credentials_001.jpg",
+      "label": "Project highlight: practitioner credentials",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_project_highlight_practitioner_credentials_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_desktop_bundle_builder_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_desktop_bundle_builder_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "04_dr_stengler_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/images/04_dr_stengler_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "04_dr_stengler_video_product_journey_001.mp4",
+      "thumbnail": "04_dr_stengler_video_product_journey_001.jpg",
+      "purpose": "Doctor-led wellness discovery from homepage to protocol detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/video/04_dr_stengler_video_product_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/04-dr-stengler/video/04_dr_stengler_video_product_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Capture 04_dr_stengler_desktop_signature_section_001.jpg matched 04_dr_stengler_desktop_home_hero_001.jpg byte-for-byte and was retained only if it documents a distinct route/state."
+  ]
+}

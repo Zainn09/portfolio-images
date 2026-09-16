@@ -1,0 +1,153 @@
+name: Generate Sprint 01 QA Assets
+
+# Sprint 1 is complete. Keep its reproducible workflow available for manual
+# dispatch without rerunning it during Sprint 2 checkpoints.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  capture-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Check out capture pipeline
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install capture dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium and media tools
+        run: |
+          npx playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Prepare website checkpoint commits
+        run: |
+          git config user.name "arena-ai-coding-agent[bot]"
+          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
+
+      - name: Recapture Peak Scents through validated live rendering
+        if: hashFiles('QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/asset-manifest.json') == ''
+        run: |
+          set -o pipefail
+          node scripts/recapture-peak-scents.mjs 2>&1 | tee peak-recapture.log
+
+      - name: Publish Peak Scents recapture checkpoint
+        if: hashFiles('QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/asset-manifest.json') != '' && github.event_name == 'pull_request'
+        run: |
+          if ! git diff --quiet -- QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents README.md capture-progress.json; then
+            git add QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents README.md capture-progress.json
+            git commit -m "Add validated Peak Scents asset checkpoint [skip ci]"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Capture authentic website assets
+        env:
+          CHECKPOINT_COMMITS: "1"
+          CHECKPOINT_BRANCH: ${{ github.head_ref }}
+        run: |
+          set -o pipefail
+          npm run capture 2>&1 | tee capture.log
+
+      - name: Publish capture failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 1 capture failed'
+            echo
+            echo '```text'
+            tail -n 180 capture.log 2>/dev/null || echo 'No capture log was produced.'
+            echo '```'
+          } > /tmp/capture-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/capture-comment.md
+
+      - name: Build and verify Sprint ZIP
+        run: |
+          set -o pipefail
+          npm run package 2>&1 | tee package.log
+
+      - name: Run final inventory QA
+        run: |
+          set -o pipefail
+          python3 scripts/verify_assets.py 2>&1 | tee verify.log
+
+      - name: Mark verified projects complete in README
+        run: python3 scripts/update_readme_progress.py --final
+
+      - name: Verify asset browser and download endpoints
+        run: |
+          python3 serve-assets.py --port 4173 > /tmp/asset-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          sleep 2
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/ > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/manifest.json > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-01-Assets.zip > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/download/project/01-fandiem -o /tmp/01-fandiem.zip
+          unzip -t /tmp/01-fandiem.zip
+
+      - name: Commit verified Sprint package to the session branch
+        if: success() && github.event_name == 'pull_request'
+        run: |
+          git add README.md capture-progress.json QA-PORTFOLIO-ASSETS QA-Portfolio-Sprint-01-Assets.zip asset-browser/manifest.json capture-report.json package-lock.json
+          git commit -m "Publish verified Sprint 1 package [skip ci]"
+          git push origin HEAD:${{ github.head_ref }}
+
+      - name: Upload completed library
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Portfolio-Sprint-01-Complete
+          path: |
+            QA-PORTFOLIO-ASSETS/
+            QA-Portfolio-Sprint-01-Assets.zip
+            asset-browser/
+            capture-report.json
+          compression-level: 0
+          retention-days: 14
+
+      - name: Publish final QA failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 1 final QA requires attention'
+            for log in peak-recapture.log package.log verify.log; do
+              if [ -s "$log" ]; then
+                echo
+                echo "#### $log"
+                echo '```text'
+                tail -n 180 "$log"
+                echo '```'
+              fi
+            done
+          } > /tmp/final-qa-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/final-qa-comment.md
+
+      - name: Upload partial diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint-01-capture-diagnostics
+          path: |
+            QA-PORTFOLIO-ASSETS/
+            capture-report.json
+          if-no-files-found: ignore
+          retention-days: 3

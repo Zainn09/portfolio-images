@@ -1,0 +1,76 @@
+{
+  "generated": "2026-09-16",
+  "stage": "Rahiza and DNS-declared Shopify origin unavailable — rechecked 2026-09-16 23:27 PKT",
+  "projects": [
+    {
+      "id": "61",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "63",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "64",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "65",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "66",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "67",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "68",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "69",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "70",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "62",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Blocked with 0 accepted assets: rahiza.com and www.rahiza.com return Shopify unavailable; the live www CNAME identifies ff95ea-3.myshopify.com, which is also unavailable. Products and sitemap endpoints return Not Found, and the live web index exposes no official pages (2026-09-16 23:27 PKT)."
+    }
+  ]
+}

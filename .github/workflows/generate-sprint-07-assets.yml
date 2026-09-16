@@ -1,0 +1,141 @@
+name: Generate Sprint 07 QA Assets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  capture-package-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the session branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install capture dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium and media tools
+        run: |
+          npx playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Prepare per-website commits
+        run: |
+          git config user.name "arena-ai-coding-agent[bot]"
+          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
+
+      - name: Capture and validate Sprint 7 websites
+        env:
+          CHECKPOINT_COMMITS: "1"
+          CHECKPOINT_BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          set -o pipefail
+          node scripts/generate-sprint07-assets.mjs 2>&1 | tee capture-sprint07.log
+
+      - name: Publish capture failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 7 website capture requires attention'
+            echo
+            echo '```text'
+            tail -n 200 capture-sprint07.log 2>/dev/null || echo 'No capture log was produced.'
+            echo '```'
+          } > /tmp/sprint07-capture-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/sprint07-capture-comment.md
+
+      - name: Build Sprint 7 ZIP
+        run: |
+          set -o pipefail
+          python3 scripts/package_sprint07_assets.py 2>&1 | tee package-sprint07.log
+
+      - name: Verify images and playable MP4 videos
+        run: |
+          set -o pipefail
+          python3 scripts/verify_sprint07_assets.py 2>&1 | tee verify-sprint07.log
+
+      - name: Mark Sprint 7 complete in README
+        run: |
+          python3 scripts/update_readme_sprint07.py --final
+          python3 scripts/build_asset_browser_manifest.py
+
+      - name: Verify Sprint 7 browser and downloads
+        run: |
+          python3 serve-assets.py --port 4173 > /tmp/sprint07-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          sleep 2
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/ > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/manifest.json > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-07-Assets.zip > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/download/project/61-rocket-krunch -o /tmp/61-rocket-krunch.zip
+          unzip -t /tmp/61-rocket-krunch.zip
+
+      - name: Commit verified Sprint 7 package
+        if: success() && github.event_name == 'pull_request'
+        run: |
+          git add README.md capture-progress-sprint-07.json QA-PORTFOLIO-ASSETS/Sprint-07 QA-Portfolio-Sprint-07-Assets.zip asset-browser/manifest.json asset-browser/manifest-sprint-07.json capture-report-sprint-07.json package-lock.json
+          git commit -m "Publish verified Sprint 7 package [skip ci]"
+          git fetch origin ${{ github.head_ref }}
+          git rebase FETCH_HEAD
+          git push origin HEAD:${{ github.head_ref }}
+
+      - name: Upload completed Sprint 7 package
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Portfolio-Sprint-07-Complete
+          path: |
+            QA-PORTFOLIO-ASSETS/Sprint-07/
+            QA-Portfolio-Sprint-07-Assets.zip
+            asset-browser/
+            capture-report-sprint-07.json
+          compression-level: 0
+          retention-days: 14
+
+      - name: Publish final QA failure details
+        if: failure() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          {
+            echo '### Sprint 7 final QA requires attention'
+            for log in package-sprint07.log verify-sprint07.log; do
+              if [ -s "$log" ]; then
+                echo
+                echo "#### $log"
+                echo '```text'
+                tail -n 200 "$log"
+                echo '```'
+              fi
+            done
+          } > /tmp/sprint07-final-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/sprint07-final-comment.md
+
+      - name: Upload partial diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint-07-capture-diagnostics
+          path: |
+            QA-PORTFOLIO-ASSETS/Sprint-07/
+            capture-progress-sprint-07.json
+            capture-report-sprint-07.json
+          if-no-files-found: ignore
+          retention-days: 3

@@ -1,0 +1,86 @@
+{
+  "id": "05",
+  "slug": "hershop",
+  "folder": "05-hershop",
+  "name": "HER SHOP®",
+  "url": "https://hershop.com",
+  "kind": "Bridal and occasion fashion",
+  "generated": "2026-09-15",
+  "images": [
+    {
+      "file": "05_hershop_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "05_hershop_desktop_signature_section_001.jpg",
+      "label": "Desktop Shop by Bridal Category section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "05_hershop_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "05_hershop_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "05_hershop_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "05_hershop_project_highlight_bridal_editorial_merchandising_001.jpg",
+      "label": "Project highlight: bridal editorial merchandising",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_project_highlight_bridal_editorial_merchandising_001.jpg"
+    },
+    {
+      "file": "05_hershop_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "05_hershop_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "05_hershop_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "05_hershop_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "05_hershop_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "05_hershop_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "05_hershop_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/images/05_hershop_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "05_hershop_video_product_journey_001.mp4",
+      "thumbnail": "05_hershop_video_product_journey_001.jpg",
+      "purpose": "Bridal shopping flow from campaign to gown detail",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/video/05_hershop_video_product_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/05-hershop/video/05_hershop_video_product_journey_001.jpg"
+    }
+  ],
+  "notes": []
+}

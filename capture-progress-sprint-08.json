@@ -1,0 +1,76 @@
+{
+  "generated": "2026-09-16",
+  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
+  "projects": [
+    {
+      "id": "71",
+      "status": "complete",
+      "images": 10,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "72",
+      "status": "complete",
+      "images": 13,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "73",
+      "status": "complete",
+      "images": 11,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "74",
+      "status": "complete",
+      "images": 11,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "75",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "76",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "77",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "78",
+      "status": "complete",
+      "images": 10,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "79",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    },
+    {
+      "id": "80",
+      "status": "complete",
+      "images": 12,
+      "videos": 1,
+      "note": "Website and playable video QA passed"
+    }
+  ]
+}

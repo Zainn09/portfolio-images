@@ -1,0 +1,854 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 6",
+  "generated": "2026-09-16",
+  "totalImages": 116,
+  "totalVideos": 10,
+  "projects": [
+    {
+      "id": "51",
+      "slug": "judyp-apparel",
+      "folder": "51-judyp-apparel",
+      "name": "JudyP Apparel",
+      "url": "https://judypapparel.com",
+      "kind": "Women’s wrinkle-resistant travel clothing",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "51_judyp_apparel_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_project_highlight_travel_clothing_edit_001.jpg",
+          "label": "Project highlight: travel clothing edit",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_project_highlight_travel_clothing_edit_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "51_judyp_apparel_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/images/51_judyp_apparel_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "51_judyp_apparel_video_travel_apparel_journey_001.mp4",
+          "thumbnail": "51_judyp_apparel_video_travel_apparel_journey_001.jpg",
+          "purpose": "Travel-apparel discovery from easy-care collection to garment detail",
+          "duration": 33.16,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/video/51_judyp_apparel_video_travel_apparel_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/51-judyp-apparel/video/51_judyp_apparel_video_travel_apparel_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 33.16 seconds, complete decode passed.",
+        "Rejected duplicate 51_judyp_apparel_desktop_signature_section_001.jpg; it matched 51_judyp_apparel_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 51_judyp_apparel_interaction_detail_state_001.jpg; it matched 51_judyp_apparel_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "52",
+      "slug": "lady-flora",
+      "folder": "52-lady-flora",
+      "name": "Lady Flora",
+      "url": "https://www.ladyflora.co.uk",
+      "kind": "Florist, bouquets, wedding flowers, and fragrances",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "52_lady_flora_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_project_highlight_wedding_flower_service_001.jpg",
+          "label": "Project highlight: wedding flower service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_project_highlight_wedding_flower_service_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "52_lady_flora_video_floral_gifting_journey_001.mp4",
+          "thumbnail": "52_lady_flora_video_floral_gifting_journey_001.jpg",
+          "purpose": "Floral-gifting discovery from bouquet collection to florist-choice detail",
+          "duration": 25.76,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/video/52_lady_flora_video_floral_gifting_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/video/52_lady_flora_video_floral_gifting_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 25.76 seconds, complete decode passed.",
+        "Rejected duplicate 52_lady_flora_desktop_signature_section_001.jpg; it matched 52_lady_flora_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 52_lady_flora_interaction_detail_state_001.jpg; it matched 52_lady_flora_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "53",
+      "slug": "nano-lamination",
+      "folder": "53-nano-lamination",
+      "name": "Nano Lamination",
+      "url": "https://www.nanolamination.com",
+      "kind": "Professional hair smoothing and lamination treatments",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "53_nano_lamination_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_project_highlight_professional_salon_locator_001.jpg",
+          "label": "Project highlight: professional salon locator",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_project_highlight_professional_salon_locator_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "53_nano_lamination_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/images/53_nano_lamination_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "53_nano_lamination_video_hair_smoothing_journey_001.mp4",
+          "thumbnail": "53_nano_lamination_video_hair_smoothing_journey_001.jpg",
+          "purpose": "Professional smoothing-treatment discovery from range to detail",
+          "duration": 25.52,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/video/53_nano_lamination_video_hair_smoothing_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/53-nano-lamination/video/53_nano_lamination_video_hair_smoothing_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Mobile detail at https://www.nanolamination.com/products/i-smooth-starter-kit was unavailable (HTTP 429 / Just a moment...); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 25.52 seconds, complete decode passed.",
+        "Rejected duplicate 53_nano_lamination_desktop_signature_section_001.jpg; it matched 53_nano_lamination_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 53_nano_lamination_desktop_secondary_experience_001.jpg; it matched 53_nano_lamination_desktop_collection_listing_001.jpg byte-for-byte.",
+        "Rejected duplicate 53_nano_lamination_mobile_product_detail_001.jpg; it matched 53_nano_lamination_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "54",
+      "slug": "canvasback-pets",
+      "folder": "54-canvasback-pets",
+      "name": "Canvasback Pet Supplies",
+      "url": "https://www.canvasbackpets.com",
+      "kind": "Pet food, toys, and supplies",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "54_canvasback_pets_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_signature_section_001.jpg",
+          "label": "Desktop Popular collections section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_project_highlight_pet_store_story_and_services_001.jpg",
+          "label": "Project highlight: pet store story and services",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_project_highlight_pet_store_story_and_services_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_interaction_mobile_search_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "54_canvasback_pets_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/images/54_canvasback_pets_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "54_canvasback_pets_video_pet_supplies_journey_001.mp4",
+          "thumbnail": "54_canvasback_pets_video_pet_supplies_journey_001.jpg",
+          "purpose": "Pet-supplies discovery from dog-food collection to product detail",
+          "duration": 36.4,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/video/54_canvasback_pets_video_pet_supplies_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/54-canvasback-pets/video/54_canvasback_pets_video_pet_supplies_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.40 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "55",
+      "slug": "luxe-atelier",
+      "folder": "55-luxe-atelier",
+      "name": "Luxe Atelier",
+      "url": "https://luxeatelier.co.uk",
+      "kind": "Luxury women’s occasionwear and evening dresses",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "55_luxe_atelier_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_signature_section_001.jpg",
+          "label": "Desktop View all products section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_project_highlight_mira_eveningwear_detail_001.jpg",
+          "label": "Project highlight: Mira eveningwear detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_project_highlight_mira_eveningwear_detail_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_interaction_mobile_search_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "55_luxe_atelier_video_occasionwear_journey_001.mp4",
+          "thumbnail": "55_luxe_atelier_video_occasionwear_journey_001.jpg",
+          "purpose": "Luxury occasionwear discovery from new collection to dress detail",
+          "duration": 20.08,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/video/55_luxe_atelier_video_occasionwear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/video/55_luxe_atelier_video_occasionwear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 20.08 seconds, complete decode passed.",
+        "Rejected duplicate 55_luxe_atelier_interaction_detail_state_001.jpg; it matched 55_luxe_atelier_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "56",
+      "slug": "eastern-inspiration",
+      "folder": "56-eastern-inspiration",
+      "name": "Eastern Inspiration",
+      "url": "https://easterninspiration.co.uk",
+      "kind": "Ethically made artisan gifts and homeware",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "56_eastern_inspiration_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_desktop_signature_section_001.jpg",
+          "label": "Desktop Ethically Made Products section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_project_highlight_ethical_artisan_gift_story_001.jpg",
+          "label": "Project highlight: ethical artisan gift story",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_project_highlight_ethical_artisan_gift_story_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "56_eastern_inspiration_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/images/56_eastern_inspiration_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "56_eastern_inspiration_video_artisan_gift_journey_001.mp4",
+          "thumbnail": "56_eastern_inspiration_video_artisan_gift_journey_001.jpg",
+          "purpose": "Ethical artisan-gift discovery from brand story to product detail",
+          "duration": 37.12,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/video/56_eastern_inspiration_video_artisan_gift_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/56-eastern-inspiration/video/56_eastern_inspiration_video_artisan_gift_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 37.12 seconds, complete decode passed.",
+        "Rejected duplicate 56_eastern_inspiration_interaction_detail_state_001.jpg; it matched 56_eastern_inspiration_desktop_product_detail_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "57",
+      "slug": "pet-prestige-uk",
+      "folder": "57-pet-prestige-uk",
+      "name": "Pet Prestige UK",
+      "url": "https://petprestigeuk.com",
+      "kind": "Luxury pet beds, blankets, mats, and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "57_pet_prestige_uk_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_project_highlight_prestige_pet_bed_collection_001.jpg",
+          "label": "Project highlight: Prestige pet bed collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_project_highlight_prestige_pet_bed_collection_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "57_pet_prestige_uk_video_luxury_pet_journey_001.mp4",
+          "thumbnail": "57_pet_prestige_uk_video_luxury_pet_journey_001.jpg",
+          "purpose": "Luxury pet-product discovery from Prestige collection to bed detail",
+          "duration": 35.56,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/video/57_pet_prestige_uk_video_luxury_pet_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/video/57_pet_prestige_uk_video_luxury_pet_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Secondary interaction at https://petprestigeuk.com/collections/cat-products was unavailable (HTTP 404 / 404 Not Found — Pet Prestige UK); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 35.56 seconds, complete decode passed.",
+        "Rejected duplicate 57_pet_prestige_uk_desktop_signature_section_001.jpg; it matched 57_pet_prestige_uk_desktop_home_hero_001.jpg in perceptual image QA.",
+        "Rejected duplicate 57_pet_prestige_uk_interaction_mobile_header_001.jpg; it matched 57_pet_prestige_uk_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "58",
+      "slug": "midland-textiles",
+      "folder": "58-midland-textiles",
+      "name": "Midland Textiles",
+      "url": "https://midlandtextiles.co.uk",
+      "kind": "Dressmaking, craft, lace, and apparel fabrics",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "58_midland_textiles_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_signature_section_001.jpg",
+          "label": "Desktop Collection Trending Product section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_project_highlight_crochet_lace_fabric_detail_001.jpg",
+          "label": "Project highlight: crochet lace fabric detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_project_highlight_crochet_lace_fabric_detail_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "58_midland_textiles_video_fabric_discovery_journey_001.mp4",
+          "thumbnail": "58_midland_textiles_video_fabric_discovery_journey_001.jpg",
+          "purpose": "Dress-fabric discovery from textile catalogue to material detail",
+          "duration": 44.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/video/58_midland_textiles_video_fabric_discovery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/video/58_midland_textiles_video_fabric_discovery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 44.20 seconds, complete decode passed.",
+        "Rejected duplicate 58_midland_textiles_interaction_mobile_header_001.jpg; it matched 58_midland_textiles_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "59",
+      "slug": "ba-squared-fitness",
+      "folder": "59-ba-squared-fitness",
+      "name": "BA² Fitness",
+      "url": "https://basquaredfitness.com",
+      "kind": "Performance fitness apparel",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "59_ba_squared_fitness_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_signature_section_001.jpg",
+          "label": "Desktop THE BA² TRILOGY COLLECTION section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_project_highlight_foundation_fitness_tee_001.jpg",
+          "label": "Project highlight: Foundation fitness tee",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_project_highlight_foundation_fitness_tee_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "59_ba_squared_fitness_video_fitness_apparel_journey_001.mp4",
+          "thumbnail": "59_ba_squared_fitness_video_fitness_apparel_journey_001.jpg",
+          "purpose": "Performance-apparel discovery from Trilogy collection to hoodie detail",
+          "duration": 31.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/video/59_ba_squared_fitness_video_fitness_apparel_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/video/59_ba_squared_fitness_video_fitness_apparel_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 31.20 seconds, complete decode passed.",
+        "Rejected duplicate 59_ba_squared_fitness_interaction_detail_state_001.jpg; it matched 59_ba_squared_fitness_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "60",
+      "slug": "belo-jewelry",
+      "folder": "60-belo-jewelry",
+      "name": "Belo Jewelry",
+      "url": "https://belojewelry.com",
+      "kind": "Handcrafted crystal and symbolic jewelry",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "60_belo_jewelry_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_desktop_signature_section_001.jpg",
+          "label": "Desktop Most Loved Designs section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_project_highlight_crystal_collection_001.jpg",
+          "label": "Project highlight: crystal collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_project_highlight_crystal_collection_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "60_belo_jewelry_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/images/60_belo_jewelry_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "60_belo_jewelry_video_symbolic_jewelry_journey_001.mp4",
+          "thumbnail": "60_belo_jewelry_video_symbolic_jewelry_journey_001.jpg",
+          "purpose": "Symbolic crystal-jewelry discovery from necklace collection to design detail",
+          "duration": 36.08,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/video/60_belo_jewelry_video_symbolic_jewelry_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/60-belo-jewelry/video/60_belo_jewelry_video_symbolic_jewelry_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.08 seconds, complete decode passed.",
+        "Rejected duplicate 60_belo_jewelry_interaction_detail_state_001.jpg; it matched 60_belo_jewelry_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    }
+  ]
+}

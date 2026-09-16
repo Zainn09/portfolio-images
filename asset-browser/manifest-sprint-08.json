@@ -1,0 +1,846 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 8",
+  "generated": "2026-09-16",
+  "totalImages": 115,
+  "totalVideos": 10,
+  "projects": [
+    {
+      "id": "71",
+      "slug": "biofield-expert",
+      "folder": "71-biofield-expert",
+      "name": "Biofield Expert",
+      "url": "https://biofieldexpert.com",
+      "kind": "Biofield education, home harmonization, and wellness products",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "71_biofield_expert_desktop_home_harmonization_intro_001.jpg",
+          "label": "Desktop home-harmonization collection introduction",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_home_harmonization_intro_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_product_grid_001.jpg",
+          "label": "Desktop harmonization product grid",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_product_grid_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_catalogue_mid_001.jpg",
+          "label": "Desktop mid-collection product coverage",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_catalogue_mid_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_catalogue_lower_001.jpg",
+          "label": "Desktop lower-collection product coverage",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_catalogue_lower_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_desktop_harmonization_catalogue_end_001.jpg",
+          "label": "Desktop collection end and supporting navigation",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_desktop_harmonization_catalogue_end_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_harmonization_products_001.jpg",
+          "label": "Mobile home-harmonization product section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_harmonization_products_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_mobile_wellness_collections_001.jpg",
+          "label": "Mobile wellness collection discovery",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_wellness_collections_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "71_biofield_expert_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state harmonization-product discovery reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "71_biofield_expert_video_biofield_wellness_journey_001.mp4",
+          "thumbnail": "71_biofield_expert_video_biofield_wellness_journey_001.jpg",
+          "purpose": "Biofield-wellness discovery from harmonization collection to home-remediation detail",
+          "duration": 10.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/video/71_biofield_expert_video_biofield_wellness_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/video/71_biofield_expert_video_biofield_wellness_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "The storefront challenged repeated route changes from the capture runner, so coverage uses varied authentic states from one live collection load and one live mobile homepage load.",
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "72",
+      "slug": "sol-eyewear",
+      "folder": "72-sol-eyewear",
+      "name": "SOL Eyewear",
+      "url": "https://mysolstyle.com",
+      "kind": "Texas-designed premium sunglasses",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "72_sol_eyewear_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_desktop_signature_section_001.jpg",
+          "label": "Desktop Designed in Texas section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_project_highlight_women_s_european_sunglasses_001.jpg",
+          "label": "Project highlight: women’s European sunglasses",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_project_highlight_women_s_european_sunglasses_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "72_sol_eyewear_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "72_sol_eyewear_video_sunglasses_journey_001.mp4",
+          "thumbnail": "72_sol_eyewear_video_sunglasses_journey_001.jpg",
+          "purpose": "Premium-sunglasses discovery from full collection to frame detail",
+          "duration": 39.24,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/video/72_sol_eyewear_video_sunglasses_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/video/72_sol_eyewear_video_sunglasses_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 39.24 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "73",
+      "slug": "ameliora",
+      "folder": "73-ameliora",
+      "name": "Ameliora",
+      "url": "https://ameliora.com",
+      "kind": "Machine-washable wrinkle-resistant women’s workwear",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "73_ameliora_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "73_ameliora_desktop_signature_section_001.jpg",
+          "label": "Desktop One Fabric, Three Reasons to Love It section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "73_ameliora_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "73_ameliora_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "73_ameliora_project_highlight_garment_maker_story_001.jpg",
+          "label": "Project highlight: garment maker story",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_project_highlight_garment_maker_story_001.jpg"
+        },
+        {
+          "file": "73_ameliora_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "73_ameliora_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "73_ameliora_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "73_ameliora_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "73_ameliora_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "73_ameliora_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/images/73_ameliora_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "73_ameliora_video_washable_workwear_journey_001.mp4",
+          "thumbnail": "73_ameliora_video_washable_workwear_journey_001.jpg",
+          "purpose": "Performance-workwear discovery from shirt collection to fitted-shirt detail",
+          "duration": 20.28,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/video/73_ameliora_video_washable_workwear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/73-ameliora/video/73_ameliora_video_washable_workwear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 20.28 seconds, complete decode passed.",
+        "Rejected duplicate 73_ameliora_interaction_detail_state_001.jpg; it matched 73_ameliora_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 73_ameliora_interaction_mobile_header_001.jpg; it matched 73_ameliora_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "74",
+      "slug": "coffee-at-work",
+      "folder": "74-coffee-at-work",
+      "name": "Coffee@Work",
+      "url": "https://coffeeatwork.uk.com",
+      "kind": "UK workplace coffee machines, beans, and supplies",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "74_coffee_at_work_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_signature_section_001.jpg",
+          "label": "Desktop Shop by Category section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_project_highlight_italian_coffee_bean_range_001.jpg",
+          "label": "Project highlight: Italian coffee bean range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_project_highlight_italian_coffee_bean_range_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "74_coffee_at_work_video_workplace_coffee_journey_001.mp4",
+          "thumbnail": "74_coffee_at_work_video_workplace_coffee_journey_001.jpg",
+          "purpose": "Workplace-coffee discovery from machine collection to commercial-machine detail",
+          "duration": 36.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/video/74_coffee_at_work_video_workplace_coffee_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/video/74_coffee_at_work_video_workplace_coffee_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.32 seconds, complete decode passed.",
+        "Rejected duplicate 74_coffee_at_work_interaction_detail_state_001.jpg; it matched 74_coffee_at_work_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 74_coffee_at_work_interaction_mobile_navigation_001.jpg; it matched 74_coffee_at_work_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "75",
+      "slug": "audrey-k-boutique",
+      "folder": "75-audrey-k-boutique",
+      "name": "Audrey K Boutique",
+      "url": "https://audreykboutique.com",
+      "kind": "Independent women’s fashion and gift boutique",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "75_audrey_k_boutique_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_signature_section_001.jpg",
+          "label": "Desktop Opened in 2006 section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_project_highlight_women_s_dress_collection_001.jpg",
+          "label": "Project highlight: women’s dress collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_project_highlight_women_s_dress_collection_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_interaction_mobile_header_001.jpg",
+          "label": "Mobile header state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_interaction_mobile_header_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "75_audrey_k_boutique_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "75_audrey_k_boutique_video_boutique_fashion_journey_001.mp4",
+          "thumbnail": "75_audrey_k_boutique_video_boutique_fashion_journey_001.jpg",
+          "purpose": "Independent-boutique discovery from new arrivals to featured tote detail",
+          "duration": 27.64,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/video/75_audrey_k_boutique_video_boutique_fashion_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/video/75_audrey_k_boutique_video_boutique_fashion_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 27.64 seconds, complete decode passed.",
+        "Rejected duplicate 75_audrey_k_boutique_interaction_detail_state_001.jpg; it matched 75_audrey_k_boutique_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "76",
+      "slug": "second-chance-online",
+      "folder": "76-second-chance-online",
+      "name": "Second Chance Online",
+      "url": "https://secondchanceonline.com",
+      "kind": "Independent women’s kimonos, abayas, and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "76_second_chance_online_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_signature_section_001.jpg",
+          "label": "Desktop Welcome to Second Chance section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_project_highlight_founders_fashion_story_001.jpg",
+          "label": "Project highlight: founders’ fashion story",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_project_highlight_founders_fashion_story_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "76_second_chance_online_video_independent_fashion_journey_001.mp4",
+          "thumbnail": "76_second_chance_online_video_independent_fashion_journey_001.jpg",
+          "purpose": "Independent-fashion discovery from best sellers to signature kimono detail",
+          "duration": 22.28,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/video/76_second_chance_online_video_independent_fashion_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/video/76_second_chance_online_video_independent_fashion_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 22.28 seconds, complete decode passed.",
+        "Rejected duplicate 76_second_chance_online_interaction_detail_state_001.jpg; it matched 76_second_chance_online_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "77",
+      "slug": "second-chance-clothing-home-decor",
+      "folder": "77-second-chance-clothing-home-decor",
+      "name": "Second Chance Clothing & Home Decor",
+      "url": "https://secondchanceclothing-homedecor.myshopify.com",
+      "kind": "Canadian women’s consignment clothing and home décor",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "77_second_chance_clothing_home_decor_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_desktop_signature_section_001.jpg",
+          "label": "Desktop Women’s clothing section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_project_highlight_red_deer_store_information_001.jpg",
+          "label": "Project highlight: Red Deer store information",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_project_highlight_red_deer_store_information_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "77_second_chance_clothing_home_decor_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.mp4",
+          "thumbnail": "77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.jpg",
+          "purpose": "Consignment-clothing discovery from current catalogue to garment detail",
+          "duration": 19.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/video/77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/video/77_second_chance_clothing_home_decor_video_consignment_clothing_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
+        "Rejected duplicate 77_second_chance_clothing_home_decor_interaction_detail_state_001.jpg; it matched 77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "78",
+      "slug": "vtc-watches",
+      "folder": "78-vtc-watches",
+      "name": "VTC Watches",
+      "url": "https://www.vtcwatches.com",
+      "kind": "Watch and jewelry sales, repair, and custom bridal service",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "78_vtc_watches_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_desktop_signature_section_001.jpg",
+          "label": "Desktop BRANDS WE SERVICE section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_project_highlight_insured_watch_repair_service_001.jpg",
+          "label": "Project highlight: insured watch repair service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_project_highlight_insured_watch_repair_service_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "78_vtc_watches_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/images/78_vtc_watches_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "78_vtc_watches_video_watch_specialist_journey_001.mp4",
+          "thumbnail": "78_vtc_watches_video_watch_specialist_journey_001.jpg",
+          "purpose": "Watch-specialist discovery from timepiece collection to featured-watch detail",
+          "duration": 36.96,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/video/78_vtc_watches_video_watch_specialist_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/78-vtc-watches/video/78_vtc_watches_video_watch_specialist_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 36.96 seconds, complete decode passed.",
+        "Rejected duplicate 78_vtc_watches_interaction_detail_state_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
+        "Rejected duplicate 78_vtc_watches_desktop_secondary_experience_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
+        "Rejected duplicate 78_vtc_watches_interaction_mobile_navigation_001.jpg; it matched 78_vtc_watches_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "79",
+      "slug": "liz-jordan-hill",
+      "folder": "79-liz-jordan-hill",
+      "name": "Liz Jordan-Hill Fabrics",
+      "url": "https://lizjordanhill.com",
+      "kind": "Stain-resistant Aquaclean upholstery fabrics",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "79_liz_jordan_hill_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_desktop_signature_section_001.jpg",
+          "label": "Desktop WHAT IS AQUACLEAN section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_project_highlight_aquaclean_stain_technology_001.jpg",
+          "label": "Project highlight: Aquaclean stain technology",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_project_highlight_aquaclean_stain_technology_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "79_liz_jordan_hill_video_performance_fabric_journey_001.mp4",
+          "thumbnail": "79_liz_jordan_hill_video_performance_fabric_journey_001.jpg",
+          "purpose": "Performance-fabric discovery from stain-resistant collection to velvet detail",
+          "duration": 40.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/video/79_liz_jordan_hill_video_performance_fabric_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/video/79_liz_jordan_hill_video_performance_fabric_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 40.32 seconds, complete decode passed.",
+        "Rejected duplicate 79_liz_jordan_hill_desktop_secondary_experience_001.jpg; it matched 79_liz_jordan_hill_interaction_detail_state_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "80",
+      "slug": "expressive-audio",
+      "folder": "80-expressive-audio",
+      "name": "Expressive Audio",
+      "url": "https://expressiveaudio.com",
+      "kind": "HiFi, home cinema, multiroom, and audio installation specialists",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "80_expressive_audio_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_signature_section_001.jpg",
+          "label": "Desktop personal welcome section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_project_highlight_bespoke_hifi_installation_gallery_001.jpg",
+          "label": "Project highlight: bespoke HiFi installation gallery",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_project_highlight_bespoke_hifi_installation_gallery_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "80_expressive_audio_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/images/80_expressive_audio_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "80_expressive_audio_video_hifi_journey_001.mp4",
+          "thumbnail": "80_expressive_audio_video_hifi_journey_001.jpg",
+          "purpose": "HiFi discovery from home-cinema collection to entertainment-system detail",
+          "duration": 19.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/video/80_expressive_audio_video_hifi_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/80-expressive-audio/video/80_expressive_audio_video_hifi_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
+        "Rejected duplicate 80_expressive_audio_interaction_detail_state_001.jpg; it matched 80_expressive_audio_desktop_product_detail_001.jpg in perceptual image QA."
+      ]
+    }
+  ]
+}
