@@ -1,0 +1,82 @@
+{
+  "id": "45",
+  "slug": "hugh-mcelvanna-menswear",
+  "folder": "45-hugh-mcelvanna-menswear",
+  "name": "Hugh McElvanna Menswear",
+  "url": "https://www.hughmcelvannamenswear.com",
+  "kind": "Men’s suits and casual clothing",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "45_hugh_mcelvanna_menswear_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_desktop_signature_section_001.jpg",
+      "label": "Desktop A Legacy of Style section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_project_highlight_spring_summer_menswear_collection_001.jpg",
+      "label": "Project highlight: spring summer menswear collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_project_highlight_spring_summer_menswear_collection_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "45_hugh_mcelvanna_menswear_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/images/45_hugh_mcelvanna_menswear_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "45_hugh_mcelvanna_menswear_video_menswear_journey_001.mp4",
+      "thumbnail": "45_hugh_mcelvanna_menswear_video_menswear_journey_001.jpg",
+      "purpose": "Premium menswear discovery from new-arrivals collection to garment detail",
+      "duration": 25.12,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/video/45_hugh_mcelvanna_menswear_video_menswear_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/45-hugh-mcelvanna-menswear/video/45_hugh_mcelvanna_menswear_video_menswear_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 25.12 seconds, complete decode passed.",
+    "Rejected duplicate 45_hugh_mcelvanna_menswear_interaction_detail_state_001.jpg; it matched 45_hugh_mcelvanna_menswear_desktop_home_hero_001.jpg byte-for-byte.",
+    "Rejected duplicate 45_hugh_mcelvanna_menswear_interaction_mobile_search_001.jpg; it matched 45_hugh_mcelvanna_menswear_mobile_home_hero_001.jpg byte-for-byte."
+  ]
+}
