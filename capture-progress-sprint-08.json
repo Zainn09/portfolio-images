@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Ameliora asset set generated and published",
+  "stage": "Coffee@Work asset set generated and published",
   "projects": [
     {
       "id": "71",
@@ -18,6 +18,13 @@
     },
     {
       "id": "73",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "74",
       "status": "captured",
       "images": 11,
       "videos": 1,

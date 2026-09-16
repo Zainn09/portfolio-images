@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 859,
-  "totalVideos": 72,
+  "totalImages": 870,
+  "totalVideos": 73,
   "projects": [
     {
       "id": "01",
@@ -6163,6 +6163,88 @@
         "Rejected duplicate 73_ameliora_interaction_detail_state_001.jpg; it matched 73_ameliora_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 73_ameliora_interaction_mobile_header_001.jpg; it matched 73_ameliora_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "74",
+      "slug": "coffee-at-work",
+      "folder": "74-coffee-at-work",
+      "name": "Coffee@Work",
+      "url": "https://coffeeatwork.uk.com",
+      "kind": "UK workplace coffee machines, beans, and supplies",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "74_coffee_at_work_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_signature_section_001.jpg",
+          "label": "Desktop Shop by Category section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_project_highlight_italian_coffee_bean_range_001.jpg",
+          "label": "Project highlight: Italian coffee bean range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_project_highlight_italian_coffee_bean_range_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "74_coffee_at_work_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/images/74_coffee_at_work_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "74_coffee_at_work_video_workplace_coffee_journey_001.mp4",
+          "thumbnail": "74_coffee_at_work_video_workplace_coffee_journey_001.jpg",
+          "purpose": "Workplace-coffee discovery from machine collection to commercial-machine detail",
+          "duration": 36.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/video/74_coffee_at_work_video_workplace_coffee_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/74-coffee-at-work/video/74_coffee_at_work_video_workplace_coffee_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 36.32 seconds, complete decode passed.",
+        "Rejected duplicate 74_coffee_at_work_interaction_detail_state_001.jpg; it matched 74_coffee_at_work_desktop_product_detail_001.jpg byte-for-byte.",
+        "Rejected duplicate 74_coffee_at_work_interaction_mobile_navigation_001.jpg; it matched 74_coffee_at_work_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -6218,9 +6300,9 @@
     {
       "number": 8,
       "label": "Sprint 8",
-      "images": 35,
-      "videos": 3,
-      "projects": 3
+      "images": 46,
+      "videos": 4,
+      "projects": 4
     }
   ]
 }
