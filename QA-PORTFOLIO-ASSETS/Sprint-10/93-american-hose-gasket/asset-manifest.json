@@ -1,0 +1,92 @@
+{
+  "id": "93",
+  "slug": "american-hose-gasket",
+  "folder": "93-american-hose-gasket",
+  "name": "American Hose & Gasket",
+  "url": "https://americanhosegasket.com",
+  "kind": "American industrial hose, fittings, and custom assembly solutions",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "93_american_hose_gasket_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_desktop_signature_section_001.jpg",
+      "label": "Desktop Industries & Applications We Serve section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_desktop_agriculture_solution_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_desktop_agriculture_solution_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg",
+      "label": "Project highlight: chemical hose applications",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_desktop_industrial_applications_001.jpg",
+      "label": "Industrial hose applications",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_desktop_industrial_applications_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_mobile_agriculture_solution_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_mobile_agriculture_solution_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "93_american_hose_gasket_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "93_american_hose_gasket_video_industrial_hose_journey_001.mp4",
+      "thumbnail": "93_american_hose_gasket_video_industrial_hose_journey_001.jpg",
+      "purpose": "Industrial-hose journey from product range to agriculture assembly solutions",
+      "duration": 28.88,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/video/93_american_hose_gasket_video_industrial_hose_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/video/93_american_hose_gasket_video_industrial_hose_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 28.88 seconds, complete decode passed.",
+    "Rejected duplicate 93_american_hose_gasket_desktop_secondary_experience_001.jpg; it matched 93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg in perceptual image QA.",
+    "Rejected duplicate 93_american_hose_gasket_desktop_concrete_applications_001.jpg; it matched 93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg in perceptual image QA."
+  ]
+}

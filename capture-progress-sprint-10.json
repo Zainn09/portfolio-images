@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "TMI Products capture requires attention",
+  "stage": "American Hose & Gasket asset set generated and published",
   "projects": [
     {
       "id": "91",
@@ -10,11 +10,11 @@
       "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
-      "id": "92",
-      "status": "blocked",
-      "images": 0,
-      "videos": 0,
-      "note": "Capture stopped: TMI Products produced only 4 unique authentic images; at least 10 are required."
+      "id": "93",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }
