@@ -2,7 +2,7 @@
 
 **Asset-generation date:** 2026-09-16<br>
 **Projects:** 10<br>
-**Static images:** 118<br>
+**Static images:** 119<br>
 **Videos:** 10
 
 This package is a visual asset archive for an existing QA portfolio. It is not a portfolio website. Every captured UI state originates from the live public website listed below. Neutral QA labels appear only in the responsive and user-flow comparison compositions.
@@ -20,7 +20,7 @@ This package is a visual asset archive for an existing QA portfolio. It is not a
 | 37 | Tinnie Tots | https://www.tinnietots.com | 12 | 1 |
 | 38 | La Petite Wardrobe | https://lapetitewardrobe.co.uk | 13 | 1 |
 | 39 | Koala Picks | https://www.koalapicks.com | 12 | 1 |
-| 40 | Glisser Beauty | https://www.glisserbeauty.com | 11 | 1 |
+| 40 | Glisser Beauty | https://www.glisserbeauty.com | 12 | 1 |
 
 ## Capture standards
 
