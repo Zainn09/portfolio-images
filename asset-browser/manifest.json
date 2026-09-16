@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 689,
-  "totalVideos": 58,
+  "totalImages": 701,
+  "totalVideos": 59,
   "projects": [
     {
       "id": "01",
@@ -4948,6 +4948,92 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 44.20 seconds, complete decode passed.",
         "Rejected duplicate 58_midland_textiles_interaction_mobile_header_001.jpg; it matched 58_midland_textiles_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "59",
+      "slug": "ba-squared-fitness",
+      "folder": "59-ba-squared-fitness",
+      "name": "BA\u00b2 Fitness",
+      "url": "https://basquaredfitness.com",
+      "kind": "Performance fitness apparel",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "59_ba_squared_fitness_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_signature_section_001.jpg",
+          "label": "Desktop THE BA\u00b2 TRILOGY COLLECTION section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_project_highlight_foundation_fitness_tee_001.jpg",
+          "label": "Project highlight: Foundation fitness tee",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_project_highlight_foundation_fitness_tee_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "59_ba_squared_fitness_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "59_ba_squared_fitness_video_fitness_apparel_journey_001.mp4",
+          "thumbnail": "59_ba_squared_fitness_video_fitness_apparel_journey_001.jpg",
+          "purpose": "Performance-apparel discovery from Trilogy collection to hoodie detail",
+          "duration": 31.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/video/59_ba_squared_fitness_video_fitness_apparel_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/video/59_ba_squared_fitness_video_fitness_apparel_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 31.20 seconds, complete decode passed.",
+        "Rejected duplicate 59_ba_squared_fitness_interaction_detail_state_001.jpg; it matched 59_ba_squared_fitness_desktop_product_detail_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -4989,9 +5075,9 @@
     {
       "number": 6,
       "label": "Sprint 6",
-      "images": 92,
-      "videos": 8,
-      "projects": 8
+      "images": 104,
+      "videos": 9,
+      "projects": 9
     }
   ]
 }

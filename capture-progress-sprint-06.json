@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Midland Textiles asset set generated and published",
+  "stage": "BA² Fitness asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -53,6 +53,13 @@
     },
     {
       "id": "58",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "59",
       "status": "captured",
       "images": 12,
       "videos": 1,
