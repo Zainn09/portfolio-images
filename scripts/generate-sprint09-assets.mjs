@@ -397,6 +397,10 @@ async function recordVideo(browser, project, detailRoute, base, notes) {
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '30', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out
   ], { maxBuffer: 10 * 1024 * 1024 });
   await execFileAsync('ffmpeg', ['-y', '-ss', '00:00:03', '-i', out, '-frames:v', '1', '-q:v', '3', thumb], { maxBuffer: 10 * 1024 * 1024 });
+  if ((await fs.stat(thumb)).size < 10_000) {
+    const richerPoster = await sharp(thumb).jpeg({ quality: 95, mozjpeg: false }).toBuffer();
+    await fs.writeFile(thumb, richerPoster);
+  }
 
   // A website checkpoint is not published until its MP4 can be probed and fully decoded.
   const probe = await execFileAsync('ffprobe', [
