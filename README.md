@@ -211,12 +211,12 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Website analysis and capture configuration<br>
-**Last updated:** 2026-09-16 19:23 PKT
+**Latest pipeline stage:** Biofield Expert capture requires attention<br>
+**Last updated:** 2026-09-16 19:27 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 71 | Biofield Expert | <https://biofieldexpert.com> | ⚪ Pending | — | — | Biofield education, home harmonization, and wellness products |
+| 71 | Biofield Expert | <https://biofieldexpert.com> | 🔴 Blocked | — | — | Capture stopped: Biofield Expert produced only 7 unique authentic images; at least 10 are required. |
 | 72 | SOL Eyewear | <https://mysolstyle.com> | ⚪ Pending | — | — | Texas-designed premium sunglasses |
 | 73 | Ameliora | <https://ameliora.com> | ⚪ Pending | — | — | Machine-washable wrinkle-resistant women’s workwear |
 | 74 | Coffee@Work | <https://coffeeatwork.uk.com> | ⚪ Pending | — | — | UK workplace coffee machines, beans, and supplies |
