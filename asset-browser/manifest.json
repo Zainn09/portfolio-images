@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 1012,
-  "totalVideos": 85,
+  "totalImages": 1024,
+  "totalVideos": 86,
   "projects": [
     {
       "id": "01",
@@ -7270,6 +7270,92 @@
         "Rejected duplicate 86_bidet_toilets_desktop_collection_listing_001.jpg; it matched 86_bidet_toilets_desktop_signature_section_001.jpg in perceptual image QA.",
         "Rejected duplicate 86_bidet_toilets_mobile_product_detail_001.jpg; it matched 86_bidet_toilets_mobile_home_hero_001.jpg in perceptual image QA."
       ]
+    },
+    {
+      "id": "87",
+      "slug": "faraway-finds",
+      "folder": "87-faraway-finds",
+      "name": "Faraway Finds",
+      "url": "https://farawayfinds.co.uk",
+      "kind": "Fair Trade recycled-metal African garden art",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "87_faraway_finds_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_project_highlight_recycled_metal_flamingo_sculpture_001.jpg",
+          "label": "Project highlight: recycled metal flamingo sculpture",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_project_highlight_recycled_metal_flamingo_sculpture_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "87_faraway_finds_video_garden_art_journey_001.mp4",
+          "thumbnail": "87_faraway_finds_video_garden_art_journey_001.jpg",
+          "purpose": "Fair Trade garden-art discovery from best sellers to recycled-metal sculpture detail",
+          "duration": 21,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/video/87_faraway_finds_video_garden_art_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/video/87_faraway_finds_video_garden_art_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 21.00 seconds, complete decode passed.",
+        "Rejected duplicate 87_faraway_finds_desktop_signature_section_001.jpg; it matched 87_faraway_finds_desktop_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -7332,9 +7418,9 @@
     {
       "number": 9,
       "label": "Sprint 9",
-      "images": 73,
-      "videos": 6,
-      "projects": 6
+      "images": 85,
+      "videos": 7,
+      "projects": 7
     }
   ]
 }

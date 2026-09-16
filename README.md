@@ -240,8 +240,8 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Bidet Toilets Store asset set generated and published<br>
-**Last updated:** 2026-09-16 22:05 PKT
+**Latest pipeline stage:** Faraway Finds asset set generated and published<br>
+**Last updated:** 2026-09-16 22:07 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -251,12 +251,12 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 | 84 | Cuddles Dog Bakery | <https://cuddlespetbrand.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 85 | Myzo Chocolate | <https://myzochocolate.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 86 | Bidet Toilets Store | <https://bidet-toilets.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 87 | Faraway Finds | <https://farawayfinds.co.uk> | ⚪ Pending | — | — | Fair Trade recycled-metal African garden art |
+| 87 | Faraway Finds | <https://farawayfinds.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 88 | MRCA | <https://mrca.net> | ⚪ Pending | — | — | American manufacturing revitalization and portfolio stewardship |
 | 89 | Wells Industries | <https://wellsind.com> | ⚪ Pending | — | — | Texas-made custom furniture for hospitality spaces |
 | 90 | Wisconic | <https://wisconic.com> | ⚪ Pending | — | — | American custom plastic injection molding and fulfillment |
 
-**Current checkpoint inventory:** 73 static images and 6 playable MP4 videos.<br>
+**Current checkpoint inventory:** 85 static images and 7 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_09_PROGRESS_END -->
