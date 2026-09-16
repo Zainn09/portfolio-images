@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 677,
-  "totalVideos": 57,
+  "totalImages": 689,
+  "totalVideos": 58,
   "projects": [
     {
       "id": "01",
@@ -4862,6 +4862,92 @@
         "Rejected duplicate 57_pet_prestige_uk_desktop_signature_section_001.jpg; it matched 57_pet_prestige_uk_desktop_home_hero_001.jpg in perceptual image QA.",
         "Rejected duplicate 57_pet_prestige_uk_interaction_mobile_header_001.jpg; it matched 57_pet_prestige_uk_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "58",
+      "slug": "midland-textiles",
+      "folder": "58-midland-textiles",
+      "name": "Midland Textiles",
+      "url": "https://midlandtextiles.co.uk",
+      "kind": "Dressmaking, craft, lace, and apparel fabrics",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "58_midland_textiles_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_signature_section_001.jpg",
+          "label": "Desktop Collection Trending Product section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_project_highlight_crochet_lace_fabric_detail_001.jpg",
+          "label": "Project highlight: crochet lace fabric detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_project_highlight_crochet_lace_fabric_detail_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "58_midland_textiles_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/images/58_midland_textiles_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "58_midland_textiles_video_fabric_discovery_journey_001.mp4",
+          "thumbnail": "58_midland_textiles_video_fabric_discovery_journey_001.jpg",
+          "purpose": "Dress-fabric discovery from textile catalogue to material detail",
+          "duration": 44.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/video/58_midland_textiles_video_fabric_discovery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/58-midland-textiles/video/58_midland_textiles_video_fabric_discovery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 44.20 seconds, complete decode passed.",
+        "Rejected duplicate 58_midland_textiles_interaction_mobile_header_001.jpg; it matched 58_midland_textiles_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -4903,9 +4989,9 @@
     {
       "number": 6,
       "label": "Sprint 6",
-      "images": 80,
-      "videos": 7,
-      "projects": 7
+      "images": 92,
+      "videos": 8,
+      "projects": 8
     }
   ]
 }

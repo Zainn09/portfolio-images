@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Pet Prestige UK asset set generated and published",
+  "stage": "Midland Textiles asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -48,6 +48,13 @@
       "id": "57",
       "status": "captured",
       "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "58",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
