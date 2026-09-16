@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Hugh McElvanna Menswear asset set generated and published",
+  "stage": "J. Fredric asset set generated and published",
   "projects": [
     {
       "id": "41",
@@ -34,6 +34,13 @@
       "id": "45",
       "status": "captured",
       "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "46",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

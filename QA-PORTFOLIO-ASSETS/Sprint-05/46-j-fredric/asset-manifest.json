@@ -1,0 +1,86 @@
+{
+  "id": "46",
+  "slug": "j-fredric",
+  "folder": "46-j-fredric",
+  "name": "J. Fredric",
+  "url": "https://jfredrics.com",
+  "kind": "Hand-tailored men’s clothing",
+  "generated": "2026-09-16",
+  "images": [
+    {
+      "file": "46_j_fredric_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_desktop_signature_section_001.jpg",
+      "label": "Desktop Shop by Category section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_desktop_product_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_product_detail_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_project_highlight_tailored_blazer_collection_001.jpg",
+      "label": "Project highlight: tailored blazer collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_project_highlight_tailored_blazer_collection_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_mobile_product_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_mobile_product_detail_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "46_j_fredric_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/images/46_j_fredric_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "46_j_fredric_video_tailored_clothing_journey_001.mp4",
+      "thumbnail": "46_j_fredric_video_tailored_clothing_journey_001.jpg",
+      "purpose": "Hand-tailored clothing discovery from category edit to product detail",
+      "duration": 18.84,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/video/46_j_fredric_video_tailored_clothing_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/46-j-fredric/video/46_j_fredric_video_tailored_clothing_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 18.84 seconds, complete decode passed.",
+    "Rejected duplicate 46_j_fredric_interaction_detail_state_001.jpg; it matched 46_j_fredric_desktop_product_detail_001.jpg in perceptual image QA."
+  ]
+}
