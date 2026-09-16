@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Cuddles Dog Bakery asset set generated and published",
+  "stage": "Myzo Chocolate asset set generated and published",
   "projects": [
     {
       "id": "81",
@@ -27,6 +27,13 @@
       "id": "84",
       "status": "captured",
       "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "85",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
