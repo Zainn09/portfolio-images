@@ -13,17 +13,17 @@
 
 ## Coverage
 
-- `90_wisconic_desktop_home_hero_001.jpg` — Desktop homepage hero
+- `90_wisconic_desktop_home_hero_001.jpg` — Desktop homepage hero source artwork — source: https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68a85e0dde1fd6b300d1d0e3_Group%20351.webp
 - `90_wisconic_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
-- `90_wisconic_desktop_private_label_service_001.jpg` — Desktop detail page
-- `90_wisconic_project_highlight_plastic_molding_industries_001.jpg` — Project highlight: plastic molding industries
+- `90_wisconic_desktop_private_label_service_001.jpg` — Desktop private-labeling source artwork — source: https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68d15399128c76437473de95_62333a4a3bbff4df0785583b4657d50b11a51302.png
+- `90_wisconic_project_highlight_plastic_molding_industries_001.jpg` — Plastic-injection-molding capability source artwork — source: https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68ac112c5309c4340d8f485a_Untitled-6_0001s_0002_Plastic-Img.png
 - `90_wisconic_desktop_secondary_experience_001.jpg` — Secondary project-specific experience
 - `90_wisconic_desktop_cad_design_001.jpg` — CAD design and mold engineering
 - `90_wisconic_mobile_home_hero_001.jpg` — Mobile homepage hero
 - `90_wisconic_mobile_private_label_service_001.jpg` — Mobile detail page
 - `90_wisconic_mobile_project_specific_section_001.jpg` — Mobile project-specific section
-- `90_wisconic_responsive_comparison_001.jpg` — Desktop / mobile responsive QA comparison
-- `90_wisconic_qa_user_flow_sequence_001.jpg` — Three-state QA user-flow reference
+- `90_wisconic_responsive_comparison_001.jpg` — Desktop / mobile responsive QA comparison rebuilt from repaired coverage
+- `90_wisconic_qa_user_flow_sequence_001.jpg` — Three-state plastic-manufacturing discovery reference rebuilt from repaired coverage
 
 ## Video
 
@@ -32,11 +32,6 @@
 
 ## Capture notes
 
-- Captures use the live website as the source of truth; no products, copy, testimonials, UI states, or defects were fabricated.
-- Desktop viewport: 1440 × 900; mobile viewport: 390 × 844; video: 1280 × 720.
-- Responsive and user-flow compositions contain only authentic live-site captures plus neutral QA reference labels.
-- No checkout submission, purchase, account creation, or personal data entry was performed.
-- Playable MP4 verified: H.264, 1280×720, 32.60 seconds, complete decode passed.
-- Rejected duplicate 90_wisconic_desktop_signature_section_001.jpg; it matched 90_wisconic_desktop_home_hero_001.jpg byte-for-byte.
-- Rejected duplicate 90_wisconic_interaction_detail_state_001.jpg; it matched 90_wisconic_desktop_private_label_service_001.jpg byte-for-byte.
-- Rejected duplicate 90_wisconic_interaction_mobile_header_001.jpg; it matched 90_wisconic_mobile_home_hero_001.jpg byte-for-byte.
+- Three incomplete motion-loading desktop frames from the initial capture were replaced with current media embedded by the live Wisconic site from its official Webflow CDN. Exact source URLs are recorded in the manifest.
+- Responsive and flow compositions were rebuilt from the repaired authentic source coverage; no products, UI, copy, or findings were fabricated.
+- Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed.

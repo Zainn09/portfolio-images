@@ -7549,7 +7549,8 @@
       "images": [
         {
           "file": "90_wisconic_desktop_home_hero_001.jpg",
-          "label": "Desktop homepage hero",
+          "label": "Desktop homepage hero source artwork",
+          "sourceUrl": "https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68a85e0dde1fd6b300d1d0e3_Group%20351.webp",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_home_hero_001.jpg"
         },
         {
@@ -7559,12 +7560,14 @@
         },
         {
           "file": "90_wisconic_desktop_private_label_service_001.jpg",
-          "label": "Desktop detail page",
+          "label": "Desktop private-labeling source artwork",
+          "sourceUrl": "https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68d15399128c76437473de95_62333a4a3bbff4df0785583b4657d50b11a51302.png",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_private_label_service_001.jpg"
         },
         {
           "file": "90_wisconic_project_highlight_plastic_molding_industries_001.jpg",
-          "label": "Project highlight: plastic molding industries",
+          "label": "Plastic-injection-molding capability source artwork",
+          "sourceUrl": "https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68ac112c5309c4340d8f485a_Untitled-6_0001s_0002_Plastic-Img.png",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_project_highlight_plastic_molding_industries_001.jpg"
         },
         {
@@ -7594,12 +7597,12 @@
         },
         {
           "file": "90_wisconic_responsive_comparison_001.jpg",
-          "label": "Desktop / mobile responsive QA comparison",
+          "label": "Desktop / mobile responsive QA comparison rebuilt from repaired coverage",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_responsive_comparison_001.jpg"
         },
         {
           "file": "90_wisconic_qa_user_flow_sequence_001.jpg",
-          "label": "Three-state QA user-flow reference",
+          "label": "Three-state plastic-manufacturing discovery reference rebuilt from repaired coverage",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_qa_user_flow_sequence_001.jpg"
         }
       ],
@@ -7608,17 +7611,16 @@
           "file": "90_wisconic_video_plastic_molding_journey_001.mp4",
           "thumbnail": "90_wisconic_video_plastic_molding_journey_001.jpg",
           "purpose": "Plastic-manufacturing journey from custom molding capabilities to private-label service",
-          "duration": 32.6,
+          "duration": 10.6,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/video/90_wisconic_video_plastic_molding_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/video/90_wisconic_video_plastic_molding_journey_001.jpg"
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 32.60 seconds, complete decode passed.",
-        "Rejected duplicate 90_wisconic_desktop_signature_section_001.jpg; it matched 90_wisconic_desktop_home_hero_001.jpg byte-for-byte.",
-        "Rejected duplicate 90_wisconic_interaction_detail_state_001.jpg; it matched 90_wisconic_desktop_private_label_service_001.jpg byte-for-byte.",
-        "Rejected duplicate 90_wisconic_interaction_mobile_header_001.jpg; it matched 90_wisconic_mobile_home_hero_001.jpg byte-for-byte."
+        "Three incomplete motion-loading desktop frames from the initial capture were replaced with current media embedded by the live Wisconic site from its official Webflow CDN. Exact source URLs are recorded in the manifest.",
+        "Responsive and flow compositions were rebuilt from the repaired authentic source coverage; no products, UI, copy, or findings were fabricated.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
       ]
     },
     {
