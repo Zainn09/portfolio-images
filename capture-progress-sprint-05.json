@@ -1,76 +1,76 @@
 {
   "generated": "2026-09-16",
-  "stage": "Peter James Jewelry asset set generated and published",
+  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
   "projects": [
     {
       "id": "41",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "42",
-      "status": "captured",
+      "status": "complete",
       "images": 13,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "43",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "44",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "45",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "46",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "47",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "48",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "49",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "50",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     }
   ]
 }
