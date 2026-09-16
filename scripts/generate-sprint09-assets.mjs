@@ -26,7 +26,7 @@ const projects = [
   { id: '87', slug: 'faraway-finds', folder: '87-faraway-finds', name: 'Faraway Finds', url: 'https://farawayfinds.co.uk', prefix: '87_faraway_finds', kind: 'Fair Trade recycled-metal African garden art', signatureText: 'Fair Trade', listingUrl: '/collections/best-sellers', listingText: 'Best Sellers', detailUrl: '/products/crispen-herons', detailText: 'Heron', highlightUrl: '/products/flamingo', highlightText: 'Flamingo', highlightLabel: 'recycled metal flamingo sculpture', interactionUrl: '/products/toadstools', interactionText: 'Toadstools', flowLabels: ['Fair Trade garden art', 'Best sellers', 'Heron sculpture'], videoSlug: 'garden_art_journey', videoPurpose: 'Fair Trade garden-art discovery from best sellers to recycled-metal sculpture detail' },
   { id: '88', slug: 'mrca', folder: '88-mrca', name: 'MRCA', url: 'https://mrca.net', prefix: '88_mrca', kind: 'American manufacturing revitalization and portfolio stewardship', detailSlug: 'appointment_page', signatureText: 'Our Story', listingUrl: '/', listingText: 'Our Vision', detailUrl: '/appointment/', detailText: 'Appointment', highlightUrl: '/', highlightText: 'PORTFOLIO OF COMPANIES', highlightLabel: 'American manufacturing portfolio', interactionUrl: '/', interactionText: 'THE BIG DIFFERENTIATOR', extraCaptures: [{ url: '/', text: 'PORTFOLIO OF BRANDS', slug: 'manufacturing_brands', label: 'American-made consumer brand portfolio' }, { url: '/', text: 'MRCA IN THE NEWS', slug: 'manufacturing_news', label: 'Manufacturing company news' }], flowLabels: ['Manufacturing mission', 'Company portfolio', 'Appointment'], videoSlug: 'manufacturing_mission_journey', videoPurpose: 'American-manufacturing story from revitalization mission to portfolio companies' },
   { id: '89', slug: 'wells-industries', folder: '89-wells-industries', name: 'Wells Industries', url: 'https://wellsind.com', prefix: '89_wells_industries', kind: 'Texas-made custom furniture for hospitality spaces', signatureText: 'Our Capabilities', listingUrl: '/collections/bench', listingText: 'Collection: Bench', detailUrl: '/products/square-vanity-bench', detailText: 'Square Vanity Bench', highlightUrl: '/', highlightText: 'OUR PHILOSOPHY', highlightLabel: 'custom hospitality furniture philosophy', interactionUrl: '/collections', interactionText: 'Case Study', flowLabels: ['Hospitality furniture', 'Bench collection', 'Vanity bench'], videoSlug: 'hospitality_furniture_journey', videoPurpose: 'Custom hospitality-furniture discovery from bench collection to product specification' },
-  { id: '90', slug: 'wisconic', folder: '90-wisconic', name: 'Wisconic', url: 'https://wisconic.com', prefix: '90_wisconic', kind: 'American custom plastic injection molding and fulfillment', detailSlug: 'private_label_service', signatureText: 'Plastic Injection Molding in America’s Heartland', listingUrl: '/custom-molding', listingText: 'Custom Sales Process', detailUrl: '/private-labeling', detailText: 'Private Label', highlightUrl: '/', highlightText: 'Industries We Serve', highlightLabel: 'plastic molding industries', interactionUrl: '/custom-molding', interactionText: 'Distribution', extraCaptures: [{ url: '/custom-molding', text: 'CAD Design', slug: 'cad_design', label: 'CAD design and mold engineering' }], flowLabels: ['American molding', 'Custom capabilities', 'Private labeling'], videoSlug: 'plastic_molding_journey', videoPurpose: 'Plastic-manufacturing journey from custom molding capabilities to private-label service' }
+  { id: '90', forceSourceRepair: true, slug: 'wisconic', folder: '90-wisconic', name: 'Wisconic', url: 'https://wisconic.com', prefix: '90_wisconic', kind: 'American custom plastic injection molding and fulfillment', detailSlug: 'private_label_service', signatureText: 'Plastic Injection Molding in America’s Heartland', listingUrl: '/custom-molding', listingText: 'Custom Sales Process', detailUrl: '/private-labeling', detailText: 'Private Label', highlightUrl: '/', highlightText: 'Industries We Serve', highlightLabel: 'plastic molding industries', interactionUrl: '/custom-molding', interactionText: 'Distribution', extraCaptures: [{ url: '/custom-molding', text: 'CAD Design', slug: 'cad_design', label: 'CAD design and mold engineering' }], flowLabels: ['American molding', 'Custom capabilities', 'Private labeling'], videoSlug: 'plastic_molding_journey', videoPurpose: 'Plastic-manufacturing journey from custom molding capabilities to private-label service' }
 ];
 
 function urlFor(project, route = '/') {
@@ -539,6 +539,78 @@ async function captureBiofieldProject(browser, project) {
   return result;
 }
 
+async function repairWisconicProject(project) {
+  console.log(`\n=== ${project.id}: ${project.name} (source-verified media repair) ===`);
+  const base = await mkdirs(project);
+  const imagesDir = path.join(base, 'images');
+  const prior = JSON.parse(await fs.readFile(path.join(base, 'asset-manifest.json'), 'utf8'));
+  const notes = (prior.notes || []).filter(note => !/^Rejected duplicate 90_/.test(note) && !/^Playable MP4 verified:/.test(note));
+  notes.push('Three incomplete motion-loading desktop frames from the initial capture were replaced with current media embedded by the live Wisconic site from its official Webflow CDN. Exact source URLs are recorded in the manifest.');
+  notes.push('Responsive and flow compositions were rebuilt from the repaired authentic source coverage; no products, UI, copy, or findings were fabricated.');
+
+  const replacements = [
+    ['desktop_home_hero', 'Desktop homepage hero source artwork', 'https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68a85e0dde1fd6b300d1d0e3_Group%20351.webp'],
+    ['desktop_private_label_service', 'Desktop private-labeling source artwork', 'https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68d15399128c76437473de95_62333a4a3bbff4df0785583b4657d50b11a51302.png'],
+    ['project_highlight_plastic_molding_industries', 'Plastic-injection-molding capability source artwork', 'https://cdn.prod.website-files.com/680fa83f12c68c05b2eb10af/68ac112c5309c4340d8f485a_Untitled-6_0001s_0002_Plastic-Img.png']
+  ];
+  const replacementMap = new Map();
+  for (const [slug, label, sourceUrl] of replacements) {
+    const response = await fetch(sourceUrl, { headers: { 'User-Agent': 'Mozilla/5.0 QA-Portfolio-Source-Verification/1.0' } });
+    if (!response.ok) throw new Error(`Official Wisconic source asset failed with HTTP ${response.status}: ${sourceUrl}`);
+    const file = path.join(imagesDir, `${project.prefix}_${slug}_001.jpg`);
+    await sharp(Buffer.from(await response.arrayBuffer())).rotate().flatten({ background: '#f4f5f8' })
+      .resize(DESKTOP.width, DESKTOP.height, { fit: 'contain', background: '#f4f5f8', withoutEnlargement: false })
+      .jpeg({ quality: 90, mozjpeg: true }).toFile(file);
+    replacementMap.set(path.basename(file), { label, sourceUrl });
+    console.log(`  repaired image: ${path.basename(file)}`);
+  }
+
+  const byName = new Map(prior.images.map(item => [item.file, { ...item }]));
+  for (const [file, metadata] of replacementMap) byName.set(file, { file, ...metadata });
+  const home = path.join(imagesDir, `${project.prefix}_desktop_home_hero_001.jpg`);
+  const mobileHome = path.join(imagesDir, `${project.prefix}_mobile_home_hero_001.jpg`);
+  const listing = path.join(imagesDir, `${project.prefix}_desktop_collection_listing_001.jpg`);
+  const detail = path.join(imagesDir, `${project.prefix}_desktop_private_label_service_001.jpg`);
+  const responsive = path.join(imagesDir, `${project.prefix}_responsive_comparison_001.jpg`);
+  await createResponsiveComparison(project, home, mobileHome, responsive);
+  byName.set(path.basename(responsive), { file: path.basename(responsive), label: 'Desktop / mobile responsive QA comparison rebuilt from repaired coverage' });
+  const flow = path.join(imagesDir, `${project.prefix}_qa_user_flow_sequence_001.jpg`);
+  await createFlowSequence(project, [home, listing, detail], flow);
+  byName.set(path.basename(flow), { file: path.basename(flow), label: 'Three-state plastic-manufacturing discovery reference rebuilt from repaired coverage' });
+
+  const captures = [...byName.values()];
+  const hashes = new Map();
+  const fingerprints = [];
+  for (const item of captures) {
+    const file = path.join(imagesDir, item.file);
+    const data = await fs.readFile(file);
+    const hash = crypto.createHash('sha256').update(data).digest('hex');
+    const fingerprint = await visualFingerprint(file);
+    const perceptual = fingerprints.find(candidate => visualDistance(fingerprint, candidate.fingerprint) < PERCEPTUAL_DUPLICATE_RMSE);
+    if (hashes.has(hash) || perceptual) throw new Error(`Wisconic repair produced duplicate coverage: ${item.file}`);
+    hashes.set(hash, item.file);
+    fingerprints.push({ file: item.file, fingerprint });
+  }
+  if (captures.length < 10) throw new Error(`Wisconic repair retained only ${captures.length} distinct images`);
+
+  const video = await createSlideshowVideo(project, base, [home, listing, detail], notes);
+  const readme = `# ${project.name} — QA Portfolio Visual Assets\n\n` +
+    `**Project:** ${project.name}  \n**Website URL:** ${project.url}  \n**Project type:** ${project.kind}  \n**Asset-generation date:** ${CAPTURE_DATE}\n\n` +
+    `## Inventory\n\n- Static images: **${captures.length}**\n- Videos: **1**\n- Video thumbnails: **1** (stored with the video)\n\n` +
+    `## Coverage\n\n${captures.map(item => `- \`${item.file}\` — ${item.label}${item.sourceUrl ? ` — source: ${item.sourceUrl}` : ''}`).join('\n')}\n\n` +
+    `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n` +
+    `## Capture notes\n\n- ${notes.join('\n- ')}\n`;
+  await fs.writeFile(path.join(base, 'README.md'), readme);
+  const result = {
+    ...prior, generated: CAPTURE_DATE,
+    images: captures.map(item => ({ ...item, path: `QA-PORTFOLIO-ASSETS/Sprint-09/${project.folder}/images/${item.file}` })),
+    videos: [{ ...video, path: `QA-PORTFOLIO-ASSETS/Sprint-09/${project.folder}/video/${video.file}`, thumbnailPath: `QA-PORTFOLIO-ASSETS/Sprint-09/${project.folder}/video/${video.thumbnail}` }],
+    notes
+  };
+  await fs.writeFile(path.join(base, 'asset-manifest.json'), JSON.stringify(result, null, 2));
+  return result;
+}
+
 async function captureProject(browser, project) {
   console.log(`\n=== ${project.id}: ${project.name} ===`);
   const base = await mkdirs(project);
@@ -794,7 +866,7 @@ async function main() {
   try {
     const captureOrder = [...projects.filter(project => !project.deferCapture), ...projects.filter(project => project.deferCapture)];
     for (const project of captureOrder) {
-      const existing = checkpointMode ? await loadProjectCheckpoint(project) : null;
+      const existing = checkpointMode && !project.forceSourceRepair ? await loadProjectCheckpoint(project) : null;
       if (existing) {
         results.push(existing);
         console.log(`\n=== ${project.id}: ${project.name} (restored from checkpoint) ===`);
@@ -803,7 +875,7 @@ async function main() {
       await updateRootProgress(results, `${project.name} live-site capture in progress`, project);
       try {
         browser ||= await chromium.launch({ headless: true, args: ['--disable-dev-shm-usage', '--no-sandbox'] });
-        const result = await captureProject(browser, project);
+        const result = project.forceSourceRepair ? await repairWisconicProject(project) : await captureProject(browser, project);
         results.push(result);
         await updateRootProgress(results, `${project.name} asset set generated and published`);
         await publishCheckpoint(project);
