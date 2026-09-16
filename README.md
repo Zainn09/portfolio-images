@@ -151,25 +151,25 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 
 <!-- SPRINT_06_PROGRESS_START -->
 
-**Sprint status:** In progress<br>
-**Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Belo Jewelry asset set generated and published<br>
+**Sprint status:** Complete<br>
+**Completed projects:** 10 / 10<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
 **Last updated:** 2026-09-16 16:51 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 51 | JudyP Apparel | <https://judypapparel.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 52 | Lady Flora | <https://www.ladyflora.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 53 | Nano Lamination | <https://www.nanolamination.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 55 | Luxe Atelier | <https://luxeatelier.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 56 | Eastern Inspiration | <https://easterninspiration.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 57 | Pet Prestige UK | <https://petprestigeuk.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 58 | Midland Textiles | <https://midlandtextiles.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 59 | BA² Fitness | <https://basquaredfitness.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 60 | Belo Jewelry | <https://belojewelry.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 51 | JudyP Apparel | <https://judypapparel.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 52 | Lady Flora | <https://www.ladyflora.co.uk> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 53 | Nano Lamination | <https://www.nanolamination.com> | 🟢 Complete | 10 | 1 | Website and playable video QA passed |
+| 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 55 | Luxe Atelier | <https://luxeatelier.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 56 | Eastern Inspiration | <https://easterninspiration.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 57 | Pet Prestige UK | <https://petprestigeuk.com> | 🟢 Complete | 11 | 1 | Website and playable video QA passed |
+| 58 | Midland Textiles | <https://midlandtextiles.co.uk> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 59 | BA² Fitness | <https://basquaredfitness.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
+| 60 | Belo Jewelry | <https://belojewelry.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 
-**Current checkpoint inventory:** 116 static images and 10 playable MP4 videos.<br>
+**Current verified inventory:** 116 static images and 10 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_06_PROGRESS_END -->
