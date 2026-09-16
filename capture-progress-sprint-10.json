@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Morris Manufacturing asset set generated and published",
+  "stage": "TMI Products capture requires attention",
   "projects": [
     {
       "id": "91",
@@ -8,6 +8,13 @@
       "images": 10,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "92",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped: TMI Products produced only 4 unique authentic images; at least 10 are required."
     }
   ]
 }
