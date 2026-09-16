@@ -1,0 +1,880 @@
+{
+  "title": "QA Portfolio Visual Assets — Sprint 9",
+  "generated": "2026-09-16",
+  "totalImages": 121,
+  "totalVideos": 10,
+  "projects": [
+    {
+      "id": "81",
+      "slug": "limitless-brain-lab",
+      "folder": "81-limitless-brain-lab",
+      "name": "Limitless Brain Lab",
+      "url": "https://limitlessbrainlab.com",
+      "kind": "Personalized brain mapping, assessment, and brain wellness services",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "81_limitless_brain_lab_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_desktop_signature_section_001.jpg",
+          "label": "Desktop Your Brain. Your Choice. section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_desktop_professional_program_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_professional_program_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_project_highlight_brain_concierge_care_team_001.jpg",
+          "label": "Project highlight: brain concierge care team",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_project_highlight_brain_concierge_care_team_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_desktop_brain_report_detail_001.jpg",
+          "label": "Detailed brain wellness report",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_brain_report_detail_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_desktop_brain_fitness_assessment_001.jpg",
+          "label": "Brain fitness assessment options",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_desktop_brain_fitness_assessment_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_mobile_professional_program_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_mobile_professional_program_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "81_limitless_brain_lab_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/images/81_limitless_brain_lab_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "81_limitless_brain_lab_video_brain_wellness_journey_001.mp4",
+          "thumbnail": "81_limitless_brain_lab_video_brain_wellness_journey_001.jpg",
+          "purpose": "Brain-wellness discovery from personalized care overview to professional program",
+          "duration": 17.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/video/81_limitless_brain_lab_video_brain_wellness_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/81-limitless-brain-lab/video/81_limitless_brain_lab_video_brain_wellness_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 17.32 seconds, complete decode passed.",
+        "Rejected duplicate 81_limitless_brain_lab_interaction_mobile_header_001.jpg; it matched 81_limitless_brain_lab_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "82",
+      "slug": "enerex",
+      "folder": "82-enerex",
+      "name": "Enerex",
+      "url": "https://enerex.com",
+      "kind": "Connected software platform for retail energy brokers and suppliers",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "82_enerex_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "82_enerex_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "82_enerex_desktop_supplier_platform_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_supplier_platform_001.jpg"
+        },
+        {
+          "file": "82_enerex_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "82_enerex_project_highlight_energy_market_data_platform_001.jpg",
+          "label": "Project highlight: energy market data platform",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_project_highlight_energy_market_data_platform_001.jpg"
+        },
+        {
+          "file": "82_enerex_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "82_enerex_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "82_enerex_mobile_supplier_platform_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_mobile_supplier_platform_001.jpg"
+        },
+        {
+          "file": "82_enerex_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "82_enerex_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "82_enerex_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "82_enerex_video_energy_platform_journey_001.mp4",
+          "thumbnail": "82_enerex_video_energy_platform_journey_001.jpg",
+          "purpose": "Retail-energy platform journey across connected broker and supplier operations",
+          "duration": 18.04,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/video/82_enerex_video_energy_platform_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/video/82_enerex_video_energy_platform_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 18.04 seconds, complete decode passed.",
+        "Rejected duplicate 82_enerex_desktop_signature_section_001.jpg; it matched 82_enerex_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 82_enerex_interaction_mobile_header_001.jpg; it matched 82_enerex_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "83",
+      "slug": "balletpro",
+      "folder": "83-balletpro",
+      "name": "BalletPro",
+      "url": "https://www.balletpro.co.uk",
+      "kind": "Ballet pointe, dancewear, and training accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "83_balletpro_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "83_balletpro_desktop_signature_section_001.jpg",
+          "label": "Desktop Introducing BalletPro section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "83_balletpro_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "83_balletpro_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "83_balletpro_project_highlight_pointe_dance_accessories_001.jpg",
+          "label": "Project highlight: pointe dance accessories",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_project_highlight_pointe_dance_accessories_001.jpg"
+        },
+        {
+          "file": "83_balletpro_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "83_balletpro_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "83_balletpro_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "83_balletpro_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "83_balletpro_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "83_balletpro_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "83_balletpro_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/images/83_balletpro_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "83_balletpro_video_ballet_accessories_journey_001.mp4",
+          "thumbnail": "83_balletpro_video_ballet_accessories_journey_001.jpg",
+          "purpose": "Ballet-accessory discovery from new products to dance essential detail",
+          "duration": 18.8,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/video/83_balletpro_video_ballet_accessories_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/83-balletpro/video/83_balletpro_video_ballet_accessories_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 18.80 seconds, complete decode passed.",
+        "Rejected duplicate 83_balletpro_interaction_detail_state_001.jpg; it matched 83_balletpro_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "84",
+      "slug": "cuddles-dog-bakery",
+      "folder": "84-cuddles-dog-bakery",
+      "name": "Cuddles Dog Bakery",
+      "url": "https://cuddlespetbrand.com",
+      "kind": "Handmade dog treats, birthday cakes, and pet celebration goods",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "84_cuddles_dog_bakery_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_project_highlight_local_dog_birthday_cakes_001.jpg",
+          "label": "Project highlight: local dog birthday cakes",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_project_highlight_local_dog_birthday_cakes_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "84_cuddles_dog_bakery_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/images/84_cuddles_dog_bakery_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "84_cuddles_dog_bakery_video_dog_bakery_journey_001.mp4",
+          "thumbnail": "84_cuddles_dog_bakery_video_dog_bakery_journey_001.jpg",
+          "purpose": "Dog-bakery discovery from handmade treats to birthday-cookie detail",
+          "duration": 28.96,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/video/84_cuddles_dog_bakery_video_dog_bakery_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/84-cuddles-dog-bakery/video/84_cuddles_dog_bakery_video_dog_bakery_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 28.96 seconds, complete decode passed.",
+        "Rejected duplicate 84_cuddles_dog_bakery_desktop_signature_section_001.jpg; it matched 84_cuddles_dog_bakery_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "85",
+      "slug": "myzo-chocolate",
+      "folder": "85-myzo-chocolate",
+      "name": "Myzo Chocolate",
+      "url": "https://myzochocolate.com",
+      "kind": "Single-origin Costa Rican bean-to-bar chocolate",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "85_myzo_chocolate_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_desktop_signature_section_001.jpg",
+          "label": "Desktop Pure Jungle Craft section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_project_highlight_hazelnut_single_origin_chocolate_001.jpg",
+          "label": "Project highlight: hazelnut single-origin chocolate",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_project_highlight_hazelnut_single_origin_chocolate_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "85_myzo_chocolate_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/images/85_myzo_chocolate_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "85_myzo_chocolate_video_bean_to_bar_journey_001.mp4",
+          "thumbnail": "85_myzo_chocolate_video_bean_to_bar_journey_001.jpg",
+          "purpose": "Bean-to-bar chocolate discovery from single-origin range to milk-chocolate detail",
+          "duration": 30.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/video/85_myzo_chocolate_video_bean_to_bar_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/85-myzo-chocolate/video/85_myzo_chocolate_video_bean_to_bar_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 30.32 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "86",
+      "slug": "bidet-toilets",
+      "folder": "86-bidet-toilets",
+      "name": "Bidet Toilets Store",
+      "url": "https://bidet-toilets.co.uk",
+      "kind": "UK smart bidet toilets, seats, and bathroom fittings",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "86_bidet_toilets_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_desktop_signature_section_001.jpg",
+          "label": "Desktop Find Your Perfect Fit section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_project_highlight_close_coupled_bidet_toilets_001.jpg",
+          "label": "Project highlight: close-coupled bidet toilets",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_project_highlight_close_coupled_bidet_toilets_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "86_bidet_toilets_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/images/86_bidet_toilets_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "86_bidet_toilets_video_smart_bidet_journey_001.mp4",
+          "thumbnail": "86_bidet_toilets_video_smart_bidet_journey_001.jpg",
+          "purpose": "Smart-bidet discovery from wall-hung collection to Geberit product detail",
+          "duration": 32.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/video/86_bidet_toilets_video_smart_bidet_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/86-bidet-toilets/video/86_bidet_toilets_video_smart_bidet_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 32.20 seconds, complete decode passed.",
+        "Rejected duplicate 86_bidet_toilets_desktop_collection_listing_001.jpg; it matched 86_bidet_toilets_desktop_signature_section_001.jpg in perceptual image QA.",
+        "Rejected duplicate 86_bidet_toilets_mobile_product_detail_001.jpg; it matched 86_bidet_toilets_mobile_home_hero_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "87",
+      "slug": "faraway-finds",
+      "folder": "87-faraway-finds",
+      "name": "Faraway Finds",
+      "url": "https://farawayfinds.co.uk",
+      "kind": "Fair Trade recycled-metal African garden art",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "87_faraway_finds_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_project_highlight_recycled_metal_flamingo_sculpture_001.jpg",
+          "label": "Project highlight: recycled metal flamingo sculpture",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_project_highlight_recycled_metal_flamingo_sculpture_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "87_faraway_finds_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/images/87_faraway_finds_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "87_faraway_finds_video_garden_art_journey_001.mp4",
+          "thumbnail": "87_faraway_finds_video_garden_art_journey_001.jpg",
+          "purpose": "Fair Trade garden-art discovery from best sellers to recycled-metal sculpture detail",
+          "duration": 21,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/video/87_faraway_finds_video_garden_art_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/87-faraway-finds/video/87_faraway_finds_video_garden_art_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 21.00 seconds, complete decode passed.",
+        "Rejected duplicate 87_faraway_finds_desktop_signature_section_001.jpg; it matched 87_faraway_finds_desktop_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "88",
+      "slug": "mrca",
+      "folder": "88-mrca",
+      "name": "MRCA",
+      "url": "https://mrca.net",
+      "kind": "American manufacturing revitalization and portfolio stewardship",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "88_mrca_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Story section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "88_mrca_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "88_mrca_project_highlight_american_manufacturing_portfolio_001.jpg",
+          "label": "Project highlight: American manufacturing portfolio",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_project_highlight_american_manufacturing_portfolio_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_manufacturing_brands_001.jpg",
+          "label": "American-made consumer brand portfolio",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_manufacturing_brands_001.jpg"
+        },
+        {
+          "file": "88_mrca_desktop_manufacturing_news_001.jpg",
+          "label": "Manufacturing company news",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_desktop_manufacturing_news_001.jpg"
+        },
+        {
+          "file": "88_mrca_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "88_mrca_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "88_mrca_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "88_mrca_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "88_mrca_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/images/88_mrca_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "88_mrca_video_manufacturing_mission_journey_001.mp4",
+          "thumbnail": "88_mrca_video_manufacturing_mission_journey_001.jpg",
+          "purpose": "American-manufacturing story from revitalization mission to portfolio companies",
+          "duration": 36.2,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/video/88_mrca_video_manufacturing_mission_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/88-mrca/video/88_mrca_video_manufacturing_mission_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
+        "Mobile detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
+        "Video detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 36.20 seconds, complete decode passed.",
+        "Rejected duplicate 88_mrca_desktop_appointment_page_001.jpg; it matched 88_mrca_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 88_mrca_desktop_secondary_experience_001.jpg; it matched 88_mrca_interaction_detail_state_001.jpg byte-for-byte.",
+        "Rejected duplicate 88_mrca_mobile_appointment_page_001.jpg; it matched 88_mrca_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "89",
+      "slug": "wells-industries",
+      "folder": "89-wells-industries",
+      "name": "Wells Industries",
+      "url": "https://wellsind.com",
+      "kind": "Texas-made custom furniture for hospitality spaces",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "89_wells_industries_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Capabilities section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_project_highlight_custom_hospitality_furniture_philosophy_001.jpg",
+          "label": "Project highlight: custom hospitality furniture philosophy",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_project_highlight_custom_hospitality_furniture_philosophy_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "89_wells_industries_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/images/89_wells_industries_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "89_wells_industries_video_hospitality_furniture_journey_001.mp4",
+          "thumbnail": "89_wells_industries_video_hospitality_furniture_journey_001.jpg",
+          "purpose": "Custom hospitality-furniture discovery from bench collection to product specification",
+          "duration": 33.96,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/video/89_wells_industries_video_hospitality_furniture_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/89-wells-industries/video/89_wells_industries_video_hospitality_furniture_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 33.96 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "90",
+      "slug": "wisconic",
+      "folder": "90-wisconic",
+      "name": "Wisconic",
+      "url": "https://wisconic.com",
+      "kind": "American custom plastic injection molding and fulfillment",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "90_wisconic_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_private_label_service_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_private_label_service_001.jpg"
+        },
+        {
+          "file": "90_wisconic_project_highlight_plastic_molding_industries_001.jpg",
+          "label": "Project highlight: plastic molding industries",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_project_highlight_plastic_molding_industries_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "90_wisconic_desktop_cad_design_001.jpg",
+          "label": "CAD design and mold engineering",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_desktop_cad_design_001.jpg"
+        },
+        {
+          "file": "90_wisconic_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "90_wisconic_mobile_private_label_service_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_mobile_private_label_service_001.jpg"
+        },
+        {
+          "file": "90_wisconic_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "90_wisconic_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "90_wisconic_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/images/90_wisconic_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "90_wisconic_video_plastic_molding_journey_001.mp4",
+          "thumbnail": "90_wisconic_video_plastic_molding_journey_001.jpg",
+          "purpose": "Plastic-manufacturing journey from custom molding capabilities to private-label service",
+          "duration": 32.6,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/video/90_wisconic_video_plastic_molding_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/90-wisconic/video/90_wisconic_video_plastic_molding_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 32.60 seconds, complete decode passed.",
+        "Rejected duplicate 90_wisconic_desktop_signature_section_001.jpg; it matched 90_wisconic_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 90_wisconic_interaction_detail_state_001.jpg; it matched 90_wisconic_desktop_private_label_service_001.jpg byte-for-byte.",
+        "Rejected duplicate 90_wisconic_interaction_mobile_header_001.jpg; it matched 90_wisconic_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    }
+  ]
+}

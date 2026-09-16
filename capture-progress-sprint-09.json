@@ -1,76 +1,76 @@
 {
   "generated": "2026-09-16",
-  "stage": "Wisconic asset set generated and published",
+  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
   "projects": [
     {
       "id": "81",
-      "status": "captured",
+      "status": "complete",
       "images": 14,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "82",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "83",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "84",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "85",
-      "status": "captured",
+      "status": "complete",
       "images": 13,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "86",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "87",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "88",
-      "status": "captured",
+      "status": "complete",
       "images": 12,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "89",
-      "status": "captured",
+      "status": "complete",
       "images": 13,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     },
     {
       "id": "90",
-      "status": "captured",
+      "status": "complete",
       "images": 11,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Website and playable video QA passed"
     }
   ]
 }
