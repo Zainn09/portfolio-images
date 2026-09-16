@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: '62', slug: 'rahiza', folder: '62-rahiza', name: 'Rahiza', url: 'https://www.rahiza.com',
-    prefix: '62_rahiza', kind: 'Designer phone cases and technology accessories',
+    prefix: '62_rahiza', kind: 'Designer phone cases and technology accessories', deferCapture: true,
     signatureText: 'Designs', listingUrl: '/collections/all', listingText: 'Products',
     detailUrl: '/products/painters-case', detailText: 'full protection',
     highlightUrl: '/products/smiles-per-hour', highlightText: 'Smiles per Hour', highlightLabel: 'graphic phone case design',
@@ -721,7 +721,7 @@ async function loadProjectCheckpoint(project) {
   }
 }
 
-async function updateRootProgress(results, stage, activeProject = null, blocked = false) {
+async function updateRootProgress(results, stage, activeProject = null, blocked = false, blockedNote = '') {
   const completed = results.map(result => ({
     id: result.id,
     status: 'captured',
@@ -735,7 +735,7 @@ async function updateRootProgress(results, stage, activeProject = null, blocked 
       status: blocked ? 'blocked' : 'capturing',
       images: 0,
       videos: 0,
-      note: blocked ? 'Capture stopped; review workflow diagnostics' : 'Live-site capture in progress'
+      note: blocked ? `Capture stopped: ${blockedNote || 'review workflow diagnostics'}` : 'Live-site capture in progress'
     });
   }
   const progress = { generated: CAPTURE_DATE, stage, projects: completed };
@@ -785,7 +785,8 @@ async function main() {
   let browser = null;
   const results = [];
   try {
-    for (const project of projects) {
+    const captureOrder = [...projects.filter(project => !project.deferCapture), ...projects.filter(project => project.deferCapture)];
+    for (const project of captureOrder) {
       const existing = checkpointMode ? await loadProjectCheckpoint(project) : null;
       if (existing) {
         results.push(existing);
@@ -800,7 +801,7 @@ async function main() {
         await updateRootProgress(results, `${project.name} asset set generated and published`);
         await publishCheckpoint(project);
       } catch (error) {
-        await updateRootProgress(results, `${project.name} capture requires attention`, project, true);
+        await updateRootProgress(results, `${project.name} capture requires attention`, project, true, String(error?.message || error).slice(0, 240));
         await publishBlockedProgress(project);
         throw error;
       }
