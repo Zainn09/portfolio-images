@@ -153,13 +153,13 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** JudyP Apparel asset set generated and published<br>
-**Last updated:** 2026-09-16 07:57 PKT
+**Latest pipeline stage:** Lady Flora asset set generated and published<br>
+**Last updated:** 2026-09-16 07:59 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 51 | JudyP Apparel | <https://judypapparel.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
-| 52 | Lady Flora | <https://www.ladyflora.co.uk> | ⚪ Pending | — | — | Florist, bouquets, wedding flowers, and fragrances |
+| 52 | Lady Flora | <https://www.ladyflora.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 53 | Nano Lamination | <https://www.nanolamination.com> | ⚪ Pending | — | — | Professional hair smoothing and lamination treatments |
 | 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | ⚪ Pending | — | — | Pet food, toys, and supplies |
 | 55 | Luxe Atelier | <https://luxeatelier.co.uk> | ⚪ Pending | — | — | Luxury women’s occasionwear and evening dresses |
@@ -169,7 +169,7 @@ Sprint 6 completes this phase of the authentic live-site visual asset library wi
 | 59 | BA² Fitness | <https://basquaredfitness.com> | ⚪ Pending | — | — | Performance fitness apparel |
 | 60 | Belo Jewelry | <https://belojewelry.com> | ⚪ Pending | — | — | Handcrafted crystal and symbolic jewelry |
 
-**Current checkpoint inventory:** 11 static images and 1 playable MP4 videos.<br>
+**Current checkpoint inventory:** 22 static images and 2 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_06_PROGRESS_END -->

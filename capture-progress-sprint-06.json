@@ -1,9 +1,16 @@
 {
   "generated": "2026-09-16",
-  "stage": "JudyP Apparel asset set generated and published",
+  "stage": "Lady Flora asset set generated and published",
   "projects": [
     {
       "id": "51",
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "52",
       "status": "captured",
       "images": 11,
       "videos": 1,

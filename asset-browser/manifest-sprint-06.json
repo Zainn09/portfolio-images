@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 6",
   "generated": "2026-09-16",
-  "totalImages": 11,
-  "totalVideos": 1,
+  "totalImages": 22,
+  "totalVideos": 2,
   "projects": [
     {
       "id": "51",
@@ -84,6 +84,88 @@
         "Playable MP4 verified: H.264, 1280×720, 33.16 seconds, complete decode passed.",
         "Rejected duplicate 51_judyp_apparel_desktop_signature_section_001.jpg; it matched 51_judyp_apparel_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 51_judyp_apparel_interaction_detail_state_001.jpg; it matched 51_judyp_apparel_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "52",
+      "slug": "lady-flora",
+      "folder": "52-lady-flora",
+      "name": "Lady Flora",
+      "url": "https://www.ladyflora.co.uk",
+      "kind": "Florist, bouquets, wedding flowers, and fragrances",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "52_lady_flora_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_project_highlight_wedding_flower_service_001.jpg",
+          "label": "Project highlight: wedding flower service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_project_highlight_wedding_flower_service_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "52_lady_flora_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/images/52_lady_flora_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "52_lady_flora_video_floral_gifting_journey_001.mp4",
+          "thumbnail": "52_lady_flora_video_floral_gifting_journey_001.jpg",
+          "purpose": "Floral-gifting discovery from bouquet collection to florist-choice detail",
+          "duration": 25.76,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/video/52_lady_flora_video_floral_gifting_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/52-lady-flora/video/52_lady_flora_video_floral_gifting_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 25.76 seconds, complete decode passed.",
+        "Rejected duplicate 52_lady_flora_desktop_signature_section_001.jpg; it matched 52_lady_flora_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 52_lady_flora_interaction_detail_state_001.jpg; it matched 52_lady_flora_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
   ]
