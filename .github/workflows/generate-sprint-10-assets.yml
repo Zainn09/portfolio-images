@@ -1,17 +1,8 @@
 name: Generate Sprint 10 QA Assets
 
+# Sprint 10 is complete. Keep regeneration available without rerunning the
+# capture job for unrelated pull-request changes.
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - '.github/workflows/generate-sprint-10-assets.yml'
-      - 'scripts/generate-sprint10-assets.mjs'
-      - 'scripts/package_sprint10_assets.py'
-      - 'scripts/verify_sprint10_assets.py'
-      - 'scripts/update_readme_sprint10.py'
-      - 'scripts/build_asset_browser_manifest.py'
-      - 'asset-browser/index.html'
-      - 'serve-assets.py'
   workflow_dispatch:
 
 permissions:
