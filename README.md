@@ -124,12 +124,12 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Website analysis and capture configuration<br>
-**Last updated:** 2026-09-16 07:10 PKT
+**Latest pipeline stage:** ARTdiscount asset set generated and published<br>
+**Last updated:** 2026-09-16 07:13 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 41 | ARTdiscount | <https://artdiscount.co.uk> | ⚪ Pending | — | — | Art supplies and creative materials |
+| 41 | ARTdiscount | <https://artdiscount.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 42 | Cryptic Mushroom Bar | <https://www.crypticmushrooms.com> | ⚪ Pending | — | — | Plant-based functional mushroom snack bars |
 | 43 | DIVCHI | <https://www.divchi.co.uk> | ⚪ Pending | — | — | Home, garden, pet, and play essentials |
 | 44 | Chicopick | <https://www.chicopick.com> | ⚪ Pending | — | — | Luxury jewellery, fashion, and accessories |
@@ -140,7 +140,7 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 | 49 | My Travel Passport | <https://mytravelpassport.eu> | ⚪ Pending | — | — | Customizable travel passport keepsakes |
 | 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | ⚪ Pending | — | — | Contemporary rings, earrings, bracelets, and pendants |
 
-**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Current checkpoint inventory:** 12 static images and 1 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_05_PROGRESS_END -->
