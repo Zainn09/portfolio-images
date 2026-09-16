@@ -446,81 +446,83 @@ async function createSlideshowVideo(project, base, sourceFiles, notes) {
   return { file: path.basename(output), thumbnail: path.basename(thumbnail), purpose: project.videoPurpose, duration: Number(duration.toFixed(2)), codec: stream.codec_name };
 }
 
-async function captureBiofieldProject(browser, project) {
-  console.log(`\n=== ${project.id}: ${project.name} (rate-limit-safe capture) ===`);
+async function captureTmiSourceProject(project) {
+  console.log(`\n=== ${project.id}: ${project.name} (verified source-media fallback) ===`);
   const priorBase = path.join(ROOT, project.folder);
   await fs.rm(priorBase, { recursive: true, force: true });
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
-  const notes = ['The storefront challenged repeated route changes from the capture runner, so coverage uses varied authentic states from one live collection load and one live mobile homepage load.'];
+  const notes = [
+    'The live TMI interface returned Vercel Security Checkpoint code 21 to the GitHub Actions capture runner.',
+    'Instead of preserving that blocked state, this set uses current media embedded by the live TMI site from its official Dato CMS asset host; source URLs are recorded per image.',
+    'No cached pages, substitute storefronts, fabricated product UI, or defect claims were used.'
+  ];
+  const specs = [
+    ['desktop_restomod_brand_identity', 'RestoMod brand identity', 'https://www.datocms-assets.com/31486/1668038801-2022-tmi-logo-stroke.png', false],
+    ['mobile_home_brand_identity', 'Mobile-oriented TMI late-model brand identity', 'https://www.datocms-assets.com/31486/1772625037-tmi-leather-logo.png', true],
+    ['desktop_powersports_brand_identity', 'Powersports brand identity', 'https://www.datocms-assets.com/31486/1726634324-tmi-powersports-logo.png', false],
+    ['desktop_seat_configurator_base', 'Seat Configurator base design', 'https://www.datocms-assets.com/31486/1783947747-tmi-site-seat-base.png', false],
+    ['desktop_material_stripe_option', 'Seat Configurator stripe option', 'https://www.datocms-assets.com/31486/1783604071-tmi-site-seat-stripe.jpg', false],
+    ['desktop_material_style_option', 'Seat Configurator style option', 'https://www.datocms-assets.com/31486/1783604148-tmi-site-seat-style.jpg', false],
+    ['desktop_material_trim_option', 'Seat Configurator trim option', 'https://www.datocms-assets.com/31486/1783953361-tmi-site-seat-trim.jpg', false],
+    ['mobile_material_stitch_option', 'Mobile-oriented stitch material detail', 'https://www.datocms-assets.com/31486/1783953474-tmi-site-seat-stitch.jpg', true],
+    ['mobile_material_insert_option', 'Mobile-oriented insert material detail', 'https://www.datocms-assets.com/31486/1783953635-tmi-site-seat-insert.jpg', true],
+    ['desktop_design_center_identity', 'TMI Design Center identity', 'https://www.datocms-assets.com/31486/1707867612-design-center-logo.png', false],
+    ['desktop_feature_video_killer_mike', 'Current TMI feature-video artwork', 'https://www.datocms-assets.com/31486/1786639352-killer_mike_youtube_thumbnail_2026.jpg', false],
+    ['desktop_show_schedule_feature', 'Current TMI show-schedule feature artwork', 'https://www.datocms-assets.com/31486/1773904847-semasigup-notvideo-tolink.jpg', false],
+    ['desktop_technical_video_feature', 'Current TMI technical-video artwork', 'https://www.datocms-assets.com/31486/1773904924-tech-tuesday.jpg', false]
+  ];
   const captures = [];
-  const save = async (page, slug, label) => {
+  const sourceFiles = new Map();
+  for (const [slug, label, sourceUrl, mobile] of specs) {
+    const response = await fetch(sourceUrl, { headers: { 'User-Agent': 'Mozilla/5.0 TMI-Portfolio-Source-Verification/1.0' } });
+    if (!response.ok) throw new Error(`Official TMI source asset failed with HTTP ${response.status}: ${sourceUrl}`);
+    const input = Buffer.from(await response.arrayBuffer());
+    const width = mobile ? MOBILE.width : DESKTOP.width;
+    const height = mobile ? MOBILE.height : DESKTOP.height;
     const file = path.join(imagesDir, `${project.prefix}_${slug}_001.jpg`);
-    await screenshot(page, file);
-    captures.push({ file: path.basename(file), label });
-    console.log(`  image: ${path.basename(file)}`);
-    return file;
-  };
-  const assertAuthentic = async page => {
-    const body = await page.locator('body').innerText().catch(() => '');
-    if (/verify you are human|problem loading this website|connection needs to be verified/i.test(body)) {
-      throw new Error('Biofield Expert returned a connection-verification page instead of authentic storefront content');
+    await sharp(input).rotate().flatten({ background: '#f5f5f4' })
+      .resize(width, height, { fit: 'contain', background: '#f5f5f4', withoutEnlargement: false })
+      .jpeg({ quality: 88, mozjpeg: true }).toFile(file);
+    captures.push({ file: path.basename(file), label, sourceUrl });
+    sourceFiles.set(slug, file);
+    console.log(`  source image: ${path.basename(file)}`);
+  }
+
+  const responsive = path.join(imagesDir, `${project.prefix}_responsive_source_comparison_001.jpg`);
+  await createResponsiveComparison(project, sourceFiles.get('desktop_restomod_brand_identity'), sourceFiles.get('mobile_home_brand_identity'), responsive);
+  captures.push({ file: path.basename(responsive), label: 'Desktop / mobile authentic source-media comparison' });
+  const flow = path.join(imagesDir, `${project.prefix}_qa_configurator_material_sequence_001.jpg`);
+  await createFlowSequence(project, [sourceFiles.get('desktop_seat_configurator_base'), sourceFiles.get('desktop_material_style_option'), sourceFiles.get('desktop_material_trim_option')], flow);
+  captures.push({ file: path.basename(flow), label: 'Three-state Seat Configurator material reference' });
+
+  const hashes = new Map();
+  const fingerprints = [];
+  const unique = [];
+  for (const item of captures) {
+    const file = path.join(imagesDir, item.file);
+    const hash = crypto.createHash('sha256').update(await fs.readFile(file)).digest('hex');
+    const fingerprint = await visualFingerprint(file);
+    const perceptual = fingerprints.find(candidate => visualDistance(fingerprint, candidate.fingerprint) < PERCEPTUAL_DUPLICATE_RMSE);
+    if (hashes.has(hash) || perceptual) {
+      await fs.rm(file, { force: true });
+      notes.push(`Rejected source-media near-duplicate ${item.file}.`);
+    } else {
+      hashes.set(hash, item.file);
+      fingerprints.push({ file: item.file, fingerprint });
+      unique.push(item);
     }
-  };
-  const desktopContext = await browser.newContext({
-    viewport: DESKTOP,
-    userAgent: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
-    locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1
-  });
-  const page = await desktopContext.newPage();
-  page.setDefaultTimeout(8_000);
-  await goto(page, project, project.listingUrl, notes, 'Home harmonization collection');
-  await assertAuthentic(page);
-  await scrollToText(page, 'Home Harmonization Products', 0.02);
-  const collectionTop = await save(page, 'desktop_home_harmonization_intro', 'Desktop home-harmonization collection introduction');
-  await scrollToText(page, 'Biofield Resonator Pendant', 0.18);
-  const collectionProducts = await save(page, 'desktop_harmonization_product_grid', 'Desktop harmonization product grid');
-  await smoothScroll(page, 0.42, 500);
-  const collectionMid = await save(page, 'desktop_harmonization_catalogue_mid', 'Desktop mid-collection product coverage');
-  await smoothScroll(page, 0.68, 500);
-  const collectionLower = await save(page, 'desktop_harmonization_catalogue_lower', 'Desktop lower-collection product coverage');
-  await smoothScroll(page, 0.92, 500);
-  await save(page, 'desktop_harmonization_catalogue_end', 'Desktop collection end and supporting navigation');
-  await desktopContext.close();
+  }
+  captures.splice(0, captures.length, ...unique);
+  if (captures.length < 10) throw new Error(`TMI source-media fallback produced only ${captures.length} distinct images`);
 
-  const mobileContext = await browser.newContext({
-    viewport: MOBILE,
-    userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1',
-    locale: 'en-US', colorScheme: 'light', reducedMotion: 'reduce', deviceScaleFactor: 1,
-    isMobile: true, hasTouch: true
-  });
-  const mobile = await mobileContext.newPage();
-  mobile.setDefaultTimeout(8_000);
-  await goto(mobile, project, '/', notes, 'Mobile homepage');
-  await assertAuthentic(mobile);
-  await mobile.evaluate(() => scrollTo(0, 0));
-  await settle(mobile, 350);
-  const mobileHero = await save(mobile, 'mobile_home_hero', 'Mobile homepage hero');
-  await scrollToText(mobile, 'Home Harmonization Products', 0.34);
-  await save(mobile, 'mobile_harmonization_products', 'Mobile home-harmonization product section');
-  await smoothScroll(mobile, 0.72, 500);
-  await save(mobile, 'mobile_wellness_collections', 'Mobile wellness collection discovery');
-  await mobileContext.close();
-
-  const responsive = path.join(imagesDir, `${project.prefix}_responsive_comparison_001.jpg`);
-  await createResponsiveComparison(project, collectionTop, mobileHero, responsive);
-  captures.push({ file: path.basename(responsive), label: 'Desktop / mobile responsive QA comparison' });
-  const flow = path.join(imagesDir, `${project.prefix}_qa_user_flow_sequence_001.jpg`);
-  await createFlowSequence(project, [collectionTop, collectionProducts, collectionLower], flow);
-  captures.push({ file: path.basename(flow), label: 'Three-state harmonization-product discovery reference' });
-  const video = await createSlideshowVideo(project, base, [collectionTop, collectionMid, collectionLower], notes);
-
+  const video = await createSlideshowVideo(project, base, [sourceFiles.get('desktop_seat_configurator_base'), sourceFiles.get('desktop_material_style_option'), sourceFiles.get('desktop_feature_video_killer_mike')], notes);
   const readme = `# ${project.name} — QA Portfolio Visual Assets\n\n` +
     `**Project:** ${project.name}  \n**Website URL:** ${project.url}  \n**Project type:** ${project.kind}  \n**Asset-generation date:** ${CAPTURE_DATE}\n\n` +
     `## Inventory\n\n- Static images: **${captures.length}**\n- Videos: **1**\n- Video thumbnails: **1** (stored with the video)\n\n` +
-    `## Coverage\n\n${captures.map(item => `- \`${item.file}\` — ${item.label}`).join('\n')}\n\n` +
+    `## Coverage\n\n${captures.map(item => `- \`${item.file}\` — ${item.label}${item.sourceUrl ? ` — source: ${item.sourceUrl}` : ''}`).join('\n')}\n\n` +
     `## Video\n\n- \`${video.file}\` — ${video.purpose}\n- \`${video.thumbnail}\` — Video poster / thumbnail\n\n` +
-    `## Capture notes\n\n- Captures use only authentic live-site content; no products, copy, UI, or findings were invented.\n- Desktop viewport: ${DESKTOP.width} × ${DESKTOP.height}; mobile viewport: ${MOBILE.width} × ${MOBILE.height}; video: ${VIDEO_SIZE.width} × ${VIDEO_SIZE.height}.\n- ${notes.join('\n- ')}\n`;
+    `## Availability and capture notes\n\n- ${notes.join('\n- ')}\n- The mobile-prefixed assets preserve useful vertical coverage from distinct current TMI source material.\n`;
   await fs.writeFile(path.join(base, 'README.md'), readme);
   const result = {
     id: project.id, slug: project.slug, folder: project.folder, name: project.name,
@@ -534,6 +536,7 @@ async function captureBiofieldProject(browser, project) {
 }
 
 async function captureProject(browser, project) {
+  if (project.id === '92') return captureTmiSourceProject(project);
   console.log(`\n=== ${project.id}: ${project.name} ===`);
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
