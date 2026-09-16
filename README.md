@@ -182,8 +182,8 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Gym Emotion asset set generated and published<br>
-**Last updated:** 2026-09-16 19:20 PKT
+**Latest pipeline stage:** Elysian Blooms asset set generated and published<br>
+**Last updated:** 2026-09-16 19:21 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -196,9 +196,9 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 | 67 | Vezorla | <https://www.vezorla.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 68 | O & P Fashion Fabrics | <https://opfashionfabrics.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 69 | Gym Emotion | <https://gymemotion.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 70 | Elysian Blooms | <https://www.elysianblooms.co.uk> | ⚪ Pending | — | — | Surrey gift, wedding, sympathy, and occasion florist |
+| 70 | Elysian Blooms | <https://www.elysianblooms.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 
-**Current checkpoint inventory:** 99 static images and 8 playable MP4 videos.<br>
+**Current checkpoint inventory:** 111 static images and 9 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_07_PROGRESS_END -->

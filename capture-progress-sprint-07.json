@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Gym Emotion asset set generated and published",
+  "stage": "Elysian Blooms asset set generated and published",
   "projects": [
     {
       "id": "61",
@@ -53,6 +53,13 @@
     },
     {
       "id": "69",
+      "status": "captured",
+      "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "70",
       "status": "captured",
       "images": 12,
       "videos": 1,

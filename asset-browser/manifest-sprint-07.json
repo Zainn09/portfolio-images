@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 7",
   "generated": "2026-09-16",
-  "totalImages": 99,
-  "totalVideos": 8,
+  "totalImages": 111,
+  "totalVideos": 9,
   "projects": [
     {
       "id": "61",
@@ -705,6 +705,93 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 25.44 seconds, complete decode passed.",
         "Rejected duplicate 69_gym_emotion_interaction_mobile_search_001.jpg; it matched 69_gym_emotion_mobile_home_hero_001.jpg in perceptual image QA."
+      ]
+    },
+    {
+      "id": "70",
+      "slug": "elysian-blooms",
+      "folder": "70-elysian-blooms",
+      "name": "Elysian Blooms",
+      "url": "https://www.elysianblooms.co.uk",
+      "kind": "Surrey gift, wedding, sympathy, and occasion florist",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "70_elysian_blooms_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_signature_section_001.jpg",
+          "label": "Desktop Our Best Sellers section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_bouquet_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_bouquet_detail_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_project_highlight_wedding_flower_service_001.jpg",
+          "label": "Project highlight: wedding flower service",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_project_highlight_wedding_flower_service_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_mobile_bouquet_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_mobile_bouquet_detail_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "70_elysian_blooms_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/images/70_elysian_blooms_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "70_elysian_blooms_video_florist_journey_001.mp4",
+          "thumbnail": "70_elysian_blooms_video_florist_journey_001.jpg",
+          "purpose": "Local-florist discovery from gift flowers to seasonal bouquet detail",
+          "duration": 20.4,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/video/70_elysian_blooms_video_florist_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/70-elysian-blooms/video/70_elysian_blooms_video_florist_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Secondary interaction at https://www.elysianblooms.co.uk/flower-delivery/Datchet-Common.htm was unavailable (HTTP 404 / ); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 20.40 seconds, complete decode passed.",
+        "Rejected duplicate 70_elysian_blooms_interaction_mobile_header_001.jpg; it matched 70_elysian_blooms_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
