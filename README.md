@@ -211,8 +211,8 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** VTC Watches asset set generated and published<br>
-**Last updated:** 2026-09-16 19:57 PKT
+**Latest pipeline stage:** Liz Jordan-Hill Fabrics asset set generated and published<br>
+**Last updated:** 2026-09-16 20:00 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -224,10 +224,10 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 | 76 | Second Chance Online | <https://secondchanceonline.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 77 | Second Chance Clothing & Home Decor | <https://secondchanceclothing-homedecor.myshopify.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 78 | VTC Watches | <https://www.vtcwatches.com> | 🟡 Captured · QA pending | 10 | 1 | Project assets published; awaiting Sprint-level QA |
-| 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | ⚪ Pending | — | — | Stain-resistant Aquaclean upholstery fabrics |
+| 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 80 | Expressive Audio | <https://expressiveaudio.com> | ⚪ Pending | — | — | HiFi, home cinema, multiroom, and audio installation specialists |
 
-**Current checkpoint inventory:** 92 static images and 8 playable MP4 videos.<br>
+**Current checkpoint inventory:** 104 static images and 9 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_08_PROGRESS_END -->

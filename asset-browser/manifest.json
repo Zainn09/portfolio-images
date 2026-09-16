@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 916,
-  "totalVideos": 77,
+  "totalImages": 928,
+  "totalVideos": 78,
   "projects": [
     {
       "id": "01",
@@ -6581,6 +6581,92 @@
         "Rejected duplicate 78_vtc_watches_desktop_secondary_experience_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
         "Rejected duplicate 78_vtc_watches_interaction_mobile_navigation_001.jpg; it matched 78_vtc_watches_mobile_home_hero_001.jpg byte-for-byte."
       ]
+    },
+    {
+      "id": "79",
+      "slug": "liz-jordan-hill",
+      "folder": "79-liz-jordan-hill",
+      "name": "Liz Jordan-Hill Fabrics",
+      "url": "https://lizjordanhill.com",
+      "kind": "Stain-resistant Aquaclean upholstery fabrics",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "79_liz_jordan_hill_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_desktop_signature_section_001.jpg",
+          "label": "Desktop WHAT IS AQUACLEAN section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_project_highlight_aquaclean_stain_technology_001.jpg",
+          "label": "Project highlight: Aquaclean stain technology",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_project_highlight_aquaclean_stain_technology_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "79_liz_jordan_hill_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/images/79_liz_jordan_hill_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "79_liz_jordan_hill_video_performance_fabric_journey_001.mp4",
+          "thumbnail": "79_liz_jordan_hill_video_performance_fabric_journey_001.jpg",
+          "purpose": "Performance-fabric discovery from stain-resistant collection to velvet detail",
+          "duration": 40.32,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/video/79_liz_jordan_hill_video_performance_fabric_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/79-liz-jordan-hill/video/79_liz_jordan_hill_video_performance_fabric_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 40.32 seconds, complete decode passed.",
+        "Rejected duplicate 79_liz_jordan_hill_desktop_secondary_experience_001.jpg; it matched 79_liz_jordan_hill_interaction_detail_state_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -6636,9 +6722,9 @@
     {
       "number": 8,
       "label": "Sprint 8",
-      "images": 92,
-      "videos": 8,
-      "projects": 8
+      "images": 104,
+      "videos": 9,
+      "projects": 9
     }
   ]
 }
