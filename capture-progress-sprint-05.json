@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Chicopick asset set generated and published",
+  "stage": "Hugh McElvanna Menswear capture requires attention",
   "projects": [
     {
       "id": "41",
@@ -29,6 +29,13 @@
       "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "45",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "Capture stopped; review workflow diagnostics"
     }
   ]
 }

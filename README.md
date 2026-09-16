@@ -124,7 +124,7 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Chicopick asset set generated and published<br>
+**Latest pipeline stage:** Hugh McElvanna Menswear capture requires attention<br>
 **Last updated:** 2026-09-16 07:19 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
@@ -133,7 +133,7 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 | 42 | Cryptic Mushroom Bar | <https://www.crypticmushrooms.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 43 | DIVCHI | <https://www.divchi.co.uk> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 44 | Chicopick | <https://www.chicopick.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 45 | Hugh McElvanna Menswear | <https://www.hughmcelvannamenswear.com> | ⚪ Pending | — | — | Men’s suits and casual clothing |
+| 45 | Hugh McElvanna Menswear | <https://www.hughmcelvannamenswear.com> | 🔴 Blocked | — | — | Capture stopped; review workflow diagnostics |
 | 46 | J. Fredric | <https://jfredrics.com> | ⚪ Pending | — | — | Hand-tailored men’s clothing |
 | 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | ⚪ Pending | — | — | London florist and floral services |
 | 48 | Nørdikka Collective | <https://nordikkacollective.com> | ⚪ Pending | — | — | Nordic and Scandinavian furniture, lighting, and décor |
