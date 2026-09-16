@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Canvasback Pet Supplies asset set generated and published",
+  "stage": "Luxe Atelier asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -27,6 +27,13 @@
       "id": "54",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "55",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

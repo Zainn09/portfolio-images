@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 6",
   "generated": "2026-09-16",
-  "totalImages": 45,
-  "totalVideos": 4,
+  "totalImages": 57,
+  "totalVideos": 5,
   "projects": [
     {
       "id": "51",
@@ -335,6 +335,92 @@
       ],
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 36.40 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "55",
+      "slug": "luxe-atelier",
+      "folder": "55-luxe-atelier",
+      "name": "Luxe Atelier",
+      "url": "https://luxeatelier.co.uk",
+      "kind": "Luxury women’s occasionwear and evening dresses",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "55_luxe_atelier_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_signature_section_001.jpg",
+          "label": "Desktop View all products section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_project_highlight_mira_eveningwear_detail_001.jpg",
+          "label": "Project highlight: Mira eveningwear detail",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_project_highlight_mira_eveningwear_detail_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_interaction_mobile_search_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "55_luxe_atelier_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/images/55_luxe_atelier_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "55_luxe_atelier_video_occasionwear_journey_001.mp4",
+          "thumbnail": "55_luxe_atelier_video_occasionwear_journey_001.jpg",
+          "purpose": "Luxury occasionwear discovery from new collection to dress detail",
+          "duration": 20.08,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/video/55_luxe_atelier_video_occasionwear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/55-luxe-atelier/video/55_luxe_atelier_video_occasionwear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 20.08 seconds, complete decode passed.",
+        "Rejected duplicate 55_luxe_atelier_interaction_detail_state_001.jpg; it matched 55_luxe_atelier_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
   ]
