@@ -781,7 +781,7 @@
           "file": "49_my_travel_passport_video_travel_passport_journey_001.mp4",
           "thumbnail": "49_my_travel_passport_video_travel_passport_journey_001.jpg",
           "purpose": "Travel-passport keepsake discovery from edition collection to product detail",
-          "duration": 45.6,
+          "duration": 47.52,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/video/49_my_travel_passport_video_travel_passport_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-05/49-my-travel-passport/video/49_my_travel_passport_video_travel_passport_journey_001.jpg"
@@ -790,7 +790,7 @@
       "notes": [
         "Project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
         "Mobile project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280×720, 45.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 47.52 seconds, complete decode passed."
       ]
     },
     {
