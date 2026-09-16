@@ -182,8 +182,8 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Vezorla asset set generated and published<br>
-**Last updated:** 2026-09-16 19:17 PKT
+**Latest pipeline stage:** O & P Fashion Fabrics asset set generated and published<br>
+**Last updated:** 2026-09-16 19:18 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -194,11 +194,11 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 | 65 | Love Renaissance | <https://love-renaissance.shop> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 66 | Hughie’s Dog Accessories | <https://hughies-dog-accessories.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 67 | Vezorla | <https://www.vezorla.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 68 | O & P Fashion Fabrics | <https://opfashionfabrics.co.uk> | ⚪ Pending | — | — | Wholesale and small-quantity fashion fabrics |
+| 68 | O & P Fashion Fabrics | <https://opfashionfabrics.co.uk> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 69 | Gym Emotion | <https://gymemotion.com> | ⚪ Pending | — | — | Commercial and home gym equipment |
 | 70 | Elysian Blooms | <https://www.elysianblooms.co.uk> | ⚪ Pending | — | — | Surrey gift, wedding, sympathy, and occasion florist |
 
-**Current checkpoint inventory:** 76 static images and 6 playable MP4 videos.<br>
+**Current checkpoint inventory:** 87 static images and 7 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_07_PROGRESS_END -->

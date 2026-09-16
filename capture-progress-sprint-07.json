@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Vezorla asset set generated and published",
+  "stage": "O & P Fashion Fabrics asset set generated and published",
   "projects": [
     {
       "id": "61",
@@ -41,6 +41,13 @@
       "id": "67",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "68",
+      "status": "captured",
+      "images": 11,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }

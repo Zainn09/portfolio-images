@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 789,
-  "totalVideos": 66,
+  "totalImages": 800,
+  "totalVideos": 67,
   "projects": [
     {
       "id": "01",
@@ -5655,6 +5655,88 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280\u00d7720, 24.04 seconds, complete decode passed."
       ]
+    },
+    {
+      "id": "68",
+      "slug": "op-fashion-fabrics",
+      "folder": "68-op-fashion-fabrics",
+      "name": "O & P Fashion Fabrics",
+      "url": "https://opfashionfabrics.co.uk",
+      "kind": "Wholesale and small-quantity fashion fabrics",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "68_op_fashion_fabrics_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_signature_section_001.jpg",
+          "label": "Desktop A little bit about us section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_company_story_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_company_story_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_project_highlight_brocade_and_jacquard_range_001.jpg",
+          "label": "Project highlight: brocade and jacquard range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_project_highlight_brocade_and_jacquard_range_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_mobile_company_story_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_mobile_company_story_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "68_op_fashion_fabrics_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/images/68_op_fashion_fabrics_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "68_op_fashion_fabrics_video_fashion_fabric_journey_001.mp4",
+          "thumbnail": "68_op_fashion_fabrics_video_fashion_fabric_journey_001.jpg",
+          "purpose": "Fashion-fabric discovery from warehouse story to material ranges",
+          "duration": 17.92,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/video/68_op_fashion_fabrics_video_fashion_fabric_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/68-op-fashion-fabrics/video/68_op_fashion_fabrics_video_fashion_fabric_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280\u00d7720, 17.92 seconds, complete decode passed.",
+        "Rejected duplicate 68_op_fashion_fabrics_interaction_detail_state_001.jpg; it matched 68_op_fashion_fabrics_desktop_company_story_001.jpg byte-for-byte.",
+        "Rejected duplicate 68_op_fashion_fabrics_interaction_mobile_header_001.jpg; it matched 68_op_fashion_fabrics_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -5703,9 +5785,9 @@
     {
       "number": 7,
       "label": "Sprint 7",
-      "images": 76,
-      "videos": 6,
-      "projects": 6
+      "images": 87,
+      "videos": 7,
+      "projects": 7
     }
   ]
 }
