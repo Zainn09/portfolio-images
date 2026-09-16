@@ -1,6 +1,6 @@
-# QA Portfolio Visual Assets — Sprints 1–5
+# QA Portfolio Visual Assets — Sprints 1–6
 
-A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains the completed visual-asset deliveries for Sprints 1–4 and tracks the active Sprint 5 capture.
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains the completed visual-asset deliveries for Sprints 1–5 and tracks the active Sprint 6 capture.
 
 ## Live progress
 
@@ -145,6 +145,35 @@ Sprint 5 continues the authentic live-site visual asset library with the next te
 
 <!-- SPRINT_05_PROGRESS_END -->
 
+## Sprint 6 — Websites 51–60
+
+Sprint 6 completes this phase of the authentic live-site visual asset library with the final ten supplied websites.
+
+<!-- SPRINT_06_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 10<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** 2026-09-16 07:53 PKT
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 51 | JudyP Apparel | <https://judypapparel.com> | ⚪ Pending | — | — | Women’s wrinkle-resistant travel clothing |
+| 52 | Lady Flora | <https://www.ladyflora.co.uk> | ⚪ Pending | — | — | Florist, bouquets, wedding flowers, and fragrances |
+| 53 | Nano Lamination | <https://www.nanolamination.com> | ⚪ Pending | — | — | Professional hair smoothing and lamination treatments |
+| 54 | Canvasback Pet Supplies | <https://www.canvasbackpets.com> | ⚪ Pending | — | — | Pet food, toys, and supplies |
+| 55 | Luxe Atelier | <https://luxeatelier.co.uk> | ⚪ Pending | — | — | Luxury women’s occasionwear and evening dresses |
+| 56 | Eastern Inspiration | <https://easterninspiration.co.uk> | ⚪ Pending | — | — | Ethically made artisan gifts and homeware |
+| 57 | Pet Prestige UK | <https://petprestigeuk.com> | ⚪ Pending | — | — | Luxury pet beds, blankets, mats, and accessories |
+| 58 | Midland Textiles | <https://midlandtextiles.co.uk> | ⚪ Pending | — | — | Dressmaking, craft, lace, and apparel fabrics |
+| 59 | BA² Fitness | <https://basquaredfitness.com> | ⚪ Pending | — | — | Performance fitness apparel |
+| 60 | Belo Jewelry | <https://belojewelry.com> | ⚪ Pending | — | — | Handcrafted crystal and symbolic jewelry |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
+
+<!-- SPRINT_06_PROGRESS_END -->
+
 ### Status legend
 
 - ⚪ **Pending** — capture has not started.
@@ -167,18 +196,20 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-The repository contains four complete sprint deliveries, with Sprint 5 capture tracked above:
+The repository contains five complete sprint deliveries, with Sprint 6 capture tracked above:
 
 - `QA-PORTFOLIO-ASSETS/Sprint-01/` — Sprint 1 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-02/` — Sprint 2 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-03/` — Sprint 3 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-04/` — Sprint 4 project-organized images, videos, thumbnails, and capture notes
+- `QA-PORTFOLIO-ASSETS/Sprint-05/` — Sprint 5 project-organized images, videos, thumbnails, and capture notes
 - `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
 - `QA-Portfolio-Sprint-02-Assets.zip` — complete downloadable Sprint 2 package
 - `QA-Portfolio-Sprint-03-Assets.zip` — complete downloadable Sprint 3 package
 - `QA-Portfolio-Sprint-04-Assets.zip` — complete downloadable Sprint 4 package
+- `QA-Portfolio-Sprint-05-Assets.zip` — complete downloadable Sprint 5 package
 - `asset-browser/` — combined local preview and download interface
-- `capture-report.json` and `capture-report-sprint-02.json` through `capture-report-sprint-04.json` — machine-readable inventories and availability notes
+- `capture-report.json` and `capture-report-sprint-02.json` through `capture-report-sprint-05.json` — machine-readable inventories and availability notes
 - `capture-progress.json` and `capture-progress-sprint-02.json` through `capture-progress-sprint-05.json` — machine-readable project checkpoint status
 
 ## Open the local asset browser
@@ -191,12 +222,12 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All 40 completed project inventories across Sprints 1–4, expanding through Sprint 5 checkpoints
+- All 50 completed project inventories across Sprints 1–5, expanding through Sprint 6 checkpoints
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Separate complete Sprint 1–4 ZIP downloads, with Sprint 5 added after final QA
+- Separate complete Sprint 1–5 ZIP downloads, with Sprint 6 added after final QA
 
 ## Re-run capture, packaging, and verification
 
@@ -222,6 +253,10 @@ npm run verify:sprint04
 node scripts/generate-sprint05-assets.mjs
 python3 scripts/package_sprint05_assets.py
 python3 scripts/verify_sprint05_assets.py
+
+node scripts/generate-sprint06-assets.mjs
+python3 scripts/package_sprint06_assets.py
+python3 scripts/verify_sprint06_assets.py
 ```
 
 The capture process uses public live-site UI only. It does not submit checkout, create accounts, make purchases, enter personal data, or invent QA defects.
