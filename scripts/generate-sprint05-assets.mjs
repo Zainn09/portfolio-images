@@ -162,7 +162,6 @@ async function clickInterruptionControls(scope, includeGenericClose = false) {
 const projectOverlayDismissed = new WeakSet();
 
 async function dismissKnownProjectOverlay(page) {
-  if (projectOverlayDismissed.has(page)) return;
   const { width, height } = page.viewportSize() || DESKTOP;
   const host = new URL(page.url()).hostname.replace(/^www\./, '');
   if (host === 'mytravelpassport.eu') {
@@ -170,13 +169,20 @@ async function dismissKnownProjectOverlay(page) {
     if (await recommendation.isVisible({ timeout: 250 }).catch(() => false)) {
       const confirm = page.getByRole('button', { name: /^shop now$/i }).first();
       if (await confirm.isVisible({ timeout: 250 }).catch(() => false)) {
-        projectOverlayDismissed.add(page);
         await confirm.click({ timeout: 1_000 }).catch(() => {});
         await page.waitForTimeout(600);
       }
     }
+    const languagePrompt = page.getByText(/looks like .* is more preferred/i).first();
+    if (await languagePrompt.isVisible({ timeout: 250 }).catch(() => false)) {
+      const x = width < 600 ? width - 14 : width / 2 + 336;
+      const y = (height - (width < 600 ? 213 : 180)) / 2 + 20;
+      await page.mouse.click(x, y).catch(() => {});
+      await page.waitForTimeout(450);
+    }
     return;
   }
+  if (projectOverlayDismissed.has(page)) return;
   let point = null;
   if (host === 'lalyscandles.com') {
     // Laly's responsive discount modal is 480×650 on desktop and 350×634 on
