@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Total Beauty Experience asset set generated and published",
+  "stage": "John White Shoes asset set generated and published",
   "projects": [
     {
       "id": "61",
@@ -13,6 +13,13 @@
       "id": "63",
       "status": "captured",
       "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "64",
+      "status": "captured",
+      "images": 13,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
