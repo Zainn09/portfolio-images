@@ -59,8 +59,8 @@ const projects = [
   },
   {
     id: '45', slug: 'hugh-mcelvanna-menswear', folder: '45-hugh-mcelvanna-menswear', name: 'Hugh McElvanna Menswear', url: 'https://www.hughmcelvannamenswear.com', homeUrl: '/en-us',
-    prefix: '45_hugh_mcelvanna_menswear', kind: 'Men’s suits and casual clothing',
-    signatureText: 'A Legacy of Style', listingUrl: '/en-us/collections/new-arrivals', listingText: 'New Arrivals',
+    prefix: '45_hugh_mcelvanna_menswear', kind: 'Men’s suits and casual clothing', heroText: 'A Legacy of Style',
+    signatureText: 'New Arrivals', listingUrl: '/en-us/collections/new-arrivals', listingText: 'New Arrivals',
     detailUrl: null, detailText: 'Size',
     highlightUrl: '/en-us/collections/spring-summer-elegance-the-new-collection', highlightText: 'Versatility', highlightLabel: 'spring summer menswear collection',
     interactionUrl: '/en-us/collections/mens-blazers-casual-jackets', interactionText: 'Blazers',
@@ -165,6 +165,18 @@ async function dismissKnownProjectOverlay(page) {
   if (projectOverlayDismissed.has(page)) return;
   const { width, height } = page.viewportSize() || DESKTOP;
   const host = new URL(page.url()).hostname.replace(/^www\./, '');
+  if (host === 'mytravelpassport.eu') {
+    const recommendation = page.getByText('Are you in the right place?', { exact: false }).first();
+    if (await recommendation.isVisible({ timeout: 250 }).catch(() => false)) {
+      const confirm = page.getByRole('button', { name: /^shop now$/i }).first();
+      if (await confirm.isVisible({ timeout: 250 }).catch(() => false)) {
+        projectOverlayDismissed.add(page);
+        await confirm.click({ timeout: 1_000 }).catch(() => {});
+        await page.waitForTimeout(600);
+      }
+    }
+    return;
+  }
   let point = null;
   if (host === 'lalyscandles.com') {
     // Laly's responsive discount modal is 480×650 on desktop and 350×634 on
@@ -567,6 +579,7 @@ async function captureProject(browser, project) {
     await goto(page, project, project.homeUrl || '/', notes, 'Homepage');
     await page.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(page, 500);
+    if (project.heroText) await scrollToText(page, project.heroText, 0.32);
     const desktopHero = await add('desktop_home_hero', 'Desktop homepage hero');
 
     await scrollToText(page, project.signatureText, 0.30);
@@ -609,6 +622,7 @@ async function captureProject(browser, project) {
     await goto(mobile, project, project.homeUrl || '/', notes, 'Mobile homepage');
     await mobile.evaluate(() => scrollTo(0, 0)).catch(() => {});
     await settle(mobile, 450);
+    if (project.heroText) await scrollToText(mobile, project.heroText, 0.32);
     const mobileHomeFile = path.join(imagesDir, `${project.prefix}_mobile_home_hero_001.jpg`);
     await screenshot(mobile, mobileHomeFile);
     captures.push({ file: path.basename(mobileHomeFile), label: 'Mobile homepage hero' });
