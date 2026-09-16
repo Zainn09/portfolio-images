@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "SOL Eyewear asset set generated and published",
+  "stage": "Ameliora asset set generated and published",
   "projects": [
     {
       "id": "71",
@@ -13,6 +13,13 @@
       "id": "72",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "73",
+      "status": "captured",
+      "images": 11,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     }
