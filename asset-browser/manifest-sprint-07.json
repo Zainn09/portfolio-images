@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 7",
   "generated": "2026-09-16",
-  "totalImages": 37,
-  "totalVideos": 3,
+  "totalImages": 50,
+  "totalVideos": 4,
   "projects": [
     {
       "id": "61",
@@ -267,6 +267,96 @@
       ],
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 38.88 seconds, complete decode passed."
+      ]
+    },
+    {
+      "id": "65",
+      "slug": "love-renaissance",
+      "folder": "65-love-renaissance",
+      "name": "Love Renaissance",
+      "url": "https://love-renaissance.shop",
+      "kind": "Japanese-crafted skincare, haircare, wellness, and fragrance",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "65_love_renaissance_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_signature_section_001.jpg",
+          "label": "Desktop Japanese craftsmanship section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_project_highlight_focused_skincare_collection_001.jpg",
+          "label": "Project highlight: focused skincare collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_project_highlight_focused_skincare_collection_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "65_love_renaissance_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/images/65_love_renaissance_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "65_love_renaissance_video_japanese_beauty_journey_001.mp4",
+          "thumbnail": "65_love_renaissance_video_japanese_beauty_journey_001.jpg",
+          "purpose": "Japanese beauty discovery from fragrance collection to skincare detail",
+          "duration": 39.84,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/video/65_love_renaissance_video_japanese_beauty_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-07/65-love-renaissance/video/65_love_renaissance_video_japanese_beauty_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 39.84 seconds, complete decode passed."
       ]
     }
   ]
