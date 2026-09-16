@@ -7,7 +7,7 @@
 
 ## Inventory
 
-- Static images: **11**
+- Static images: **10**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
@@ -19,7 +19,6 @@
 - `71_biofield_expert_desktop_harmonization_catalogue_lower_001.jpg` — Desktop lower-collection product coverage
 - `71_biofield_expert_desktop_harmonization_catalogue_end_001.jpg` — Desktop collection end and supporting navigation
 - `71_biofield_expert_mobile_home_hero_001.jpg` — Mobile homepage hero
-- `71_biofield_expert_mobile_quantum_clear_feature_001.jpg` — Mobile Quantum Clear feature
 - `71_biofield_expert_mobile_harmonization_products_001.jpg` — Mobile home-harmonization product section
 - `71_biofield_expert_mobile_wellness_collections_001.jpg` — Mobile wellness collection discovery
 - `71_biofield_expert_responsive_comparison_001.jpg` — Desktop / mobile responsive QA comparison

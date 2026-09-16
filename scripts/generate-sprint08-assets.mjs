@@ -450,6 +450,8 @@ async function createSlideshowVideo(project, base, sourceFiles, notes) {
 
 async function captureBiofieldProject(browser, project) {
   console.log(`\n=== ${project.id}: ${project.name} (rate-limit-safe capture) ===`);
+  const priorBase = path.join(ROOT, project.folder);
+  await fs.rm(priorBase, { recursive: true, force: true });
   const base = await mkdirs(project);
   const imagesDir = path.join(base, 'images');
   const notes = ['The storefront challenged repeated route changes from the capture runner, so coverage uses varied authentic states from one live collection load and one live mobile homepage load.'];
@@ -501,8 +503,6 @@ async function captureBiofieldProject(browser, project) {
   await mobile.evaluate(() => scrollTo(0, 0));
   await settle(mobile, 350);
   const mobileHero = await save(mobile, 'mobile_home_hero', 'Mobile homepage hero');
-  await scrollToText(mobile, 'Quantum Clear', 0.16);
-  await save(mobile, 'mobile_quantum_clear_feature', 'Mobile Quantum Clear feature');
   await scrollToText(mobile, 'Home Harmonization Products', 0.34);
   await save(mobile, 'mobile_harmonization_products', 'Mobile home-harmonization product section');
   await smoothScroll(mobile, 0.72, 500);

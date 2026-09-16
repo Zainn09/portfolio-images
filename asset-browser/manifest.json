@@ -1,7 +1,7 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
   "generated": "2026-09-16",
-  "totalImages": 940,
+  "totalImages": 939,
   "totalVideos": 79,
   "projects": [
     {
@@ -5951,11 +5951,6 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_home_hero_001.jpg"
         },
         {
-          "file": "71_biofield_expert_mobile_quantum_clear_feature_001.jpg",
-          "label": "Mobile Quantum Clear feature",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_quantum_clear_feature_001.jpg"
-        },
-        {
           "file": "71_biofield_expert_mobile_harmonization_products_001.jpg",
           "label": "Mobile home-harmonization product section",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-08/71-biofield-expert/images/71_biofield_expert_mobile_harmonization_products_001.jpg"
@@ -6808,7 +6803,7 @@
     {
       "number": 8,
       "label": "Sprint 8",
-      "images": 116,
+      "images": 115,
       "videos": 10,
       "projects": 10
     }
