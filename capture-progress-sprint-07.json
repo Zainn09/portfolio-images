@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Rahiza storefront unavailable — rechecked 2026-09-16 23:05 PKT",
+  "stage": "Rahiza and DNS-declared Shopify origin unavailable — rechecked 2026-09-16 23:27 PKT",
   "projects": [
     {
       "id": "61",
@@ -70,7 +70,7 @@
       "status": "blocked",
       "images": 0,
       "videos": 0,
-      "note": "Blocked with 0 accepted assets: both official domains return Shopify unavailable states; live products, collections, metadata, sitemap, contact, and password routes expose no authentic portfolio content (rechecked 2026-09-16 23:05 PKT)."
+      "note": "Blocked with 0 accepted assets: rahiza.com and www.rahiza.com return Shopify unavailable; the live www CNAME identifies ff95ea-3.myshopify.com, which is also unavailable. Products and sitemap endpoints return Not Found, and the live web index exposes no official pages (2026-09-16 23:27 PKT)."
     }
   ]
 }

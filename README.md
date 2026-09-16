@@ -182,13 +182,13 @@ Sprint 7 continues the authentic live-site visual asset library with ten additio
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Rahiza storefront unavailable; official content routes rechecked<br>
-**Last updated:** 2026-09-16 23:05 PKT
+**Latest pipeline stage:** Rahiza and its DNS-declared Shopify origin remain unavailable<br>
+**Last updated:** 2026-09-16 23:27 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
 | 61 | Rocket Krunch | <https://www.rocketkrunch.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 62 | Rahiza | <https://www.rahiza.com> | 🔴 Blocked | — | — | 0 accepted assets. Both official domains return Shopify unavailable states; live product, collection, metadata, sitemap, contact, and password routes expose no authentic portfolio content. |
+| 62 | Rahiza | <https://www.rahiza.com> | 🔴 Blocked | — | — | 0 accepted assets. Public domains and the DNS-declared `ff95ea-3.myshopify.com` origin are unavailable; products and sitemap endpoints return Not Found, with no indexed official pages. |
 | 63 | Total Beauty Experience | <https://totalbeautyexp.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 64 | John White Shoes | <https://www.johnwhiteshoes.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 65 | Love Renaissance | <https://love-renaissance.shop> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
