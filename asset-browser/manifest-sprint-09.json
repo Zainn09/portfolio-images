@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 9",
   "generated": "2026-09-16",
-  "totalImages": 14,
-  "totalVideos": 1,
+  "totalImages": 25,
+  "totalVideos": 2,
   "projects": [
     {
       "id": "81",
@@ -98,6 +98,88 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 17.32 seconds, complete decode passed.",
         "Rejected duplicate 81_limitless_brain_lab_interaction_mobile_header_001.jpg; it matched 81_limitless_brain_lab_mobile_home_hero_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "82",
+      "slug": "enerex",
+      "folder": "82-enerex",
+      "name": "Enerex",
+      "url": "https://enerex.com",
+      "kind": "Connected software platform for retail energy brokers and suppliers",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "82_enerex_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "82_enerex_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "82_enerex_desktop_supplier_platform_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_supplier_platform_001.jpg"
+        },
+        {
+          "file": "82_enerex_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "82_enerex_project_highlight_energy_market_data_platform_001.jpg",
+          "label": "Project highlight: energy market data platform",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_project_highlight_energy_market_data_platform_001.jpg"
+        },
+        {
+          "file": "82_enerex_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "82_enerex_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "82_enerex_mobile_supplier_platform_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_mobile_supplier_platform_001.jpg"
+        },
+        {
+          "file": "82_enerex_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "82_enerex_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "82_enerex_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/images/82_enerex_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "82_enerex_video_energy_platform_journey_001.mp4",
+          "thumbnail": "82_enerex_video_energy_platform_journey_001.jpg",
+          "purpose": "Retail-energy platform journey across connected broker and supplier operations",
+          "duration": 18.04,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/video/82_enerex_video_energy_platform_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-09/82-enerex/video/82_enerex_video_energy_platform_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 18.04 seconds, complete decode passed.",
+        "Rejected duplicate 82_enerex_desktop_signature_section_001.jpg; it matched 82_enerex_desktop_home_hero_001.jpg byte-for-byte.",
+        "Rejected duplicate 82_enerex_interaction_mobile_header_001.jpg; it matched 82_enerex_mobile_home_hero_001.jpg byte-for-byte."
       ]
     }
   ]
