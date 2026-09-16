@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "stage": "Pet Prestige UK capture requires attention",
+  "stage": "Pet Prestige UK asset set generated and published",
   "projects": [
     {
       "id": "51",
@@ -46,10 +46,10 @@
     },
     {
       "id": "57",
-      "status": "blocked",
-      "images": 0,
-      "videos": 0,
-      "note": "Capture stopped; review workflow diagnostics"
+      "status": "captured",
+      "images": 11,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u20136",
   "generated": "2026-09-16",
-  "totalImages": 666,
-  "totalVideos": 56,
+  "totalImages": 677,
+  "totalVideos": 57,
   "projects": [
     {
       "id": "01",
@@ -4779,6 +4779,89 @@
         "Playable MP4 verified: H.264, 1280\u00d7720, 37.12 seconds, complete decode passed.",
         "Rejected duplicate 56_eastern_inspiration_interaction_detail_state_001.jpg; it matched 56_eastern_inspiration_desktop_product_detail_001.jpg in perceptual image QA."
       ]
+    },
+    {
+      "id": "57",
+      "slug": "pet-prestige-uk",
+      "folder": "57-pet-prestige-uk",
+      "name": "Pet Prestige UK",
+      "url": "https://petprestigeuk.com",
+      "kind": "Luxury pet beds, blankets, mats, and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "57_pet_prestige_uk_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_interaction_detail_state_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_project_highlight_prestige_pet_bed_collection_001.jpg",
+          "label": "Project highlight: Prestige pet bed collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_project_highlight_prestige_pet_bed_collection_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "57_pet_prestige_uk_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/images/57_pet_prestige_uk_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "57_pet_prestige_uk_video_luxury_pet_journey_001.mp4",
+          "thumbnail": "57_pet_prestige_uk_video_luxury_pet_journey_001.jpg",
+          "purpose": "Luxury pet-product discovery from Prestige collection to bed detail",
+          "duration": 35.56,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/video/57_pet_prestige_uk_video_luxury_pet_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-06/57-pet-prestige-uk/video/57_pet_prestige_uk_video_luxury_pet_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Secondary interaction at https://petprestigeuk.com/collections/cat-products was unavailable (HTTP 404 / 404 Not Found \u2014 Pet Prestige UK); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 35.56 seconds, complete decode passed.",
+        "Rejected duplicate 57_pet_prestige_uk_desktop_signature_section_001.jpg; it matched 57_pet_prestige_uk_desktop_home_hero_001.jpg in perceptual image QA.",
+        "Rejected duplicate 57_pet_prestige_uk_interaction_mobile_header_001.jpg; it matched 57_pet_prestige_uk_mobile_home_hero_001.jpg byte-for-byte."
+      ]
     }
   ],
   "sprints": [
@@ -4820,9 +4903,9 @@
     {
       "number": 6,
       "label": "Sprint 6",
-      "images": 69,
-      "videos": 6,
-      "projects": 6
+      "images": 80,
+      "videos": 7,
+      "projects": 7
     }
   ]
 }
