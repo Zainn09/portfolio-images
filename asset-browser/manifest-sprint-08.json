@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 8",
   "generated": "2026-09-16",
-  "totalImages": 58,
-  "totalVideos": 5,
+  "totalImages": 70,
+  "totalVideos": 6,
   "projects": [
     {
       "id": "71",
@@ -423,6 +423,92 @@
       "notes": [
         "Playable MP4 verified: H.264, 1280×720, 27.64 seconds, complete decode passed.",
         "Rejected duplicate 75_audrey_k_boutique_interaction_detail_state_001.jpg; it matched 75_audrey_k_boutique_desktop_product_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "76",
+      "slug": "second-chance-online",
+      "folder": "76-second-chance-online",
+      "name": "Second Chance Online",
+      "url": "https://secondchanceonline.com",
+      "kind": "Independent women’s kimonos, abayas, and accessories",
+      "generated": "2026-09-16",
+      "images": [
+        {
+          "file": "76_second_chance_online_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_signature_section_001.jpg",
+          "label": "Desktop Welcome to Second Chance section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_product_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_product_detail_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_project_highlight_founders_fashion_story_001.jpg",
+          "label": "Project highlight: founders’ fashion story",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_project_highlight_founders_fashion_story_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_mobile_product_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_mobile_product_detail_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "76_second_chance_online_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "76_second_chance_online_video_independent_fashion_journey_001.mp4",
+          "thumbnail": "76_second_chance_online_video_independent_fashion_journey_001.jpg",
+          "purpose": "Independent-fashion discovery from best sellers to signature kimono detail",
+          "duration": 22.28,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/video/76_second_chance_online_video_independent_fashion_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/video/76_second_chance_online_video_independent_fashion_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "Playable MP4 verified: H.264, 1280×720, 22.28 seconds, complete decode passed.",
+        "Rejected duplicate 76_second_chance_online_interaction_detail_state_001.jpg; it matched 76_second_chance_online_desktop_product_detail_001.jpg byte-for-byte."
       ]
     }
   ]

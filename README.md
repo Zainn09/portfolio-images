@@ -211,8 +211,8 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 10<br>
-**Latest pipeline stage:** Audrey K Boutique asset set generated and published<br>
-**Last updated:** 2026-09-16 19:52 PKT
+**Latest pipeline stage:** Second Chance Online asset set generated and published<br>
+**Last updated:** 2026-09-16 19:53 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
@@ -221,13 +221,13 @@ Sprint 8 adds ten more supplied live websites while preserving the completed Spr
 | 73 | Ameliora | <https://ameliora.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 74 | Coffee@Work | <https://coffeeatwork.uk.com> | 🟡 Captured · QA pending | 11 | 1 | Project assets published; awaiting Sprint-level QA |
 | 75 | Audrey K Boutique | <https://audreykboutique.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
-| 76 | Second Chance Online | <https://secondchanceonline.com> | ⚪ Pending | — | — | Independent women’s kimonos, abayas, and accessories |
+| 76 | Second Chance Online | <https://secondchanceonline.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
 | 77 | Second Chance Clothing & Home Decor | <https://secondchanceclothing-homedecor.myshopify.com> | ⚪ Pending | — | — | Canadian women’s consignment clothing and home décor |
 | 78 | VTC Watches | <https://www.vtcwatches.com> | ⚪ Pending | — | — | Watch and jewelry sales, repair, and custom bridal service |
 | 79 | Liz Jordan-Hill Fabrics | <https://lizjordanhill.com> | ⚪ Pending | — | — | Stain-resistant Aquaclean upholstery fabrics |
 | 80 | Expressive Audio | <https://expressiveaudio.com> | ⚪ Pending | — | — | HiFi, home cinema, multiroom, and audio installation specialists |
 
-**Current checkpoint inventory:** 58 static images and 5 playable MP4 videos.<br>
+**Current checkpoint inventory:** 70 static images and 6 playable MP4 videos.<br>
 **Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
 
 <!-- SPRINT_08_PROGRESS_END -->
