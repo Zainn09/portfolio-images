@@ -7,7 +7,7 @@
 
 ## Inventory
 
-- Static images: **13**
+- Static images: **12**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
@@ -18,7 +18,6 @@
 - `93_american_hose_gasket_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
 - `93_american_hose_gasket_desktop_agriculture_solution_001.jpg` — Desktop detail page
 - `93_american_hose_gasket_interaction_detail_state_001.jpg` — Meaningful detail interaction / content state
-- `93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg` — Project highlight: chemical hose applications
 - `93_american_hose_gasket_desktop_industrial_applications_001.jpg` — Industrial hose applications
 - `93_american_hose_gasket_mobile_home_hero_001.jpg` — Mobile homepage hero
 - `93_american_hose_gasket_interaction_mobile_navigation_001.jpg` — Mobile navigation state

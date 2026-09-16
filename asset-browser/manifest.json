@@ -1,7 +1,7 @@
 {
-  "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201310",
+  "title": "QA Portfolio Visual Assets — Sprints 1–10",
   "generated": "2026-09-16",
-  "totalImages": 1110,
+  "totalImages": 1108,
   "totalVideos": 93,
   "projects": [
     {
@@ -346,7 +346,7 @@
       "id": "05",
       "slug": "hershop",
       "folder": "05-hershop",
-      "name": "HER SHOP\u00ae",
+      "name": "HER SHOP®",
       "url": "https://hershop.com",
       "kind": "Bridal and occasion fashion",
       "generated": "2026-09-15",
@@ -513,7 +513,7 @@
       "folder": "07-maison-khloe",
       "name": "Maison Khloe",
       "url": "https://maisonkhloe.ca",
-      "kind": "Curated women\u2019s fashion",
+      "kind": "Curated women’s fashion",
       "generated": "2026-09-15",
       "images": [
         {
@@ -743,7 +743,7 @@
         {
           "file": "09_peak_scents_video_product_journey_001.mp4",
           "thumbnail": "09_peak_scents_video_product_journey_001.jpg",
-          "purpose": "Authentic homepage \u2192 best sellers \u2192 Babchi Serum visual journey",
+          "purpose": "Authentic homepage → best sellers → Babchi Serum visual journey",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-01/09-peak-scents/video/09_peak_scents_video_product_journey_001.jpg"
         }
@@ -913,7 +913,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 17.76 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 17.76 seconds, complete decode passed.",
         "Rejected duplicate 11_globy_glen_skin_interaction_detail_state_001.jpg; it matched 11_globy_glen_skin_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -994,7 +994,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 34.28 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 34.28 seconds, complete decode passed.",
         "Rejected duplicate 12_funky_flickr_boyz_gear_interaction_detail_state_001.jpg; it matched 12_funky_flickr_boyz_gear_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 12_funky_flickr_boyz_gear_interaction_mobile_header_001.jpg; it matched 12_funky_flickr_boyz_gear_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -1086,7 +1086,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 35.12 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 35.12 seconds, complete decode passed."
       ]
     },
     {
@@ -1171,10 +1171,10 @@
         }
       ],
       "notes": [
-        "Project highlight at https://gorgeousalpacas.co.uk/collections/yarn was unavailable (HTTP 404 / 404 Not Found \u2013 Gorgeous Alpacas); a verified on-site fallback was requested.",
-        "Secondary interaction at https://gorgeousalpacas.co.uk/collections/craft-kits was unavailable (HTTP 404 / 404 Not Found \u2013 Gorgeous Alpacas); a verified on-site fallback was requested.",
-        "Mobile project highlight at https://gorgeousalpacas.co.uk/collections/yarn was unavailable (HTTP 404 / 404 Not Found \u2013 Gorgeous Alpacas); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.60 seconds, complete decode passed.",
+        "Project highlight at https://gorgeousalpacas.co.uk/collections/yarn was unavailable (HTTP 404 / 404 Not Found – Gorgeous Alpacas); a verified on-site fallback was requested.",
+        "Secondary interaction at https://gorgeousalpacas.co.uk/collections/craft-kits was unavailable (HTTP 404 / 404 Not Found – Gorgeous Alpacas); a verified on-site fallback was requested.",
+        "Mobile project highlight at https://gorgeousalpacas.co.uk/collections/yarn was unavailable (HTTP 404 / 404 Not Found – Gorgeous Alpacas); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 25.60 seconds, complete decode passed.",
         "Rejected duplicate 14_gorgeous_alpacas_desktop_signature_section_001.jpg; it matched 14_gorgeous_alpacas_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -1265,7 +1265,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 18.56 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 18.56 seconds, complete decode passed."
       ]
     },
     {
@@ -1345,7 +1345,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 34.44 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 34.44 seconds, complete decode passed.",
         "Rejected duplicate 16_something_pretty_floral_interaction_detail_state_001.jpg; it matched 16_something_pretty_floral_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 16_something_pretty_floral_interaction_mobile_navigation_001.jpg; it matched 16_something_pretty_floral_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -1422,7 +1422,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 18.64 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 18.64 seconds, complete decode passed.",
         "Rejected duplicate 17_london_flower_academy_desktop_signature_section_001.jpg; it matched 17_london_flower_academy_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 17_london_flower_academy_interaction_detail_state_001.jpg; it matched 17_london_flower_academy_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 17_london_flower_academy_interaction_mobile_header_001.jpg; it matched 17_london_flower_academy_mobile_home_hero_001.jpg byte-for-byte."
@@ -1510,7 +1510,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 33.76 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 33.76 seconds, complete decode passed.",
         "Rejected duplicate 18_monsoon_flowers_interaction_detail_state_001.jpg; it matched 18_monsoon_flowers_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -1596,7 +1596,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 23.12 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 23.12 seconds, complete decode passed.",
         "Rejected duplicate 19_electrocity_bikes_desktop_signature_section_001.jpg; it matched 19_electrocity_bikes_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -1687,7 +1687,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 22.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 22.60 seconds, complete decode passed."
       ]
     },
     {
@@ -1775,7 +1775,7 @@
         "Direct browser and remote-renderer requests were rejected because the live host returned HTTP 403 security verification.",
         "No security-verification page is included. Authentic public site images and verbatim public treatment/contact information were used for the reference compositions.",
         "Playable video uses only the authentic Moore Beauty hero, treatment-specialty, and menu references.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
       ]
     },
     {
@@ -1855,7 +1855,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 35.36 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 35.36 seconds, complete decode passed.",
         "Rejected duplicate 22_kuurth_interaction_detail_state_001.jpg; it matched 22_kuurth_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 22_kuurth_interaction_mobile_header_001.jpg; it matched 22_kuurth_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -1937,7 +1937,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 24.84 seconds, complete decode passed.",
         "Rejected duplicate 23_biofield_resonator_desktop_secondary_experience_001.jpg; it matched 23_biofield_resonator_interaction_detail_state_001.jpg byte-for-byte.",
         "Rejected duplicate 23_biofield_resonator_interaction_mobile_header_001.jpg; it matched 23_biofield_resonator_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -2024,7 +2024,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 27.32 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 27.32 seconds, complete decode passed.",
         "Rejected duplicate 24_xtinctio_interaction_mobile_header_001.jpg; it matched 24_xtinctio_mobile_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -2110,7 +2110,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.00 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 25.00 seconds, complete decode passed.",
         "Independent perceptual QA removed one near-identical carousel capture; the retained 12-image set contains only meaningfully distinct visuals."
       ]
     },
@@ -2186,7 +2186,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 30.84 seconds, complete decode passed.",
         "Independent perceptual QA removed three near-identical states; the retained 10-image set contains only meaningfully distinct visuals."
       ]
     },
@@ -2262,7 +2262,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.16 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 24.16 seconds, complete decode passed.",
         "Rejected duplicate 27_anthom_design_house_desktop_signature_section_001.jpg; it matched 27_anthom_design_house_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 27_anthom_design_house_interaction_detail_state_001.jpg; it matched 27_anthom_design_house_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 27_anthom_design_house_interaction_mobile_header_001.jpg; it matched 27_anthom_design_house_mobile_home_hero_001.jpg byte-for-byte."
@@ -2350,7 +2350,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 29.12 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 29.12 seconds, complete decode passed.",
         "Rejected duplicate 28_gabrielle_jewelry_desktop_secondary_experience_001.jpg; it matched 28_gabrielle_jewelry_interaction_detail_state_001.jpg byte-for-byte."
       ]
     },
@@ -2449,7 +2449,7 @@
         "Direct GitHub Actions browser requests returned the same blocked response for every route; that response was rejected and is not included.",
         "Authentic public Black Arrow Gallery source images were retrieved through a domain-constrained image index and visually checked before use.",
         "Reference compositions use only those live-site source images and verbatim public Black Arrow Gallery identity/category information.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
       ]
     },
     {
@@ -2534,7 +2534,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 28.64 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 28.64 seconds, complete decode passed.",
         "Rejected duplicate 30_cowbells_interaction_detail_state_001.jpg; it matched 30_cowbells_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -2618,7 +2618,7 @@
         "Detail at https://nineamroast.com/products/breakfast-blend was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
         "Mobile detail at https://nineamroast.com/products/breakfast-blend was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
         "Video detail at https://nineamroast.com/products/breakfast-blend was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 32.88 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 32.88 seconds, complete decode passed.",
         "Rejected duplicate 31_nine_am_roast_desktop_product_detail_001.jpg; it matched 31_nine_am_roast_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 31_nine_am_roast_mobile_project_specific_section_001.jpg; it matched 31_nine_am_roast_mobile_product_detail_001.jpg byte-for-byte."
       ]
@@ -2629,7 +2629,7 @@
       "folder": "32-lilly-jace-kids",
       "name": "Lilly & Jace Kids",
       "url": "https://lillyjacekids.com",
-      "kind": "Children\u2019s clothing and accessories boutique",
+      "kind": "Children’s clothing and accessories boutique",
       "generated": "2026-09-16",
       "images": [
         {
@@ -2697,7 +2697,7 @@
         {
           "file": "32_lilly_jace_kids_video_kids_boutique_journey_001.mp4",
           "thumbnail": "32_lilly_jace_kids_video_kids_boutique_journey_001.jpg",
-          "purpose": "Children\u2019s boutique discovery from new arrivals to garment detail",
+          "purpose": "Children’s boutique discovery from new arrivals to garment detail",
           "duration": 31.76,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/32-lilly-jace-kids/video/32_lilly_jace_kids_video_kids_boutique_journey_001.mp4",
@@ -2705,7 +2705,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 31.76 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 31.76 seconds, complete decode passed.",
         "Rejected duplicate 32_lilly_jace_kids_desktop_signature_section_001.jpg; it matched 32_lilly_jace_kids_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -2713,9 +2713,9 @@
       "id": "33",
       "slug": "rad-childrens-furniture",
       "folder": "33-rad-childrens-furniture",
-      "name": "RAD Children\u2019s Furniture",
+      "name": "RAD Children’s Furniture",
       "url": "https://radchildrensfurniture.com",
-      "kind": "Montessori children\u2019s furniture",
+      "kind": "Montessori children’s furniture",
       "generated": "2026-09-16",
       "images": [
         {
@@ -2793,7 +2793,7 @@
       "notes": [
         "Project highlight at https://radchildrensfurniture.com/collections/climbing-triangles was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
         "Mobile project highlight at https://radchildrensfurniture.com/collections/climbing-triangles was unavailable (HTTP 404 / 404 Not Found); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 33.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 33.84 seconds, complete decode passed.",
         "Rejected duplicate 33_rad_childrens_furniture_interaction_detail_state_001.jpg; it matched 33_rad_childrens_furniture_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     },
@@ -2801,7 +2801,7 @@
       "id": "34",
       "slug": "lalys-candles",
       "folder": "34-lalys-candles",
-      "name": "Laly\u2019s Candles",
+      "name": "Laly’s Candles",
       "url": "https://lalyscandles.com",
       "kind": "Hand-poured scented candles",
       "generated": "2026-09-16",
@@ -2879,7 +2879,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 27.92 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 27.92 seconds, complete decode passed.",
         "Rejected duplicate 34_lalys_candles_project_highlight_hand_poured_candle_story_001.jpg; it matched 34_lalys_candles_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -2960,7 +2960,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 28.52 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 28.52 seconds, complete decode passed.",
         "Rejected duplicate 35_adonis_jewellery_interaction_detail_state_001.jpg; it matched 35_adonis_jewellery_desktop_product_detail_001.jpg in perceptual image QA.",
         "Rejected duplicate 35_adonis_jewellery_interaction_mobile_navigation_001.jpg; it matched 35_adonis_jewellery_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -3047,7 +3047,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 28.08 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 28.08 seconds, complete decode passed.",
         "Rejected duplicate 36_smovey_usa_interaction_detail_state_001.jpg; it matched 36_smovey_usa_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -3057,7 +3057,7 @@
       "folder": "37-tinnie-tots",
       "name": "Tinnie Tots",
       "url": "https://www.tinnietots.com",
-      "kind": "Children\u2019s clothing and footwear",
+      "kind": "Children’s clothing and footwear",
       "generated": "2026-09-16",
       "images": [
         {
@@ -3082,7 +3082,7 @@
         },
         {
           "file": "37_tinnie_tots_project_highlight_children_s_footwear_collection_001.jpg",
-          "label": "Project highlight: children\u2019s footwear collection",
+          "label": "Project highlight: children’s footwear collection",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/images/37_tinnie_tots_project_highlight_children_s_footwear_collection_001.jpg"
         },
         {
@@ -3125,7 +3125,7 @@
         {
           "file": "37_tinnie_tots_video_kids_fashion_journey_001.mp4",
           "thumbnail": "37_tinnie_tots_video_kids_fashion_journey_001.jpg",
-          "purpose": "Children\u2019s fashion discovery from seasonal collection to garment detail",
+          "purpose": "Children’s fashion discovery from seasonal collection to garment detail",
           "duration": 23.92,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-04/37-tinnie-tots/video/37_tinnie_tots_video_kids_fashion_journey_001.mp4",
@@ -3134,7 +3134,7 @@
       ],
       "notes": [
         "Video detail at https://www.tinnietots.com/products/black-brown-reglan-sweatshirt was unavailable (HTTP 429 / Just a moment...); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 23.92 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 23.92 seconds, complete decode passed.",
         "Rejected duplicate 37_tinnie_tots_interaction_detail_state_001.jpg; it matched 37_tinnie_tots_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -3144,7 +3144,7 @@
       "folder": "38-la-petite-wardrobe",
       "name": "La Petite Wardrobe",
       "url": "https://lapetitewardrobe.co.uk",
-      "kind": "Handmade children\u2019s occasionwear",
+      "kind": "Handmade children’s occasionwear",
       "generated": "2026-09-16",
       "images": [
         {
@@ -3225,7 +3225,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 23.88 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 23.88 seconds, complete decode passed."
       ]
     },
     {
@@ -3310,7 +3310,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 40.48 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 40.48 seconds, complete decode passed.",
         "Rejected duplicate 39_koala_picks_interaction_detail_state_001.jpg; it matched 39_koala_picks_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     },
@@ -3396,7 +3396,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.16 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 30.16 seconds, complete decode passed.",
         "Rejected duplicate 40_glisser_beauty_interaction_detail_state_001.jpg; it matched 40_glisser_beauty_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -3482,7 +3482,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.68 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 30.68 seconds, complete decode passed.",
         "Rejected duplicate 41_artdiscount_desktop_signature_section_001.jpg; it matched 41_artdiscount_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -3573,7 +3573,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.00 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 24.00 seconds, complete decode passed."
       ]
     },
     {
@@ -3658,7 +3658,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 25.84 seconds, complete decode passed.",
         "Rejected duplicate 43_divchi_desktop_signature_section_001.jpg; it matched 43_divchi_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -3744,7 +3744,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.60 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 36.60 seconds, complete decode passed.",
         "Rejected duplicate 44_chicopick_interaction_detail_state_001.jpg; it matched 44_chicopick_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -3754,7 +3754,7 @@
       "folder": "45-hugh-mcelvanna-menswear",
       "name": "Hugh McElvanna Menswear",
       "url": "https://www.hughmcelvannamenswear.com",
-      "kind": "Men\u2019s suits and casual clothing",
+      "kind": "Men’s suits and casual clothing",
       "generated": "2026-09-16",
       "images": [
         {
@@ -3835,7 +3835,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.68 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 24.68 seconds, complete decode passed."
       ]
     },
     {
@@ -3844,7 +3844,7 @@
       "folder": "46-j-fredric",
       "name": "J. Fredric",
       "url": "https://jfredrics.com",
-      "kind": "Hand-tailored men\u2019s clothing",
+      "kind": "Hand-tailored men’s clothing",
       "generated": "2026-09-16",
       "images": [
         {
@@ -3920,7 +3920,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 18.84 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 18.84 seconds, complete decode passed.",
         "Rejected duplicate 46_j_fredric_interaction_detail_state_001.jpg; it matched 46_j_fredric_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     },
@@ -4006,7 +4006,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.48 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 30.48 seconds, complete decode passed.",
         "Rejected duplicate 47_bloomsbury_flowers_desktop_signature_section_001.jpg; it matched 47_bloomsbury_flowers_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -4014,9 +4014,9 @@
       "id": "48",
       "slug": "nordikka-collective",
       "folder": "48-nordikka-collective",
-      "name": "N\u00f8rdikka Collective",
+      "name": "Nørdikka Collective",
       "url": "https://nordikkacollective.com",
-      "kind": "Nordic and Scandinavian furniture, lighting, and d\u00e9cor",
+      "kind": "Nordic and Scandinavian furniture, lighting, and décor",
       "generated": "2026-09-16",
       "images": [
         {
@@ -4093,7 +4093,7 @@
       ],
       "notes": [
         "Secondary interaction at https://nordikkacollective.com/collections/the-dining-chairs was unavailable (HTTP 502 / ); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 31.80 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 31.80 seconds, complete decode passed.",
         "Rejected duplicate 48_nordikka_collective_desktop_secondary_experience_001.jpg; it matched 48_nordikka_collective_interaction_detail_state_001.jpg byte-for-byte."
       ]
     },
@@ -4184,9 +4184,9 @@
         }
       ],
       "notes": [
-        "Project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found \u2013 mytravelpassport); a verified on-site fallback was requested.",
-        "Mobile project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found \u2013 mytravelpassport); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 47.52 seconds, complete decode passed."
+        "Project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
+        "Mobile project highlight at https://mytravelpassport.eu/en/products/my-travel-passport-europe was unavailable (HTTP 404 / 404 Not Found – mytravelpassport); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 47.52 seconds, complete decode passed."
       ]
     },
     {
@@ -4271,7 +4271,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 19.32 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 19.32 seconds, complete decode passed.",
         "Rejected duplicate 50_peter_james_jewelry_interaction_detail_state_001.jpg; it matched 50_peter_james_jewelry_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -4281,7 +4281,7 @@
       "folder": "51-judyp-apparel",
       "name": "JudyP Apparel",
       "url": "https://judypapparel.com",
-      "kind": "Women\u2019s wrinkle-resistant travel clothing",
+      "kind": "Women’s wrinkle-resistant travel clothing",
       "generated": "2026-09-16",
       "images": [
         {
@@ -4352,7 +4352,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 33.16 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 33.16 seconds, complete decode passed.",
         "Rejected duplicate 51_judyp_apparel_desktop_signature_section_001.jpg; it matched 51_judyp_apparel_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 51_judyp_apparel_interaction_detail_state_001.jpg; it matched 51_judyp_apparel_desktop_product_detail_001.jpg byte-for-byte."
       ]
@@ -4434,7 +4434,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.76 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 25.76 seconds, complete decode passed.",
         "Rejected duplicate 52_lady_flora_desktop_signature_section_001.jpg; it matched 52_lady_flora_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 52_lady_flora_interaction_detail_state_001.jpg; it matched 52_lady_flora_desktop_product_detail_001.jpg byte-for-byte."
       ]
@@ -4512,7 +4512,7 @@
       ],
       "notes": [
         "Mobile detail at https://www.nanolamination.com/products/i-smooth-starter-kit was unavailable (HTTP 429 / Just a moment...); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.52 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 25.52 seconds, complete decode passed.",
         "Rejected duplicate 53_nano_lamination_desktop_signature_section_001.jpg; it matched 53_nano_lamination_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 53_nano_lamination_desktop_secondary_experience_001.jpg; it matched 53_nano_lamination_desktop_collection_listing_001.jpg byte-for-byte.",
         "Rejected duplicate 53_nano_lamination_mobile_product_detail_001.jpg; it matched 53_nano_lamination_mobile_home_hero_001.jpg byte-for-byte."
@@ -4605,7 +4605,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.40 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 36.40 seconds, complete decode passed."
       ]
     },
     {
@@ -4614,7 +4614,7 @@
       "folder": "55-luxe-atelier",
       "name": "Luxe Atelier",
       "url": "https://luxeatelier.co.uk",
-      "kind": "Luxury women\u2019s occasionwear and evening dresses",
+      "kind": "Luxury women’s occasionwear and evening dresses",
       "generated": "2026-09-16",
       "images": [
         {
@@ -4690,7 +4690,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 20.08 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 20.08 seconds, complete decode passed.",
         "Rejected duplicate 55_luxe_atelier_interaction_detail_state_001.jpg; it matched 55_luxe_atelier_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -4776,7 +4776,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 37.12 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 37.12 seconds, complete decode passed.",
         "Rejected duplicate 56_eastern_inspiration_interaction_detail_state_001.jpg; it matched 56_eastern_inspiration_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     },
@@ -4857,8 +4857,8 @@
         }
       ],
       "notes": [
-        "Secondary interaction at https://petprestigeuk.com/collections/cat-products was unavailable (HTTP 404 / 404 Not Found \u2014 Pet Prestige UK); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 35.56 seconds, complete decode passed.",
+        "Secondary interaction at https://petprestigeuk.com/collections/cat-products was unavailable (HTTP 404 / 404 Not Found — Pet Prestige UK); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 35.56 seconds, complete decode passed.",
         "Rejected duplicate 57_pet_prestige_uk_desktop_signature_section_001.jpg; it matched 57_pet_prestige_uk_desktop_home_hero_001.jpg in perceptual image QA.",
         "Rejected duplicate 57_pet_prestige_uk_interaction_mobile_header_001.jpg; it matched 57_pet_prestige_uk_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -4945,7 +4945,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 44.20 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 44.20 seconds, complete decode passed.",
         "Rejected duplicate 58_midland_textiles_interaction_mobile_header_001.jpg; it matched 58_midland_textiles_mobile_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -4953,7 +4953,7 @@
       "id": "59",
       "slug": "ba-squared-fitness",
       "folder": "59-ba-squared-fitness",
-      "name": "BA\u00b2 Fitness",
+      "name": "BA² Fitness",
       "url": "https://basquaredfitness.com",
       "kind": "Performance fitness apparel",
       "generated": "2026-09-16",
@@ -4965,7 +4965,7 @@
         },
         {
           "file": "59_ba_squared_fitness_desktop_signature_section_001.jpg",
-          "label": "Desktop THE BA\u00b2 TRILOGY COLLECTION section",
+          "label": "Desktop THE BA² TRILOGY COLLECTION section",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-06/59-ba-squared-fitness/images/59_ba_squared_fitness_desktop_signature_section_001.jpg"
         },
         {
@@ -5031,7 +5031,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 31.20 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 31.20 seconds, complete decode passed.",
         "Rejected duplicate 59_ba_squared_fitness_interaction_detail_state_001.jpg; it matched 59_ba_squared_fitness_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -5117,7 +5117,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.08 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 36.08 seconds, complete decode passed.",
         "Rejected duplicate 60_belo_jewelry_interaction_detail_state_001.jpg; it matched 60_belo_jewelry_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -5203,10 +5203,10 @@
         }
       ],
       "notes": [
-        "Detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found \u2013 Rocket Krunch); a verified on-site fallback was requested.",
-        "Mobile detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found \u2013 Rocket Krunch); a verified on-site fallback was requested.",
-        "Video detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found \u2013 Rocket Krunch); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.32 seconds, complete decode passed.",
+        "Detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
+        "Mobile detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
+        "Video detail at https://www.rocketkrunch.com/products/freeze-dried-candy-krunch-pack-builder was unavailable (HTTP 404 / 404 Not Found – Rocket Krunch); a verified on-site fallback was requested.",
+        "Playable MP4 verified: H.264, 1280×720, 36.32 seconds, complete decode passed.",
         "Rejected duplicate 61_rocket_krunch_desktop_product_detail_001.jpg; it matched 61_rocket_krunch_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -5292,7 +5292,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 27.04 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 27.04 seconds, complete decode passed.",
         "Rejected duplicate 63_total_beauty_experience_interaction_detail_state_001.jpg; it matched 63_total_beauty_experience_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -5302,7 +5302,7 @@
       "folder": "64-john-white-shoes",
       "name": "John White Shoes",
       "url": "https://www.johnwhiteshoes.com",
-      "kind": "British heritage men\u2019s leather footwear",
+      "kind": "British heritage men’s leather footwear",
       "generated": "2026-09-16",
       "images": [
         {
@@ -5383,7 +5383,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 38.88 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 38.88 seconds, complete decode passed."
       ]
     },
     {
@@ -5473,14 +5473,14 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 39.84 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 39.84 seconds, complete decode passed."
       ]
     },
     {
       "id": "66",
       "slug": "hughies-dog-accessories",
       "folder": "66-hughies-dog-accessories",
-      "name": "Hughie\u2019s Dog Accessories",
+      "name": "Hughie’s Dog Accessories",
       "url": "https://hughies-dog-accessories.com",
       "kind": "Handmade sustainable dog collars, bandanas, and toys",
       "generated": "2026-09-16",
@@ -5492,7 +5492,7 @@
         },
         {
           "file": "66_hughies_dog_accessories_desktop_signature_section_001.jpg",
-          "label": "Desktop Why Choose Hughie\u2019s section",
+          "label": "Desktop Why Choose Hughie’s section",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-07/66-hughies-dog-accessories/images/66_hughies_dog_accessories_desktop_signature_section_001.jpg"
         },
         {
@@ -5563,7 +5563,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 42.12 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 42.12 seconds, complete decode passed."
       ]
     },
     {
@@ -5653,7 +5653,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 24.04 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 24.04 seconds, complete decode passed."
       ]
     },
     {
@@ -5733,7 +5733,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 17.92 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 17.92 seconds, complete decode passed.",
         "Rejected duplicate 68_op_fashion_fabrics_interaction_detail_state_001.jpg; it matched 68_op_fashion_fabrics_desktop_company_story_001.jpg byte-for-byte.",
         "Rejected duplicate 68_op_fashion_fabrics_interaction_mobile_header_001.jpg; it matched 68_op_fashion_fabrics_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -5820,7 +5820,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 25.44 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 25.44 seconds, complete decode passed.",
         "Rejected duplicate 69_gym_emotion_interaction_mobile_search_001.jpg; it matched 69_gym_emotion_mobile_home_hero_001.jpg in perceptual image QA."
       ]
     },
@@ -5907,7 +5907,7 @@
       ],
       "notes": [
         "Secondary interaction at https://www.elysianblooms.co.uk/flower-delivery/Datchet-Common.htm was unavailable (HTTP 404 / ); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 20.40 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 20.40 seconds, complete decode passed.",
         "Rejected duplicate 70_elysian_blooms_interaction_mobile_header_001.jpg; it matched 70_elysian_blooms_mobile_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -5984,7 +5984,7 @@
       ],
       "notes": [
         "The storefront challenged repeated route changes from the capture runner, so coverage uses varied authentic states from one live collection load and one live mobile homepage load.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
       ]
     },
     {
@@ -6023,7 +6023,7 @@
         },
         {
           "file": "72_sol_eyewear_project_highlight_women_s_european_sunglasses_001.jpg",
-          "label": "Project highlight: women\u2019s European sunglasses",
+          "label": "Project highlight: women’s European sunglasses",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-08/72-sol-eyewear/images/72_sol_eyewear_project_highlight_women_s_european_sunglasses_001.jpg"
         },
         {
@@ -6074,7 +6074,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 39.24 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 39.24 seconds, complete decode passed."
       ]
     },
     {
@@ -6083,7 +6083,7 @@
       "folder": "73-ameliora",
       "name": "Ameliora",
       "url": "https://ameliora.com",
-      "kind": "Machine-washable wrinkle-resistant women\u2019s workwear",
+      "kind": "Machine-washable wrinkle-resistant women’s workwear",
       "generated": "2026-09-16",
       "images": [
         {
@@ -6154,7 +6154,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 20.28 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 20.28 seconds, complete decode passed.",
         "Rejected duplicate 73_ameliora_interaction_detail_state_001.jpg; it matched 73_ameliora_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 73_ameliora_interaction_mobile_header_001.jpg; it matched 73_ameliora_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -6236,7 +6236,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.32 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 36.32 seconds, complete decode passed.",
         "Rejected duplicate 74_coffee_at_work_interaction_detail_state_001.jpg; it matched 74_coffee_at_work_desktop_product_detail_001.jpg byte-for-byte.",
         "Rejected duplicate 74_coffee_at_work_interaction_mobile_navigation_001.jpg; it matched 74_coffee_at_work_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -6247,7 +6247,7 @@
       "folder": "75-audrey-k-boutique",
       "name": "Audrey K Boutique",
       "url": "https://audreykboutique.com",
-      "kind": "Independent women\u2019s fashion and gift boutique",
+      "kind": "Independent women’s fashion and gift boutique",
       "generated": "2026-09-16",
       "images": [
         {
@@ -6272,7 +6272,7 @@
         },
         {
           "file": "75_audrey_k_boutique_project_highlight_women_s_dress_collection_001.jpg",
-          "label": "Project highlight: women\u2019s dress collection",
+          "label": "Project highlight: women’s dress collection",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-08/75-audrey-k-boutique/images/75_audrey_k_boutique_project_highlight_women_s_dress_collection_001.jpg"
         },
         {
@@ -6323,7 +6323,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 27.64 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 27.64 seconds, complete decode passed.",
         "Rejected duplicate 75_audrey_k_boutique_interaction_detail_state_001.jpg; it matched 75_audrey_k_boutique_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -6333,7 +6333,7 @@
       "folder": "76-second-chance-online",
       "name": "Second Chance Online",
       "url": "https://secondchanceonline.com",
-      "kind": "Independent women\u2019s kimonos, abayas, and accessories",
+      "kind": "Independent women’s kimonos, abayas, and accessories",
       "generated": "2026-09-16",
       "images": [
         {
@@ -6358,7 +6358,7 @@
         },
         {
           "file": "76_second_chance_online_project_highlight_founders_fashion_story_001.jpg",
-          "label": "Project highlight: founders\u2019 fashion story",
+          "label": "Project highlight: founders’ fashion story",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-08/76-second-chance-online/images/76_second_chance_online_project_highlight_founders_fashion_story_001.jpg"
         },
         {
@@ -6409,7 +6409,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 22.28 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 22.28 seconds, complete decode passed.",
         "Rejected duplicate 76_second_chance_online_interaction_detail_state_001.jpg; it matched 76_second_chance_online_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -6419,7 +6419,7 @@
       "folder": "77-second-chance-clothing-home-decor",
       "name": "Second Chance Clothing & Home Decor",
       "url": "https://secondchanceclothing-homedecor.myshopify.com",
-      "kind": "Canadian women\u2019s consignment clothing and home d\u00e9cor",
+      "kind": "Canadian women’s consignment clothing and home décor",
       "generated": "2026-09-16",
       "images": [
         {
@@ -6429,7 +6429,7 @@
         },
         {
           "file": "77_second_chance_clothing_home_decor_desktop_signature_section_001.jpg",
-          "label": "Desktop Women\u2019s clothing section",
+          "label": "Desktop Women’s clothing section",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-08/77-second-chance-clothing-home-decor/images/77_second_chance_clothing_home_decor_desktop_signature_section_001.jpg"
         },
         {
@@ -6495,7 +6495,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 19.60 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
         "Rejected duplicate 77_second_chance_clothing_home_decor_interaction_detail_state_001.jpg; it matched 77_second_chance_clothing_home_decor_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -6571,7 +6571,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.96 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 36.96 seconds, complete decode passed.",
         "Rejected duplicate 78_vtc_watches_interaction_detail_state_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
         "Rejected duplicate 78_vtc_watches_desktop_secondary_experience_001.jpg; it matched 78_vtc_watches_desktop_collection_listing_001.jpg in perceptual image QA.",
         "Rejected duplicate 78_vtc_watches_interaction_mobile_navigation_001.jpg; it matched 78_vtc_watches_mobile_home_hero_001.jpg byte-for-byte."
@@ -6659,7 +6659,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 40.32 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 40.32 seconds, complete decode passed.",
         "Rejected duplicate 79_liz_jordan_hill_desktop_secondary_experience_001.jpg; it matched 79_liz_jordan_hill_interaction_detail_state_001.jpg byte-for-byte."
       ]
     },
@@ -6745,7 +6745,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 19.60 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 19.60 seconds, complete decode passed.",
         "Rejected duplicate 80_expressive_audio_interaction_detail_state_001.jpg; it matched 80_expressive_audio_desktop_product_detail_001.jpg in perceptual image QA."
       ]
     },
@@ -6841,7 +6841,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 17.32 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 17.32 seconds, complete decode passed.",
         "Rejected duplicate 81_limitless_brain_lab_interaction_mobile_header_001.jpg; it matched 81_limitless_brain_lab_mobile_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -6922,7 +6922,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 18.04 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 18.04 seconds, complete decode passed.",
         "Rejected duplicate 82_enerex_desktop_signature_section_001.jpg; it matched 82_enerex_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 82_enerex_interaction_mobile_header_001.jpg; it matched 82_enerex_mobile_home_hero_001.jpg byte-for-byte."
       ]
@@ -7009,7 +7009,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 18.80 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 18.80 seconds, complete decode passed.",
         "Rejected duplicate 83_balletpro_interaction_detail_state_001.jpg; it matched 83_balletpro_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -7095,7 +7095,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 28.96 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 28.96 seconds, complete decode passed.",
         "Rejected duplicate 84_cuddles_dog_bakery_desktop_signature_section_001.jpg; it matched 84_cuddles_dog_bakery_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -7186,7 +7186,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 30.32 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 30.32 seconds, complete decode passed."
       ]
     },
     {
@@ -7266,7 +7266,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 32.20 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 32.20 seconds, complete decode passed.",
         "Rejected duplicate 86_bidet_toilets_desktop_collection_listing_001.jpg; it matched 86_bidet_toilets_desktop_signature_section_001.jpg in perceptual image QA.",
         "Rejected duplicate 86_bidet_toilets_mobile_product_detail_001.jpg; it matched 86_bidet_toilets_mobile_home_hero_001.jpg in perceptual image QA."
       ]
@@ -7353,7 +7353,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 21.00 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 21.00 seconds, complete decode passed.",
         "Rejected duplicate 87_faraway_finds_desktop_signature_section_001.jpg; it matched 87_faraway_finds_desktop_home_hero_001.jpg byte-for-byte."
       ]
     },
@@ -7442,7 +7442,7 @@
         "Detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
         "Mobile detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
         "Video detail at https://mrca.net/appointment/ was unavailable (HTTP 404 / Page not found - Manufacturing Revitalization Corporation of America); a verified on-site fallback was requested.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 36.20 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 36.20 seconds, complete decode passed.",
         "Rejected duplicate 88_mrca_desktop_appointment_page_001.jpg; it matched 88_mrca_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 88_mrca_desktop_secondary_experience_001.jpg; it matched 88_mrca_interaction_detail_state_001.jpg byte-for-byte.",
         "Rejected duplicate 88_mrca_mobile_appointment_page_001.jpg; it matched 88_mrca_mobile_home_hero_001.jpg byte-for-byte."
@@ -7535,7 +7535,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 33.96 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 33.96 seconds, complete decode passed."
       ]
     },
     {
@@ -7615,7 +7615,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 32.60 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 32.60 seconds, complete decode passed.",
         "Rejected duplicate 90_wisconic_desktop_signature_section_001.jpg; it matched 90_wisconic_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 90_wisconic_interaction_detail_state_001.jpg; it matched 90_wisconic_desktop_private_label_service_001.jpg byte-for-byte.",
         "Rejected duplicate 90_wisconic_interaction_mobile_header_001.jpg; it matched 90_wisconic_mobile_home_hero_001.jpg byte-for-byte."
@@ -7649,11 +7649,6 @@
           "file": "91_morris_manufacturing_desktop_quality_systems_001.jpg",
           "label": "Manufacturing quality systems",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_quality_systems_001.jpg"
-        },
-        {
-          "file": "91_morris_manufacturing_desktop_company_video_section_001.jpg",
-          "label": "Company video overview",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_company_video_section_001.jpg"
         },
         {
           "file": "91_morris_manufacturing_mobile_home_hero_001.jpg",
@@ -7693,7 +7688,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 33.52 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 33.52 seconds, complete decode passed.",
         "Rejected duplicate 91_morris_manufacturing_desktop_manufacturing_capabilities_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 91_morris_manufacturing_interaction_detail_state_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg byte-for-byte.",
         "Rejected duplicate 91_morris_manufacturing_project_highlight_precision_manufacturing_facility_001.jpg; it matched 91_morris_manufacturing_desktop_home_hero_001.jpg in perceptual image QA.",
@@ -7734,11 +7729,6 @@
           "file": "93_american_hose_gasket_interaction_detail_state_001.jpg",
           "label": "Meaningful detail interaction / content state",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_interaction_detail_state_001.jpg"
-        },
-        {
-          "file": "93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg",
-          "label": "Project highlight: chemical hose applications",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg"
         },
         {
           "file": "93_american_hose_gasket_desktop_industrial_applications_001.jpg",
@@ -7788,7 +7778,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 28.88 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 28.88 seconds, complete decode passed.",
         "Rejected duplicate 93_american_hose_gasket_desktop_secondary_experience_001.jpg; it matched 93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg in perceptual image QA.",
         "Rejected duplicate 93_american_hose_gasket_desktop_concrete_applications_001.jpg; it matched 93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg in perceptual image QA."
       ]
@@ -7875,7 +7865,7 @@
         }
       ],
       "notes": [
-        "Playable MP4 verified: H.264, 1280\u00d7720, 37.64 seconds, complete decode passed.",
+        "Playable MP4 verified: H.264, 1280×720, 37.64 seconds, complete decode passed.",
         "Rejected duplicate 94_rock_angel_creations_interaction_detail_state_001.jpg; it matched 94_rock_angel_creations_desktop_product_detail_001.jpg byte-for-byte."
       ]
     },
@@ -7967,14 +7957,14 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_desktop_technical_video_feature_001.jpg"
         },
         {
-          "file": "92_tmi_products_responsive_source_comparison_001.jpg",
+          "file": "92_tmi_products_responsive_comparison_001.jpg",
           "label": "Desktop / mobile authentic source-media comparison",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_responsive_source_comparison_001.jpg"
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_responsive_comparison_001.jpg"
         },
         {
-          "file": "92_tmi_products_qa_configurator_material_sequence_001.jpg",
+          "file": "92_tmi_products_qa_user_flow_sequence_001.jpg",
           "label": "Three-state Seat Configurator material reference",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_qa_configurator_material_sequence_001.jpg"
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_qa_user_flow_sequence_001.jpg"
         }
       ],
       "videos": [
@@ -7992,7 +7982,7 @@
         "The live TMI interface returned Vercel Security Checkpoint code 21 to the GitHub Actions capture runner.",
         "Instead of preserving that blocked state, this set uses current media embedded by the live TMI site from its official Dato CMS asset host; source URLs are recorded per image.",
         "No cached pages, substitute storefronts, fabricated product UI, or defect claims were used.",
-        "Playable MP4 verified: H.264, 1280\u00d7720, 10.60 seconds, complete decode passed."
+        "Playable MP4 verified: H.264, 1280×720, 10.60 seconds, complete decode passed."
       ]
     }
   ],

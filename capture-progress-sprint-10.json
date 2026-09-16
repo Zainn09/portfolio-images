@@ -4,15 +4,15 @@
   "projects": [
     {
       "id": "91",
-      "status": "captured",
-      "images": 10,
+      "status": "recapture queued",
+      "images": 9,
       "videos": 1,
-      "note": "Project assets published; awaiting Sprint-level QA"
+      "note": "Blank frame removed; manufacturing expertise recapture queued"
     },
     {
       "id": "93",
       "status": "captured",
-      "images": 13,
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     },

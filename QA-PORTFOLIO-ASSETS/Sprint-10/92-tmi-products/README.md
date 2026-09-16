@@ -26,8 +26,8 @@
 - `92_tmi_products_desktop_feature_video_killer_mike_001.jpg` — Current TMI feature-video artwork — source: https://www.datocms-assets.com/31486/1786639352-killer_mike_youtube_thumbnail_2026.jpg
 - `92_tmi_products_desktop_show_schedule_feature_001.jpg` — Current TMI show-schedule feature artwork — source: https://www.datocms-assets.com/31486/1773904847-semasigup-notvideo-tolink.jpg
 - `92_tmi_products_desktop_technical_video_feature_001.jpg` — Current TMI technical-video artwork — source: https://www.datocms-assets.com/31486/1773904924-tech-tuesday.jpg
-- `92_tmi_products_responsive_source_comparison_001.jpg` — Desktop / mobile authentic source-media comparison
-- `92_tmi_products_qa_configurator_material_sequence_001.jpg` — Three-state Seat Configurator material reference
+- `92_tmi_products_responsive_comparison_001.jpg` — Desktop / mobile authentic source-media comparison
+- `92_tmi_products_qa_user_flow_sequence_001.jpg` — Three-state Seat Configurator material reference
 
 ## Video
 

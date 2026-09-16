@@ -1,7 +1,7 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 10",
   "generated": "2026-09-16",
-  "totalImages": 50,
+  "totalImages": 48,
   "totalVideos": 4,
   "projects": [
     {
@@ -32,11 +32,6 @@
           "file": "91_morris_manufacturing_desktop_quality_systems_001.jpg",
           "label": "Manufacturing quality systems",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_quality_systems_001.jpg"
-        },
-        {
-          "file": "91_morris_manufacturing_desktop_company_video_section_001.jpg",
-          "label": "Company video overview",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/91-morris-manufacturing/images/91_morris_manufacturing_desktop_company_video_section_001.jpg"
         },
         {
           "file": "91_morris_manufacturing_mobile_home_hero_001.jpg",
@@ -117,11 +112,6 @@
           "file": "93_american_hose_gasket_interaction_detail_state_001.jpg",
           "label": "Meaningful detail interaction / content state",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_interaction_detail_state_001.jpg"
-        },
-        {
-          "file": "93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg",
-          "label": "Project highlight: chemical hose applications",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/93-american-hose-gasket/images/93_american_hose_gasket_project_highlight_chemical_hose_applications_001.jpg"
         },
         {
           "file": "93_american_hose_gasket_desktop_industrial_applications_001.jpg",
@@ -350,14 +340,14 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_desktop_technical_video_feature_001.jpg"
         },
         {
-          "file": "92_tmi_products_responsive_source_comparison_001.jpg",
+          "file": "92_tmi_products_responsive_comparison_001.jpg",
           "label": "Desktop / mobile authentic source-media comparison",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_responsive_source_comparison_001.jpg"
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_responsive_comparison_001.jpg"
         },
         {
-          "file": "92_tmi_products_qa_configurator_material_sequence_001.jpg",
+          "file": "92_tmi_products_qa_user_flow_sequence_001.jpg",
           "label": "Three-state Seat Configurator material reference",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_qa_configurator_material_sequence_001.jpg"
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-10/92-tmi-products/images/92_tmi_products_qa_user_flow_sequence_001.jpg"
         }
       ],
       "videos": [

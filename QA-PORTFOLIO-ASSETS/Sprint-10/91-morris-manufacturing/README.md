@@ -7,7 +7,7 @@
 
 ## Inventory
 
-- Static images: **10**
+- Static images: **9**
 - Videos: **1**
 - Video thumbnails: **1** (stored with the video)
 
@@ -17,7 +17,6 @@
 - `91_morris_manufacturing_desktop_signature_section_001.jpg` — Desktop ABOUT US section
 - `91_morris_manufacturing_desktop_collection_listing_001.jpg` — Desktop listing / catalogue
 - `91_morris_manufacturing_desktop_quality_systems_001.jpg` — Manufacturing quality systems
-- `91_morris_manufacturing_desktop_company_video_section_001.jpg` — Company video overview
 - `91_morris_manufacturing_mobile_home_hero_001.jpg` — Mobile homepage hero
 - `91_morris_manufacturing_mobile_manufacturing_capabilities_001.jpg` — Mobile detail page
 - `91_morris_manufacturing_mobile_project_specific_section_001.jpg` — Mobile project-specific section
