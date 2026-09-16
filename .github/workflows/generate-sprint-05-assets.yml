@@ -1,6 +1,18 @@
-name: Generate Sprint 03 QA Assets
+name: Generate Sprint 05 QA Assets
 
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-sprint-05-assets.yml'
+      - 'scripts/generate-sprint05-assets.mjs'
+      - 'scripts/package_sprint05_assets.py'
+      - 'scripts/verify_sprint05_assets.py'
+      - 'scripts/update_readme_sprint05.py'
+      - 'scripts/build_asset_browser_manifest.py'
+      - 'asset-browser/index.html'
+      - 'serve-assets.py'
+      - 'package.json'
   workflow_dispatch:
 
 permissions:
@@ -36,13 +48,13 @@ jobs:
           git config user.name "arena-ai-coding-agent[bot]"
           git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
 
-      - name: Capture and validate Sprint 3 websites
+      - name: Capture and validate Sprint 5 websites
         env:
           CHECKPOINT_COMMITS: "1"
           CHECKPOINT_BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
           set -o pipefail
-          npm run capture:sprint03 2>&1 | tee capture-sprint03.log
+          node scripts/generate-sprint05-assets.mjs 2>&1 | tee capture-sprint05.log
 
       - name: Publish capture failure details
         if: failure() && github.event_name == 'pull_request'
@@ -51,60 +63,60 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
         run: |
           {
-            echo '### Sprint 3 website capture requires attention'
+            echo '### Sprint 5 website capture requires attention'
             echo
             echo '```text'
-            tail -n 200 capture-sprint03.log 2>/dev/null || echo 'No capture log was produced.'
+            tail -n 200 capture-sprint05.log 2>/dev/null || echo 'No capture log was produced.'
             echo '```'
-          } > /tmp/sprint03-capture-comment.md
-          gh pr comment "$PR_URL" --body-file /tmp/sprint03-capture-comment.md
+          } > /tmp/sprint05-capture-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/sprint05-capture-comment.md
 
-      - name: Build Sprint 3 ZIP
+      - name: Build Sprint 5 ZIP
         run: |
           set -o pipefail
-          npm run package:sprint03 2>&1 | tee package-sprint03.log
+          python3 scripts/package_sprint05_assets.py 2>&1 | tee package-sprint05.log
 
       - name: Verify images and playable MP4 videos
         run: |
           set -o pipefail
-          npm run verify:sprint03 2>&1 | tee verify-sprint03.log
+          python3 scripts/verify_sprint05_assets.py 2>&1 | tee verify-sprint05.log
 
-      - name: Mark Sprint 3 complete in README
+      - name: Mark Sprint 5 complete in README
         run: |
-          python3 scripts/update_readme_sprint03.py --final
+          python3 scripts/update_readme_sprint05.py --final
           python3 scripts/build_asset_browser_manifest.py
 
-      - name: Verify Sprint 3 browser and downloads
+      - name: Verify Sprint 5 browser and downloads
         run: |
-          python3 serve-assets.py --port 4173 > /tmp/sprint03-server.log 2>&1 &
+          python3 serve-assets.py --port 4173 > /tmp/sprint05-server.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
           sleep 2
           curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/ > /dev/null
           curl --fail --silent --show-error http://127.0.0.1:4173/asset-browser/manifest.json > /dev/null
-          curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-03-Assets.zip > /dev/null
-          curl --fail --silent --show-error http://127.0.0.1:4173/download/project/21-moore-beauty -o /tmp/21-moore-beauty.zip
-          unzip -t /tmp/21-moore-beauty.zip
+          curl --fail --silent --show-error http://127.0.0.1:4173/QA-Portfolio-Sprint-05-Assets.zip > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:4173/download/project/41-artdiscount -o /tmp/41-artdiscount.zip
+          unzip -t /tmp/41-artdiscount.zip
 
-      - name: Commit verified Sprint 3 package
+      - name: Commit verified Sprint 5 package
         if: success() && github.event_name == 'pull_request'
         run: |
-          git add README.md capture-progress-sprint-03.json QA-PORTFOLIO-ASSETS/Sprint-03 QA-Portfolio-Sprint-03-Assets.zip asset-browser/manifest.json asset-browser/manifest-sprint-03.json capture-report-sprint-03.json package-lock.json
-          git commit -m "Publish verified Sprint 3 package [skip ci]"
+          git add README.md capture-progress-sprint-05.json QA-PORTFOLIO-ASSETS/Sprint-05 QA-Portfolio-Sprint-05-Assets.zip asset-browser/manifest.json asset-browser/manifest-sprint-05.json capture-report-sprint-05.json package-lock.json
+          git commit -m "Publish verified Sprint 5 package [skip ci]"
           git fetch origin ${{ github.head_ref }}
           git rebase FETCH_HEAD
           git push origin HEAD:${{ github.head_ref }}
 
-      - name: Upload completed Sprint 3 package
+      - name: Upload completed Sprint 5 package
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: QA-Portfolio-Sprint-03-Complete
+          name: QA-Portfolio-Sprint-05-Complete
           path: |
-            QA-PORTFOLIO-ASSETS/Sprint-03/
-            QA-Portfolio-Sprint-03-Assets.zip
+            QA-PORTFOLIO-ASSETS/Sprint-05/
+            QA-Portfolio-Sprint-05-Assets.zip
             asset-browser/
-            capture-report-sprint-03.json
+            capture-report-sprint-05.json
           compression-level: 0
           retention-days: 14
 
@@ -115,8 +127,8 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
         run: |
           {
-            echo '### Sprint 3 final QA requires attention'
-            for log in package-sprint03.log verify-sprint03.log; do
+            echo '### Sprint 5 final QA requires attention'
+            for log in package-sprint05.log verify-sprint05.log; do
               if [ -s "$log" ]; then
                 echo
                 echo "#### $log"
@@ -125,17 +137,17 @@ jobs:
                 echo '```'
               fi
             done
-          } > /tmp/sprint03-final-comment.md
-          gh pr comment "$PR_URL" --body-file /tmp/sprint03-final-comment.md
+          } > /tmp/sprint05-final-comment.md
+          gh pr comment "$PR_URL" --body-file /tmp/sprint05-final-comment.md
 
       - name: Upload partial diagnostics
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: sprint-03-capture-diagnostics
+          name: sprint-05-capture-diagnostics
           path: |
-            QA-PORTFOLIO-ASSETS/Sprint-03/
-            capture-progress-sprint-03.json
-            capture-report-sprint-03.json
+            QA-PORTFOLIO-ASSETS/Sprint-05/
+            capture-progress-sprint-05.json
+            capture-report-sprint-05.json
           if-no-files-found: ignore
           retention-days: 3

@@ -1,18 +1,6 @@
 name: Generate Sprint 04 QA Assets
 
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - '.github/workflows/generate-sprint-04-assets.yml'
-      - 'scripts/generate-sprint04-assets.mjs'
-      - 'scripts/package_sprint04_assets.py'
-      - 'scripts/verify_sprint04_assets.py'
-      - 'scripts/update_readme_sprint04.py'
-      - 'scripts/build_asset_browser_manifest.py'
-      - 'asset-browser/index.html'
-      - 'serve-assets.py'
-      - 'package.json'
   workflow_dispatch:
 
 permissions:

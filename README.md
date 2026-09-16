@@ -1,6 +1,6 @@
-# QA Portfolio Visual Assets — Sprints 1–3
+# QA Portfolio Visual Assets — Sprints 1–5
 
-A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains the completed visual-asset deliveries for Sprints 1, 2, and 3.
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains the completed visual-asset deliveries for Sprints 1–4 and tracks the active Sprint 5 capture.
 
 ## Live progress
 
@@ -116,6 +116,35 @@ Sprint 4 continues the visual asset library with the next ten supplied websites.
 
 <!-- SPRINT_04_PROGRESS_END -->
 
+## Sprint 5 — Websites 41–50
+
+Sprint 5 continues the authentic live-site visual asset library with the next ten supplied websites.
+
+<!-- SPRINT_05_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 10<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** 2026-09-16 07:10 PKT
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 41 | ARTdiscount | <https://artdiscount.co.uk> | ⚪ Pending | — | — | Art supplies and creative materials |
+| 42 | Cryptic Mushroom Bar | <https://www.crypticmushrooms.com> | ⚪ Pending | — | — | Plant-based functional mushroom snack bars |
+| 43 | DIVCHI | <https://www.divchi.co.uk> | ⚪ Pending | — | — | Home, garden, pet, and play essentials |
+| 44 | Chicopick | <https://www.chicopick.com> | ⚪ Pending | — | — | Luxury jewellery, fashion, and accessories |
+| 45 | Hugh McElvanna Menswear | <https://www.hughmcelvannamenswear.com> | ⚪ Pending | — | — | Men’s suits and casual clothing |
+| 46 | J. Fredric | <https://jfredrics.com> | ⚪ Pending | — | — | Hand-tailored men’s clothing |
+| 47 | Bloomsbury Flowers | <https://www.bloomsburyflowers.co.uk> | ⚪ Pending | — | — | London florist and floral services |
+| 48 | Nørdikka Collective | <https://nordikkacollective.com> | ⚪ Pending | — | — | Nordic and Scandinavian furniture, lighting, and décor |
+| 49 | My Travel Passport | <https://mytravelpassport.eu> | ⚪ Pending | — | — | Customizable travel passport keepsakes |
+| 50 | Peter James Jewelry | <https://www.peterjamesjewelry.com> | ⚪ Pending | — | — | Contemporary rings, earrings, bracelets, and pendants |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 100 unique static images and 10 verified playable MP4 videos.
+
+<!-- SPRINT_05_PROGRESS_END -->
+
 ### Status legend
 
 - ⚪ **Pending** — capture has not started.
@@ -138,17 +167,19 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-The repository contains three separate, complete sprint deliveries:
+The repository contains four complete sprint deliveries, with Sprint 5 capture tracked above:
 
 - `QA-PORTFOLIO-ASSETS/Sprint-01/` — Sprint 1 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-02/` — Sprint 2 project-organized images, videos, thumbnails, and capture notes
 - `QA-PORTFOLIO-ASSETS/Sprint-03/` — Sprint 3 project-organized images, videos, thumbnails, and capture notes
+- `QA-PORTFOLIO-ASSETS/Sprint-04/` — Sprint 4 project-organized images, videos, thumbnails, and capture notes
 - `QA-Portfolio-Sprint-01-Assets.zip` — complete downloadable Sprint 1 package
 - `QA-Portfolio-Sprint-02-Assets.zip` — complete downloadable Sprint 2 package
 - `QA-Portfolio-Sprint-03-Assets.zip` — complete downloadable Sprint 3 package
+- `QA-Portfolio-Sprint-04-Assets.zip` — complete downloadable Sprint 4 package
 - `asset-browser/` — combined local preview and download interface
-- `capture-report.json`, `capture-report-sprint-02.json`, and `capture-report-sprint-03.json` — machine-readable inventories and availability notes
-- `capture-progress.json`, `capture-progress-sprint-02.json`, and `capture-progress-sprint-03.json` — machine-readable project checkpoint status
+- `capture-report.json` and `capture-report-sprint-02.json` through `capture-report-sprint-04.json` — machine-readable inventories and availability notes
+- `capture-progress.json` and `capture-progress-sprint-02.json` through `capture-progress-sprint-05.json` — machine-readable project checkpoint status
 
 ## Open the local asset browser
 
@@ -160,12 +191,12 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All 30 project inventories across Sprints 1–3
+- All 40 completed project inventories across Sprints 1–4, expanding through Sprint 5 checkpoints
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Separate complete Sprint 1, Sprint 2, and Sprint 3 ZIP downloads
+- Separate complete Sprint 1–4 ZIP downloads, with Sprint 5 added after final QA
 
 ## Re-run capture, packaging, and verification
 
@@ -183,6 +214,14 @@ npm run verify:sprint02
 npm run capture:sprint03
 npm run package:sprint03
 npm run verify:sprint03
+
+npm run capture:sprint04
+npm run package:sprint04
+npm run verify:sprint04
+
+node scripts/generate-sprint05-assets.mjs
+python3 scripts/package_sprint05_assets.py
+python3 scripts/verify_sprint05_assets.py
 ```
 
 The capture process uses public live-site UI only. It does not submit checkout, create accounts, make purchases, enter personal data, or invent QA defects.
