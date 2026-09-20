@@ -1,41 +1,20 @@
 {
   "generated": "2026-09-20",
-  "stage": "Final image, playable-video, ZIP, browser, and download QA passed",
+  "stage": "Prime Baby Gear asset set generated and published",
   "projects": [
     {
       "id": "95",
-      "status": "complete",
-      "images": 13,
+      "status": "captured",
+      "images": 15,
       "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "96",
-      "status": "complete",
-      "images": 14,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "97",
-      "status": "complete",
-      "images": 12,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
-    },
-    {
-      "id": "99",
-      "status": "complete",
-      "images": 13,
-      "videos": 1,
-      "note": "Website and playable video QA passed"
+      "note": "Project assets published; awaiting Sprint-level QA"
     },
     {
       "id": "98",
       "status": "blocked",
       "images": 0,
       "videos": 0,
-      "note": "The live storefront is password-protected and publishes only a branded temporary-closure page (\"Vintage Art Garage is temporarily closed while we\u2019re traveling. We\u2019ll reopen in late October.\"). Every storefront route redirects to /password, the DNS-declared Shopify origin reports \"This store will be right back / Store unavailable\", and the sitemap and products.json endpoints return no storefront data. No authentic storefront UI states are retrievable, and the criteria exclude password/closed-state screenshots, cached pages, and fabricated material."
+      "note": "The live storefront is password-protected and publishes only a branded temporary-closure page (\"Vintage Art Garage is temporarily closed while we’re traveling. We’ll reopen in late October.\"). Every storefront route redirects to /password, the DNS-declared Shopify origin reports \"This store will be right back / Store unavailable\", and the sitemap and products.json endpoints return no storefront data. No authentic storefront UI states are retrievable, and the criteria exclude password/closed-state screenshots, cached pages, and fabricated material."
     }
   ]
 }

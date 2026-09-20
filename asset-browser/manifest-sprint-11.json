@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 11",
   "generated": "2026-09-20",
-  "totalImages": 52,
-  "totalVideos": 4,
+  "totalImages": 15,
+  "totalVideos": 1,
   "projects": [
     {
       "id": "95",
@@ -19,6 +19,11 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_home_hero_001.jpg"
         },
         {
+          "file": "95_prime_baby_gear_desktop_signature_section_001.jpg",
+          "label": "Desktop Verified Warranty section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_signature_section_001.jpg"
+        },
+        {
           "file": "95_prime_baby_gear_desktop_collection_listing_001.jpg",
           "label": "Desktop listing / catalogue",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_collection_listing_001.jpg"
@@ -27,6 +32,11 @@
           "file": "95_prime_baby_gear_desktop_travel_system_detail_001.jpg",
           "label": "Desktop detail page",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_travel_system_detail_001.jpg"
+        },
+        {
+          "file": "95_prime_baby_gear_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_interaction_detail_state_001.jpg"
         },
         {
           "file": "95_prime_baby_gear_project_highlight_mercedes_signature_travel_system_collection_001.jpg",
@@ -84,299 +94,15 @@
           "file": "95_prime_baby_gear_video_baby_gear_journey_001.mp4",
           "thumbnail": "95_prime_baby_gear_video_baby_gear_journey_001.jpg",
           "purpose": "Premium baby-gear discovery from best sellers to travel-system detail",
-          "duration": 29.96,
+          "duration": 29.44,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/video/95_prime_baby_gear_video_baby_gear_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/video/95_prime_baby_gear_video_baby_gear_journey_001.jpg"
         }
       ],
       "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Playable MP4 verified: H.264, 1280×720, 29.96 seconds, complete decode passed.",
-        "Rejected duplicate 95_prime_baby_gear_desktop_signature_section_001.jpg; it matched 95_prime_baby_gear_desktop_home_hero_001.jpg byte-for-byte.",
-        "Rejected duplicate 95_prime_baby_gear_interaction_detail_state_001.jpg; it matched 95_prime_baby_gear_desktop_travel_system_detail_001.jpg byte-for-byte."
-      ]
-    },
-    {
-      "id": "96",
-      "slug": "ollie-burwell",
-      "folder": "96-ollie-burwell",
-      "name": "Ollie Burwell",
-      "url": "https://ollieburwell.com",
-      "kind": "Hand-batik luxury silk and voile sarongs, scarves, kaftans, and resort wear",
-      "generated": "2026-09-20",
-      "images": [
-        {
-          "file": "96_ollie_burwell_desktop_home_hero_001.jpg",
-          "label": "Desktop homepage hero",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_home_hero_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_desktop_signature_section_001.jpg",
-          "label": "Desktop Hand-Batik by Artisans section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_signature_section_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_desktop_collection_listing_001.jpg",
-          "label": "Desktop listing / catalogue",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_collection_listing_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_desktop_silk_sarong_detail_001.jpg",
-          "label": "Desktop detail page",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_silk_sarong_detail_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_project_highlight_how_to_wear_styling_guide_001.jpg",
-          "label": "Project highlight: how-to-wear styling guide",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_project_highlight_how_to_wear_styling_guide_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_desktop_secondary_experience_001.jpg",
-          "label": "Secondary project-specific experience",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_secondary_experience_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_desktop_new_arrivals_edit_001.jpg",
-          "label": "New arrivals edit",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_new_arrivals_edit_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_desktop_kaftan_range_001.jpg",
-          "label": "Kaftan resort range",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_kaftan_range_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_mobile_home_hero_001.jpg",
-          "label": "Mobile homepage hero",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_mobile_home_hero_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_interaction_mobile_navigation_001.jpg",
-          "label": "Mobile navigation state",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_interaction_mobile_navigation_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_mobile_silk_sarong_detail_001.jpg",
-          "label": "Mobile detail page",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_mobile_silk_sarong_detail_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_mobile_project_specific_section_001.jpg",
-          "label": "Mobile project-specific section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_mobile_project_specific_section_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_responsive_comparison_001.jpg",
-          "label": "Desktop / mobile responsive QA comparison",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_responsive_comparison_001.jpg"
-        },
-        {
-          "file": "96_ollie_burwell_qa_user_flow_sequence_001.jpg",
-          "label": "Three-state QA user-flow reference",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_qa_user_flow_sequence_001.jpg"
-        }
-      ],
-      "videos": [
-        {
-          "file": "96_ollie_burwell_video_resort_wear_journey_001.mp4",
-          "thumbnail": "96_ollie_burwell_video_resort_wear_journey_001.jpg",
-          "purpose": "Resort-wear discovery from artisan craft story to pure-silk sarong detail",
-          "duration": 35.56,
-          "codec": "h264",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/video/96_ollie_burwell_video_resort_wear_journey_001.mp4",
-          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/video/96_ollie_burwell_video_resort_wear_journey_001.jpg"
-        }
-      ],
-      "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Configured project highlight route /pages/how-to-wear-guide is not published by the live sitemap; /blogs/news was captured instead.",
-        "Playable MP4 verified: H.264, 1280×720, 35.56 seconds, complete decode passed.",
-        "Rejected duplicate 96_ollie_burwell_interaction_detail_state_001.jpg; it matched 96_ollie_burwell_desktop_silk_sarong_detail_001.jpg byte-for-byte."
-      ]
-    },
-    {
-      "id": "97",
-      "slug": "nokoluxe",
-      "folder": "97-nokoluxe",
-      "name": "Nokoluxe Living",
-      "url": "https://nokoluxe.com",
-      "kind": "Luxury outdoor furniture, fire tables, grills, saunas, and spa products",
-      "generated": "2026-09-20",
-      "images": [
-        {
-          "file": "97_nokoluxe_desktop_home_hero_001.jpg",
-          "label": "Desktop homepage hero",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_home_hero_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_desktop_signature_section_001.jpg",
-          "label": "Desktop Everything For Life Outdoors section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_signature_section_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_desktop_collection_listing_001.jpg",
-          "label": "Desktop listing / catalogue",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_collection_listing_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_desktop_adirondack_chair_detail_001.jpg",
-          "label": "Desktop detail page",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_adirondack_chair_detail_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_project_highlight_fire_pit_table_collection_001.jpg",
-          "label": "Project highlight: fire pit table collection",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_project_highlight_fire_pit_table_collection_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_desktop_spa_wellness_collection_001.jpg",
-          "label": "Spa and wellness collection",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_spa_wellness_collection_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_desktop_luxcraft_range_001.jpg",
-          "label": "LuxCraft furniture range",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_luxcraft_range_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_mobile_home_hero_001.jpg",
-          "label": "Mobile homepage hero",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_mobile_home_hero_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_mobile_adirondack_chair_detail_001.jpg",
-          "label": "Mobile detail page",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_mobile_adirondack_chair_detail_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_mobile_project_specific_section_001.jpg",
-          "label": "Mobile project-specific section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_mobile_project_specific_section_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_responsive_comparison_001.jpg",
-          "label": "Desktop / mobile responsive QA comparison",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_responsive_comparison_001.jpg"
-        },
-        {
-          "file": "97_nokoluxe_qa_user_flow_sequence_001.jpg",
-          "label": "Three-state QA user-flow reference",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_qa_user_flow_sequence_001.jpg"
-        }
-      ],
-      "videos": [
-        {
-          "file": "97_nokoluxe_video_outdoor_living_journey_001.mp4",
-          "thumbnail": "97_nokoluxe_video_outdoor_living_journey_001.jpg",
-          "purpose": "Outdoor-living journey from category browsing to LuxCraft chair detail",
-          "duration": 37.24,
-          "codec": "h264",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/video/97_nokoluxe_video_outdoor_living_journey_001.mp4",
-          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/video/97_nokoluxe_video_outdoor_living_journey_001.jpg"
-        }
-      ],
-      "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Playable MP4 verified: H.264, 1280×720, 37.24 seconds, complete decode passed.",
-        "Rejected duplicate 97_nokoluxe_interaction_detail_state_001.jpg; it matched 97_nokoluxe_desktop_collection_listing_001.jpg in perceptual image QA.",
-        "Rejected duplicate 97_nokoluxe_desktop_secondary_experience_001.jpg; it matched 97_nokoluxe_desktop_collection_listing_001.jpg in perceptual image QA.",
-        "Rejected duplicate 97_nokoluxe_interaction_mobile_navigation_001.jpg; it matched 97_nokoluxe_mobile_home_hero_001.jpg in perceptual image QA."
-      ]
-    },
-    {
-      "id": "99",
-      "slug": "paw-by-four",
-      "folder": "99-paw-by-four",
-      "name": "Paw by Four",
-      "url": "https://pawbyfour.com",
-      "kind": "Canine-anxiety support: digital guides, lick mats, enrichment tools, and dog-safe nutrition",
-      "generated": "2026-09-20",
-      "images": [
-        {
-          "file": "99_paw_by_four_desktop_home_hero_001.jpg",
-          "label": "Desktop homepage hero",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_home_hero_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_desktop_signature_section_001.jpg",
-          "label": "Desktop From Anxiety to Action to Calm section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_signature_section_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_desktop_collection_listing_001.jpg",
-          "label": "Desktop listing / catalogue",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_collection_listing_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_desktop_lick_mat_detail_001.jpg",
-          "label": "Desktop detail page",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_lick_mat_detail_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_project_highlight_dog_anxiety_education_hub_001.jpg",
-          "label": "Project highlight: dog anxiety education hub",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_project_highlight_dog_anxiety_education_hub_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_desktop_secondary_experience_001.jpg",
-          "label": "Secondary project-specific experience",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_secondary_experience_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_desktop_resource_library_001.jpg",
-          "label": "Learning resource library",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_resource_library_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_desktop_brand_story_001.jpg",
-          "label": "Brand story and guiding principles",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_brand_story_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_mobile_home_hero_001.jpg",
-          "label": "Mobile homepage hero",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_home_hero_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_mobile_lick_mat_detail_001.jpg",
-          "label": "Mobile detail page",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_lick_mat_detail_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_mobile_project_specific_section_001.jpg",
-          "label": "Mobile project-specific section",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_project_specific_section_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_responsive_comparison_001.jpg",
-          "label": "Desktop / mobile responsive QA comparison",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_responsive_comparison_001.jpg"
-        },
-        {
-          "file": "99_paw_by_four_qa_user_flow_sequence_001.jpg",
-          "label": "Three-state QA user-flow reference",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_qa_user_flow_sequence_001.jpg"
-        }
-      ],
-      "videos": [
-        {
-          "file": "99_paw_by_four_video_anxious_dog_support_journey_001.mp4",
-          "thumbnail": "99_paw_by_four_video_anxious_dog_support_journey_001.jpg",
-          "purpose": "Support journey from anxiety education to lick-mat product detail",
-          "duration": 28.8,
-          "codec": "h264",
-          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/video/99_paw_by_four_video_anxious_dog_support_journey_001.mp4",
-          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/video/99_paw_by_four_video_anxious_dog_support_journey_001.jpg"
-        }
-      ],
-      "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Configured project highlight route /pages/understanding-anxiety is not published by the live sitemap; /blogs/news was captured instead.",
-        "Configured Brand story and guiding principles route /pages/our-story is not published by the live sitemap; /blogs/resources was captured instead.",
-        "Playable MP4 verified: H.264, 1280×720, 28.80 seconds, complete decode passed.",
-        "Rejected duplicate 99_paw_by_four_interaction_detail_state_001.jpg; it matched 99_paw_by_four_desktop_lick_mat_detail_001.jpg byte-for-byte.",
-        "Rejected duplicate 99_paw_by_four_interaction_mobile_search_001.jpg; it matched 99_paw_by_four_mobile_home_hero_001.jpg in perceptual image QA."
+        "The detail page exposed no additional interactive control; the detail content state was captured instead.",
+        "Playable MP4 verified: H.264, 1280×720, 29.44 seconds, complete decode passed."
       ]
     }
   ]
