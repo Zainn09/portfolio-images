@@ -1,6 +1,6 @@
-# QA Portfolio Visual Assets — Sprints 1–10
+# QA Portfolio Visual Assets — Sprints 1–11
 
-A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains six completed visual-asset deliveries and tracks the active Sprints 7–10 expansion through project 94.
+A professional visual asset archive for an **existing QA portfolio**. This repository does not build or replace the portfolio website. It contains ten completed visual-asset deliveries and tracks the active Sprint 11 expansion through project 99.
 
 ## Live progress
 
@@ -263,7 +263,7 @@ Sprint 9 adds ten supplied wellness, retail, and American manufacturing websites
 
 ## Sprint 10 — Websites 91–94
 
-Sprint 10 is the confirmed four-website final sprint, covering projects 91–94.
+Sprint 10 covered the confirmed four-website final group, projects 91–94.
 
 <!-- SPRINT_10_PROGRESS_START -->
 
@@ -283,6 +283,30 @@ Sprint 10 is the confirmed four-website final sprint, covering projects 91–94.
 **Required minimum:** 40 unique static images and 4 verified playable MP4 videos.
 
 <!-- SPRINT_10_PROGRESS_END -->
+
+## Sprint 11 — Websites 95–99
+
+Sprint 11 adds five more supplied live storefronts, covering projects 95–99. Vintage Art Garage (98) is documented as publicly unavailable: its storefront is password-protected while the owner is travelling.
+
+<!-- SPRINT_11_PROGRESS_START -->
+
+**Sprint status:** In progress<br>
+**Completed projects:** 0 / 5<br>
+**Latest pipeline stage:** Website analysis and capture configuration<br>
+**Last updated:** —
+
+| # | Project | Website | Status | Images | Playable videos | Notes |
+|---:|---|---|---|---:|---:|---|
+| 95 | Prime Baby Gear | <https://primebabygear.com> | ⚪ Pending | — | — | UK retailer of premium baby gear: prams, travel systems, car seats, nursery furniture, and accessories |
+| 96 | Ollie Burwell | <https://ollieburwell.com> | ⚪ Pending | — | — | Hand-batik luxury silk and voile sarongs, scarves, kaftans, and resort wear |
+| 97 | Nokoluxe Living | <https://nokoluxe.com> | ⚪ Pending | — | — | Luxury outdoor furniture, fire tables, grills, saunas, and spa products |
+| 98 | Vintage Art Garage | <https://vintageartgarage.com> | ⚪ Pending | — | — | Framed vintage automotive advertisements, classic car and truck prints, and retro wall art |
+| 99 | Paw by Four | <https://pawbyfour.com> | ⚪ Pending | — | — | Canine-anxiety support: digital guides, lick mats, enrichment tools, and dog-safe nutrition |
+
+**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Required minimum:** 40 unique static images and 4 verified playable MP4 videos from the four publicly reachable storefronts.
+
+<!-- SPRINT_11_PROGRESS_END -->
 
 ### Status legend
 
@@ -306,13 +330,14 @@ A project is not marked **Complete** merely because files were generated. Comple
 
 ## Delivery structure
 
-The repository contains nine complete Sprint deliveries plus the preserved Sprint 7 checkpoint:
+The repository contains ten complete Sprint deliveries plus the preserved Sprint 7 checkpoint and the active Sprint 11 delivery:
 
 - `QA-PORTFOLIO-ASSETS/Sprint-01/` through `Sprint-06/` — complete project-organized image, video, poster, manifest, and README sets
 - `QA-PORTFOLIO-ASSETS/Sprint-07/` — nine validated project checkpoints; Rahiza (ID 62) remains unavailable
 - `QA-PORTFOLIO-ASSETS/Sprint-08/` through `Sprint-10/` — complete project-organized image, video, poster, manifest, and README sets
+- `QA-PORTFOLIO-ASSETS/Sprint-11/` — projects 95–97 and 99 complete; 98 (Vintage Art Garage) documents a publicly unavailable storefront with no accepted assets
 - `QA-Portfolio-Sprint-01-Assets.zip` through `QA-Portfolio-Sprint-06-Assets.zip` — complete downloadable Sprint packages
-- `QA-Portfolio-Sprint-08-Assets.zip` through `QA-Portfolio-Sprint-10-Assets.zip` — complete downloadable Sprint packages
+- `QA-Portfolio-Sprint-08-Assets.zip` through `QA-Portfolio-Sprint-11-Assets.zip` — complete downloadable Sprint packages
 - `asset-browser/` — combined local preview, playback, and download interface
 - `capture-report*.json` — machine-readable finalized inventories and availability notes
 - `capture-progress*.json` — machine-readable project checkpoint status
@@ -328,12 +353,12 @@ Then open <http://localhost:4173/asset-browser/>.
 
 The browser supports:
 
-- All 93 available project inventories across IDs 01–94 (Rahiza ID 62 is unavailable)
+- All 97 available project inventories across IDs 01–99 (Rahiza ID 62 and Vintage Art Garage ID 98 are unavailable)
 - Full-size image previews
 - Video thumbnails and playback
 - Individual image and video downloads
 - On-demand project ZIP downloads
-- Separate complete Sprint 1–6 and Sprint 8–10 ZIP downloads
+- Separate complete Sprint 1–6 and Sprint 8–11 ZIP downloads
 
 ## Re-run capture, packaging, and verification
 

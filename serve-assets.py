@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ASSET_ROOT = ROOT / "QA-PORTFOLIO-ASSETS"
-PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[1-8][0-9]|9[0-4])-[a-z0-9-]+$")
+PROJECT_PATTERN = re.compile(r"^(?:0[1-9]|[1-8][0-9]|9[0-9])-[a-z0-9-]+$")
 
 
 class AssetHandler(SimpleHTTPRequestHandler):
@@ -36,12 +36,21 @@ class AssetHandler(SimpleHTTPRequestHandler):
         if not PROJECT_PATTERN.fullmatch(project):
             self.send_error(400, "Invalid project name")
             return
-        project_number = int(project.split("-", 1)[0])
-        sprint = f"Sprint-{((project_number - 1) // 10) + 1:02d}"
-        project_dir = ASSET_ROOT / sprint / project
-        if not project_dir.is_dir():
+        # Sprint folders no longer map one-to-one onto the first digit of the
+        # project ID (Sprint 10 holds 91-94 and Sprint 11 holds 95-99), so the
+        # project is located by searching the sprint folders.
+        location = next(
+            (
+                (sprint_dir.name, sprint_dir / project)
+                for sprint_dir in sorted(ASSET_ROOT.glob("Sprint-*"))
+                if (sprint_dir / project).is_dir()
+            ),
+            None,
+        )
+        if location is None:
             self.send_error(404, "Project assets are not available")
             return
+        sprint, project_dir = location
 
         stream = io.BytesIO()
         with zipfile.ZipFile(stream, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
