@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-20",
-  "stage": "Ollie Burwell asset set generated and published",
+  "stage": "Nokoluxe Living asset set generated and published",
   "projects": [
     {
       "id": "95",
@@ -13,6 +13,13 @@
       "id": "96",
       "status": "captured",
       "images": 14,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "97",
+      "status": "captured",
+      "images": 12,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     },

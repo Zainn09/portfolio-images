@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 11",
   "generated": "2026-09-20",
-  "totalImages": 27,
-  "totalVideos": 2,
+  "totalImages": 39,
+  "totalVideos": 3,
   "projects": [
     {
       "id": "95",
@@ -193,6 +193,95 @@
         "Configured project highlight route /pages/how-to-wear-guide is not published by the live sitemap; /blogs/news was captured instead.",
         "Playable MP4 verified: H.264, 1280×720, 35.56 seconds, complete decode passed.",
         "Rejected duplicate 96_ollie_burwell_interaction_detail_state_001.jpg; it matched 96_ollie_burwell_desktop_silk_sarong_detail_001.jpg byte-for-byte."
+      ]
+    },
+    {
+      "id": "97",
+      "slug": "nokoluxe",
+      "folder": "97-nokoluxe",
+      "name": "Nokoluxe Living",
+      "url": "https://nokoluxe.com",
+      "kind": "Luxury outdoor furniture, fire tables, grills, saunas, and spa products",
+      "generated": "2026-09-20",
+      "images": [
+        {
+          "file": "97_nokoluxe_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_desktop_signature_section_001.jpg",
+          "label": "Desktop Everything For Life Outdoors section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_desktop_adirondack_chair_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_adirondack_chair_detail_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_project_highlight_fire_pit_table_collection_001.jpg",
+          "label": "Project highlight: fire pit table collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_project_highlight_fire_pit_table_collection_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_desktop_spa_wellness_collection_001.jpg",
+          "label": "Spa and wellness collection",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_spa_wellness_collection_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_desktop_luxcraft_range_001.jpg",
+          "label": "LuxCraft furniture range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_desktop_luxcraft_range_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_mobile_adirondack_chair_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_mobile_adirondack_chair_detail_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "97_nokoluxe_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/images/97_nokoluxe_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "97_nokoluxe_video_outdoor_living_journey_001.mp4",
+          "thumbnail": "97_nokoluxe_video_outdoor_living_journey_001.jpg",
+          "purpose": "Outdoor-living journey from category browsing to LuxCraft chair detail",
+          "duration": 37.24,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/video/97_nokoluxe_video_outdoor_living_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/97-nokoluxe/video/97_nokoluxe_video_outdoor_living_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
+        "Playable MP4 verified: H.264, 1280×720, 37.24 seconds, complete decode passed.",
+        "Rejected duplicate 97_nokoluxe_interaction_detail_state_001.jpg; it matched 97_nokoluxe_desktop_collection_listing_001.jpg in perceptual image QA.",
+        "Rejected duplicate 97_nokoluxe_desktop_secondary_experience_001.jpg; it matched 97_nokoluxe_desktop_collection_listing_001.jpg in perceptual image QA.",
+        "Rejected duplicate 97_nokoluxe_interaction_mobile_navigation_001.jpg; it matched 97_nokoluxe_mobile_home_hero_001.jpg in perceptual image QA."
       ]
     }
   ]
