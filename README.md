@@ -292,7 +292,7 @@ Sprint 11 adds five more supplied live storefronts, covering projects 95–99. V
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 5<br>
-**Latest pipeline stage:** Nokoluxe Living asset set generated and published<br>
+**Latest pipeline stage:** Vintage Art Garage storefront is publicly unavailable<br>
 **Last updated:** 2026-09-21 03:49 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
