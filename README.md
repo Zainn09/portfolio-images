@@ -291,17 +291,17 @@ Sprint 11 adds five more supplied live storefronts, covering projects 95–99. V
 <!-- SPRINT_11_PROGRESS_START -->
 
 **Sprint status:** In progress<br>
-**Completed projects:** 0 / 5<br>
-**Latest pipeline stage:** Paw by Four asset set generated and published<br>
+**Completed projects:** 4 / 5<br>
+**Latest pipeline stage:** Final image, playable-video, ZIP, browser, and download QA passed<br>
 **Last updated:** 2026-09-21 03:51 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 95 | Prime Baby Gear | <https://primebabygear.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
-| 96 | Ollie Burwell | <https://ollieburwell.com> | 🟡 Captured · QA pending | 14 | 1 | Project assets published; awaiting Sprint-level QA |
-| 97 | Nokoluxe Living | <https://nokoluxe.com> | 🟡 Captured · QA pending | 12 | 1 | Project assets published; awaiting Sprint-level QA |
+| 95 | Prime Baby Gear | <https://primebabygear.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
+| 96 | Ollie Burwell | <https://ollieburwell.com> | 🟢 Complete | 14 | 1 | Website and playable video QA passed |
+| 97 | Nokoluxe Living | <https://nokoluxe.com> | 🟢 Complete | 12 | 1 | Website and playable video QA passed |
 | 98 | Vintage Art Garage | <https://vintageartgarage.com> | 🔴 Blocked | — | — | The live storefront is password-protected and publishes only a branded temporary-closure page ("Vintage Art Garage is temporarily closed while we’re traveling. We’ll reopen in late October."). Every storefront route redirects to /password, the DNS-declared Shopify origin reports "This store will be right back / Store unavailable", and the sitemap and products.json endpoints return no storefront data. No authentic storefront UI states are retrievable, and the criteria exclude password/closed-state screenshots, cached pages, and fabricated material. |
-| 99 | Paw by Four | <https://pawbyfour.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
+| 99 | Paw by Four | <https://pawbyfour.com> | 🟢 Complete | 13 | 1 | Website and playable video QA passed |
 
 **Current checkpoint inventory:** 52 static images and 4 playable MP4 videos.<br>
 **Required minimum:** 40 unique static images and 4 verified playable MP4 videos from the four publicly reachable storefronts.
