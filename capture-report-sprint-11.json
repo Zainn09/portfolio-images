@@ -1,7 +1,7 @@
 {
   "title": "QA Portfolio Visual Assets — Sprint 11",
   "generated": "2026-09-20",
-  "totalImages": 52,
+  "totalImages": 57,
   "totalVideos": 4,
   "projects": [
     {
@@ -19,6 +19,11 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_home_hero_001.jpg"
         },
         {
+          "file": "95_prime_baby_gear_desktop_signature_section_001.jpg",
+          "label": "Desktop Verified Warranty section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_signature_section_001.jpg"
+        },
+        {
           "file": "95_prime_baby_gear_desktop_collection_listing_001.jpg",
           "label": "Desktop listing / catalogue",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_collection_listing_001.jpg"
@@ -27,6 +32,11 @@
           "file": "95_prime_baby_gear_desktop_travel_system_detail_001.jpg",
           "label": "Desktop detail page",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_travel_system_detail_001.jpg"
+        },
+        {
+          "file": "95_prime_baby_gear_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_interaction_detail_state_001.jpg"
         },
         {
           "file": "95_prime_baby_gear_project_highlight_mercedes_signature_travel_system_collection_001.jpg",
@@ -84,17 +94,15 @@
           "file": "95_prime_baby_gear_video_baby_gear_journey_001.mp4",
           "thumbnail": "95_prime_baby_gear_video_baby_gear_journey_001.jpg",
           "purpose": "Premium baby-gear discovery from best sellers to travel-system detail",
-          "duration": 29.96,
+          "duration": 29.44,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/video/95_prime_baby_gear_video_baby_gear_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/video/95_prime_baby_gear_video_baby_gear_journey_001.jpg"
         }
       ],
       "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Playable MP4 verified: H.264, 1280×720, 29.96 seconds, complete decode passed.",
-        "Rejected duplicate 95_prime_baby_gear_desktop_signature_section_001.jpg; it matched 95_prime_baby_gear_desktop_home_hero_001.jpg byte-for-byte.",
-        "Rejected duplicate 95_prime_baby_gear_interaction_detail_state_001.jpg; it matched 95_prime_baby_gear_desktop_travel_system_detail_001.jpg byte-for-byte."
+        "The detail page exposed no additional interactive control; the detail content state was captured instead.",
+        "Playable MP4 verified: H.264, 1280×720, 29.44 seconds, complete decode passed."
       ]
     },
     {
@@ -125,6 +133,11 @@
           "file": "96_ollie_burwell_desktop_silk_sarong_detail_001.jpg",
           "label": "Desktop detail page",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_silk_sarong_detail_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_interaction_detail_state_001.jpg"
         },
         {
           "file": "96_ollie_burwell_project_highlight_how_to_wear_styling_guide_001.jpg",
@@ -182,17 +195,15 @@
           "file": "96_ollie_burwell_video_resort_wear_journey_001.mp4",
           "thumbnail": "96_ollie_burwell_video_resort_wear_journey_001.jpg",
           "purpose": "Resort-wear discovery from artisan craft story to pure-silk sarong detail",
-          "duration": 35.56,
+          "duration": 35.32,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/video/96_ollie_burwell_video_resort_wear_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/video/96_ollie_burwell_video_resort_wear_journey_001.jpg"
         }
       ],
       "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Configured project highlight route /pages/how-to-wear-guide is not published by the live sitemap; /blogs/news was captured instead.",
-        "Playable MP4 verified: H.264, 1280×720, 35.56 seconds, complete decode passed.",
-        "Rejected duplicate 96_ollie_burwell_interaction_detail_state_001.jpg; it matched 96_ollie_burwell_desktop_silk_sarong_detail_001.jpg byte-for-byte."
+        "The detail page exposed no additional interactive control; the detail content state was captured instead.",
+        "Playable MP4 verified: H.264, 1280×720, 35.32 seconds, complete decode passed."
       ]
     },
     {
@@ -314,6 +325,11 @@
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_lick_mat_detail_001.jpg"
         },
         {
+          "file": "99_paw_by_four_interaction_detail_state_001.jpg",
+          "label": "Meaningful detail interaction / content state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_interaction_detail_state_001.jpg"
+        },
+        {
           "file": "99_paw_by_four_project_highlight_dog_anxiety_education_hub_001.jpg",
           "label": "Project highlight: dog anxiety education hub",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_project_highlight_dog_anxiety_education_hub_001.jpg"
@@ -337,6 +353,11 @@
           "file": "99_paw_by_four_mobile_home_hero_001.jpg",
           "label": "Mobile homepage hero",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "99_paw_by_four_interaction_mobile_search_001.jpg",
+          "label": "Mobile search state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_interaction_mobile_search_001.jpg"
         },
         {
           "file": "99_paw_by_four_mobile_lick_mat_detail_001.jpg",
@@ -364,19 +385,14 @@
           "file": "99_paw_by_four_video_anxious_dog_support_journey_001.mp4",
           "thumbnail": "99_paw_by_four_video_anxious_dog_support_journey_001.jpg",
           "purpose": "Support journey from anxiety education to lick-mat product detail",
-          "duration": 28.8,
+          "duration": 29.2,
           "codec": "h264",
           "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/video/99_paw_by_four_video_anxious_dog_support_journey_001.mp4",
           "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/video/99_paw_by_four_video_anxious_dog_support_journey_001.jpg"
         }
       ],
       "notes": [
-        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
-        "Configured project highlight route /pages/understanding-anxiety is not published by the live sitemap; /blogs/news was captured instead.",
-        "Configured Brand story and guiding principles route /pages/our-story is not published by the live sitemap; /blogs/resources was captured instead.",
-        "Playable MP4 verified: H.264, 1280×720, 28.80 seconds, complete decode passed.",
-        "Rejected duplicate 99_paw_by_four_interaction_detail_state_001.jpg; it matched 99_paw_by_four_desktop_lick_mat_detail_001.jpg byte-for-byte.",
-        "Rejected duplicate 99_paw_by_four_interaction_mobile_search_001.jpg; it matched 99_paw_by_four_mobile_home_hero_001.jpg in perceptual image QA."
+        "Playable MP4 verified: H.264, 1280×720, 29.20 seconds, complete decode passed."
       ]
     }
   ]

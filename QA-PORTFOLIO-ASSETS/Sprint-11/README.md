@@ -2,7 +2,7 @@
 
 **Asset-generation date:** 2026-09-20<br>
 **Projects with assets:** 4<br>
-**Static images:** 52<br>
+**Static images:** 57<br>
 **Videos:** 4
 
 This package is a visual asset archive for an existing QA portfolio. It is not a portfolio website. Every captured UI state originates from the live public website listed below. Neutral QA labels appear only in the responsive and user-flow comparison compositions.
@@ -11,10 +11,10 @@ This package is a visual asset archive for an existing QA portfolio. It is not a
 
 | # | Project | Website | Images | Videos |
 |---:|---|---|---:|---:|
-| 95 | Prime Baby Gear | https://primebabygear.com | 13 | 1 |
-| 96 | Ollie Burwell | https://ollieburwell.com | 14 | 1 |
+| 95 | Prime Baby Gear | https://primebabygear.com | 15 | 1 |
+| 96 | Ollie Burwell | https://ollieburwell.com | 15 | 1 |
 | 97 | Nokoluxe Living | https://nokoluxe.com | 12 | 1 |
-| 99 | Paw by Four | https://pawbyfour.com | 13 | 1 |
+| 99 | Paw by Four | https://pawbyfour.com | 15 | 1 |
 | 98 | Vintage Art Garage | https://vintageartgarage.com | — | — |
 
 ## Unavailable project
