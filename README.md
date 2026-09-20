@@ -292,18 +292,18 @@ Sprint 11 adds five more supplied live storefronts, covering projects 95–99. V
 
 **Sprint status:** In progress<br>
 **Completed projects:** 0 / 5<br>
-**Latest pipeline stage:** Website analysis and capture configuration<br>
-**Last updated:** —
+**Latest pipeline stage:** Prime Baby Gear asset set generated and published<br>
+**Last updated:** 2026-09-21 03:43 PKT
 
 | # | Project | Website | Status | Images | Playable videos | Notes |
 |---:|---|---|---|---:|---:|---|
-| 95 | Prime Baby Gear | <https://primebabygear.com> | ⚪ Pending | — | — | UK retailer of premium baby gear: prams, travel systems, car seats, nursery furniture, and accessories |
+| 95 | Prime Baby Gear | <https://primebabygear.com> | 🟡 Captured · QA pending | 13 | 1 | Project assets published; awaiting Sprint-level QA |
 | 96 | Ollie Burwell | <https://ollieburwell.com> | ⚪ Pending | — | — | Hand-batik luxury silk and voile sarongs, scarves, kaftans, and resort wear |
 | 97 | Nokoluxe Living | <https://nokoluxe.com> | ⚪ Pending | — | — | Luxury outdoor furniture, fire tables, grills, saunas, and spa products |
-| 98 | Vintage Art Garage | <https://vintageartgarage.com> | ⚪ Pending | — | — | Framed vintage automotive advertisements, classic car and truck prints, and retro wall art |
+| 98 | Vintage Art Garage | <https://vintageartgarage.com> | 🔴 Blocked | — | — | The live storefront is password-protected and publishes only a branded temporary-closure page ("Vintage Art Garage is temporarily closed while we’re traveling. We’ll reopen in late October."). Every storefront route redirects to /password, the DNS-declared Shopify origin reports "This store will be right back / Store unavailable", and the sitemap and products.json endpoints return no storefront data. No authentic storefront UI states are retrievable, and the criteria exclude password/closed-state screenshots, cached pages, and fabricated material. |
 | 99 | Paw by Four | <https://pawbyfour.com> | ⚪ Pending | — | — | Canine-anxiety support: digital guides, lick mats, enrichment tools, and dog-safe nutrition |
 
-**Current checkpoint inventory:** 0 static images and 0 playable MP4 videos.<br>
+**Current checkpoint inventory:** 13 static images and 1 playable MP4 videos.<br>
 **Required minimum:** 40 unique static images and 4 verified playable MP4 videos from the four publicly reachable storefronts.
 
 <!-- SPRINT_11_PROGRESS_END -->

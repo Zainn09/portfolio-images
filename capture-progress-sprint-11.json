@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-20",
+  "stage": "Prime Baby Gear asset set generated and published",
+  "projects": [
+    {
+      "id": "95",
+      "status": "captured",
+      "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "98",
+      "status": "blocked",
+      "images": 0,
+      "videos": 0,
+      "note": "The live storefront is password-protected and publishes only a branded temporary-closure page (\"Vintage Art Garage is temporarily closed while we’re traveling. We’ll reopen in late October.\"). Every storefront route redirects to /password, the DNS-declared Shopify origin reports \"This store will be right back / Store unavailable\", and the sitemap and products.json endpoints return no storefront data. No authentic storefront UI states are retrievable, and the criteria exclude password/closed-state screenshots, cached pages, and fabricated material."
+    }
+  ]
+}
