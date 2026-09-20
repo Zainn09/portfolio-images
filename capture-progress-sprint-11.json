@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-20",
-  "stage": "Vintage Art Garage storefront is publicly unavailable",
+  "stage": "Paw by Four asset set generated and published",
   "projects": [
     {
       "id": "95",
@@ -20,6 +20,13 @@
       "id": "97",
       "status": "captured",
       "images": 12,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "99",
+      "status": "captured",
+      "images": 15,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     },

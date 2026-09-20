@@ -1,0 +1,100 @@
+{
+  "id": "99",
+  "slug": "paw-by-four",
+  "folder": "99-paw-by-four",
+  "name": "Paw by Four",
+  "url": "https://pawbyfour.com",
+  "kind": "Canine-anxiety support: digital guides, lick mats, enrichment tools, and dog-safe nutrition",
+  "generated": "2026-09-20",
+  "images": [
+    {
+      "file": "99_paw_by_four_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_desktop_signature_section_001.jpg",
+      "label": "Desktop From Anxiety to Action to Calm section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_desktop_lick_mat_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_lick_mat_detail_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_project_highlight_dog_anxiety_education_hub_001.jpg",
+      "label": "Project highlight: dog anxiety education hub",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_project_highlight_dog_anxiety_education_hub_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_desktop_resource_library_001.jpg",
+      "label": "Learning resource library",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_resource_library_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_desktop_brand_story_001.jpg",
+      "label": "Brand story and guiding principles",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_desktop_brand_story_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_interaction_mobile_search_001.jpg",
+      "label": "Mobile search state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_interaction_mobile_search_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_mobile_lick_mat_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_lick_mat_detail_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "99_paw_by_four_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/images/99_paw_by_four_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "99_paw_by_four_video_anxious_dog_support_journey_001.mp4",
+      "thumbnail": "99_paw_by_four_video_anxious_dog_support_journey_001.jpg",
+      "purpose": "Support journey from anxiety education to lick-mat product detail",
+      "duration": 29.2,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/video/99_paw_by_four_video_anxious_dog_support_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/99-paw-by-four/video/99_paw_by_four_video_anxious_dog_support_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "Playable MP4 verified: H.264, 1280×720, 29.20 seconds, complete decode passed."
+  ]
+}
