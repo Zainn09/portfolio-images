@@ -17,7 +17,7 @@ const VIDEO_SIZE = { width: 1280, height: 720 };
 const NAV_TIMEOUT = 45_000;
 
 const projects = [
-  { id: '95', slug: 'prime-baby-gear', folder: '95-prime-baby-gear', name: 'Prime Baby Gear', url: 'https://primebabygear.com', prefix: '95_prime_baby_gear', kind: 'UK retailer of premium baby gear: prams, travel systems, car seats, nursery furniture, and accessories', detailSlug: 'travel_system_detail', signatureText: 'Premium Gear for Every Step', listingUrl: '/collections/best-sellers-1', listingText: 'Best Sellers', detailUrl: '/products/babymore-kai-2-in-1-pram-pushchair-sandstone', detailText: 'Kai', highlightUrl: '/collections/mercedes-baby', highlightText: 'Mercedes', highlightLabel: 'Mercedes signature travel-system collection', interactionUrl: '/collections/2-in-1-pram-pushchair', interactionText: '2 in 1', extraCaptures: [{ url: '/collections/babymore', text: 'Babymore', slug: 'babymore_brand_range', label: 'Babymore brand range' }, { url: '/collections/baby-jogger', text: 'Baby Jogger', slug: 'baby_jogger_range', label: 'Baby Jogger brand range' }], flowLabels: ['Premium baby gear', 'Best sellers', 'Travel system detail'], videoSlug: 'baby_gear_journey', videoPurpose: 'Premium baby-gear discovery from best sellers to travel-system detail' },
+  { id: '95', slug: 'prime-baby-gear', folder: '95-prime-baby-gear', name: 'Prime Baby Gear', url: 'https://primebabygear.com', prefix: '95_prime_baby_gear', kind: 'UK retailer of premium baby gear: prams, travel systems, car seats, nursery furniture, and accessories', detailSlug: 'travel_system_detail', signatureText: 'Verified Warranty', listingUrl: '/collections/best-sellers-1', listingText: 'Best Sellers', detailUrl: '/products/babymore-kai-2-in-1-pram-pushchair-sandstone', detailText: 'Kai', highlightUrl: '/collections/mercedes-baby', highlightText: 'Mercedes', highlightLabel: 'Mercedes signature travel-system collection', interactionUrl: '/collections/2-in-1-pram-pushchair', interactionText: '2 in 1', extraCaptures: [{ url: '/collections/babymore', text: 'Babymore', slug: 'babymore_brand_range', label: 'Babymore brand range' }, { url: '/collections/baby-jogger', text: 'Baby Jogger', slug: 'baby_jogger_range', label: 'Baby Jogger brand range' }], flowLabels: ['Premium baby gear', 'Best sellers', 'Travel system detail'], videoSlug: 'baby_gear_journey', videoPurpose: 'Premium baby-gear discovery from best sellers to travel-system detail' },
   { id: '96', slug: 'ollie-burwell', folder: '96-ollie-burwell', name: 'Ollie Burwell', url: 'https://ollieburwell.com', prefix: '96_ollie_burwell', kind: 'Hand-batik luxury silk and voile sarongs, scarves, kaftans, and resort wear', detailSlug: 'silk_sarong_detail', signatureText: 'Hand-Batik by Artisans', listingUrl: '/collections/silk-scarves-sarongs', listingText: 'Silk Sarongs', detailUrl: '/products/sage-and-mink-tyedye-silk-sarong', detailText: 'Pure Silk', highlightUrl: '/pages/how-to-wear-guide', highlightText: 'How to Wear', highlightLabel: 'how-to-wear styling guide', interactionUrl: '/collections/cotton-sarongs', interactionText: 'Voile', extraCaptures: [{ url: '/collections/new-arrivals', text: 'New Arrivals', slug: 'new_arrivals_edit', label: 'New arrivals edit' }, { url: '/collections/kaftans', text: 'Kaftans', slug: 'kaftan_range', label: 'Kaftan resort range' }], flowLabels: ['Artisan luxury', 'Silk sarongs', 'Sarong detail'], videoSlug: 'resort_wear_journey', videoPurpose: 'Resort-wear discovery from artisan craft story to pure-silk sarong detail' },
   { id: '97', slug: 'nokoluxe', folder: '97-nokoluxe', name: 'Nokoluxe Living', url: 'https://nokoluxe.com', prefix: '97_nokoluxe', kind: 'Luxury outdoor furniture, fire tables, grills, saunas, and spa products', detailSlug: 'adirondack_chair_detail', signatureText: 'Everything For Life Outdoors', listingUrl: '/collections/outdoor-furniture-collection', listingText: 'Outdoor Furniture', detailUrl: '/products/luxcraft-urban-adirondack-chair-modern-outdoor-chair-with-clean-design', detailText: 'Adirondack', highlightUrl: '/collections/fire-pit-table', highlightText: 'Fire Pit', highlightLabel: 'fire pit table collection', interactionUrl: '/collections/grills', interactionText: 'Grill', extraCaptures: [{ url: '/collections/sauna', text: 'Spa', slug: 'spa_wellness_collection', label: 'Spa and wellness collection' }, { url: '/collections/luxcraft', text: 'LuxCraft', slug: 'luxcraft_range', label: 'LuxCraft furniture range' }], flowLabels: ['Outdoor living', 'Furniture collection', 'Adirondack detail'], videoSlug: 'outdoor_living_journey', videoPurpose: 'Outdoor-living journey from category browsing to LuxCraft chair detail' },
   { id: '98', slug: 'vintage-art-garage', folder: '98-vintage-art-garage', name: 'Vintage Art Garage', url: 'https://vintageartgarage.com', prefix: '98_vintage_art_garage', kind: 'Framed vintage automotive advertisements, classic car and truck prints, and retro wall art', unavailable: true, unavailableNote: 'The live storefront is password-protected and publishes only a branded temporary-closure page ("Vintage Art Garage is temporarily closed while we\u2019re traveling. We\u2019ll reopen in late October."). Every storefront route redirects to /password, the DNS-declared Shopify origin reports "This store will be right back / Store unavailable", and the sitemap and products.json endpoints return no storefront data. No authentic storefront UI states are retrievable, and the criteria exclude password/closed-state screenshots, cached pages, and fabricated material.' },
@@ -462,21 +462,37 @@ async function createSlideshowVideo(project, base, sourceFiles, notes) {
 
 async function fetchSitemapRoutes(project) {
   const routes = { products: [], pages: [], collections: [], blogs: [] };
-  const files = {
-    products: 'sitemap_products_1.xml',
-    pages: 'sitemap_pages_1.xml',
-    collections: 'sitemap_collections_1.xml',
-    blogs: 'sitemap_blogs_1.xml'
+  const kindOf = url => {
+    if (url.includes('products')) return 'products';
+    if (url.includes('pages')) return 'pages';
+    if (url.includes('collections')) return 'collections';
+    if (url.includes('blogs')) return 'blogs';
+    return null;
   };
-  for (const [kind, file] of Object.entries(files)) {
+  const sources = [];
+  try {
+    // Shopify publishes a sitemap index whose child URLs carry from/to cursors.
+    const response = await fetch(urlFor(project, '/sitemap.xml'), { headers: { 'User-Agent': 'Mozilla/5.0 QA-Portfolio-Route-Verification/1.0' } });
+    if (response.ok) {
+      const xml = await response.text();
+      for (const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) sources.push(match[1]);
+    }
+  } catch {}
+  for (const fallback of ['sitemap_products_1.xml', 'sitemap_pages_1.xml', 'sitemap_collections_1.xml', 'sitemap_blogs_1.xml']) {
+    try { sources.push(urlFor(project, `/${fallback}`)); } catch {}
+  }
+  const projectHost = new URL(project.url).hostname.replace(/^www\./, '');
+  for (const source of [...new Set(sources)]) {
+    const kind = kindOf(source);
+    if (!kind) continue;
     try {
-      const response = await fetch(urlFor(project, `/${file}`), { headers: { 'User-Agent': 'Mozilla/5.0 QA-Portfolio-Route-Verification/1.0' } });
+      const response = await fetch(source, { headers: { 'User-Agent': 'Mozilla/5.0 QA-Portfolio-Route-Verification/1.0' } });
       if (!response.ok) continue;
       const xml = await response.text();
       for (const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
         try {
           const parsed = new URL(match[1]);
-          if (parsed.hostname.replace(/^www\./, '') !== new URL(project.url).hostname.replace(/^www\./, '')) continue;
+          if (parsed.hostname.replace(/^www\./, '') !== projectHost) continue;
           const route = `${parsed.pathname}${parsed.search}`;
           if (!routes[kind].includes(route)) routes[kind].push(route);
         } catch {}
@@ -507,7 +523,11 @@ function publishedRoutesOfKind(route, routes) {
  */
 function reconcileRoute(project, route, routes, label, notes, options = {}) {
   if (!route || routeIsPublished(route, routes)) return route;
-  const candidates = publishedRoutesOfKind(route, routes)
+  const pool = publishedRoutesOfKind(route, routes);
+  // Without published route data of the same kind there is nothing reliable to
+  // substitute, so the configured route is captured as planned.
+  if (!pool.length) return route;
+  const candidates = pool
     .filter(candidate => !options.exclude?.includes(candidate))
     .filter(candidate => options.match ? options.match.test(candidate) : true);
   if (!candidates.length) return route;
@@ -575,7 +595,7 @@ async function captureProject(browser, project) {
   // retired collection/page degrades to another authentic route instead of
   // failing the whole project capture.
   const sitemapRoutes = await fetchSitemapRoutes(project);
-  if (!sitemapRoutes.products.length && !sitemapRoutes.pages.length && !sitemapRoutes.collections.length) {
+  if (!sitemapRoutes.products.length && !sitemapRoutes.pages.length && !sitemapRoutes.collections.length && !sitemapRoutes.blogs.length) {
     notes.push('The live sitemap endpoints did not return route data; configured routes were captured directly.');
   }
   const listingRoute = reconcileRoute(project, project.listingUrl, sitemapRoutes, 'listing', notes);
@@ -620,7 +640,12 @@ async function captureProject(browser, project) {
 
     await attemptCapture('detail interaction state', notes, async () => {
       await scrollToText(page, project.detailText, 0.43);
-      await activateInteraction(page);
+      const activated = await activateInteraction(page);
+      // Move into the detail content band beyond the hero so the captured state
+      // documents real page content rather than repeating the detail view.
+      await page.evaluate(() => scrollBy({ top: Math.round(innerHeight * 0.62), behavior: 'instant' })).catch(() => {});
+      await page.waitForTimeout(800);
+      if (!activated) notes.push('The detail page exposed no additional interactive control; the detail content state was captured instead.');
       return add('interaction_detail_state', 'Meaningful detail interaction / content state');
     });
 
