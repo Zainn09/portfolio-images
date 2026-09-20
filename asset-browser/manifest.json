@@ -1,8 +1,8 @@
 {
   "title": "QA Portfolio Visual Assets \u2014 Sprints 1\u201311",
   "generated": "2026-09-16",
-  "totalImages": 1122,
-  "totalVideos": 94,
+  "totalImages": 1136,
+  "totalVideos": 95,
   "projects": [
     {
       "id": "01",
@@ -8180,6 +8180,105 @@
         "Rejected duplicate 95_prime_baby_gear_interaction_detail_state_001.jpg; it matched 95_prime_baby_gear_desktop_travel_system_detail_001.jpg byte-for-byte."
       ],
       "sprintNumber": 11
+    },
+    {
+      "id": "96",
+      "slug": "ollie-burwell",
+      "folder": "96-ollie-burwell",
+      "name": "Ollie Burwell",
+      "url": "https://ollieburwell.com",
+      "kind": "Hand-batik luxury silk and voile sarongs, scarves, kaftans, and resort wear",
+      "generated": "2026-09-20",
+      "images": [
+        {
+          "file": "96_ollie_burwell_desktop_home_hero_001.jpg",
+          "label": "Desktop homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_home_hero_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_desktop_signature_section_001.jpg",
+          "label": "Desktop Hand-Batik by Artisans section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_signature_section_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_desktop_collection_listing_001.jpg",
+          "label": "Desktop listing / catalogue",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_collection_listing_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_desktop_silk_sarong_detail_001.jpg",
+          "label": "Desktop detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_silk_sarong_detail_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_project_highlight_how_to_wear_styling_guide_001.jpg",
+          "label": "Project highlight: how-to-wear styling guide",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_project_highlight_how_to_wear_styling_guide_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_desktop_secondary_experience_001.jpg",
+          "label": "Secondary project-specific experience",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_secondary_experience_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_desktop_new_arrivals_edit_001.jpg",
+          "label": "New arrivals edit",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_new_arrivals_edit_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_desktop_kaftan_range_001.jpg",
+          "label": "Kaftan resort range",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_desktop_kaftan_range_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_mobile_home_hero_001.jpg",
+          "label": "Mobile homepage hero",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_mobile_home_hero_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_interaction_mobile_navigation_001.jpg",
+          "label": "Mobile navigation state",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_interaction_mobile_navigation_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_mobile_silk_sarong_detail_001.jpg",
+          "label": "Mobile detail page",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_mobile_silk_sarong_detail_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_mobile_project_specific_section_001.jpg",
+          "label": "Mobile project-specific section",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_mobile_project_specific_section_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_responsive_comparison_001.jpg",
+          "label": "Desktop / mobile responsive QA comparison",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_responsive_comparison_001.jpg"
+        },
+        {
+          "file": "96_ollie_burwell_qa_user_flow_sequence_001.jpg",
+          "label": "Three-state QA user-flow reference",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/images/96_ollie_burwell_qa_user_flow_sequence_001.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "file": "96_ollie_burwell_video_resort_wear_journey_001.mp4",
+          "thumbnail": "96_ollie_burwell_video_resort_wear_journey_001.jpg",
+          "purpose": "Resort-wear discovery from artisan craft story to pure-silk sarong detail",
+          "duration": 35.56,
+          "codec": "h264",
+          "path": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/video/96_ollie_burwell_video_resort_wear_journey_001.mp4",
+          "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/96-ollie-burwell/video/96_ollie_burwell_video_resort_wear_journey_001.jpg"
+        }
+      ],
+      "notes": [
+        "The live sitemap endpoints did not return route data; configured routes were captured directly.",
+        "Configured project highlight route /pages/how-to-wear-guide is not published by the live sitemap; /blogs/news was captured instead.",
+        "Playable MP4 verified: H.264, 1280\u00d7720, 35.56 seconds, complete decode passed.",
+        "Rejected duplicate 96_ollie_burwell_interaction_detail_state_001.jpg; it matched 96_ollie_burwell_desktop_silk_sarong_detail_001.jpg byte-for-byte."
+      ],
+      "sprintNumber": 11
     }
   ],
   "sprints": [
@@ -8256,9 +8355,9 @@
     {
       "number": 11,
       "label": "Sprint 11",
-      "images": 13,
-      "videos": 1,
-      "projects": 1
+      "images": 27,
+      "videos": 2,
+      "projects": 2
     }
   ]
 }

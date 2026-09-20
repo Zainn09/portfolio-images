@@ -1,11 +1,18 @@
 {
   "generated": "2026-09-20",
-  "stage": "Prime Baby Gear asset set generated and published",
+  "stage": "Ollie Burwell asset set generated and published",
   "projects": [
     {
       "id": "95",
       "status": "captured",
       "images": 13,
+      "videos": 1,
+      "note": "Project assets published; awaiting Sprint-level QA"
+    },
+    {
+      "id": "96",
+      "status": "captured",
+      "images": 14,
       "videos": 1,
       "note": "Project assets published; awaiting Sprint-level QA"
     },
