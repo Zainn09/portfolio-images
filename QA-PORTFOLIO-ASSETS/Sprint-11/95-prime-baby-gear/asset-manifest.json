@@ -1,0 +1,101 @@
+{
+  "id": "95",
+  "slug": "prime-baby-gear",
+  "folder": "95-prime-baby-gear",
+  "name": "Prime Baby Gear",
+  "url": "https://primebabygear.com",
+  "kind": "UK retailer of premium baby gear: prams, travel systems, car seats, nursery furniture, and accessories",
+  "generated": "2026-09-20",
+  "images": [
+    {
+      "file": "95_prime_baby_gear_desktop_home_hero_001.jpg",
+      "label": "Desktop homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_home_hero_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_desktop_signature_section_001.jpg",
+      "label": "Desktop Verified Warranty section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_signature_section_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_desktop_collection_listing_001.jpg",
+      "label": "Desktop listing / catalogue",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_collection_listing_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_desktop_travel_system_detail_001.jpg",
+      "label": "Desktop detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_travel_system_detail_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_interaction_detail_state_001.jpg",
+      "label": "Meaningful detail interaction / content state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_interaction_detail_state_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_project_highlight_mercedes_signature_travel_system_collection_001.jpg",
+      "label": "Project highlight: Mercedes signature travel-system collection",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_project_highlight_mercedes_signature_travel_system_collection_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_desktop_secondary_experience_001.jpg",
+      "label": "Secondary project-specific experience",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_secondary_experience_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_desktop_babymore_brand_range_001.jpg",
+      "label": "Babymore brand range",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_babymore_brand_range_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_desktop_baby_jogger_range_001.jpg",
+      "label": "Baby Jogger brand range",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_desktop_baby_jogger_range_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_mobile_home_hero_001.jpg",
+      "label": "Mobile homepage hero",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_mobile_home_hero_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_interaction_mobile_navigation_001.jpg",
+      "label": "Mobile navigation state",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_interaction_mobile_navigation_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_mobile_travel_system_detail_001.jpg",
+      "label": "Mobile detail page",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_mobile_travel_system_detail_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_mobile_project_specific_section_001.jpg",
+      "label": "Mobile project-specific section",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_mobile_project_specific_section_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_responsive_comparison_001.jpg",
+      "label": "Desktop / mobile responsive QA comparison",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_responsive_comparison_001.jpg"
+    },
+    {
+      "file": "95_prime_baby_gear_qa_user_flow_sequence_001.jpg",
+      "label": "Three-state QA user-flow reference",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/images/95_prime_baby_gear_qa_user_flow_sequence_001.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "file": "95_prime_baby_gear_video_baby_gear_journey_001.mp4",
+      "thumbnail": "95_prime_baby_gear_video_baby_gear_journey_001.jpg",
+      "purpose": "Premium baby-gear discovery from best sellers to travel-system detail",
+      "duration": 29.44,
+      "codec": "h264",
+      "path": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/video/95_prime_baby_gear_video_baby_gear_journey_001.mp4",
+      "thumbnailPath": "QA-PORTFOLIO-ASSETS/Sprint-11/95-prime-baby-gear/video/95_prime_baby_gear_video_baby_gear_journey_001.jpg"
+    }
+  ],
+  "notes": [
+    "The detail page exposed no additional interactive control; the detail content state was captured instead.",
+    "Playable MP4 verified: H.264, 1280×720, 29.44 seconds, complete decode passed."
+  ]
+}
