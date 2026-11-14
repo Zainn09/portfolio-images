@@ -49,17 +49,11 @@ try {
   await page.screenshot({ path: path.join(IMG, 'archive-desktop-home.jpg'), type: 'jpeg', quality: 88 });
   report.images['archive-desktop-home'] = 'ok';
 
-  const product = await page.evaluate(() => {
-    const a = Array.from(document.querySelectorAll('a[href*="/products/"]')).find(el => el.textContent.trim().length > 3);
-    return a ? a.href : null;
-  }).catch(() => null);
-  if (product) {
-    await page.goto(product, { waitUntil: 'domcontentloaded', timeout: 90_000 });
-    await sleep(10_000);
-    await clean(page);
-    await page.screenshot({ path: path.join(IMG, 'archive-desktop-product.jpg'), type: 'jpeg', quality: 88 });
-    report.images['archive-desktop-product'] = product;
-  } else report.errors.push('archived product link not found');
+  await page.goto('https://web.archive.org/web/20250210124819/https://www.lightboxjewelry.com/collections/all', { waitUntil: 'domcontentloaded', timeout: 90_000 });
+  await sleep(10_000);
+  await clean(page);
+  await page.screenshot({ path: path.join(IMG, 'archive-desktop-collection.jpg'), type: 'jpeg', quality: 88 });
+  report.images['archive-desktop-collection'] = 'archived collections/all';
 } catch (e) {
   report.errors.push(`desktop: ${e.message}`);
 }
