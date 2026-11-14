@@ -19,6 +19,19 @@ async function clean(page) {
     html, body { overflow:auto !important; }
   ` }).catch(() => {});
   await page.keyboard.press('Escape').catch(() => {});
+  await page.evaluate(() => {
+    const vw = innerWidth, vh = innerHeight;
+    for (const el of Array.from(document.querySelectorAll('div, section, aside'))) {
+      const r = el.getBoundingClientRect();
+      const cs = getComputedStyle(el);
+      const covers = r.width >= vw * 0.7 && r.height >= vh * 0.7;
+      const fixed = cs.position === 'fixed' || cs.position === 'absolute';
+      const dim = /rgba?\([^)]*,\s*0?\.[0-9]+\)/.test(cs.backgroundColor) || cs.backdropFilter !== 'none';
+      if (covers && fixed && dim && Number(cs.zIndex || 0) >= 10) {
+        el.style.setProperty('display', 'none', 'important');
+      }
+    }
+  }).catch(() => {});
   await sleep(500);
 }
 
