@@ -76,7 +76,7 @@ def render_project(p):
 
 **Not verified:** No project brief, statement of work, repository access, design file, message thread or client confirmation has been supplied. Any statement that Abdul Rehman designed, built, customised or tested a specific element of this store is an assumption until the project owner confirms it.
 
-## Information requiring confirmation
+{p.get('availability', '')}## Information requiring confirmation
 
 {bullets(p['confirm'])}
 """)
@@ -125,7 +125,7 @@ Status: **Draft. Not approved for publication.**
 
 {bullets(p['verify_tests'])}
 
-## Required before publishing
+{p.get('status_note', '')}## Required before publishing
 
 - Written confirmation of the exact scope Abdul delivered (design, theme development, custom sections, QA, or a subset).
 - Confirmation of which storefront elements are his work rather than the brand's existing build.
@@ -193,6 +193,10 @@ Every sprint is reviewed for repeated phrasing, repeated development angles and 
 4. Label every testimonial draft as requiring client approval.
 5. Use a real consenting speaker, or label the presenter as fictional for demo purposes.
 6. Remove any performance, conversion or revenue claim that lacks a dated record.
+
+## Image gallery
+
+Authentic desktop and mobile captures are collected in [GALLERY.md](GALLERY.md). Capture details and any failures are recorded in [IMAGE-CAPTURE-REPORT.md](IMAGE-CAPTURE-REPORT.md).
 
 ## Review record
 

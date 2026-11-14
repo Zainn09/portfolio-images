@@ -1,6 +1,18 @@
 PROJECTS = [
     {
         "slug": "lightbox-jewelry",
+        "availability": """## Store availability
+
+On 2026-11-14 the live storefront returned **"This store is unavailable."** The imagery in `images/` is an archived snapshot from 2025-02-10, not a current capture. Any portfolio entry must state this, and the project should not be presented as an active storefront.
+
+""",
+        "status_note": """## Store status
+
+- Lightbox Jewelry was unreachable on 2026-11-14 ("This store is unavailable").
+- Images are archival, dated 2025-02-10, and must be labelled as such.
+- Publishing a current-looking case study for a closed store would be misleading; confirm with the brand or omit the project.
+
+""",
         "name": "Lightbox Jewelry",
         "url": "https://lightboxjewelry.com/",
         "niche": "Lab-grown diamond jewellery",

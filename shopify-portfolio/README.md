@@ -57,6 +57,10 @@ Every sprint is reviewed for repeated phrasing, repeated development angles and 
 5. Use a real consenting speaker, or label the presenter as fictional for demo purposes.
 6. Remove any performance, conversion or revenue claim that lacks a dated record.
 
+## Image gallery
+
+Authentic desktop and mobile captures are collected in [GALLERY.md](GALLERY.md). Capture details and any failures are recorded in [IMAGE-CAPTURE-REPORT.md](IMAGE-CAPTURE-REPORT.md).
+
 ## Review record
 
 Sprint reviews, corrections and the current publication blockers are recorded in [REVIEW-NOTES.md](REVIEW-NOTES.md).
