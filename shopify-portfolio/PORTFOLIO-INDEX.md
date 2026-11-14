@@ -9,6 +9,11 @@ All 25 projects are independent portfolio entries. Every testimonial is a **sugg
 | 3 | [Gardena](gardena/) | Garden equipment | Draft | 3 concepts drafted | Scope unconfirmed |
 | 4 | [Rifle Paper Co.](rifle-paper-co/) | Stationery, home & lifestyle | Draft | 3 concepts drafted | Scope unconfirmed |
 | 5 | [Bartesian](bartesian/) | Home cocktail appliances | Draft | 3 concepts drafted | Scope unconfirmed |
+| 6 | [Lightbox Jewelry](lightbox-jewelry/) | Lab-grown diamond jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
+| 7 | [Ridge](ridge/) | Everyday carry & accessories | Draft | 3 concepts drafted | Scope unconfirmed |
+| 8 | [Body Candy](body-candy/) | Body jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
+| 9 | [Seiko USA](seiko-usa/) | Watches | Draft | 3 concepts drafted | Scope unconfirmed |
+| 10 | [DeMellier London](demellier-london/) | Luxury handbags | Draft | 3 concepts drafted | Scope unconfirmed |
 
 ## Status key
 

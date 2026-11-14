@@ -16,7 +16,7 @@ The change I felt was in the browse. Before, if I liked a wallpaper, I had to go
 
 The paint samples are a good example. You order a small sample, you wait, you hold it against the wall. That journey needs different information from buying a gallon. The page finally treats it that way.
 
-I don't have a conversion number to quote, and I wouldn't trust one from a testimonial anyway. What I can say is that the store feels easier to wander through, and wandering is how people buy home decor.
+This isn't a story about a metric. It's about the store feeling easier to wander through, and wandering is how people buy home decor.
 
 ## Verification notes for this concept
 
