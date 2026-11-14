@@ -2,15 +2,14 @@
   "slug": "demellier-london",
   "name": "DeMellier London",
   "url": "https://demellierlondon.com/",
-  "capturedAt": "2026-11-14T10:59:53.903Z",
+  "capturedAt": "2026-11-14T11:15:27.856Z",
   "images": {
     "desktop-home": "ok",
     "desktop-collection": "https://demellierlondon.com/collections/new-in",
-    "desktop-product": "https://demellierlondon.com/products/the-midi-sloane-dark-chocolate-suede",
+    "desktop-product": "https://demellierlondon.com/products/the-nano-montreal-black-smooth",
     "mobile-home": "ok",
+    "mobile-product": "https://demellierlondon.com/products/the-nano-montreal-black-smooth",
     "responsive-comparison": "ok"
   },
-  "errors": [
-    "mobile product link not found"
-  ]
+  "errors": []
 }

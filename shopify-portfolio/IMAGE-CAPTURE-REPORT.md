@@ -17,7 +17,7 @@ Authentic screenshots captured from the live storefronts on 2026-11-14. No inter
 | Ridge | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | Body Candy | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | Seiko USA | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
-| DeMellier London | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `responsive-comparison.jpg` | mobile product link not found |
+| DeMellier London | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | Lovisa | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | Baby Gold | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | AlmaGems | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
@@ -38,5 +38,5 @@ Authentic screenshots captured from the live storefronts on 2026-11-14. No inter
 
 - Captures are viewport screenshots, not full-page composites. Cookie and newsletter overlays are dismissed where possible.
 - Some storefronts change region, pricing or availability based on location. The capture reflects the runner's location at the time.
-- Zulily is in ownership transition and may not render; its entry is marked accordingly.
+- Zulily has changed ownership several times. It rendered at capture time; the image is a dated reference, not evidence of current operational stability.
 - These images are website references, not evidence that Abdul Rehman designed or developed the site.
