@@ -18,7 +18,6 @@ const PROJECTS = [
   ['gardena', 'Gardena', 'https://www.gardena.com/int/'],
   ['rifle-paper-co', 'Rifle Paper Co.', 'https://riflepaperco.com/'],
   ['bartesian', 'Bartesian', 'https://bartesian.com/'],
-  ['lightbox-jewelry', 'Lightbox Jewelry', 'https://lightboxjewelry.com/'],
   ['ridge', 'Ridge', 'https://ridge.com/'],
   ['body-candy', 'Body Candy', 'https://www.bodycandy.com/'],
   ['seiko-usa', 'Seiko USA', 'https://www.seikousa.com/'],
@@ -283,6 +282,7 @@ ${rows}
 
 - Captures are viewport screenshots, not full-page composites. Cookie and newsletter overlays are dismissed where possible.
 - Some storefronts change region, pricing or availability based on location. The capture reflects the runner's location at the time.
+- Lightbox Jewelry's live storefront returned "This store is unavailable" during capture. Its images are separate, clearly labelled archival captures from 2025-02-10.
 - Zulily has changed ownership several times. It rendered at capture time; the image is a dated reference, not evidence of current operational stability.
 - These images are website references, not evidence that Abdul Rehman designed or developed the site.
 `);
