@@ -105,7 +105,7 @@ What improved was the information at the point of interest. Piercing placement, 
 
 It also helped that the site stopped assuming every visitor knows the terminology. 'Flat back' and 'labret' mean something to someone with five piercings. They mean nothing to a fifteen-year-old booking her first.
 
-I can't give you a booking number. But the questions in the studio are better now, because people arrive with a piece in mind rather than a screenshot and a hope.""",
+The questions in the studio are better now. People arrive with a piece in mind rather than a screenshot and a hope, and the piercer can spend the appointment on the piercing instead of the explanation.""",
                 "notes": "The in-store observation is qualitative and must be approved. No booking metric is claimed.",
             },
         ],
@@ -228,6 +228,7 @@ For a product this personal, less guessing is the whole job.""",
         "name": "AlmaGems",
         "url": "https://almagems.com/",
         "niche": "Personalised gifts",
+        "status": "Scope unconfirmed; niche corrected to personalised gifts",
         "intro": "A personalised gift store spanning engraved leather bags, jewellery dishes, drinkware, ornaments and printed keepsakes.",
         "categories": [
             "Personalised leather bags and wallets",
@@ -456,6 +457,7 @@ We don't have a returns number to boast about. But the questions we get are more
         "name": "Zulily",
         "url": "https://www.zulily.com/",
         "niche": "Off-price family retail",
+        "status": "Archive and owner approval required; storefront in transition",
         "intro": "A flash-sale style off-price retailer covering women's, children's and home products.",
         "categories": [
             "Women's fashion and accessories",

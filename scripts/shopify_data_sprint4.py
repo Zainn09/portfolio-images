@@ -333,7 +333,7 @@ What improved was the route from browsing to a real conversation. You could shor
 
 The delivery information also got clearer. Furniture has a lead time, and pretending otherwise creates a bad first week.
 
-We don't have a statistic about appointment show rates, and I wouldn't trust one from a testimonial. What I can say is that people arrive at the store better prepared, which makes the visit shorter and the decision easier.""",
+People arrive at the store better prepared now, which makes the visit shorter and the decision easier. A good appointment feels like a conversation, not a rescue. I'd rather have that than a flashy number, and I think most parents would too.""",
                 "notes": "The appointment observation is qualitative and needs approval.",
             },
         ],
@@ -446,9 +446,7 @@ What improved was how quickly those answers appeared. Condition was visible on t
 
 The seller side got simpler too. Parents have a garage full of gear they've stopped using, and the intake form now explains the process in a few steps instead of a wall of policy.
 
-We're not claiming to have saved a specific number of items from landfill. That would be a nice number to have, but I don't have it.
-
-What I can say is that the marketplace feels less like a gamble, and more like a sensible way to buy.""",
+The marketplace feels less like a gamble now, and more like a sensible way to buy. That's the change I notice when I talk to sellers. They stop apologising for the scuff and start explaining why the stroller was worth buying in the first place.""",
                 "notes": "The environmental and operational observations require client approval and data before any figure is used.",
             },
         ],

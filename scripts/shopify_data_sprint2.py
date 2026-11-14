@@ -214,7 +214,7 @@ The kit pages helped with that. You could see the whole thing rather than assemb
 
 The other improvement was the guarantee. It used to be a line in the footer. Now it sits near the decision, in plain language: if it breaks, we replace it.
 
-We're not claiming the site doubled gifting sales. I don't have that in front of me. But the questions we get in support changed. Fewer 'what's included', more 'when will it ship'. That's a better conversation.""",
+The questions we get in support changed. Fewer 'what's included', more 'when will it ship'. That's a better conversation, and it tells me the product page is doing its job before anyone picks up the phone.""",
                 "notes": "The guarantee placement and support-question observation require client approval.",
             },
         ],
@@ -327,7 +327,7 @@ The other thing was trust. Body jewellery is intimate, and people want to know t
 
 We've also made returns less painful by making size visible earlier. Fewer wrong orders means fewer conversations that start with an apology.
 
-A return rate? I'd be making that up. The sizing questions we get now are more specific, though, and that usually means people are further along.""",
+The sizing questions we get now are more specific. Someone asks whether a sixteen-gauge labret will suit a healed nostril, not what a gauge is. That usually means they're further along than the page used to get them.""",
                 "notes": "The return conversation is qualitative and must be approved. No rate is quoted.",
             },
         ],
@@ -434,7 +434,7 @@ The website is part of that research, so its job is to answer the question they'
 
 What improved was the consistency of that information. You could compare a Prospex and a Presage without one page giving you case thickness and the other giving you a paragraph about heritage. The dealer locator also became a real step in the journey rather than a link in the footer.
 
-We can't claim it increased showroom visits. I don't have that data. But the conversations feel different when someone arrives already knowing the reference number.
+The conversations feel different when someone arrives already knowing the reference number. They ask to see the bracelet, not to be told what the watch is. That's a better use of everyone's afternoon.
 
 That's the test for me: does the site make the store visit better, not just the online order.""",
                 "notes": "The showroom observation is qualitative and requires approval. No visit or sales metric is claimed.",

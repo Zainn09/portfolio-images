@@ -97,7 +97,7 @@ What changed for us was the path. From a collection page you could get to dimens
 
 I remember testing it on a slow connection in the showroom, which is realistic for us. The images still arrived in a sensible order, and the page didn't jump around while they loaded.
 
-We're not claiming some dramatic jump in conversions. I don't have that number in front of me. But fewer people call the showroom asking what's already on the product page, and that's a real change in the day.""",
+Fewer people call the showroom asking what's already on the product page. The questions that do come in are about fabric, delivery dates and whether the sofa works with a rug they already own. That's a better use of the phone line, and a real change in the day.""",
                 "notes": "The reduced-call observation is the client's own qualitative claim and still requires approval. Any figure must be omitted unless a dated record exists.",
             },
         ],
@@ -202,7 +202,7 @@ The change I felt was in the browse. Before, if I liked a wallpaper, I had to go
 
 The paint samples are a good example. You order a small sample, you wait, you hold it against the wall. That journey needs different information from buying a gallon. The page finally treats it that way.
 
-I don't have a conversion number to quote, and I wouldn't trust one from a testimonial anyway. What I can say is that the store feels easier to wander through, and wandering is how people buy home decor.""",
+This isn't a story about a metric. It's about the store feeling easier to wander through, and wandering is how people buy home decor. The paint aisle is where that matters most: you are choosing a colour for a wall you will look at every day.""",
                 "notes": "Pattern routes and sample-flow improvements require confirmation. Explicitly avoids metrics.",
             },
         ],
@@ -313,7 +313,7 @@ What changed for us was having those answers closer to the decision. Lawn-size g
 
 The other thing was search. Gardeners don't always use our product names. They type 'hose connector' or the name of an older model. The results page now gets them to a family of products rather than a single near-match.
 
-I can't tell you it cut our ticket volume by a specific percentage. I can tell you I answer fewer questions that the page already answers, and that gives me time for the ones that actually need a person.""",
+I answer fewer questions that the page already answers now. The odd thing is that a good product page makes the remaining calls more interesting. People ask about a slope, an old installation, a stubborn patch of shade. That's the part of the job I actually like.""",
                 "notes": "The ticket-volume observation is qualitative and must be client-approved. No percentage is stated.",
             },
         ],
