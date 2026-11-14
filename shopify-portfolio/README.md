@@ -1,6 +1,6 @@
 # Shopify Design & Development Portfolio
 
-Portfolio content for **Abdul Rehman — Shopify Designer & Developer**. The collection covers 15 stores across furniture, home, technology, jewellery, fashion, baby and family retail.
+Portfolio content for **Abdul Rehman — Shopify Designer & Developer**. The collection covers 20 stores across furniture, home, technology, jewellery, fashion, baby and family retail.
 
 ## Developer profile
 
@@ -23,6 +23,11 @@ Abdul Rehman works on Shopify storefront design and development: theme customisa
 13. AlmaGems — Personalised gifts
 14. Momcozy — Maternity & baby care
 15. Zulily — Off-price family retail
+16. Little Sleepies — Baby & family sleepwear
+17. Happiest Baby — Baby sleep products
+18. Mamas & Papas — Nursery & baby retail
+19. GoodBuy Gear — Baby gear resale
+20. Caden Lane — Personalised baby gifts
 
 ## Research methodology
 

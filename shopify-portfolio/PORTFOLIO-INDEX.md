@@ -19,6 +19,11 @@ All 25 projects are independent portfolio entries. Every testimonial is a **sugg
 | 13 | [AlmaGems](almagems/) | Personalised gifts | Draft | 3 concepts drafted | Scope unconfirmed |
 | 14 | [Momcozy](momcozy/) | Maternity & baby care | Draft | 3 concepts drafted | Scope unconfirmed |
 | 15 | [Zulily](zulily/) | Off-price family retail | Draft | 3 concepts drafted | Scope unconfirmed |
+| 16 | [Little Sleepies](little-sleepies/) | Baby & family sleepwear | Draft | 3 concepts drafted | Scope unconfirmed |
+| 17 | [Happiest Baby](happiest-baby/) | Baby sleep products | Draft | 3 concepts drafted | Scope unconfirmed |
+| 18 | [Mamas & Papas](mamas-and-papas/) | Nursery & baby retail | Draft | 3 concepts drafted | Scope unconfirmed |
+| 19 | [GoodBuy Gear](goodbuy-gear/) | Baby gear resale | Draft | 3 concepts drafted | Scope unconfirmed |
+| 20 | [Caden Lane](caden-lane/) | Personalised baby gifts | Draft | 3 concepts drafted | Scope unconfirmed |
 
 ## Status key
 

@@ -9,7 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT.parent / "shopify-portfolio"
 
-MODULES = ["shopify_data_sprint1", "shopify_data_sprint2", "shopify_data_sprint3"]
+MODULES = ["shopify_data_sprint1", "shopify_data_sprint2", "shopify_data_sprint3", "shopify_data_sprint4"]
 
 
 def load(name):
