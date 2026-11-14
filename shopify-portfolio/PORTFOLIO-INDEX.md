@@ -1,0 +1,17 @@
+# Shopify Portfolio — Index
+
+All 25 projects are independent portfolio entries. Every testimonial is a **suggested concept requiring genuine client review and approval**.
+
+| # | Project | Niche | Description | Testimonials | Verification |
+|---|---|---|---|---|---|
+| 1 | [Modani](modani/) | Modern furniture & home | Draft | 3 concepts drafted | Scope unconfirmed |
+| 2 | [Magnolia](magnolia/) | Home & lifestyle | Draft | 3 concepts drafted | Scope unconfirmed |
+| 3 | [Gardena](gardena/) | Garden equipment | Draft | 3 concepts drafted | Scope unconfirmed |
+| 4 | [Rifle Paper Co.](rifle-paper-co/) | Stationery, home & lifestyle | Draft | 3 concepts drafted | Scope unconfirmed |
+| 5 | [Bartesian](bartesian/) | Home cocktail appliances | Draft | 3 concepts drafted | Scope unconfirmed |
+
+## Status key
+
+- **Draft** — written from public storefront research; no project brief supplied.
+- **3 concepts drafted** — design, technical and shopping-experience angles.
+- **Scope unconfirmed** — Abdul Rehman's actual contribution must be confirmed before publication.
