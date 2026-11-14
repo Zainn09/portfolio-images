@@ -14,6 +14,11 @@ All 25 projects are independent portfolio entries. Every testimonial is a **sugg
 | 8 | [Body Candy](body-candy/) | Body jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
 | 9 | [Seiko USA](seiko-usa/) | Watches | Draft | 3 concepts drafted | Scope unconfirmed |
 | 10 | [DeMellier London](demellier-london/) | Luxury handbags | Draft | 3 concepts drafted | Scope unconfirmed |
+| 11 | [Lovisa](lovisa/) | Fashion jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
+| 12 | [Baby Gold](baby-gold/) | Personalised fine jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
+| 13 | [AlmaGems](almagems/) | Personalised gifts | Draft | 3 concepts drafted | Scope unconfirmed |
+| 14 | [Momcozy](momcozy/) | Maternity & baby care | Draft | 3 concepts drafted | Scope unconfirmed |
+| 15 | [Zulily](zulily/) | Off-price family retail | Draft | 3 concepts drafted | Scope unconfirmed |
 
 ## Status key
 

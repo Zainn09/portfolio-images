@@ -16,7 +16,7 @@ The change I felt was in the browse. Before, if I liked a wallpaper, I had to go
 
 The paint samples are a good example. You order a small sample, you wait, you hold it against the wall. That journey needs different information from buying a gallon. The page finally treats it that way.
 
-This isn't a story about a metric. It's about the store feeling easier to wander through, and wandering is how people buy home decor.
+This isn't a story about a metric. It's about the store feeling easier to wander through, and wandering is how people buy home decor. The paint aisle is where that matters most: you are choosing a colour for a wall you will look at every day.
 
 ## Verification notes for this concept
 

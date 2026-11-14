@@ -1,6 +1,6 @@
 # Shopify Design & Development Portfolio
 
-Portfolio content for **Abdul Rehman — Shopify Designer & Developer**. The collection covers 10 stores across furniture, home, technology, jewellery, fashion, baby and family retail.
+Portfolio content for **Abdul Rehman — Shopify Designer & Developer**. The collection covers 15 stores across furniture, home, technology, jewellery, fashion, baby and family retail.
 
 ## Developer profile
 
@@ -18,6 +18,11 @@ Abdul Rehman works on Shopify storefront design and development: theme customisa
 8. Body Candy — Body jewellery
 9. Seiko USA — Watches
 10. DeMellier London — Luxury handbags
+11. Lovisa — Fashion jewellery
+12. Baby Gold — Personalised fine jewellery
+13. AlmaGems — Personalised gifts
+14. Momcozy — Maternity & baby care
+15. Zulily — Off-price family retail
 
 ## Research methodology
 
