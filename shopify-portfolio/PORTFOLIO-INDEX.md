@@ -16,14 +16,19 @@ All 25 projects are independent portfolio entries. Every testimonial is a **sugg
 | 10 | [DeMellier London](demellier-london/) | Luxury handbags | Draft | 3 concepts drafted | Scope unconfirmed |
 | 11 | [Lovisa](lovisa/) | Fashion jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
 | 12 | [Baby Gold](baby-gold/) | Personalised fine jewellery | Draft | 3 concepts drafted | Scope unconfirmed |
-| 13 | [AlmaGems](almagems/) | Personalised gifts | Draft | 3 concepts drafted | Scope unconfirmed |
+| 13 | [AlmaGems](almagems/) | Personalised gifts | Draft | 3 concepts drafted | Scope unconfirmed; niche corrected to personalised gifts |
 | 14 | [Momcozy](momcozy/) | Maternity & baby care | Draft | 3 concepts drafted | Scope unconfirmed |
-| 15 | [Zulily](zulily/) | Off-price family retail | Draft | 3 concepts drafted | Scope unconfirmed |
+| 15 | [Zulily](zulily/) | Off-price family retail | Draft | 3 concepts drafted | Archive and owner approval required; storefront in transition |
 | 16 | [Little Sleepies](little-sleepies/) | Baby & family sleepwear | Draft | 3 concepts drafted | Scope unconfirmed |
 | 17 | [Happiest Baby](happiest-baby/) | Baby sleep products | Draft | 3 concepts drafted | Scope unconfirmed |
 | 18 | [Mamas & Papas](mamas-and-papas/) | Nursery & baby retail | Draft | 3 concepts drafted | Scope unconfirmed |
 | 19 | [GoodBuy Gear](goodbuy-gear/) | Baby gear resale | Draft | 3 concepts drafted | Scope unconfirmed |
 | 20 | [Caden Lane](caden-lane/) | Personalised baby gifts | Draft | 3 concepts drafted | Scope unconfirmed |
+| 21 | [Nanit](nanit/) | Smart baby monitors | Draft | 3 concepts drafted | Scope unconfirmed |
+| 22 | [Deryan](deryan/) | Baby travel products | Draft | 3 concepts drafted | Scope unconfirmed |
+| 23 | [Kyte Baby](kyte-baby/) | Baby sleepwear | Draft | 3 concepts drafted | Scope unconfirmed |
+| 24 | [Newton Baby](newton-baby/) | Baby sleep products | Draft | 3 concepts drafted | Scope unconfirmed |
+| 25 | [Albee Baby](albee-baby/) | Baby gear retail | Draft | 3 concepts drafted | Scope unconfirmed |
 
 ## Status key
 

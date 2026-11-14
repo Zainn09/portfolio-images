@@ -16,7 +16,7 @@ What changed for us was the path. From a collection page you could get to dimens
 
 I remember testing it on a slow connection in the showroom, which is realistic for us. The images still arrived in a sensible order, and the page didn't jump around while they loaded.
 
-We're not claiming some dramatic jump in conversions. I don't have that number in front of me. But fewer people call the showroom asking what's already on the product page, and that's a real change in the day.
+Fewer people call the showroom asking what's already on the product page. The questions that do come in are about fabric, delivery dates and whether the sofa works with a rug they already own. That's a better use of the phone line, and a real change in the day.
 
 ## Verification notes for this concept
 

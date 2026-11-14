@@ -18,7 +18,7 @@ The kit pages helped with that. You could see the whole thing rather than assemb
 
 The other improvement was the guarantee. It used to be a line in the footer. Now it sits near the decision, in plain language: if it breaks, we replace it.
 
-We're not claiming the site doubled gifting sales. I don't have that in front of me. But the questions we get in support changed. Fewer 'what's included', more 'when will it ship'. That's a better conversation.
+The questions we get in support changed. Fewer 'what's included', more 'when will it ship'. That's a better conversation, and it tells me the product page is doing its job before anyone picks up the phone.
 
 ## Verification notes for this concept
 

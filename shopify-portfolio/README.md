@@ -1,6 +1,6 @@
 # Shopify Design & Development Portfolio
 
-Portfolio content for **Abdul Rehman — Shopify Designer & Developer**. The collection covers 20 stores across furniture, home, technology, jewellery, fashion, baby and family retail.
+Portfolio content for **Abdul Rehman — Shopify Designer & Developer**. The collection covers 25 stores across furniture, home, technology, jewellery, fashion, baby and family retail.
 
 ## Developer profile
 
@@ -28,6 +28,11 @@ Abdul Rehman works on Shopify storefront design and development: theme customisa
 18. Mamas & Papas — Nursery & baby retail
 19. GoodBuy Gear — Baby gear resale
 20. Caden Lane — Personalised baby gifts
+21. Nanit — Smart baby monitors
+22. Deryan — Baby travel products
+23. Kyte Baby — Baby sleepwear
+24. Newton Baby — Baby sleep products
+25. Albee Baby — Baby gear retail
 
 ## Research methodology
 
@@ -51,6 +56,10 @@ Every sprint is reviewed for repeated phrasing, repeated development angles and 
 4. Label every testimonial draft as requiring client approval.
 5. Use a real consenting speaker, or label the presenter as fictional for demo purposes.
 6. Remove any performance, conversion or revenue claim that lacks a dated record.
+
+## Review record
+
+Sprint reviews, corrections and the current publication blockers are recorded in [REVIEW-NOTES.md](REVIEW-NOTES.md).
 
 ## Publishing guidelines
 

@@ -16,7 +16,7 @@ The website is part of that research, so its job is to answer the question they'
 
 What improved was the consistency of that information. You could compare a Prospex and a Presage without one page giving you case thickness and the other giving you a paragraph about heritage. The dealer locator also became a real step in the journey rather than a link in the footer.
 
-We can't claim it increased showroom visits. I don't have that data. But the conversations feel different when someone arrives already knowing the reference number.
+The conversations feel different when someone arrives already knowing the reference number. They ask to see the bracelet, not to be told what the watch is. That's a better use of everyone's afternoon.
 
 That's the test for me: does the site make the store visit better, not just the online order.
 

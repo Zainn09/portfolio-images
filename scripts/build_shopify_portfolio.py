@@ -9,7 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT.parent / "shopify-portfolio"
 
-MODULES = ["shopify_data_sprint1", "shopify_data_sprint2", "shopify_data_sprint3", "shopify_data_sprint4"]
+MODULES = ["shopify_data_sprint1", "shopify_data_sprint2", "shopify_data_sprint3", "shopify_data_sprint4", "shopify_data_sprint5"]
 
 
 def load(name):
@@ -138,7 +138,7 @@ Status: **Draft. Not approved for publication.**
 
 def build_index(projects):
     rows = "\n".join(
-        f"| {i+1} | [{p['name']}]({p['slug']}/) | {p['niche']} | Draft | 3 concepts drafted | Scope unconfirmed |"
+        f"| {i+1} | [{p['name']}]({p['slug']}/) | {p['niche']} | Draft | 3 concepts drafted | {p.get('status', 'Scope unconfirmed')} |"
         for i, p in enumerate(projects)
     )
     (OUT / "PORTFOLIO-INDEX.md").write_text(f"""# Shopify Portfolio — Index
@@ -193,6 +193,10 @@ Every sprint is reviewed for repeated phrasing, repeated development angles and 
 4. Label every testimonial draft as requiring client approval.
 5. Use a real consenting speaker, or label the presenter as fictional for demo purposes.
 6. Remove any performance, conversion or revenue claim that lacks a dated record.
+
+## Review record
+
+Sprint reviews, corrections and the current publication blockers are recorded in [REVIEW-NOTES.md](REVIEW-NOTES.md).
 
 ## Publishing guidelines
 

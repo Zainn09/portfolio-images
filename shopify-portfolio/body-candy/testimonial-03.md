@@ -18,7 +18,7 @@ The other thing was trust. Body jewellery is intimate, and people want to know t
 
 We've also made returns less painful by making size visible earlier. Fewer wrong orders means fewer conversations that start with an apology.
 
-A return rate? I'd be making that up. The sizing questions we get now are more specific, though, and that usually means people are further along.
+The sizing questions we get now are more specific. Someone asks whether a sixteen-gauge labret will suit a healed nostril, not what a gauge is. That usually means they're further along than the page used to get them.
 
 ## Verification notes for this concept
 

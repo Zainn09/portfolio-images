@@ -18,9 +18,7 @@ What improved was how quickly those answers appeared. Condition was visible on t
 
 The seller side got simpler too. Parents have a garage full of gear they've stopped using, and the intake form now explains the process in a few steps instead of a wall of policy.
 
-We're not claiming to have saved a specific number of items from landfill. That would be a nice number to have, but I don't have it.
-
-What I can say is that the marketplace feels less like a gamble, and more like a sensible way to buy.
+The marketplace feels less like a gamble now, and more like a sensible way to buy. That's the change I notice when I talk to sellers. They stop apologising for the scuff and start explaining why the stroller was worth buying in the first place.
 
 ## Verification notes for this concept
 

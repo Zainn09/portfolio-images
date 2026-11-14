@@ -18,7 +18,7 @@ What changed for us was having those answers closer to the decision. Lawn-size g
 
 The other thing was search. Gardeners don't always use our product names. They type 'hose connector' or the name of an older model. The results page now gets them to a family of products rather than a single near-match.
 
-I can't tell you it cut our ticket volume by a specific percentage. I can tell you I answer fewer questions that the page already answers, and that gives me time for the ones that actually need a person.
+I answer fewer questions that the page already answers now. The odd thing is that a good product page makes the remaining calls more interesting. People ask about a slope, an old installation, a stubborn patch of shade. That's the part of the job I actually like.
 
 ## Verification notes for this concept
 

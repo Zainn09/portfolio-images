@@ -18,7 +18,7 @@ What improved was the route from browsing to a real conversation. You could shor
 
 The delivery information also got clearer. Furniture has a lead time, and pretending otherwise creates a bad first week.
 
-We don't have a statistic about appointment show rates, and I wouldn't trust one from a testimonial. What I can say is that people arrive at the store better prepared, which makes the visit shorter and the decision easier.
+People arrive at the store better prepared now, which makes the visit shorter and the decision easier. A good appointment feels like a conversation, not a rescue. I'd rather have that than a flashy number, and I think most parents would too.
 
 ## Verification notes for this concept
 

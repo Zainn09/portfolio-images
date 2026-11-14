@@ -18,7 +18,7 @@ What improved was the information at the point of interest. Piercing placement, 
 
 It also helped that the site stopped assuming every visitor knows the terminology. 'Flat back' and 'labret' mean something to someone with five piercings. They mean nothing to a fifteen-year-old booking her first.
 
-I can't give you a booking number. But the questions in the studio are better now, because people arrive with a piece in mind rather than a screenshot and a hope.
+The questions in the studio are better now. People arrive with a piece in mind rather than a screenshot and a hope, and the piercer can spend the appointment on the piercing instead of the explanation.
 
 ## Verification notes for this concept
 
