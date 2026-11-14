@@ -1,0 +1,15 @@
+{
+  "slug": "lovisa",
+  "name": "Lovisa",
+  "url": "https://www.lovisa.com/",
+  "capturedAt": "2026-11-14T11:15:59.891Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.lovisa.com/collections/shop-all-items",
+    "desktop-product": "https://www.lovisa.com/products/gift-card",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.lovisa.com/products/candy-cane-nail-set",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

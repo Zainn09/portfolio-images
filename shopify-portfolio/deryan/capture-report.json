@@ -1,0 +1,15 @@
+{
+  "slug": "deryan",
+  "name": "Deryan",
+  "url": "https://www.deryan.com/en/",
+  "capturedAt": "2026-11-14T11:22:41.731Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.deryan.com/collections/slapen-rusten",
+    "desktop-product": "https://www.deryan.com/products/campingbed-baby-luxe-cream",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.deryan.com/products/campingbed-baby-luxe-cream",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

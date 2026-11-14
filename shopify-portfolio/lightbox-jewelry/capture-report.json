@@ -1,0 +1,16 @@
+{
+  "slug": "lightbox-jewelry",
+  "name": "Lightbox Jewelry",
+  "url": "https://lightboxjewelry.com/",
+  "capturedAt": "2026-11-14T11:13:23.424Z",
+  "images": {
+    "desktop-home": "ok",
+    "mobile-home": "ok",
+    "responsive-comparison": "ok"
+  },
+  "errors": [
+    "collection link not found",
+    "product link not found",
+    "mobile product link not found"
+  ]
+}

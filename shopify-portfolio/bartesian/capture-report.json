@@ -1,0 +1,15 @@
+{
+  "slug": "bartesian",
+  "name": "Bartesian",
+  "url": "https://bartesian.com/",
+  "capturedAt": "2026-11-14T11:12:46.362Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://bartesian.com/collections/cocktail-makers",
+    "desktop-product": "https://bartesian.com/products/bartesian-duet-cocktail-maker",
+    "mobile-home": "ok",
+    "mobile-product": "https://bartesian.com/products/bartesian-duet-cocktail-maker",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

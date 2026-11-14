@@ -1,0 +1,15 @@
+{
+  "slug": "little-sleepies",
+  "name": "Little Sleepies",
+  "url": "https://littlesleepies.com/",
+  "capturedAt": "2026-11-14T11:19:06.187Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://littlesleepies.com/collections/new-arrivals",
+    "desktop-product": "https://littlesleepies.com/products/arctic-neighbors-zippy",
+    "mobile-home": "ok",
+    "mobile-product": "https://littlesleepies.com/products/arctic-neighbors-zippy",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

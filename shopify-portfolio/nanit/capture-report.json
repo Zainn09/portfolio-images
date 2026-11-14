@@ -1,0 +1,15 @@
+{
+  "slug": "nanit",
+  "name": "Nanit",
+  "url": "https://nanit.com/",
+  "capturedAt": "2026-11-14T11:22:05.683Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.nanit.com/collections/all",
+    "desktop-product": "https://www.nanit.com/products/smart-baby-monitor",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.nanit.com/products/smart-baby-monitor",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

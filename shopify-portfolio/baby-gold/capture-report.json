@@ -1,0 +1,15 @@
+{
+  "slug": "baby-gold",
+  "name": "Baby Gold",
+  "url": "https://www.babygold.com/",
+  "capturedAt": "2026-11-14T11:16:37.883Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.babygold.com/collections/founders-favorite-sale",
+    "desktop-product": "https://www.babygold.com/products/gift-card",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.babygold.com/products/gift-card",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "gardena",
+  "name": "Gardena",
+  "url": "https://www.gardena.com/int/",
+  "capturedAt": "2026-11-14T11:11:40.723Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-product": "https://www.gardena.com/int/products/watering",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.gardena.com/int/products/watering",
+    "responsive-comparison": "ok"
+  },
+  "errors": [
+    "collection link not found"
+  ]
+}

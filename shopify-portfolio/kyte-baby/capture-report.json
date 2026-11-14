@@ -1,0 +1,15 @@
+{
+  "slug": "kyte-baby",
+  "name": "Kyte Baby",
+  "url": "https://kytebaby.com/",
+  "capturedAt": "2026-11-14T11:23:19.023Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://kytebaby.com/collections/black-friday-sleep-bags",
+    "desktop-product": "https://kytebaby.com/products/take-me-home-set-in-gingerbread",
+    "mobile-home": "ok",
+    "mobile-product": "https://kytebaby.com/products/take-me-home-set-in-gingerbread",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

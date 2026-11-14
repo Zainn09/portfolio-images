@@ -1,0 +1,15 @@
+{
+  "slug": "mamas-and-papas",
+  "name": "Mamas & Papas",
+  "url": "https://www.mamasandpapas.com/",
+  "capturedAt": "2026-11-14T11:20:10.756Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.mamasandpapas.com/collections/black-friday",
+    "desktop-product": "https://www.mamasandpapas.com/products/walton-range-cashmere-rawna0100",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.mamasandpapas.com/products/maxi-cosi-emerald-360-s-car-seat-50462h700",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}
