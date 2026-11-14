@@ -1,0 +1,15 @@
+{
+  "slug": "newton-baby",
+  "name": "Newton Baby",
+  "url": "https://www.newtonbaby.com/",
+  "capturedAt": "2026-11-14T11:07:51.532Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.newtonbaby.com/collections/all",
+    "desktop-product": "https://www.newtonbaby.com/products/kids-twin-mattress",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.newtonbaby.com/products/kids-twin-mattress",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

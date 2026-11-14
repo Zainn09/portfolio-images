@@ -1,0 +1,15 @@
+{
+  "slug": "rifle-paper-co",
+  "name": "Rifle Paper Co.",
+  "url": "https://riflepaperco.com/",
+  "capturedAt": "2026-11-14T10:56:51.008Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://riflepaperco.com/collections/best-sellers",
+    "desktop-product": "https://riflepaperco.com/products/digital-gift-card",
+    "mobile-home": "ok",
+    "mobile-product": "https://riflepaperco.com/products/embroidered-tree-skirt-cardinals",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

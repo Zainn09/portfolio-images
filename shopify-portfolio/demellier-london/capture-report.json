@@ -1,0 +1,16 @@
+{
+  "slug": "demellier-london",
+  "name": "DeMellier London",
+  "url": "https://demellierlondon.com/",
+  "capturedAt": "2026-11-14T10:59:53.903Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://demellierlondon.com/collections/new-in",
+    "desktop-product": "https://demellierlondon.com/products/the-midi-sloane-dark-chocolate-suede",
+    "mobile-home": "ok",
+    "responsive-comparison": "ok"
+  },
+  "errors": [
+    "mobile product link not found"
+  ]
+}

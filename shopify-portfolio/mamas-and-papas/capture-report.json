@@ -1,0 +1,15 @@
+{
+  "slug": "mamas-and-papas",
+  "name": "Mamas & Papas",
+  "url": "https://www.mamasandpapas.com/",
+  "capturedAt": "2026-11-14T11:04:15.527Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.mamasandpapas.com/collections/black-friday",
+    "desktop-product": "https://www.mamasandpapas.com/products/walton-range-cashmere-rawna0100",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.mamasandpapas.com/products/wttw-travel-spiral-7569cg501",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

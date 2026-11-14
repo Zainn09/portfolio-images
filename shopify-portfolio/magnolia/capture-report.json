@@ -1,0 +1,15 @@
+{
+  "slug": "magnolia",
+  "name": "Magnolia",
+  "url": "https://magnolia.com/",
+  "capturedAt": "2026-11-14T10:55:49.195Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://magnolia.com/collections/limited-time-sale",
+    "desktop-product": "https://magnolia.com/products/magnolia-journal-winter-2026",
+    "mobile-home": "ok",
+    "mobile-product": "https://magnolia.com/products/magnolia-journal-winter-2026",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

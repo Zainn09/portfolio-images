@@ -1,0 +1,15 @@
+{
+  "slug": "zulily",
+  "name": "Zulily",
+  "url": "https://www.zulily.com/",
+  "capturedAt": "2026-11-14T11:02:40.363Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.zulily.com/collections/shop-deals",
+    "desktop-product": "https://www.zulily.com/products/lemon_cookie_jar",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.zulily.com/products/lemon_cookie_jar",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

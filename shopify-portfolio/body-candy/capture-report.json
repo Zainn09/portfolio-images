@@ -1,0 +1,15 @@
+{
+  "slug": "body-candy",
+  "name": "Body Candy",
+  "url": "https://www.bodycandy.com/",
+  "capturedAt": "2026-11-14T10:58:47.291Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://www.bodycandy.com/collections/christmas-jewelry",
+    "desktop-product": "https://www.bodycandy.com/products/gift-card",
+    "mobile-home": "ok",
+    "mobile-product": "https://www.bodycandy.com/products/double-gem-titanium-horseshoe-nose-ring-internally-threaded-solid-titanium-cz-horseshoe-nose-hoop",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

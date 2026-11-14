@@ -1,0 +1,15 @@
+{
+  "slug": "modani",
+  "name": "Modani",
+  "url": "https://modani.com/",
+  "capturedAt": "2026-11-14T10:55:17.662Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://modani.com/collections/sofas",
+    "desktop-product": "https://modani.com/products/artemis-4-seater-sofa-beige",
+    "mobile-home": "ok",
+    "mobile-product": "https://modani.com/products/artemis-4-seater-sofa-beige",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

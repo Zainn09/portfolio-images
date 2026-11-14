@@ -1,0 +1,15 @@
+{
+  "slug": "goodbuy-gear",
+  "name": "GoodBuy Gear",
+  "url": "https://goodbuygear.com/",
+  "capturedAt": "2026-11-14T11:04:54.106Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://goodbuygear.com/collections/new-arrivals",
+    "desktop-product": "https://goodbuygear.com/products/joolz-aer2-lightweight-travel-stroller-2026-space-black-10",
+    "mobile-home": "ok",
+    "mobile-product": "https://goodbuygear.com/products/joolz-aer2-lightweight-travel-stroller-2026-space-black-10",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "seiko-usa",
+  "name": "Seiko USA",
+  "url": "https://www.seikousa.com/",
+  "capturedAt": "2026-11-14T10:59:18.484Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://seikousa.com/collections/astron",
+    "desktop-product": "https://seikousa.com/products/hab001",
+    "mobile-home": "ok",
+    "mobile-product": "https://seikousa.com/products/hab001",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}

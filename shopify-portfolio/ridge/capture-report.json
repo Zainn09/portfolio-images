@@ -1,0 +1,15 @@
+{
+  "slug": "ridge",
+  "name": "Ridge",
+  "url": "https://ridge.com/",
+  "capturedAt": "2026-11-14T10:58:09.998Z",
+  "images": {
+    "desktop-home": "ok",
+    "desktop-collection": "https://ridge.com/collections/holiday-sale",
+    "desktop-product": "https://ridge.com/products/magnetic-power-bank-matte-black",
+    "mobile-home": "ok",
+    "mobile-product": "https://ridge.com/products/magnetic-power-bank-matte-black",
+    "responsive-comparison": "ok"
+  },
+  "errors": []
+}
