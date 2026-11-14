@@ -64,12 +64,28 @@ async function dismiss(page) {
       if (await el.isVisible({ timeout: 150 })) await el.click({ timeout: 600 });
     } catch {}
   }
+  await page.keyboard.press('Escape').catch(() => {});
+  await sleep(300);
+}
+
+async function scrubOverlays(page) {
+  await page.addStyleTag({ content: `
+    [id*="cookie" i], [class*="cookie-banner" i], [class*="cookie-consent" i],
+    [id*="consent" i], [class*="consent-banner" i],
+    [id*="klaviyo" i], [class*="needsclick"], [class*="kl-private"],
+    [aria-modal="true"], [role="dialog"],
+    [class*="newsletter-popup" i], [id*="newsletter-popup" i],
+    [class*="popup-modal" i], [id*="shopify-chat"], [id*="gorgias-chat"]
+    { display: none !important; visibility: hidden !important; }
+    html, body { overflow: auto !important; }
+  ` }).catch(() => {});
   await sleep(300);
 }
 
 async function settle(page, wait = 4_000) {
   await sleep(wait);
   await dismiss(page);
+  await scrubOverlays(page);
   await page.evaluate(async () => {
     try { await document.fonts.ready; } catch {}
     window.scrollTo(0, 0);
@@ -99,6 +115,22 @@ async function firstLink(page, pattern) {
   }, pattern).catch(() => null);
 }
 
+async function sitemapLink(page, base, kind) {
+  const origin = new URL(base).origin;
+  try {
+    const res = await page.request.get(`${origin}/sitemap.xml`, { timeout: 20_000 });
+    let xml = await res.text();
+    const children = [...xml.matchAll(/<loc>([^<]*(?:products|collections)[^<]*\.xml[^<]*)<\/loc>/gi)].map(m => m[1]);
+    if (children.length) {
+      const res2 = await page.request.get(children[0], { timeout: 20_000 });
+      xml = await res2.text();
+    }
+    const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/gi)].map(m => m[1]);
+    const match = locs.find(u => kind === 'product' ? u.includes('/products/') : u.includes('/collections/'));
+    return match || null;
+  } catch { return null; }
+}
+
 async function captureSite(browser, slug, name, base) {
   const dir = path.join(ROOT, slug, 'images');
   await fs.mkdir(dir, { recursive: true });
@@ -122,8 +154,10 @@ async function captureSite(browser, slug, name, base) {
     await shot(dPage, path.join(dir, 'desktop-home.jpg'));
     report.images['desktop-home'] = 'ok';
 
-    const collection = await firstLink(dPage, '/collections/');
-    const product = await firstLink(dPage, '/products/');
+    let collection = await firstLink(dPage, '/collections/');
+    let product = await firstLink(dPage, '/products/');
+    if (!collection) collection = await sitemapLink(dPage, base, 'collection');
+    if (!product) product = await sitemapLink(dPage, base, 'product');
 
     if (collection) {
       try {
@@ -157,7 +191,8 @@ async function captureSite(browser, slug, name, base) {
     await shot(mPage, path.join(dir, 'mobile-home.jpg'));
     report.images['mobile-home'] = 'ok';
 
-    const mProduct = await firstLink(mPage, '/products/');
+    let mProduct = await firstLink(mPage, '/products/');
+    if (!mProduct) mProduct = await sitemapLink(mPage, base, 'product');
     if (mProduct) {
       await mPage.goto(mProduct, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT });
       await settle(mPage);
@@ -248,7 +283,7 @@ ${rows}
 
 - Captures are viewport screenshots, not full-page composites. Cookie and newsletter overlays are dismissed where possible.
 - Some storefronts change region, pricing or availability based on location. The capture reflects the runner's location at the time.
-- Zulily is in ownership transition and may not render; its entry is marked accordingly.
+- Zulily has changed ownership several times. It rendered at capture time; the image is a dated reference, not evidence of current operational stability.
 - These images are website references, not evidence that Abdul Rehman designed or developed the site.
 `);
 console.log(`Done. ${ok}/${reports.length} projects have at least four images.`);
