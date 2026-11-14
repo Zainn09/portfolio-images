@@ -5,7 +5,6 @@
   "status": "Live storefront unavailable; archival capture used",
   "images": {
     "archive-desktop-home": "ok",
-    "archive-desktop-collection": "archived collections/all",
     "archive-mobile-home": "ok",
     "archive-responsive-comparison": "ok"
   },

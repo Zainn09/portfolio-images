@@ -15,6 +15,12 @@ Status: **Draft. Not approved for publication.**
 - Any suggestion of sales growth or conversion improvement.
 - The claim about stockist sizing referrals.
 
+## Store status
+
+- Lightbox Jewelry was unreachable on 2026-11-14 ("This store is unavailable").
+- Images are archival, dated 2025-02-10, and must be labelled as such.
+- Publishing a current-looking case study for a closed store would be misleading; confirm with the brand or omit the project.
+
 ## Required before publishing
 
 - Written confirmation of the exact scope Abdul delivered (design, theme development, custom sections, QA, or a subset).

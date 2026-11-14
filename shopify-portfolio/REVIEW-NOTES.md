@@ -29,6 +29,16 @@ A record of the sprint reviews, corrections and publication blockers for the 25-
 - Remaining disclaimers are retained only where the speaker's credibility depends on stating a limit.
 - All 75 scripts now run 147+ words, approximately 59–75 seconds.
 
+## Image capture
+
+- 147 authentic storefront images were captured through a GitHub Actions Playwright run on 2026-11-14.
+- Each available project has desktop home, desktop collection, desktop product, mobile home, mobile product and a responsive comparison at 1440×900 and 390×844.
+- Cookie, newsletter and chat overlays were dismissed or hidden before capture. No interface, product or price was edited.
+- Zulily rendered at capture time despite its ownership transition.
+- Lightbox Jewelry returned "This store is unavailable"; its three images are an archive snapshot dated 2025-02-10 and are labelled accordingly.
+- Gardena has no collection capture because no collection link was exposed; its other five images are present.
+- The capture pipeline is `scripts/capture-shopify-portfolio.mjs`, run by `.github/workflows/generate-shopify-portfolio-images.yml`.
+
 ## Automated checks performed
 
 - 25 project folders, each with the six required files.

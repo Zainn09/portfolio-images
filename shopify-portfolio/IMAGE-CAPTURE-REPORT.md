@@ -4,7 +4,8 @@ Authentic screenshots captured from the live storefronts on 2026-11-14. No inter
 
 - Desktop viewport: 1440 × 900
 - Mobile viewport: 390 × 844
-- Projects with at least four images: **24 / 25**
+- Projects with at least four live images: **24 / 25**
+- Lightbox Jewelry: live store unavailable; three clearly labelled archive images supplied
 
 | Project | Images | Issues |
 |---|---|---|
@@ -32,6 +33,7 @@ Authentic screenshots captured from the live storefronts on 2026-11-14. No inter
 | Deryan | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | Kyte Baby | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 | Newton Baby | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
+| Lightbox Jewelry | `archive-desktop-home.jpg`, `archive-mobile-home.jpg`, `archive-responsive-comparison.jpg` | Live store unavailable; archive snapshot dated 2025-02-10 |
 | Albee Baby | `desktop-home.jpg`, `desktop-collection.jpg`, `desktop-product.jpg`, `mobile-home.jpg`, `mobile-product.jpg`, `responsive-comparison.jpg` | None |
 
 ## Notes

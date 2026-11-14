@@ -58,6 +58,10 @@ First-time fine-jewellery buyers and self-purchasers who want diamond pieces wit
 
 **Not verified:** No project brief, statement of work, repository access, design file, message thread or client confirmation has been supplied. Any statement that Abdul Rehman designed, built, customised or tested a specific element of this store is an assumption until the project owner confirms it.
 
+## Store availability
+
+On 2026-11-14 the live storefront returned **"This store is unavailable."** The imagery in `images/` is an archived snapshot from 2025-02-10, not a current capture. Any portfolio entry must state this, and the project should not be presented as an active storefront.
+
 ## Information requiring confirmation
 
 - Whether Abdul worked on product templates or the carat selector.
