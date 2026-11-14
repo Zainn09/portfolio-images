@@ -1,0 +1,43 @@
+name: Generate Shopify Portfolio Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture portfolio storefronts
+        run: node scripts/capture-shopify-portfolio.mjs
+
+      - name: Commit captured images
+        run: |
+          git config user.name "arena-ai-coding-agent[bot]"
+          git config user.email "arena-ai-coding-agent[bot]@users.noreply.github.com"
+          git add shopify-portfolio/*/images shopify-portfolio/*/capture-report.json shopify-portfolio/IMAGE-CAPTURE-REPORT.md
+          if git diff --cached --quiet; then
+            echo "No new images to commit"
+          else
+            git commit -m "Add authentic storefront captures for Shopify portfolio"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
