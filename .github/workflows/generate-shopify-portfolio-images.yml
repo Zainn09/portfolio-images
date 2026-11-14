@@ -2,6 +2,11 @@ name: Generate Shopify Portfolio Images
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - arena/01a10424-portfolio-images
+    paths:
+      - '.capture-trigger'
 
 permissions:
   contents: write
